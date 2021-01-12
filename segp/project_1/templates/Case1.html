@@ -1,0 +1,242 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--tab title-->
+        <title>
+            Research Website
+        </title>
+        <!--style sheet-->
+		<link rel="stylesheet" href="{% static 'research_styles.css' %}">
+        <!--icon library-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+	
+    <body  onload="refresh()">
+        <!--nav bar class-->
+        <div class="navbar">
+            <!--nav bar contents-->
+            <ul>
+                <li class="navlist"><a class="WebName" href="../">
+                    <i>Website Name.
+                    </i>
+                </a></li>
+                <li class="navlist"><a class="navlink" href="/Topics">
+                    Topics
+                </a></li>
+				<li class="navlist"><a class="navlink" href="/About">
+                    About
+                </a></li>
+                <!--add more if needed to nav bar-->
+            </ul>
+        <!--nav bar div end-->    
+        </div>
+        
+        <!--main page class-->
+        <div class="main">
+            <p>
+                <!--website title-->
+                <a class="title">
+                    Website Name.
+                </a>
+                <!--link 2-->
+                <a class="case" href="../Case2">
+                    Case 2   
+                </a>
+                <!--divider-->
+                <a class="case">&nbsp;|&nbsp; 
+                </a>
+                <!--link 1-->
+                <a class="case" href="/">
+                    Case 1
+                </a>
+            </p>
+            <p class="summary">
+                Enter multiple entities (max. 3) to begin your search.
+            </p>
+            <!--ADD/DELETE entities-->
+            <div class="header">
+					<input class="inputsearchbar" type="text" id="myInput" placeholder="Enter entity (maximum 3)">
+					<span onclick="newElement()" class="Add" id="newAdd">Add</span><br><br>
+            </div>
+			
+			<div class="quicksearch">
+				<input type="checkbox" id="quicksearch" name="quicksearch" checked>
+				<label for="quicksearch">Quick Search</label><br><br>
+			</div>
+			
+            </br>
+            <div class="elist">
+            <ul id="myUL" class="entities">
+                <!--
+                    <li class="entitylist">Deep Learning</li>
+                    <li class="entitylist">Block Chain</li>
+                    <li class="entitylist">Privacy</li>
+                -->
+            </ul>
+            <ul class="send">
+                <li>
+                    <button id="test" onclick="pass_input_to_form()">
+                        <!--<a href="/Results1">Send</a>-->
+                        Send
+                    </button>
+                </li>
+            </ul>
+            </div>
+            <form id="input_form" method="POST" action="../Results1/">{% csrf_token %}
+                <input type="hidden" name="input_submitted" id="input_submitted"  value="">
+            </form>
+            <!--2nd title-->
+            <!--POPULAR KEYWORDS to suggest to users-->
+            <!--other features-->
+			
+			<!-- Like feature coding -->
+			<ul class="likelisttopic">
+			<li><div class="like">FAVOURITES</div></li>
+			<li><button onclick="refresh()"> Refresh </button>&nbsp&nbsp&nbsp&nbsp<button onclick="emtpylist()"> Clear </button></li>
+			</ul>
+            <!--Liked List-->
+            <ul class="likelist" id="likedlist">
+            </ul>
+            <!--main div end-->
+        </div>
+        
+        <!--JAVASCRIPT-->
+        <script>
+            //Create a "close" button and append it to each list item
+            var counter = 0;
+
+            var myNodelist = document.getElementsByClassName("entitylist");
+            var i;
+            for (i = 0; i < myNodelist.length; i++) {
+                var span = document.createElement("SPAN");
+                var txt = document.createTextNode("\u00D7");
+                span.className = "close";
+                span.appendChild(txt);
+                myNodelist[i].appendChild(span);
+            }//end for loop
+
+            // Click on a close button to hide the current list item
+            var close = document.getElementsByClassName("close");
+            var i;
+            for (i = 0; i < close.length; i++) {
+                close[i].onclick = function() {
+                    counter--;
+                    var div = this.parentElement;
+                    div.remove();
+                    //div.style.display = "none";
+                    //var div1 = document.getElementById("myUL");
+                    //div1.removeChild(div1.childNodes[i]);
+                }
+            }//end for loop
+
+            //ADD function to append new entities in list
+            //FUNCTION
+            function newElement() {
+                if (counter < 3){
+                    counter++;
+                    var li = document.createElement("li");
+                    var inputValue = document.getElementById("myInput").value;
+                    var t = document.createTextNode(inputValue);
+
+                    li.appendChild(t);
+                    if (inputValue === '') {
+                        alert("You must write something!");
+                    }//end if
+                    else {
+                        document.getElementById("myUL").appendChild(li);
+                    }//end else
+                    document.getElementById("myInput").value = "";
+
+                    var span = document.createElement("SPAN");
+                    var txt = document.createTextNode("\u00D7");
+                    span.className = "close";
+                    span.appendChild(txt);
+                    li.appendChild(span);
+
+                    for (i = 0; i < close.length; i++) {
+                        close[i].onclick = function() {
+                            counter--;
+
+                            var div = this.parentElement;
+                            div.remove();
+                            //var div1 = document.getElementById("myUL");
+                            //div1.removeChild(div1.childNodes[i]);
+                        }
+                    }//end for loop
+                }//end big IF
+                else {
+                    document.getElementById("newAdd").disabled=true;
+                }//end big ELSE
+            }//end function
+
+            //GET ELEMENTS FUNCTION
+            var items = [];
+            const getItems = () => {
+                const lis = document.getElementById('myUL').getElementsByTagName('li');
+                items.push(lis);
+                console.log(lis);
+                return false;
+
+                // Loop through the NodeList object.
+                for (let i = 0; i <= lis.length - 1; i++) {
+                    items.push(lis[i]);
+                    console.log (lis[i]);
+                }
+
+                /*var textDoc = document.createElement('myUL');
+
+                textDoc.href = 'data:attachment/text,' + encodeURI(items.join('\n'));
+                textDoc.target = '_blank';
+                textDoc.download = 'usecase1.txt';
+                textDoc.click();*/
+
+                //window.open("Results.html");
+            }
+
+			//Add to LikeList
+			function addli() {
+
+				var ul = document.getElementById("likedlist");
+				var li = document.createElement("li");
+				var liked = document.getElementById("liked");
+				li.appendChild(document.createTextNode(liked.value));
+				ul.appendChild(li);
+			}
+
+			function pass_input_to_form(){
+			    var str = "";
+                const lis = document.getElementById('myUL').getElementsByTagName('li');
+                for (let i = 0; i <= lis.length - 1; i++) {
+                    str += (" "+lis[i].innerText);
+                }
+                document.getElementById("input_submitted").value = str;
+                document.getElementById("input_form").submit();
+
+			}
+
+			function refresh(){
+
+			if(localStorage.getItem("data") != null){
+				document.getElementById("likedlist").innerHTML = JSON.parse(localStorage.getItem("data"));
+				}
+			}
+
+			function emtpylist(){
+				localStorage.setItem("data", "[]");
+				refresh();
+			}
+
+        </script>
+
+    <!--body end-->
+    </body>
+	<footer>
+	<div class="footer">
+		<span class="left">Contact Email : <a href="mailto:hfyma6@nottingham.edu.my">hfyma6@nottingham.edu.my</a></span>
+		<span class="right">Created by SEGP Group 4B</span>​
+	</div>
+	</footer>
+</html>
