@@ -1,0 +1,67 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--tab title-->
+        <title>
+            Research Website
+        </title>
+        <!--style sheet-->
+        <link rel="stylesheet" href="{% static 'research_styles.css' %}">
+    </head>
+	
+    <body>
+        <!--nav bar class-->
+        <div class="navbar">
+            <!--nav bar contents-->
+            <ul>
+                <li class="navlist"><a class="WebName" href="case1.html">
+                    Website Name.
+                </a></li>
+                <li class="navlist"><a class="navlink" href="/Topics">
+                    Topics
+                </li>
+				<li class="navlist"><a class="navlink" href="/About">
+                    <i>About</i>
+                </li>
+                <!--add more if needed to nav bar-->
+            </ul>
+        </div>
+        <!--main page class-->
+        <div class="main">
+            <p class="nav">
+                <!--website title-->
+                <a class="title">
+                    About 
+                </a>
+                <!--link 2-->
+            </p>
+			
+			<p> This program allows user to input multiple keywords or phrases, which will then return the user with 
+				suggestions of relavant current topics that will have an impact on the community based on the program's 
+				calculation. Apart from the topic suggestions, the program will return the number of citations and 
+				published articles of the input keywords. A graph which displays the score comparison among the keywords
+				will also be shown so that the user can choose with ease. 
+				</p><br><br>
+				
+				<a class="title">
+                    How To 
+                </a>
+				
+			<p> To use this program, the user shall simply put in a topic/keyword that is related to the area
+				that the user is interested in studying (up to 5 seperate topic). The user is also able to "like"
+				certain topics which will prompt the program to give results more related to the user's public 
+				interests.
+				</p><br><br>	
+            </p>
+			
+        </div>
+    </body>
+	
+	<footer>
+	<div class="footer">
+		<span class="left">Contact Email : <a href="mailto:hfyma6@nottingham.edu.my">hfyma6@nottingham.edu.my</a></span>
+		<span class="right">Created by SEGP Group 4B</span>​
+	</div>
+	</footer>
+</html>

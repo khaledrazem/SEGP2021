@@ -1,0 +1,97 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--tab title-->
+        <title>
+            Research Website
+        </title>
+        <!--style sheet-->
+        <link rel="stylesheet" href="{% static 'research_styles.css' %}">
+        <!--icon library-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!--nav bar class-->
+        <div class="navbar">
+            <!--nav bar contents-->
+            <ul>
+                <li class="navlist"><a class="WebName" href="../">
+                    <i>Website Name.
+                    </i>
+                </a></li>
+                <li class="navlist"><a class="navlink" href="/Topics">
+                    Topics
+                </li>
+				<li class="navlist"><a class="navlink" href="/About">
+                    About
+                </li>
+                <!--add more if needed to nav bar-->
+            </ul>
+        </div>
+        <!--main page class-->
+        <div class="main">
+            <p>
+                <!--website title-->
+                <a class="title">
+                    Website Name.
+                </a>
+                <!--link 2-->
+                <a class="case" href="/">
+                    Case 2   
+                </a>
+                <!--divider-->
+                <a class="case">&nbsp;|&nbsp; 
+                </a>
+                <!--link 1-->
+                <a class="case" href="../Case1">
+                    Case 1
+                </a>
+            </p>
+            <p class="summary">
+                Enter one topic to generate data for multiple relating subtopics.
+            </p>
+            <!-- Search bar HEADER -->
+            <!--search bar class-->
+            <div class="srchbar">
+            <form class="searchbar" action="/Results2">
+                <input class="inputsearchbar" type="text" placeholder="Enter your keywords/phrases">
+                <button type="submit" class="searchbutton"><i class="fa fa-search"></i></button><br><br>
+            </form>
+            </div>
+			
+			<div class="quicksearch">
+				<input type="checkbox" id="quicksearch" name="quicksearch" checked>
+				<label for="quicksearch">Quick Search</label><br><br>
+			</div>
+            
+            <!--2nd title-->
+            <!--popular keywords to suggest to users-->
+            <!--other features-->
+			
+			<!-- Like feature coding -->
+			<!-- List of liked words/phrases coding -->
+			<ul class="likelist">
+				<li><div class="like">Liked Lists e.g.</div></li>
+				<li>Deep Learning</li>
+				<li>BlockChain</li>
+				<li>Data Mining</li>
+				<li>Artifial Intelligence</li>
+				<li>Centralized</li>
+				<li>Decentralized</li>
+				<li>Internet security</li>
+				<li>Privacy</li>
+				<li>Solar Energy</li>
+				<li>Renewable Energy</li>
+			</ul>	
+        </div>
+    </body>
+	
+	<footer>
+	<div class="footer">
+		<span class="left">Contact Email : <a href="mailto:hfyma6@nottingham.edu.my">hfyma6@nottingham.edu.my</a></span>
+		<span class="right">Created by SEGP Group 4B</span>​
+	</div>
+	</footer>
+</html>

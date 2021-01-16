@@ -1,0 +1,447 @@
+body{
+	/*background-color: #FFFBF7;
+    */
+	font-family:Calibri;
+	color:black;
+    padding: 0%;
+    margin: 0%;
+	background-attachment: fixed;
+	background-image: linear-gradient(180deg, rgba(255,255,255,1), rgba(129,246,217,0.33));
+}
+
+/*HEADER (navigation bar)*/
+.navbar {
+     list-style-type: none;
+  	background-color:white;
+    border-bottom:1px solid #50525a;
+	width: 100%;
+	position:fixed;
+    top:0;
+    padding: 1px;
+	text-align: right;
+    z-index:1;
+}
+
+/*list inside navbar*/
+.WebName{
+    float:left;
+    color:#009a8d;
+	text-decoration: none;
+}
+
+.navlist{
+    display:inline;
+    /*padding: 1px;*/
+	margin: 5%;
+}
+
+.navlink {
+	font-size: 17px;
+	text-decoration: none;
+	color: #50525a;
+}
+
+.navlink:hover, .WebName:hover{
+	width: max-content;
+    text-decoration:underline;
+}
+
+/*MAINPAGE*/
+.main{
+    padding-top:100px;
+    padding-left:300px;
+    padding-right:300px;
+	margin-bottom:100px;
+}
+
+
+/*TITLE*/
+.title {
+    color:black;
+    font-size:40px;
+    font-weight:bold;
+}
+
+.title2{
+    font-weight:bold;
+    font-size:26px;
+    padding-top:10px;
+	font-size: 25px;
+}
+
+
+
+/*CASES (1 and 2)*/
+.case {
+    text-decoration: none;
+    padding:6px 10px 0px;
+    font-size:18px;
+    float:right;
+    color:#50525a;
+}
+
+.case:hover{
+    color:#009a8d ;
+}
+
+/*Like Feature*/
+.like{ 
+	font-size: 20px;
+	font-weight: bold;
+	font-weight: 9000;
+}
+
+.inputtl{
+	position: absolute;
+	top: 80px;
+	left: 10px;
+}
+
+.buttontl{
+	position: absolute;
+	top: 80px;
+	left: 190px;
+}
+
+.likelistheader{
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	border:1px solid #ccc;
+	background-color:white;
+}
+
+.likelistrefresh{
+	position: absolute;
+	top: 15px;
+	left: 10px;
+	border:1px solid #ccc;
+	background-color:white;
+}
+
+.likelist{
+	position: absolute;
+	top: 170px;
+	left: 10px;
+	padding-left: 10px;
+	width: 180px;
+	height: 70%;
+	border:1px solid #ccc;
+	background-color:white;
+}
+
+.likelisttopic{
+	position: absolute;
+	top: 70px;
+	left: 10px;
+	padding-left: 10px;
+	width: 180px;
+	height: 70%;
+	border:1px solid #ccc;
+	background-color:white;
+}
+
+ul.likelisttopic li{
+	display: block;
+	padding-bottom: 10px;
+	margin: 20px;
+	height: 5px;
+}
+
+ul.likelist li{
+	display: block;
+	padding-bottom: 10px;
+	margin: 20px;
+	height: 5px;
+}
+
+.summary{
+    width:50%;
+    font-size:17px;
+}
+
+/*UPLOAD FILE BUTTON*/
+/*
+form .fileupload{
+    width:87%;
+    border: 2px solid #ccc;
+    border-radius: 5px 0px 0px 5px;
+    padding:6px 6px 6px;
+    font-size:14.3px;
+    float:left;
+	background-color:white;
+}
+
+/*submit button*/
+/*
+form .filesubmit{
+    width:10%;
+    border: 2px solid #ccc;
+    border-width:2px 2px 2px 0px;
+    border-radius: 0px 5px 5px 0px;
+    padding:8px 8px 8px;
+    color:#009a8d;
+    font-size:16px;
+    float:left;
+
+}*/
+
+.quicksearch {
+	margin-right:50px;
+	float: right;
+	font-size: 17px;
+	font-weight: bold;
+	padding:5px;
+}
+
+
+/*SEARCH BAR*/
+.searchbar input[type=text]{
+    border: 2px solid #ccc;
+    border-radius: 5px 0px 0px 5px;
+    font-size:16px;
+    width:90%;
+    padding:8px;
+    float:left;
+}
+
+/*searchbar icon button*/
+form .searchbutton{
+    border: 2px solid #ccc;
+    border-width:2px 2px 2px 0px;
+    border-radius: 0px 5px 5px 0px;
+    padding:8px;
+    width:6%;
+    font-size:16px;
+    color:#009a8d;
+    cursor: pointer;
+    float:left;
+}
+
+
+/*CASE 1 ADD SUBTRACT LIST*/
+.entities{
+    padding-top:15px;
+}
+
+.entities li, .send li{
+  width: 85%;
+  display:block;
+  list-style-type:none;
+  font-size: 19px;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding:8px;
+  background:#e9e9e9;
+}
+
+/*SEND button*/
+.send, .send a{
+    text-align:center;
+    text-decoration:none;
+    color:black;
+    float:center;
+}
+
+.entities li:nth-child(even) {
+  background: #f9f9f9;
+  border: solid #f9f9f9;
+}
+
+
+.inputsearchbar{
+  width: 83.5%;
+  float: left;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px 0px 0px 5px;
+  padding:8px;
+  float:left;
+}
+
+/*CASE 2*/
+/*checkbox*/
+.check{
+    font-size: 17px;
+    padding-top:30px;
+}
+
+/*drop down menu*/
+.choose{
+    border: 2px solid #ccc;
+    border-radius: 5px 0px 0px 5px;
+    font-size:16px;
+    width:86%;
+    padding:7.4px;
+    float:left;
+}
+
+/*ADD and SUBMIT BUTTON*/
+.Add, .submit {
+  text-align: center;
+  font-size: 16px;
+  border: solid #ccc;
+  border-width:2px 2px 2px 0px;
+  border-radius: 0px 5px 5px 0px;
+  padding:7.8px;
+  width:10%;
+  color:#009a8d;
+  cursor: pointer;
+  float:left;
+  background-color:#f9f9f9;
+}
+
+.submit{
+    width:13%;
+}
+
+/*close button*/
+.close {
+  display:block;
+  float:right;
+  font-size:19px;
+}
+
+/*HOVER*/
+.close:hover,
+.send a:hover{
+    cursor:pointer;
+    color:#009a8d;
+}
+
+form .searchbutton:hover, form .filesubmit:hover,
+.Add:hover, .submit:hover{
+    color:white;
+	background-color:#009a8d;
+	cursor: pointer;
+}
+
+form .searchbutton:hover, form .filesubmit:hover{
+    color:#50525a;
+	background-color:#85b0bd;
+	cursor: pointer;
+}
+
+/*Table*/
+.tabletopic{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.tableproperty{
+	background-color:white;
+	font-size: 17px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-radius: 15px 15px 0 0;
+	overflow: hidden;
+	width: 100%;
+	table-layout: fixed;
+	text-align: center;
+	box-shadow: 0 2px 12px rgba(32,32,32,.3);
+}
+
+.tablepropertyV{
+	border: 1px solid black;
+	background-color:white;
+	border-collapse: collapse;
+	font-size: 17px;
+	border-spacing: 5px;
+	width: 30%;
+	table-layout: fixed;
+	text-align: center;
+	box-shadow: 0 2px 12px rgba(32,32,32,.3);
+	padding: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.r2th{
+	border: 1px solid black;
+	font-size: bold;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	color: black;
+	padding: 15px 30px;
+}
+
+th{
+	font-size: normal;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #3F51B5;
+	color: white;
+	padding: 15px 30px;
+}
+
+td{
+	padding: 15px 30px;
+}
+
+/*GRAPH*/
+.tablegraph{
+	position: absolute;
+	margin: 10px;
+	width: 25%;
+	height: 55%;
+}
+
+.tablegraph tr{
+	width: 40%;
+	height: 80%;
+}
+
+img {
+	margin-top: 100px;
+	overflow: hidden;
+	float: right;
+	border-radius: 4px;
+	padding: 5px;
+	width: 30%;
+	height: 20%;
+
+
+}
+
+/*FOOTER*/
+footer {
+	font-size: 18px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 5%;
+	width: 100%;
+	background-color: #50525a;
+	color: white;
+}
+
+.copy{
+	float : right;
+}
+
+footer p{
+	position: fixed;
+	left: 5px;
+	bottom: 0;
+	height: 10px;
+	width: 100%;
+	color: white;
+}
+
+.left{
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.right{
+	float: right;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.footer a{
+	text-decoration: none;
+	color: #B6DFD9;
+}
