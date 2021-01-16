@@ -16,6 +16,10 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.IntegerField(primary_key=True, serialize=False)),
                 ('name', models.CharField(max_length=500)),
+<<<<<<< HEAD
+=======
+                ('score', models.DecimalField(max_digits=5, decimal_places=2)),
+>>>>>>> d6522b2abbc23d6dc6b0fdc845480a317c9f8713
                 ('last_update', models.DateField(blank=True, null=True)),
             ],
         ),

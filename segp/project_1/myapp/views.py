@@ -26,6 +26,7 @@ def results1(request):
     submitted_query = []
     if request.method == 'POST':
         query = str(request.POST['input_submitted'])
+        print(query)
         a = query.splitlines()
         for i in a:
              i=i.replace('× ', '')

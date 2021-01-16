@@ -1,5 +1,8 @@
+
 from mendeley import Mendeley
 from datetime import datetime #current date and time
+from myapp.mendeleyScript import *
+from myapp.storeData import *
 
 def all_subset(query):
     from itertools import combinations
@@ -24,6 +27,10 @@ def avgRCSList(queryList):
 
     auth = mendeley.start_client_credentials_flow()
     session = auth.authenticate()
+    session = mendeleyAuth()
+    avgRCS =0
+    curryear = current_year() #get the current year
+    resultList = []
     queryList_subset = all_subset(queryList)
     for query in queryList_subset:
         x = 0
@@ -48,6 +55,7 @@ def avgRCSList(queryList):
         avgRCS = round((x / paperCount),2)
         resultList.append(avgRCS)
         print(str(query) + ": " + str(avgRCS) + " | published: " + str(paperCount) + " | avgyear: " + str(round(avgyear)))
+        store(query,avgRCS)
 
         results = {
 
