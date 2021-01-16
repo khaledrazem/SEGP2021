@@ -5,7 +5,7 @@ from paper.models import Paper
 class Keyword(models.Model):
     id = models.IntegerField(primary_key=True)
     name = models.CharField(max_length=500)
-    score = models.IntegerField
+    score = models.FloatField()
     last_update = models.DateField(null=True, blank=True)
 
 class Keyword_Paper(models.Model):
