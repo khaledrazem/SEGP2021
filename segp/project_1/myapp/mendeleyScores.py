@@ -1,8 +1,10 @@
-from myapp.mendeleyScript import *
+from .mendeleyScript import *
+from search_keyword.models import Keyword
+from .storeData import *
 
 #check if paper is legal
 def isLegalType(pageType):
-    legalTypes = [ "journal", "book", "generic", "book_section", "working_paper", "thesis"]
+    legalTypes = ["journal", "book", "generic", "book_section", "working_paper", "thesis"]
     for x in legalTypes:
         if(x == pageType):
             return 1
@@ -31,56 +33,50 @@ def calcAvgGrowth(years):
     i = len(years) - 2
     totalGrowth=0
     while i >= 0:
-        totalGrowth += ((years[i]-years[i+1]) /years[i+1])
+        totalGrowth += (((years[i]+1)-(years[i+1]+1)) /(years[i+1]+1))
         i -= 1
     avgGrowth = round(totalGrowth / (len(years)-1), 2)
     return avgGrowth
 
 # calculate and return growth and average publication scores
 def scoresList(queryList, fromYear):
-    session = mendeleyAuth()
-    curryear = current_year()
-    #dictionary containing lists needed to be returned
+    # dictionary containing lists needed to be returned
     results = {
-        'singleTopics':[],
-        'combTopics':[],
-        'allTopics':[],
-        #total publications
-        'totalPub':[],
-        #average reader count per topic
-        'avgReaderC':[],
-        #average reader per year per publication
-        'marks':[],
+        'singleTopics': queryList,
+        'combTopics': pair_subset(queryList),
+        'allTopics': all_subset(queryList),
+        # total publications
+        'totalPub': [],
+        # average reader count per topic
+        'avgReaderC': [],
+        # average reader per year per publication
+        'marks': [],
         # growth score of topics
-        'growth':[],
-        'zipped':[]
+        'growth': [],
+        'zipped': []
     }
-    results['singleTopics'] += queryList 
-    results['combTopics'] += pair_subset(queryList) 
-    results['allTopics'] += all_subset(queryList)
     #calculate scores for all queries
     for query in results['allTopics']:
-        pages = session.catalog.advanced_search(source=query, min_year=getStartYear(fromYear), max_year=getEndYear(), view="stats" )
-        #initialise new years list
-        i = 0
-        years = [None] * (fromYear+1) #contains all number of publications for all the years
-        while i <= fromYear:
-            years[i] = 0
-            i+=1
-        avgReaderPerYear = 0
-        pubCount = 0
-        for page in pages.iter(page_size=100):
-            if isLegalType(page.type):
-                pubCount += 1
-        #calculate average reader count per year
-                if page.reader_count != None and page.reader_count > 0 :
-                    avgReaderPerYear += page.reader_count / (curryear - page.year)
-                years[ (getCurrYear()-1)-page.year ] +=1
-        #calculate average year of publications
-        results['totalPub'].append( pubCount )
-        results['avgReaderC'].append(round(avgReaderPerYear))
-        results['marks'].append(round( avgReaderPerYear / pubCount ,2))
-        results['growth'].append(calcAvgGrowth(years))
+        if (isinstance(query,str)):
+            if  (isValid(query.title())):
+                db_result = Keyword.objects.get(name=query.title())
+                keyword_result = {
+                    'num_of_publication': db_result.total_publication,
+                    'average_reader_count': round(db_result.average_reader_count,2),
+                    'query_marks': round(round(db_result.average_reader_count,2)/db_result.total_publication, 2),
+                    'query_growth': db_result.growth,
+                }
+            else:
+                keyword_result = search(query,fromYear)
+            new_data = Keyword(name=query.title(), total_publication=keyword_result['num_of_publication'], average_reader_count=keyword_result['average_reader_count'],
+                               score=keyword_result['query_marks'], growth=keyword_result['query_growth'])
+            store(new_data)
+        else:
+            keyword_result = search(query, fromYear)
+        results['totalPub'].append(keyword_result['num_of_publication'])
+        results['avgReaderC'].append(keyword_result['average_reader_count'])
+        results['marks'].append(keyword_result['query_marks'])
+        results['growth'].append(keyword_result['query_growth'])
     #zip results
     results['zipped'] = zip(results['singleTopics'], results['marks'])
     return results
@@ -97,7 +93,7 @@ def s1(scoreDict):
         if i < queryCount:
             totalScores += scoreDict['growth'][i] + scoreDict['marks'][i]
         else:
-            s1List.append( round( scoreDict['growth'][i]*scoreDict['marks'][i] + totalScores, 2) )
+            s1List.append( round( scoreDict['growth'][i] * scoreDict['marks'][i] + totalScores, 2) )
         i+=1
     return s1List
 # score s2
@@ -127,43 +123,35 @@ def s3(scoreDict):
             s3List.append( round( x + totalGrowth, 2) )
     return s3List
 
+def search(query,fromYear):
 
-# for debugging only ( remove during implementation )
-def getDemoList(queryList):
-    results = {
-        'singleTopics':[],
-        'combTopics':[],
-        'allTopics':[],
-        'totalPub': [2057, 6769, 1321, 2913, 2276, 7069],
-        'avgReaderC': [111032, 145621, 10684, 130547, 106926, 150538],
-        'marks': [53.98, 21.51, 8.09, 44.82, 46.98, 21.3],
-        'growth': [-0.23, -0.17, -0.02, -0.16, -0.23, -0.18]
+    session = mendeleyAuth()
+    curryear = current_year()
+    avgReaderPerYear = 0
+    pubCount = 0
+    pages = session.catalog.advanced_search(source=query, min_year=getStartYear(fromYear), max_year=getEndYear(),
+                                            view="stats")
+    # initialise new years list
+    i = 0
+    years = [None] * (fromYear + 1)  # contains all number of publications for all the years
+    while i <= fromYear:
+        years[i] = 0
+        i += 1
+    for page in pages.iter(page_size=100):
+        if isLegalType(page.type):
+            pubCount += 1
+            # calculate average reader count per year
+            if page.reader_count != None and page.reader_count > 0:
+                avgReaderPerYear += page.reader_count / (curryear - page.year)
+            years[(current_year() - 1) - page.year] += 1
+
+    query_result = {
+        'num_of_publication': pubCount,
+        # average reader count per topic
+        'average_reader_count': round(avgReaderPerYear, 2),
+        # average reader per year per publication
+        'query_marks': round(avgReaderPerYear / pubCount, 2),
+        # calculate average year of publications
+        'query_growth': calcAvgGrowth(years),
     }
-    results['singleTopics'] += queryList
-    results['combTopics'] += pair_subset(queryList)
-    results['allTopics'] += all_subset(queryList)
-    return results
-
-# debugging (remove during implementation)
-def main():
-    import time
-    l = [ "computer vision", "neural networks", "algae neurons" ]
-
-    start_time = time.time()
-    result = scoresList(l, 5)
-    print("\n execution time: %s seconds \n" % (time.time() - start_time))
-
-    print("--------------------------\n Scores: \n--------------------------")
-    print( s1(result) )
-    print( s2(result) )
-    print( s3(result) )
-
-    #print contents of dictionary
-    print("--------------------------\n Dictionary: \n--------------------------")
-    for key, val in result.items():
-        print( key, end=": ")
-        print( val )
-    print("\n")
-
-if __name__ == "__main__":
-    main();
+    return query_result

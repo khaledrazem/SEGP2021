@@ -65,8 +65,9 @@
 				</tr>
 				{% for x,y in zipped%}
 					<tr>
-						<td><a href="../Results2">{{x.0}} </a></td>
-						<td><a href="../Results2">{{x.1}}</a></td>
+						{% for z in x %}
+							<td><a href="../Results2">{{z}} </a></td>
+						{% endfor %}
 						<td>{{y}}</td>
 						<td><a href="../Results2">more</a></td>
 					</tr>

@@ -5,11 +5,10 @@ from paper.models import Paper
 class Keyword(models.Model):
     id = models.IntegerField(primary_key=True)
     name = models.CharField(max_length=500)
-<<<<<<< HEAD
-=======
-    #score = models.DecimalField(max_digits=5, decimal_places=2)
->>>>>>> d6522b2abbc23d6dc6b0fdc845480a317c9f8713
-    score = models.FloatField()
+    total_publication = models.IntegerField()
+    average_reader_count = models.DecimalField(max_digits=10, decimal_places=2)
+    score = models.DecimalField(max_digits=10, decimal_places=2)
+    growth = models.DecimalField(max_digits=10, decimal_places=2)
     last_update = models.DateField(null=True, blank=True)
 
 class Keyword_Paper(models.Model):
