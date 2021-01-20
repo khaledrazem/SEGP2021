@@ -1,0 +1,143 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--tab title-->
+        <title>
+            Research Website
+        </title>
+        <!--style sheet-->
+        <link rel="stylesheet" href="{% static 'research_styles.css' %}">
+    </head>
+	
+    <body>
+        <!--nav bar class-->
+        <div class="navbar">
+            <!--nav bar contents-->
+            <ul>
+                <li class="navlist"><a class="WebName" href="../">
+                    Website Name.
+                </a></li>
+                <li class="navlist"><a class="navlink" href="/Topics">
+                    <i>Topics</i>
+                </li>
+				<li class="navlist"><a class="navlink" href="/About">
+                    About
+                </li>
+                <!--add more if needed to nav bar-->
+            </ul>
+        </div>
+        <!--main page class-->
+        <div class="main">
+            <p class="nav">
+                <!--website title-->
+                <a class="title">
+                    Enter your keywords/phrases
+                </a>
+                <!--link 2-->
+                <a class="case" href="/Case2">
+                    Case 2   
+                </a>
+                <!--divider-->
+                <a class="case">&nbsp;|&nbsp; 
+                </a>
+                <!--link 1-->
+                <a class="case" href="/Case1">
+                    Case 1
+                </a>
+            </p>
+            <!-- Search bar HEADER -->
+            <!--search bar class-->
+            <div class="searchbar">
+                <input type="text" placeholder="Search..">
+            </div>
+            
+            <!--2nd title-->
+            <!--popular keywords to suggest to users-->
+			<br>
+            <p class="title2">
+                Popular Keywords
+            </p>
+            <!--other features-->
+			
+			<!-- Like feature coding -->
+			<!-- List of liked words/phrases coding -->
+			<ul class="likelist">
+				<li><div class="like">Liked Lists e.g.</div></li>
+				<li>Deep Learning</li>
+				<li>BlockChain</li>
+				<li>Data Mining</li>
+				<li>Artifial Intelligence</li>
+				<li>Centralized</li>
+				<li>Decentralized</li>
+				<li>Internet security</li>
+				<li>Privacy</li>
+				<li>Solar Energy</li>
+				<li>Renewable Eneggy</li>
+			</ul>								
+			
+			<!-- List of keyword input & its citation number, published number, and score -->
+			<h2>Data</h2>
+			<table div class="tableproperty">
+				<tr div class="tabletopic">
+					<th>Input Keyword/Phrases)</th>
+					<th>Published Articles</th>
+					<th>Citations</th>
+					<th>Score</th>
+					</div>
+				</tr>
+				<tr>
+					<td>&nbsp </td>
+					<td>&nbsp </td>
+					<td>&nbsp </td>
+					<td>&nbsp </td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>2</td>
+					<td>2</td>
+					<td>2</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>4</td>
+					<td>4</td>
+					<td>4</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>5</td>
+					<td>5</td>
+					<td>5</td>
+				</tr>
+			<!-- Citation number coding -->
+			<!-- Published number coding -->
+			<!-- Score coding -->
+			
+			
+			<!-- Graph of comparison coding, compare the score of the above inputs and generate a graph -->
+			
+			<!-- Suggestion of keyword combinations coding -->
+        </div>
+    </body>
+	
+	<footer>
+	<div class="footer">
+		<span class="left">Contact Email : <a href="mailto:hfyma6@nottingham.edu.my">hfyma6@nottingham.edu.my</a></span>
+		<span class="right">Created by SEGP Group 4B</span>​
+	</div>
+	</footer>
+</html>
