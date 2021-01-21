@@ -81,6 +81,46 @@ def scoresList(queryList, fromYear):
     results['zipped'] = zip(results['singleTopics'], results['marks'])
     return results
 
+
+def catScoresList(queryList, fromYear):
+    results = {
+        'singleTopics': queryList,
+        # total publications
+        'totalPub': [],
+        # average reader count per topic
+        'avgReaderC': [],
+        # average reader per year per publication
+        'marks': [],
+        # growth score of topics
+        'growth': [],
+        'zipped': []
+    }
+    for query in results['singleTopics']:
+        if (isinstance(query,str)):
+            if  (isValid(query.title())):
+                db_result = Keyword.objects.get(name=query.title())
+                keyword_result = {
+                    'num_of_publication': db_result.total_publication,
+                    'average_reader_count': round(db_result.average_reader_count,2),
+                    'query_marks': round(round(db_result.average_reader_count,2)/db_result.total_publication, 2),
+                    'query_growth': db_result.growth,
+                }
+            else:
+                keyword_result = search(query,fromYear)
+            new_data = Keyword(name=query.title(), total_publication=keyword_result['num_of_publication'], average_reader_count=keyword_result['average_reader_count'],
+                               score=keyword_result['query_marks'], growth=keyword_result['query_growth'])
+            store(new_data)
+        else:
+            keyword_result = search(query, fromYear)
+        results['totalPub'].append(keyword_result['num_of_publication'])
+        results['avgReaderC'].append(keyword_result['average_reader_count'])
+        results['marks'].append(keyword_result['query_marks'])
+        results['growth'].append(keyword_result['query_growth'])
+        
+    results['zipped'] = zip(results['singleTopics'], results['marks'])
+    return results    
+        
+
 # score s1
 def s1(scoreDict):
     queryCount = len( scoreDict['singleTopics'] )

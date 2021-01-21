@@ -1,5 +1,5 @@
-{% load static %}
 
+{% load static %}
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,7 +12,8 @@
         <!--icon library-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    <body>
+
+    <body onload="refresh()">
         <!--nav bar class-->
         <div class="navbar">
             <!--nav bar contents-->
@@ -22,10 +23,10 @@
                     </i>
                 </a></li>
                 <li class="navlist"><a class="navlink" href="/Topics">
-                    Topics
+                    Topics</a>
                 </li>
 				<li class="navlist"><a class="navlink" href="/About">
-                    About
+                    About</a>
                 </li>
                 <!--add more if needed to nav bar-->
             </ul>
@@ -45,7 +46,7 @@
                 <a class="case">&nbsp;|&nbsp; 
                 </a>
                 <!--link 1-->
-                <a class="case" href="../Case1">
+                <a class="case" href="/Case1">
                     Case 1
                 </a>
             </p>
@@ -64,30 +65,76 @@
 			<div class="quicksearch">
 				<input type="checkbox" id="quicksearch" name="quicksearch" checked>
 				<label for="quicksearch">Quick Search</label><br><br>
-			</div>
+                Choose a category to generate data for multiple relating subtopics.
+            </p>
             
-            <!--2nd title-->
-            <!--popular keywords to suggest to users-->
-            <!--other features-->
-			
-			<!-- Like feature coding -->
-			<!-- List of liked words/phrases coding -->
-			<ul class="likelist">
-				<li><div class="like">Liked Lists e.g.</div></li>
-				<li>Deep Learning</li>
-				<li>BlockChain</li>
-				<li>Data Mining</li>
-				<li>Artifial Intelligence</li>
-				<li>Centralized</li>
-				<li>Decentralized</li>
-				<li>Internet security</li>
-				<li>Privacy</li>
-				<li>Solar Energy</li>
-				<li>Renewable Energy</li>
-			</ul>	
+            <!--dropdown select menu-->
+            <form method="GET" action="../Testing/">
+                <!-- category select-->
+                <select name="topics" id="topics" class="choose">
+                <option value="" disabled selected hidden>Categories</option>
+                <option value="bus">Business, Economic & Management</option>
+                <option value="chm">Chemical & Material Sciences</option>
+                <option value="eng">Engineering & Computer Science</option>
+                <option value="med">Health & Medical Sciences</option>
+                <option value="hum">Humanities, Literature & Arts</option>
+                <option value="bio">Life Sciences & Earth Sciences</option>
+                <option value="phy">Physics & Mathematics</option>
+                <option value="soc">Social Sciences</option>
+                </select>
+                
+                <!--submit button-->
+                <input type="submit" class ="submit" value="Submit">
+                
+                <br>
+                <!-- checkboxes -->
+                <div class="check">
+                <input type="checkbox" id="publication" name="publication" value="Publications">
+                <label for="publication">Publications &nbsp;</label>
+                <input type="checkbox" id="acite" name="acite" value="ACitation">
+                <label for="acite">Author Citations &nbsp;</label>
+                <input type="checkbox" id="cite" name="cite" value="Citation">
+                <label for="cite">Citations</label><br>
+                </div>
+            </form>
+            
+            
+			<div class="quicksearch">
+				<form>
+					<input type="checkbox" id="quicksearch" name="quicksearch" checked>
+					<label for="quicksearch">
+                        Quick Search
+                    </label><br><br>
+				</form>
+			</div>
+
+			<ul class="likelisttopic">
+			<li><div class="like">FAVOURITES</div></li>
+			<li><button onclick="refresh()"> Refresh </button>&nbsp&nbsp&nbsp&nbsp<button onclick="emtpylist()"> Clear </button></li>
+			</ul>
+		<!--Liked List-->
+			<ul class="likelist" id="likedlist">
+			</ul>		
         </div>
+			
+        </div>
+		
+		<script>
+            function refresh(){
+			
+			if(localStorage.getItem("data") != null){
+				document.getElementById("likedlist").innerHTML = JSON.parse(localStorage.getItem("data"));
+				}
+			}
+			
+			function emtpylist(){
+				localStorage.setItem("data", "[]");
+				refresh();
+			}
+		</script>
+		
     </body>
-	
+
 	<footer>
 	<div class="footer">
 		<span class="left">Contact Email : <a href="mailto:hfyma6@nottingham.edu.my">hfyma6@nottingham.edu.my</a></span>

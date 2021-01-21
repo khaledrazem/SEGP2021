@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f973549f-61d9-42d0-b01c-34a3b25cbb4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/segp/project_1/myapp/categoryscraper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segp/project_1/templates/Testing.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/segp/project_1/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/segp/project_1/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/segp/project_1/myapp/avgReaderCountScript.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/segp/project_1/myapp/demo_algo.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/segp/project_1/myapp/mendeleyScores.py" beforeDir="false" afterPath="$PROJECT_DIR$/segp/project_1/myapp/mendeleyScores.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/segp/project_1/myapp/storeData.py" beforeDir="false" afterPath="$PROJECT_DIR$/segp/project_1/myapp/storeData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segp/project_1/myapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/segp/project_1/myapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/segp/project_1/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/segp/project_1/myapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/segp/project_1/search_keyword/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/segp/project_1/search_keyword/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/segp/project_1/search_keyword/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/segp/project_1/search_keyword/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/segp/project_1/templates/Case1.html" beforeDir="false" afterPath="$PROJECT_DIR$/segp/project_1/templates/Case1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segp/project_1/templates/Case2.html" beforeDir="false" afterPath="$PROJECT_DIR$/segp/project_1/templates/Case2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/segp/project_1/templates/Results1.html" beforeDir="false" afterPath="$PROJECT_DIR$/segp/project_1/templates/Results1.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/segp/project_1/myapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+            <state relative-caret-position="404">
+              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -37,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/segp/project_1/templates/Results1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="62" column="33" lean-forward="true" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+            <state relative-caret-position="986">
+              <caret line="58" column="39" lean-forward="true" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -59,11 +57,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/segp/project_1/myapp/mendeleyScores.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="59" column="12" lean-forward="true" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="22" />
+            <state relative-caret-position="180">
+              <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/segp/project_1/templates/Case2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -88,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/segp/project_1/myapp/storeData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+            <state relative-caret-position="697">
+              <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -112,7 +119,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/segp/project_1/search_keyword/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="153">
               <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -155,20 +162,21 @@
         <option value="$PROJECT_DIR$/segp/project_1/project_1/settings.py" />
         <option value="$PROJECT_DIR$/segp/project_1/search_keyword/migrations/0001_initial.py" />
         <option value="$PROJECT_DIR$/segp/project_1/myapp/avgReaderCountScript.py" />
-        <option value="$PROJECT_DIR$/segp/project_1/myapp/views.py" />
         <option value="$PROJECT_DIR$/segp/project_1/search_keyword/models.py" />
         <option value="$PROJECT_DIR$/segp/project_1/myapp/storeData.py" />
         <option value="$PROJECT_DIR$/segp/project_1/templates/Case1.html" />
         <option value="$PROJECT_DIR$/segp/project_1/myapp/mendeleyScores.py" />
+        <option value="$PROJECT_DIR$/segp/project_1/templates/Case2.html" />
+        <option value="$PROJECT_DIR$/segp/project_1/myapp/views.py" />
         <option value="$PROJECT_DIR$/segp/project_1/templates/Results1.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="y" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1098" />
+    <option name="x" value="950" />
+    <option name="y" value="-10" />
+    <option name="width" value="979" />
+    <option name="height" value="1099" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -290,7 +298,7 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14606741" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14606741" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -301,9 +309,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3297587" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32573727" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32573727" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -488,6 +496,16 @@
     <entry file="file://$PROJECT_DIR$/segp/project_1/paper/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/segp/project_1/myapp/storeData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/segp/project_1/myapp/mendeleyScript.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -500,7 +518,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/segp/project_1/search_keyword/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="153">
           <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -508,30 +526,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/segp/project_1/myapp/storeData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/segp/project_1/myapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/segp/project_1/myapp/mendeleyScores.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="59" column="12" lean-forward="true" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="22" />
+        <state relative-caret-position="180">
+          <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -549,10 +547,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/segp/project_1/templates/Case2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/segp/project_1/myapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/segp/project_1/templates/Results1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="62" column="33" lean-forward="true" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+        <state relative-caret-position="986">
+          <caret line="58" column="39" lean-forward="true" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
         </state>
       </provider>
     </entry>
