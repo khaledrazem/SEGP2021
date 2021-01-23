@@ -1,6 +1,6 @@
 from .mendeleyScript import *
 from search_keyword.models import Keyword
-from .storeData import *
+from search_keyword.db_keyword_query import *
 
 #check if paper is legal
 def isLegalType(pageType):
@@ -58,8 +58,8 @@ def scoresList(queryList, fromYear):
     #calculate scores for all queries
     for query in results['allTopics']:
         if (isinstance(query,str)):
-            if  (isValid(query.title())):
-                db_result = Keyword.objects.get(name=query.title())
+            db_result = get_keyword_data(query.title())
+            if (db_result != False):
                 keyword_result = {
                     'num_of_publication': db_result.total_publication,
                     'average_reader_count': round(db_result.average_reader_count,2),
