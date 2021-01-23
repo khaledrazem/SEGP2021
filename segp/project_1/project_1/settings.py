@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'paper_author',
     'search_keyword',
     'subcategory',
+    'combinations'
 ]
 
 MIDDLEWARE = [

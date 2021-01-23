@@ -3,7 +3,11 @@ from search_keyword.models import Keyword
 from search_keyword.db_keyword_query import *
 from subcategory.db_subcategory_query import *
 from subcategory.models import Subcategory
+from combinations.db_combination_query import *
+from combinations.models import Combination
 from pytrends.request import TrendReq
+
+import time
 
 #check if paper is legal
 def isLegalType(pageType):
@@ -86,13 +90,13 @@ def scoresList(queryList, fromYear):
     
 
 def getTrend(subcat):
-    #start = time.time()
+    start = time.time()
     trend = []
     topsubcat = []
     
     for x in subcat:    
-        if isinDB(x):
-            if isUpdated(x):
+        if isinSubcatDB(x):
+            if isSubcatUpdated(x):
                 status = 2
             else:
                 status = 1
@@ -113,7 +117,7 @@ def getTrend(subcat):
             else:
                 #score = round(0,2)
                 score = 0
-            print(score)
+            #print(score)
             if status == 1:
                 updateSubcat(x, round(score,2))
             else:          
@@ -135,13 +139,19 @@ def getTrend(subcat):
         print(subcat[largest[i]], "=" ,trend[largest[i]])
         topsubcat.append(subcat[largest[i]])
         i += 1
-        
+    
+    print()
     combinations = pair_subset(topsubcat)
     #fake_result = topCombination(combinations)
+    
+    
     
     results = {
         'realresult': topCombination(combinations)
     }
+    
+    end = time.time()
+    print("total time used:",end-start,"s")
     
     return results
     #pair_subset(topsubcat,start)
@@ -161,25 +171,44 @@ def topCombination(subset):
     for x in subset:
         reader = count = avgreader = this = 0
         
-        pages = session.catalog.advanced_search(source=x, view="stats")
-        search_result = pages.list(page_size=5).items
+        if isinCombDB(x):
+            if isCombUpdated(x):
+                status = 2
+            else:
+                status = 1
+        else:
+            status = 0
+    
+        if status < 2:
+            pages = session.catalog.advanced_search(source=x, view="stats")
+            search_result = pages.list(page_size=5).items
         
-        for result in search_result:
-            reader += result.reader_count
-            count += 1
-        avgreader = reader / count
-        readerCount.append(avgreader)
+            for result in search_result:
+                reader += result.reader_count
+                count += 1
+            avgreader = reader / count
+            
+            if status == 1:
+                updateComb(x, round(avgreader,2))
+            else:          
+                insertComb(x, round(avgreader,2))
+            
+        select = Combination.objects.get(name=x)
+        this_reader = select.combination_score
+        readerCount.append(this_reader)
 
     largest = sorted(range(len(readerCount)), key = lambda sub: readerCount[sub])[-N:]
 
     print()
     print("top", N, "combinations")
-    
+        
     while i < len(largest):
         results['topReader'].append(subset[largest[i]])
         results['topComb'].append(readerCount[largest[i]])
         print(subset[largest[i]], "=" ,readerCount[largest[i]])
         i += 1
+    
+    print()
     
     results['zipped'] = zip(results['topReader'], results['topComb'])
     

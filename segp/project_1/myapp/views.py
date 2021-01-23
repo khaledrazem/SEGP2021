@@ -29,9 +29,9 @@ def testing(request):
         pub_query = 'publication' in request.GET
         acite_query = 'acite' in request.GET
         cite_query = 'cite' in request.GET
-        print(query)
+        #print(query)
         categories = categoryscraper(query)
-        print(categories)
+        #print(categories)
         if (pub_query):
             print("Publication:" + str(pub_query))
             """ perform calcluation in calculator script """
