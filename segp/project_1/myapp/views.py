@@ -1,6 +1,6 @@
 from django.shortcuts import render,redirect
-from django.http import HttpResponse
-from myapp import avgReaderCountScript
+from .mendeleyScores import scoresList,getTrend
+from .categoryscraper import categoryscraper
 
 #from django.shortcuts import render,redirect
 #from django.core.files.storage import FileSystemStorage
@@ -21,19 +21,43 @@ def case1(request):
 
 def case2(request):
     return render(request, 'Case2.html')
+    
+def testing(request):
+    categories =[]
+    if request.method == 'GET':
+        query = str(request.GET['topics'])
+        pub_query = 'publication' in request.GET
+        acite_query = 'acite' in request.GET
+        cite_query = 'cite' in request.GET
+        print(query)
+        categories = categoryscraper(query)
+        print(categories)
+        if (pub_query):
+            print("Publication:" + str(pub_query))
+            """ perform calcluation in calculator script """
+        if (acite_query):
+            print("Author citation:" + str(acite_query))
+            """  perform calcluation in calculator script"""
+        if (cite_query):
+            print("Ciatation:" + str(cite_query))
+            """  perform calcluation in calculator script """
+    context = {
+    
+        #'subcategories' :catScoresList(queryList=categories,fromYear=10)
+        'subcategories' :getTrend(categories)
+        
+    }
+    return render(request, 'Testing.html',context)
 
 def results1(request):
-    submitted_query = []
     if request.method == 'POST':
-        query = str(request.POST['input_submitted'])
-        print(query)
-        a = query.splitlines()
-        for i in a:
-             i=i.replace('× ', '')
-             i=i.replace('×', '')
-             if i !="":
-                submitted_query.append((str(i)))
-    context = avgReaderCountScript.avgRCSList(submitted_query)
+        query = str(request.POST['input_submitted']).split("\\n")
+        query.remove("")
+
+    context = {
+    
+        'scores_result' :scoresList(query, fromYear=10)
+    }
     return render(request, 'Results1.html',context)
 
 def results2(request):

@@ -1,0 +1,156 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--tab title-->
+        <title>
+            Research Website
+        </title>
+        <!--style sheet-->
+        <link rel="stylesheet" href="{% static 'research_styles.css' %}">
+        <!--icon library-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+	
+    <body>
+        <!--nav bar class-->
+        <div class="navbar">
+            <!--nav bar contents-->
+            <ul>
+                <li class="navlist"><a class="WebName" href="../">
+                    <i>Website Name.
+                    </i>
+                </a></li>
+                <li class="navlist"><a class="navlink" href="/Topics">
+                    Topics
+                </li>
+				<li class="navlist"><a class="navlink" href="/About">
+                    About
+                </li>
+                <!--add more if needed to nav bar-->
+            </ul>
+        <!--nav bar div end-->    
+        </div>
+        
+        <!--main page class-->
+        <div class="main">
+            <p>
+                <!--website title-->
+                <a class="title">
+                    Results.
+                </a>
+                <!--delete this part later-->
+            </p>
+            <p class="title2">
+                Entity Pairings
+            </p>
+			<p> To view more information about each entity, click on the respective entity, or click on more info
+			to view more info regarding both entities.</p>
+            <!--
+            list of entity pairings with the most compatible at the top 
+            
+			
+            Question:
+            Should the score be displayed here as well? e.g: next to each entity pair
+            -->
+			<p id="skip"></p>
+            <table div class="tableproperty">
+				<tr div class="tabletopic">
+					<th>Topic A</th>
+					<th>Topic B</th>
+					<th>Combination Score</th>
+					<th>Info</th>
+					</div>
+				</tr>
+				{% for x,y in subcategories.realresult.zipped%}
+					<tr>
+						<td><a href="../Results2">{{x.0}}</a></td>
+						<td><a href="../Results2">{{x.1}}</a></td>
+						<td>{{y}}</td>
+						<td><a href="../Results2">more</a></td>
+					</tr>
+				{% endfor %}
+				<tr>
+					<td><button id="Fav" onclick="add1()">Fav</button><a href="Results2.html"><span id='R1'>Lorem Ipsum</span></a></td> <!-- Add1 function in <script> for liked list -->
+					<td><button id="Fav" onclick="add2()">Fav</button><a href="Results2.html"><span id='R2'>Testing SubCat</span></a></td>
+					<td>score</td>
+					<td><a href="Results2.html">more</a></td>
+				</tr>
+			</table>
+			<br><br>
+			
+			<ul class="likelisttopic">
+			<li><div class="like">FAVOURITES</div></li>
+			<li><button onclick="refresh()"> Refresh </button>&nbsp&nbsp&nbsp&nbsp<button onclick="emtpylist()"> Clear </button></li>
+			</ul>
+		<!--Liked List-->
+			<ul class="likelist" id="likedlist">
+			</ul>		
+		<!--main div end-->
+        </div>
+		
+		
+		
+		<script>
+			
+			function add1() {
+				
+				var new_data = ' \n ' + document.getElementById("R1").textContent; 
+				<!--If nothing saved at the start, save an empty array-->
+				if(localStorage.getItem("data") == null){
+				localStorage.setItem("data", "[]");
+				}
+				var old_data = JSON.parse(localStorage.getItem("data"));
+				old_data.push(new_data);
+				<!--Saving to local storage-->
+				<!--localStorage.setItem("data", JSON.stringify(old_data));-->
+				localStorage.setItem("data", JSON.stringify(old_data));
+				
+				refresh();
+			}
+			
+			function add2() {
+				
+				var new_data = ' \n ' + document.getElementById("R2").textContent; 
+				<!--If nothing saved at the start, save an empty array-->
+				if(localStorage.getItem("data") == null){
+				localStorage.setItem("data", "[]");
+				}
+				var old_data = JSON.parse(localStorage.getItem("data"));
+				old_data.push(new_data);
+				<!--Saving to local storage-->
+				<!--localStorage.setItem("data", JSON.stringify(old_data));-->
+				localStorage.setItem("data", JSON.stringify(old_data));
+				
+				refresh();
+			}
+			
+			function refresh(){
+			
+				if(localStorage.getItem("data") != null){
+					document.getElementById("likedlist").innerHTML = JSON.parse(localStorage.getItem("data"));
+					}
+			}
+			
+			function emtpylist(){
+				localStorage.setItem("data", "[]");
+				refresh();
+			}
+			
+
+			
+			
+		</script>
+    <!--body end-->
+    </body>
+	<footer>
+	<div class="footer">
+		<span class="left">Contact Email : <a href="mailto:hfyma6@nottingham.edu.my">hfyma6@nottingham.edu.my</a></span>
+		<span class="right">Created by SEGP Group 4B</span>​
+	</div>
+	</footer>
+</html>
+

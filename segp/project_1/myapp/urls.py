@@ -27,4 +27,4 @@ urlpatterns = [
     path('Case2/',views.case2, name="case2"),
     path('Results1/',views.results1, name="r1"),
     path('Results2/',views.results2, name="r2"),
-]
+    path('Testing/',views.testing, name="test"),]

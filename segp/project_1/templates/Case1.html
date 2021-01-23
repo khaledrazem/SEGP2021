@@ -70,11 +70,9 @@
             </br>
             <div class="elist">
             <ul id="myUL" class="entities">
-                <!--
-                    <li class="entitylist">Deep Learning</li>
-                    <li class="entitylist">Block Chain</li>
-                    <li class="entitylist">Privacy</li>
-                -->
+                    <li class="entitylist">autopilot</li>
+                    <li class="entitylist">computer vision</li>
+                    <li class="entitylist">transportation</li>
             </ul>
             <ul class="send">
                 <li>
@@ -86,7 +84,7 @@
             </ul>
             </div>
             <form id="input_form" method="POST" action="../Results1/">{% csrf_token %}
-                <input type="hidden" name="input_submitted" id="input_submitted"  value="">
+                <input type="" name="input_submitted" id="input_submitted"  value="">
             </form>
             <!--2nd title-->
             <!--POPULAR KEYWORDS to suggest to users-->
@@ -210,7 +208,8 @@
 			    var str = "";
                 const lis = document.getElementById('myUL').getElementsByTagName('li');
                 for (let i = 0; i <= lis.length - 1; i++) {
-                    str += (" "+lis[i].innerText);
+                lis[i].innerText = lis[i].innerText.slice(0, -1);
+                    str += ("\\n"+lis[i].innerText);
                 }
                 document.getElementById("input_submitted").value = str;
                 document.getElementById("input_form").submit();

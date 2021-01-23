@@ -24,10 +24,10 @@
                     </i>
                 </a></li>
                 <li class="navlist"><a class="navlink" href="/Topics">
-                    Topics
+					Topics</a>
                 </li>
 				<li class="navlist"><a class="navlink" href="/About">
-                    About
+					About</a>
                 </li>
                 <!--add more if needed to nav bar-->
             </ul>
@@ -55,20 +55,20 @@
             Question:
             Should the score be displayed here as well? e.g: next to each entity pair
             -->
-            <table div class="tableproperty">
-				<tr div class="tabletopic">
+            <table class="tableproperty">
+				<tr class="tabletopic">
 					<th>Topic A</th>
 					<th>Topic B</th>
 					<th>Combination Score</th>
 					<th>Info</th>
-					</div>
 				</tr>
-				{% for x,y in zipped%}
+
+				{% for x,y in scores_result.zipped%}
 					<tr>
 						<td><a href="../Results2">{{x.0}} </a></td>
-						<td><a href="../Results2">{{x.1}}</a></td>
-						<td>{{y}}</td>
+						<td><a href="../Results2">{{x.1}} </a></td>
 						<td><a href="../Results2">more</a></td>
+						<td>{{y}}</td>
 					</tr>
 				{% endfor %}
 				<!--<tr>-->
