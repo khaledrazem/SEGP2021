@@ -15,7 +15,6 @@ def categoryscraper(cat):
     response = requests.get(url,headers=headers)#must have header to not get blocked
 
     soup=BeautifulSoup(response.content,'lxml')
-    #print(url)
 
     printing=False #trigger so it doesnt print menu title, (sign in, and "subcategories"
 
