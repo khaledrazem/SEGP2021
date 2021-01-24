@@ -1,5 +1,6 @@
 from django.shortcuts import render,redirect
-from .mendeleyScores import scoresList,catScoresList
+from .mendeleyScores import scoresList
+from .categoryScore import getTrend
 from .categoryscraper import categoryscraper
 
 #from django.shortcuts import render,redirect
@@ -29,9 +30,8 @@ def testing(request):
         pub_query = 'publication' in request.GET
         acite_query = 'acite' in request.GET
         cite_query = 'cite' in request.GET
-        print(query)
         categories = categoryscraper(query)
-        print(categories)
+        #print(categories)
         if (pub_query):
             print("Publication:" + str(pub_query))
             """ perform calcluation in calculator script """
@@ -42,9 +42,8 @@ def testing(request):
             print("Ciatation:" + str(cite_query))
             """  perform calcluation in calculator script """
     context = {
-    
-        'subcategories' :catScoresList(queryList=categories,fromYear=10)
-        
+        #'subcategories' :catScoresList(queryList=categories,fromYear=10)
+        'subcategories' :getTrend(categories)
     }
     return render(request, 'Testing.html',context)
 

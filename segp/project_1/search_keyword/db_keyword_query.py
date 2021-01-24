@@ -1,7 +1,7 @@
 from .models import Keyword
 from datetime import datetime
 
-def store(query):
+def storeKeyword(query):
     if isinDB(query.name):
         test = Keyword.objects.get(name=query.name)
         if (~isUpdated(test)):
