@@ -1,6 +1,7 @@
 from .models import Subcategory
 from datetime import datetime
 
+
 # check if data is in database
 def isinSubcatDB(query):
     if (Subcategory.objects.filter(name=query).exists()):
@@ -18,11 +19,13 @@ def isSubcatUpdated(query):
     else:
         return False
 
+
 # insert data to database
 def insertSubcat(query, score):
     subcat = Subcategory(name=query, trend_score=score, last_update=getCurrentTime())
     subcat.save()
     print("insert", query)
+
 
 # update database
 def updateSubcat(query, score):
@@ -30,7 +33,6 @@ def updateSubcat(query, score):
     subcat.trend_score = score
     subcat.last_update = getCurrentTime()
     subcat.save()
-    print("update", query)
 
 # get data from database
 def selectSubcat(query):

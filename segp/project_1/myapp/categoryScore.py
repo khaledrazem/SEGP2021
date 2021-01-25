@@ -6,7 +6,7 @@ from subcategory.db_subcategory_query import *
 from combinations.db_combination_query import *
 import time
 
-def getTrend(subcat):
+def getTrend(subcat,quick):
     start = time.time()
     trend = []
     topsubcat = []
@@ -16,8 +16,9 @@ def getTrend(subcat):
         
         # check status of data
         if isinSubcatDB(x):
-            if isSubcatUpdated(x):
+            if isSubcatUpdated(x) or quick:
                 status = 2      #in db and updated
+                this_trend = selectSubcat(x)   # get data from db
             else:
                 status = 1      #in db but not updated
         else:
@@ -32,21 +33,20 @@ def getTrend(subcat):
             kw_list = fake
             pytrends.build_payload(kw_list, cat=0, timeframe='now 7-d', geo='', gprop='')
             trenddata = pytrends.interest_over_time()
-            
+
             if not trenddata.empty:
-                score = trenddata[x].sum()      # total trend of current week
+                this_trend = trenddata[x].sum()      # total trend of current week
             else:
-                score = 0       # no trend
+                this_trend = 0       # no trend
             
             if status == 1:
-                updateSubcat(x, score)    # update db
+                updateSubcat(x, this_trend)    # update db
             else:
-                insertSubcat(x, score)    # insert to db
+                insertSubcat(x, this_trend)    # insert to db
             
             fake.clear()
 
-        # get data from db
-        this_trend = selectSubcat(x)
+
         trend.append(this_trend)
 
     N = 5
@@ -57,29 +57,28 @@ def getTrend(subcat):
 
     print()
     print("top", N, "subcategory")
-    
     while i < len(largest):
         print(subcat[largest[i]], "=", trend[largest[i]])
         topsubcat.append(subcat[largest[i]])
         i += 1
     
     print()
-    
+
     combinations = pair_subset(topsubcat)
 
     results = {
-        'realresult': topCombination(combinations)
+        'realresult': topCombination(combinations,quick)
     }
 
     end = time.time()
     print("total time used:", end - start, "s")
     print()
-    
+
     return results
     # pair_subset(topsubcat,start)
 
 
-def topCombination(subset):
+def topCombination(subset,quick):
     session = mendeleyAuth()
     readerCount = []
     results = {
@@ -87,32 +86,43 @@ def topCombination(subset):
         'topComb': [],
         'zipped': []
     }
-    
     i = 0
     N = 10
 
     for x in subset:
         reader = count = avgreader = this = 0
-        
         # check status of data
         if isinCombDB(x):
-            if isCombUpdated(x):
+            if isCombUpdated(x) or quick:
                 status = 2      # in db and updated
             else:
                 status = 1      # in db but not updated
         else:
             status = 0      # not in db
-
+        
         if status < 2:
             pages = session.catalog.advanced_search(source=x, view="stats")
-            search_result = pages.list(page_size=5).items
             
+            for page in pages.iter(page_size=100):
+                reader += page.reader_count
+                count += 1
+                if quick:
+                    if count >= 100:
+                        break
+            print(count)
+            avgreader = reader / count
+            
+            
+            """
+            search_result = pages.list(page_size=5).items
             # get avg reader count
             for result in search_result:
                 reader += result.reader_count
                 count += 1
+            print(count)
             avgreader = reader / count
-
+            """
+            
             if status == 1:
                 updateComb(x, round(avgreader, 2))  # update db
             else:
@@ -139,7 +149,6 @@ def topCombination(subset):
     
     results['topReader'].reverse()
     results['topComb'].reverse()
-    
     results['zipped'] = zip(results['topReader'], results['topComb'])
 
     return results
@@ -185,3 +194,45 @@ def catScoresList(queryList, fromYear):
     results['zipped'] = zip(results['singleTopics'], results['marks'])
 
     return results
+
+# score s1
+def s1(scoreDict):
+    queryCount = len( scoreDict['singleTopics'] )
+    totalTopics = len( scoreDict['allTopics'] )
+    s1List = []
+    #totalScores includes growth and reader score
+    totalScores = 0
+    i = 0
+    while i < totalTopics:
+        if i < queryCount:
+            totalScores += scoreDict['growth'][i] + scoreDict['marks'][i]
+        else:
+            s1List.append( round( scoreDict['growth'][i]*scoreDict['marks'][i] + totalScores, 2) )
+        i+=1
+    return s1List
+# score s2
+def s2(scoreDict):
+    queryCount = len(scoreDict['singleTopics'])
+    s2List = []
+    totalPubScore = 0
+    i = 0
+    for x in scoreDict['marks']:
+        if i < queryCount:
+            totalPubScore += x
+            i += 1
+        else:
+            s2List.append( round(x + totalPubScore, 2) )
+    return s2List
+# score s3
+def s3(scoreDict):
+    queryCount = len(scoreDict['singleTopics'])
+    s3List = []
+    totalGrowth = 0
+    i = 0
+    for x in scoreDict['growth']:
+        if i < queryCount:
+            totalGrowth += x
+            i += 1
+        else:
+            s3List.append( round( x + totalGrowth, 2) )
+    return s3List

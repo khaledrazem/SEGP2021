@@ -30,6 +30,7 @@ def testing(request):
         pub_query = 'publication' in request.GET
         acite_query = 'acite' in request.GET
         cite_query = 'cite' in request.GET
+        quick = 'quicksearch' in request.GET
         categories = categoryscraper(query)
         #print(categories)
         if (pub_query):
@@ -43,7 +44,7 @@ def testing(request):
             """  perform calcluation in calculator script """
     context = {
         #'subcategories' :catScoresList(queryList=categories,fromYear=10)
-        'subcategories' :getTrend(categories)
+        'subcategories' :getTrend(categories, quick)
     }
     return render(request, 'Testing.html',context)
 

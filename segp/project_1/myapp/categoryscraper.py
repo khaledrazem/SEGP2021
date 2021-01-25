@@ -1,5 +1,3 @@
-from .mendeleyScript import *
-from datetime import datetime #current date and time
 from bs4 import BeautifulSoup
 import requests
     
@@ -16,31 +14,24 @@ def categoryscraper(cat):
 
     soup=BeautifulSoup(response.content,'lxml')
 
-    printing=False #trigger so it doesnt print menu title, (sign in, and "subcategories"
+    storing=False #trigger so it doesnt print menu title, (sign in, and "subcategories"
 
-    categoriesarr= []
+    categories_arr= []
     #filter out tags to get number of citations and title
     for item in soup.select('a.gs_md_li',{"tabindex":"-1"}): #item is string of subcategory, parameters are tags of wanted fields(as can be seen in inspect element)
         try:
             item=item.text
-            if (printing):
-                categoriesarr.append(item)
-            if "Subcategories" in item: #start printing data aftrer subcategories field
-                printing=True
-            
+            print(item)
+            if (storing):
+                categories_arr.append(item)
+            if "Subcategories" in item: #start saving data after subcategories field
+                storing = True
+
         except Exception as e:
-            #raise e
             print('')
-           
-    """   
-    
-        catresult = {
-            'array':categoriesarr
-        }
-    """
    
     
-    return categoriesarr
+    return categories_arr
     
     
 
