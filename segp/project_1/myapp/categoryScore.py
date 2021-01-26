@@ -46,7 +46,6 @@ def getTrend(subcat,quick):
             
             fake.clear()
 
-
         trend.append(this_trend)
 
     N = 5
@@ -106,31 +105,26 @@ def topCombination(subset,quick):
             for page in pages.iter(page_size=100):
                 reader += page.reader_count
                 count += 1
+                print(count, end="\r")
                 if quick:
                     if count >= 100:
                         break
-            print(count)
             avgreader = reader / count
-            
-            
-            """
-            search_result = pages.list(page_size=5).items
-            # get avg reader count
-            for result in search_result:
-                reader += result.reader_count
-                count += 1
-            print(count)
-            avgreader = reader / count
-            """
             
             if status == 1:
                 updateComb(x, round(avgreader, 2))  # update db
             else:
-                insertComb(x, round(avgreader, 2))  # insert to db
+                if not quick:
+                    insertComb(x, round(avgreader, 2))  # insert to db
+                
         
-        # get data from db
-        this_reader = selectComb(x)
-        readerCount.append(this_reader)
+        if not quick:
+            this_reader = selectComb(x)     # get data from db
+            readerCount.append(this_reader)
+        elif quick:
+            readerCount.append(avgreader)       # get data from calc
+       
+    print(readerCount)
     
     # get position of largest data
     largest = sorted(range(len(readerCount)), key=lambda sub: readerCount[sub])[-N:]
@@ -210,6 +204,7 @@ def s1(scoreDict):
             s1List.append( round( scoreDict['growth'][i]*scoreDict['marks'][i] + totalScores, 2) )
         i+=1
     return s1List
+    
 # score s2
 def s2(scoreDict):
     queryCount = len(scoreDict['singleTopics'])
@@ -223,6 +218,7 @@ def s2(scoreDict):
         else:
             s2List.append( round(x + totalPubScore, 2) )
     return s2List
+    
 # score s3
 def s3(scoreDict):
     queryCount = len(scoreDict['singleTopics'])
