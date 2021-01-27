@@ -1,6 +1,10 @@
 from .mendeleyScript import *
 from search_keyword.models import Keyword
 from search_keyword.db_keyword_query import *
+from combinations.db_keyword_combination import *
+from paper.db_paper import *
+from paper.db_paper_keyword import *
+from combinations.models import keyword_combination
 
 # check if paper is legal
 def isLegalType(pageType):
@@ -43,7 +47,7 @@ def calcAvgGrowth(years):
 
 
 # calculate and return growth and average publication scores
-def scoresList(queryList, fromYear):
+def scoresList(queryList, quickSearch):
     # dictionary containing lists needed to be returned
     results = {
         'singleTopics': queryList,
@@ -66,18 +70,36 @@ def scoresList(queryList, fromYear):
             if (db_result != False):
                 keyword_result = {
                     'num_of_publication': db_result.total_publication,
-                    'average_reader_count': round(db_result.average_reader_count, 2),
-                    'query_marks': round(round(db_result.average_reader_count, 2) / db_result.total_publication, 2),
+                    'average_reader_count': db_result.average_reader_count,
+                    'query_marks': db_result.score,
                     'query_growth': db_result.growth,
+                    'query_paper': []
                 }
             else:
-                keyword_result = search(query, fromYear)
+                keyword_result = search(query, quickSearch)
             new_data = Keyword(name=query.title(), total_publication=keyword_result['num_of_publication'],
                                average_reader_count=keyword_result['average_reader_count'],
                                score=keyword_result['query_marks'], growth=keyword_result['query_growth'])
-            store(new_data)
-        else:
-            keyword_result = search(query, fromYear)
+            storeKeyword(new_data)
+        elif (isinstance(query, tuple)):
+            db_comb_result = select_KeywordCombination(query[0].title(), query[1].title())
+            if (db_comb_result != False):
+                keyword_result = {
+                    'num_of_publication': db_comb_result.total_publication,
+                    'average_reader_count': db_comb_result.average_reader_count,
+                    'query_marks': db_comb_result.score,
+                    'query_growth': db_comb_result.growth,
+                    'query_paper': []
+                }
+            else:
+                keyword_result = search(query, quickSearch)
+            store_KeywordCombination(query_1=query[0].title(), query_2=query[1].title(), average_reader_count=keyword_result['average_reader_count'], total_publication=keyword_result['num_of_publication'], growth=keyword_result['query_growth'])
+        for i in keyword_result['query_paper']:
+            store_Paper(paper_title=i[2], paper_reader_count=i[0], paper_link=i[1], paper_year_published=i[3])
+            if (isinstance(query, str)):
+                store_Paper_keyword(paper_title=i[2], keyword_1=query, keyword_2=None)
+            elif (isinstance(query, tuple)):
+                store_Paper_keyword(paper_title=i[2], keyword_1=query[0].title(), keyword_2=query[1].title())
         results['totalPub'].append(keyword_result['num_of_publication'])
         results['avgReaderC'].append(keyword_result['average_reader_count'])
         results['marks'].append(keyword_result['query_marks'])
@@ -87,11 +109,14 @@ def scoresList(queryList, fromYear):
     return results
 
 
-def search(query, fromYear):
+def search(query, quickSearch):
+    fromYear = 5
     session = mendeleyAuth()
     curryear = current_year()
     avgReaderPerYear = 0
     pubCount = 0
+    searchNum = 0
+    popular_article_list=[]
     pages = session.catalog.advanced_search(source=query, min_year=getStartYear(fromYear), max_year=getEndYear(),
                                             view="stats")
     # initialise new years list
@@ -103,18 +128,37 @@ def search(query, fromYear):
     for page in pages.iter(page_size=100):
         if isLegalType(page.type):
             pubCount += 1
+            popular_article_list = popular_article(popular_article_list,page.reader_count,page.link,page.title,page.year)
             # calculate average reader count per year
             if page.reader_count != None and page.reader_count > 0:
                 avgReaderPerYear += page.reader_count / (curryear - page.year)
             years[(current_year() - 1) - page.year] += 1
-
+        if quickSearch:
+            if searchNum >= 100:  # limited to 100 serach results
+                break
+        searchNum += 1
     query_result = {
         'num_of_publication': pubCount,
         # average reader count per topic
         'average_reader_count': round(avgReaderPerYear, 2),
         # average reader per year per publication
-        'query_marks': round(avgReaderPerYear / pubCount, 2),
+        'query_marks': round((avgReaderPerYear+1) / (pubCount+1), 2),
         # calculate average year of publications
         'query_growth': calcAvgGrowth(years),
+        'query_paper': popular_article_list,
     }
     return query_result
+
+def popular_article(list_of_link,reader_count,link,title,year_published):
+    if len(list_of_link) < 5:
+        new_data = (reader_count,link,title,year_published)
+        list_of_link.append(new_data)
+    else:
+        if reader_count != None:
+            for (w, x, y, z) in list_of_link:
+                if reader_count > w:
+                    list_of_link.remove((w, x, y, z))
+                    new_data = (reader_count, link,title, year_published)
+                    list_of_link.append(new_data)
+                    break
+    return list_of_link

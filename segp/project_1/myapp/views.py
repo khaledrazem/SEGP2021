@@ -48,13 +48,16 @@ def testing(request):
     return render(request, 'Testing.html',context)
 
 def results1(request):
-    if request.method == 'POST':
-        query = str(request.POST['input_submitted']).split("\\n")
+    if request.method == 'GET':
+        query = str(request.GET['input_submitted']).split("\\n")
         query.remove("")
+        quick_search = 'quicksearch' in request.GET
+
+
 
     context = {
     
-        'scores_result' :scoresList(query, fromYear=10)
+        'scores_result' :scoresList(query, quick_search)
     }
     return render(request, 'Results1.html',context)
 

@@ -1,5 +1,5 @@
 from django.db import models
-from paper.models import Paper
+
 
 # Create your models here.
 class Keyword(models.Model):
@@ -11,6 +11,3 @@ class Keyword(models.Model):
     growth = models.DecimalField(max_digits=10, decimal_places=2)
     last_update = models.DateField(null=True, blank=True)
 
-class Keyword_Paper(models.Model):
-    keyword_id = Keyword.id
-    paper_id = Paper.id

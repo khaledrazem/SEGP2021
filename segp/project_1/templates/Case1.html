@@ -61,11 +61,14 @@
 					<input class="inputsearchbar" type="text" id="myInput" placeholder="Enter entity (maximum 3)">
 					<span onclick="newElement()" class="Add" id="newAdd">Add</span><br><br>
             </div>
-			
-			<div class="quicksearch">
-				<input type="checkbox" id="quicksearch" name="quicksearch" checked>
-				<label for="quicksearch">Quick Search</label><br><br>
-			</div>
+			<form id="input_form" method="GET" action="../Results1/">{% csrf_token %}
+                <input type="hidden" name="input_submitted" id="input_submitted"  value="">
+                <div class="quicksearch">
+                    <input type="checkbox" id="quicksearch" name="quicksearch" checked>
+                    <label for="quicksearch">Quick Search</label><br><br>
+			    </div>
+            </form>
+
 			
             </br>
             <div class="elist">
@@ -83,9 +86,7 @@
                 </li>
             </ul>
             </div>
-            <form id="input_form" method="POST" action="../Results1/">{% csrf_token %}
-                <input type="" name="input_submitted" id="input_submitted"  value="">
-            </form>
+
             <!--2nd title-->
             <!--POPULAR KEYWORDS to suggest to users-->
             <!--other features-->
