@@ -1,6 +1,43 @@
 {% load static %}
 
 <!DOCTYPE html>
+<script>
+		//Togglebar
+		function togglebar(){
+			var show = document.getElementById("likedlist");
+			if (window.getComputedStyle(show).display === "none") {
+				return openbar();
+				}
+			return closebar();
+		}
+
+		function openbar(){
+		document.getElementById("likelisttopic").style.display = "block";
+		document.getElementById("likedlist").style.display = "block";
+		}
+
+		function closebar(){
+		document.getElementById("likelisttopic").style.display = "none";
+		document.getElementById("likedlist").style.display = "none";
+		}
+
+		//function for collapsing sidebar depending screen size
+		function screenSize(x) {
+		if (x.matches) {
+			document.getElementById("likelisttopic").style.display = "none";
+			document.getElementById("likedlist").style.display = "none";
+		}
+
+		else {
+			document.getElementById("likelisttopic").style.display = "block";
+			document.getElementById("likedlist").style.display = "block";
+			}
+		}
+
+		var x = window.matchMedia("(max-width: 1030px)")
+		screenSize(x)
+		x.addListener(screenSize)
+</script>
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,11 +56,18 @@
         <div class="navbar">
             <!--nav bar contents-->
             <ul>
+                <li class="navlist">
+                    <button type="button" class ="fav" onclick="togglebar()">
+                    <div class= "menu"></div>
+                    <div class= "menu"></div>
+                    <div class= "menu"></div>
+                    </span>
+                </li>
                 <li class="navlist"><a class="WebName" href="../">
                     <i>Website Name.
                     </i>
                 </a></li>
-                <li class="navlist"><a class="navlink" href="/Topics">
+                <li class="navlist1"><a class="navlink" href="/Topics">
                     Topics
                 </li>
 				<li class="navlist"><a class="navlink" href="/About">
@@ -31,7 +75,7 @@
                 </li>
                 <!--add more if needed to nav bar-->
             </ul>
-        <!--nav bar div end-->    
+			<!--nav bar div end-->
         </div>
         
 			<img src="Graph.png">
@@ -51,19 +95,13 @@
 			
 			<!-- Like feature coding -->
 			<!-- List of liked words/phrases coding -->
-			<ul class="likelist">
-				<li><div class="like">Liked Lists e.g.</div></li>
-				<li>Deep Learning</li>
-				<li>BlockChain</li>
-				<li>Data Mining</li>
-				<li>Artifial Intelligence</li>
-				<li>Centralized</li>
-				<li>Decentralized</li>
-				<li>Internet security</li>
-				<li>Privacy</li>
-				<li>Solar Energy</li>
-				<li>Renewable Energy</li>
-			</ul>			
+			<ul class="likelisttopic" id="likelisttopic">
+			<li><div class="like">FAVOURITES</div></li>
+			<li><button onclick="refresh()"> Refresh </button>&nbsp&nbsp&nbsp&nbsp<button onclick="emtpylist()"> Clear </button></li>
+			</ul>
+            <!--Liked List-->
+            <ul class="likelist" id="likedlist">
+            </ul>
 			
 			
 			<table div class="tablepropertyV">

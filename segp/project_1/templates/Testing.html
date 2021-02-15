@@ -13,6 +13,45 @@
         <link rel="stylesheet" href="{% static 'research_styles.css' %}">
         <!--icon library-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--jquery-->
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <style>
+            .multiselect {
+              width: 200px;
+            }
+
+            .selectBox {
+              position: relative;
+            }
+
+            .selectBox select {
+              width: 100%;
+              font-weight: bold;
+            }
+
+            .overSelect {
+              position: absolute;
+              left: 0;
+              right: 0;
+              top: 0;
+              bottom: 0;
+            }
+
+            .checkboxes {
+              display: none;
+              border: 1px #dadada solid;
+            }
+
+            .checkboxes label {
+              display: block;
+            }
+
+            .checkboxes label:hover {
+              background-color: #1e90ff;
+            }
+        </style>
     </head>
 	
     <body>
@@ -49,14 +88,57 @@
             </p>
 			<p> To view more information about each entity, click on the respective entity, or click on more info
 			to view more info regarding both entities.</p>
-            <!--
-            list of entity pairings with the most compatible at the top 
-            
-			
-            Question:
-            Should the score be displayed here as well? e.g: next to each entity pair
-            -->
-			<p id="skip"></p>
+
+            <p id="skip"></p>
+            <form method="post" action="?"> {% csrf_token %}
+                <div class="multiselect">
+                 <div class="selectBox" onclick="showCheckboxes('checkboxes_topic_A')">
+                  <select>
+                    <option>Select Topic A</option>
+                  </select>
+                  <div class="overSelect"></div>
+                </div>
+                <div id="checkboxes_topic_A" class="checkboxes" style="width: 200px; height: 100px; overflow-y: scroll;">
+                    {% for x in subcategories_list %}
+                    <label for="A_{{x}}">
+                        <input type="checkbox" id="A_{{x}}" name="A_{{x}}" />{{x}}
+                    </label>
+                    {% endfor %}
+                </div>
+                <div class="selectBox" onclick="showCheckboxes('checkboxes_topic_B')">
+                  <select>
+                    <option>Select Topic B</option>
+                  </select>
+                  <div class="overSelect"></div>
+                </div>
+                <div id="checkboxes_topic_B" class="checkboxes">
+                    {% for x in subcategories_list %}
+                    <label for="B_{{x}}">
+                        <input type="checkbox" id="B_{{x}}" name="B_{{x}}" />{{x}}</label>
+                    {% endfor %}
+                </div>
+                <div class="selectBox" onclick="showCheckboxes('checkboxes_comparison_operators')">
+                  <select>
+                    <option>Select operators</option>
+                  </select>
+                  <div class="overSelect"></div>
+                </div>
+                <div id="checkboxes_comparison_operators" class="checkboxes">
+                    <label for= "<">
+                        <input type="checkbox" id="<" name="CO_smaller"/><</label>
+                    <label for=">">
+                        <input type="checkbox" id=">" name="CO_greater"/>></label>
+                    <label for="=">
+                        <input type="checkbox" id="=" name="CO_equal"/>=</label>
+                </div>
+                <div>
+                      <label for="score">Score (between 1 and 100):</label>
+                      <input type="number" id="score" name="score" min="1" max="5000">
+                </div>
+              </div>
+              <input type="submit" class ="submit" value="Submit">
+
+            </form>
             <table div class="tableproperty">
 				<tr div class="tabletopic">
 					<th>Topic A</th>
@@ -67,10 +149,10 @@
 				</tr>
 				{% for x,y in subcategories.realresult.zipped%}
 					<tr>
-						<td><a href="../Results2">{{x.0}}</a></td>
-						<td><a href="../Results2">{{x.1}}</a></td>
+                        <td><a href="../SingleCategoryResult/?category={{x.0}}">{{x.0}}</a></td>
+						<td><a href="../SingleCategoryResult/?&category={{x.1}}">{{x.1}}</a></td>
 						<td>{{y}}</td>
-						<td><a href="../Results2">more</a></td>
+						<td><a href="../SubcategoryCombination/?subcategory_1={{x.0}}&subcategory_2={{x.1}}">more</a></td>
 					</tr>
 				{% endfor %}
 			</table>
@@ -89,6 +171,19 @@
 		
 		
 		<script>
+
+            var expanded = false;
+
+            function showCheckboxes(x) {
+              var checkboxes = document.getElementById(x);
+              if (!expanded) {
+                checkboxes.style.display = "block";
+                expanded = true;
+              } else {
+                checkboxes.style.display = "none";
+                expanded = false;
+              }
+            }
 			
 			function add1() {
 				
