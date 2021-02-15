@@ -73,9 +73,9 @@
             </br>
             <div class="elist">
             <ul id="myUL" class="entities">
-                    <li class="entitylist">autopilot</li>
-                    <li class="entitylist">computer vision</li>
-                    <li class="entitylist">transportation</li>
+                    <li class="entitylist">Human Computer Interaction</li>
+                    <li class="entitylist">Internet of Thing</li>
+                    <li class="entitylist">Augmented Reality</li>
             </ul>
             <ul class="send">
                 <li>
@@ -209,7 +209,7 @@
 			    var str = "";
                 const lis = document.getElementById('myUL').getElementsByTagName('li');
                 for (let i = 0; i <= lis.length - 1; i++) {
-                lis[i].innerText = lis[i].innerText.slice(0, -1);
+                lis[i].innerText = lis[i].innerText.slice(0, -2);
                     str += ("\\n"+lis[i].innerText);
                 }
                 document.getElementById("input_submitted").value = str;

@@ -7,10 +7,10 @@ from paper.db_paper_keyword import *
 from combinations.models import keyword_combination
 
 # check if paper is legal
-def isLegalType(pageType):
+def isLegalType(page):
     legalTypes = ["journal", "book", "generic", "book_section", "working_paper", "thesis"]
     for x in legalTypes:
-        if (x == pageType):
+        if (x == page.type):
             return 1
     return 0
 
@@ -48,6 +48,7 @@ def calcAvgGrowth(years):
 
 # calculate and return growth and average publication scores
 def scoresList(queryList, quickSearch):
+    print(queryList)
     # dictionary containing lists needed to be returned
     results = {
         'singleTopics': queryList,
@@ -66,7 +67,7 @@ def scoresList(queryList, quickSearch):
     # calculate scores for all queries
     for query in results['allTopics']:
         if (isinstance(query, str)):
-            db_result = get_keyword_data(query.title())
+            db_result = get_keyword_data(query.title(),quickSearch)
             if (db_result != False):
                 keyword_result = {
                     'num_of_publication': db_result.total_publication,
@@ -79,10 +80,10 @@ def scoresList(queryList, quickSearch):
                 keyword_result = search(query, quickSearch)
             new_data = Keyword(name=query.title(), total_publication=keyword_result['num_of_publication'],
                                average_reader_count=keyword_result['average_reader_count'],
-                               score=keyword_result['query_marks'], growth=keyword_result['query_growth'])
+                               score=keyword_result['query_marks'], growth=keyword_result['query_growth'], quick_search_data=quickSearch)
             storeKeyword(new_data)
         elif (isinstance(query, tuple)):
-            db_comb_result = select_KeywordCombination(query[0].title(), query[1].title())
+            db_comb_result = select_KeywordCombination(query[0].title(), query[1].title(), quickSearch)
             if (db_comb_result != False):
                 keyword_result = {
                     'num_of_publication': db_comb_result.total_publication,
@@ -93,7 +94,7 @@ def scoresList(queryList, quickSearch):
                 }
             else:
                 keyword_result = search(query, quickSearch)
-            store_KeywordCombination(query_1=query[0].title(), query_2=query[1].title(), average_reader_count=keyword_result['average_reader_count'], total_publication=keyword_result['num_of_publication'], growth=keyword_result['query_growth'])
+            store_KeywordCombination(query_1=query[0].title(), query_2=query[1].title(), average_reader_count=keyword_result['average_reader_count'], total_publication=keyword_result['num_of_publication'], growth=keyword_result['query_growth'], quickSearch=quickSearch)
         for i in keyword_result['query_paper']:
             store_Paper(paper_title=i[2], paper_reader_count=i[0], paper_link=i[1], paper_year_published=i[3])
             if (isinstance(query, str)):
@@ -105,7 +106,16 @@ def scoresList(queryList, quickSearch):
         results['marks'].append(keyword_result['query_marks'])
         results['growth'].append(keyword_result['query_growth'])
     # zip results
+    all_query=[]
+    for i in results['singleTopics']:
+        if isinstance(i,str):
+            i=(i.title(),'-')
+        else:
+            i=(i[0].title,i[1].title)
+        all_query.append(i)
+    results['singleTopics']=all_query
     results['zipped'] = zip(results['singleTopics'], results['marks'])
+
     return results
 
 
@@ -117,7 +127,7 @@ def search(query, quickSearch):
     pubCount = 0
     searchNum = 0
     popular_article_list=[]
-    pages = session.catalog.advanced_search(source=query, min_year=getStartYear(fromYear), max_year=getEndYear(),
+    pages = session.catalog.advanced_search(title=query, min_year=getStartYear(fromYear), max_year=getEndYear(),
                                             view="stats")
     # initialise new years list
     i = 0
@@ -126,7 +136,7 @@ def search(query, quickSearch):
         years[i] = 0
         i += 1
     for page in pages.iter(page_size=100):
-        if isLegalType(page.type):
+        if isLegalType(page):
             pubCount += 1
             popular_article_list = popular_article(popular_article_list,page.reader_count,page.link,page.title,page.year)
             # calculate average reader count per year

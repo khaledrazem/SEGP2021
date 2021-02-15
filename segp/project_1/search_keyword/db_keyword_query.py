@@ -4,12 +4,13 @@ from datetime import datetime
 def storeKeyword(query):
     if isinDB(query.name):
         test = Keyword.objects.get(name=query.name)
-        if (~isUpdated(test)):
+        if ((isUpdated(test)==False) or (query.quick_search_data != test.quick_search_data)):
             test.last_update = getCurrentTime()
             test.score = query.score
             test.total_publication = query.total_publication
             test.average_reader_count = query.average_reader_count
             test.growth = query.growth
+            test.quick_search_data = query.quick_search_data
             test.save()
     else:
         keyword = query
@@ -23,8 +24,10 @@ def getCurrentTime():
 
 def isinDB(query):
     if (Keyword.objects.filter(name = query).exists()):
+        # print(query,"-> can be found")
         return True
     else:
+        # print(query, "-> can't be found")
         return False
 
 def isUpdated(query):
@@ -42,9 +45,20 @@ def isValid(query):
             return True
     return False
 
-def get_keyword_data(query_name):
+def get_keyword_data(query_name,quickSearch):
+    if isValid(query_name.title()):
+        result = Keyword.objects.get(name=query_name.title())
+        if (result.quick_search_data == quickSearch):
+            return result
+        else:
+            return False
+    else:
+        return False
+
+def db_get_keyword_data(query_name):
     if isValid(query_name.title()):
         result = Keyword.objects.get(name=query_name.title())
         return result
     else:
         return False
+

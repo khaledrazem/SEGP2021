@@ -1,0 +1,946 @@
+2021-02-01 19:45:47,945 - elsapy.elsclient - INFO - Module loaded.
+2021-02-01 19:45:47,947 - elsapy.elsentity - INFO - Module loaded.
+2021-02-01 19:45:47,948 - elsapy.utils - INFO - Module loaded.
+2021-02-01 19:45:47,948 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-01 19:45:47,950 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-01 19:45:47,951 - elsapy.elssearch - INFO - Module loaded.
+2021-02-01 19:47:03,642 - elsapy.elsclient - INFO - Module loaded.
+2021-02-01 19:47:03,644 - elsapy.elsentity - INFO - Module loaded.
+2021-02-01 19:47:03,646 - elsapy.utils - INFO - Module loaded.
+2021-02-01 19:47:03,647 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-01 19:47:03,669 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-01 19:47:03,670 - elsapy.elssearch - INFO - Module loaded.
+2021-02-01 19:47:50,412 - elsapy.elsclient - INFO - Module loaded.
+2021-02-01 19:47:50,415 - elsapy.elsentity - INFO - Module loaded.
+2021-02-01 19:47:50,416 - elsapy.utils - INFO - Module loaded.
+2021-02-01 19:47:50,416 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-01 19:47:50,418 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-01 19:47:50,418 - elsapy.elssearch - INFO - Module loaded.
+2021-02-01 19:47:55,013 - elsapy.elsclient - INFO - Module loaded.
+2021-02-01 19:47:55,015 - elsapy.elsentity - INFO - Module loaded.
+2021-02-01 19:47:55,016 - elsapy.utils - INFO - Module loaded.
+2021-02-01 19:47:55,016 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-01 19:47:55,017 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-01 19:47:55,019 - elsapy.elssearch - INFO - Module loaded.
+2021-02-01 19:49:25,990 - elsapy.elsclient - INFO - Module loaded.
+2021-02-01 19:49:25,992 - elsapy.elsentity - INFO - Module loaded.
+2021-02-01 19:49:25,993 - elsapy.utils - INFO - Module loaded.
+2021-02-01 19:49:25,993 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-01 19:49:25,995 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-01 19:49:25,996 - elsapy.elssearch - INFO - Module loaded.
+2021-02-01 19:49:41,473 - elsapy.elsclient - INFO - Module loaded.
+2021-02-01 19:49:41,475 - elsapy.elsentity - INFO - Module loaded.
+2021-02-01 19:49:41,476 - elsapy.utils - INFO - Module loaded.
+2021-02-01 19:49:41,477 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-01 19:49:41,478 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-01 19:49:41,479 - elsapy.elssearch - INFO - Module loaded.
+2021-02-01 19:49:47,540 - elsapy.elsclient - INFO - Module loaded.
+2021-02-01 19:49:47,543 - elsapy.elsentity - INFO - Module loaded.
+2021-02-01 19:49:47,544 - elsapy.utils - INFO - Module loaded.
+2021-02-01 19:49:47,544 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-01 19:49:47,546 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-01 19:49:47,547 - elsapy.elssearch - INFO - Module loaded.
+2021-02-01 19:50:43,742 - elsapy.elsclient - INFO - Module loaded.
+2021-02-01 19:50:43,744 - elsapy.elsentity - INFO - Module loaded.
+2021-02-01 19:50:43,745 - elsapy.utils - INFO - Module loaded.
+2021-02-01 19:50:43,745 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-01 19:50:43,764 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-01 19:50:43,766 - elsapy.elssearch - INFO - Module loaded.
+2021-02-01 19:51:56,667 - elsapy.elsclient - INFO - Module loaded.
+2021-02-01 19:51:56,670 - elsapy.elsentity - INFO - Module loaded.
+2021-02-01 19:51:56,671 - elsapy.utils - INFO - Module loaded.
+2021-02-01 19:51:56,671 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-01 19:51:56,689 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-01 19:51:56,690 - elsapy.elssearch - INFO - Module loaded.
+2021-02-01 19:51:59,853 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1145/504729.504754
+2021-02-01 19:52:01,255 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1145/504729.504754
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 19:52:01,256 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/j.tibtech.2013.03.002
+2021-02-01 19:52:04,190 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/j.tibtech.2013.03.002
+2021-02-01 19:52:04,193 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/j.tibtech.2013.03.002 to file
+2021-02-01 19:52:04,193 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/B978-0-12-812487-1.00011-9
+2021-02-01 19:52:05,681 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/B978-0-12-812487-1.00011-9
+2021-02-01 19:52:05,685 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/B978-0-12-812487-1.00011-9 to file
+2021-02-01 19:52:05,686 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/proc.1986.13656
+2021-02-01 19:52:06,937 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/proc.1986.13656
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 19:52:06,938 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.4324/9780429305153-18
+2021-02-01 19:52:08,102 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.4324/9780429305153-18
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 19:52:08,103 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1
+2021-02-01 19:52:08,518 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 19:52:08,518 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-03194-1_2
+2021-02-01 19:52:10,381 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-03194-1_2
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 19:52:10,381 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1002/anie.201800907
+2021-02-01 19:52:11,179 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1002/anie.201800907
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 19:52:11,180 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/MRA.2009.934833
+2021-02-01 19:52:12,765 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/MRA.2009.934833
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 19:52:12,766 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_72
+2021-02-01 19:52:14,340 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_72
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 19:52:14,341 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-00065-7
+2021-02-01 19:52:14,789 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-00065-7
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 19:52:14,790 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1177/0278364913495721
+2021-02-01 19:52:15,762 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1177/0278364913495721
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 19:52:15,764 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.32614/rj-2013-032
+2021-02-01 19:52:16,977 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.32614/rj-2013-032
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 19:52:16,978 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1002/anie.201006464
+2021-02-01 19:52:18,205 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1002/anie.201006464
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 19:52:18,206 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1177/0278364913491297
+2021-02-01 19:52:19,371 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1177/0278364913491297
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 19:52:19,372 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-540-30301-5
+2021-02-01 19:52:20,578 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-540-30301-5
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 19:54:25,606 - elsapy.elsclient - INFO - Module loaded.
+2021-02-01 19:54:25,625 - elsapy.elsentity - INFO - Module loaded.
+2021-02-01 19:54:25,627 - elsapy.utils - INFO - Module loaded.
+2021-02-01 19:54:25,627 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-01 19:54:25,629 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-01 19:54:25,630 - elsapy.elssearch - INFO - Module loaded.
+2021-02-01 19:55:33,736 - elsapy.elsclient - INFO - Module loaded.
+2021-02-01 19:55:33,738 - elsapy.elsentity - INFO - Module loaded.
+2021-02-01 19:55:33,739 - elsapy.utils - INFO - Module loaded.
+2021-02-01 19:55:33,739 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-01 19:55:33,758 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-01 19:55:33,759 - elsapy.elssearch - INFO - Module loaded.
+2021-02-01 19:55:41,884 - elsapy.elsclient - INFO - Module loaded.
+2021-02-01 19:55:41,885 - elsapy.elsentity - INFO - Module loaded.
+2021-02-01 19:55:41,886 - elsapy.utils - INFO - Module loaded.
+2021-02-01 19:55:41,887 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-01 19:55:41,888 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-01 19:55:41,888 - elsapy.elssearch - INFO - Module loaded.
+2021-02-01 19:55:45,956 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/10.1145/504729.504754
+2021-02-01 19:55:46,357 - elsapy.elsentity - WARNING - HTTP 400 Error from https://api.elsevier.com/content/abstract/scopus_id/10.1145/504729.504754
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"INVALID_INPUT","statusText":"No resource identifier provided"}}}
+2021-02-01 19:55:46,359 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/10.1016/j.tibtech.2013.03.002
+2021-02-01 19:55:47,557 - elsapy.elsentity - WARNING - HTTP 400 Error from https://api.elsevier.com/content/abstract/scopus_id/10.1016/j.tibtech.2013.03.002
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"INVALID_INPUT","statusText":"No resource identifier provided"}}}
+2021-02-01 19:55:47,558 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/10.1016/B978-0-12-812487-1.00011-9
+2021-02-01 19:55:47,940 - elsapy.elsentity - WARNING - HTTP 400 Error from https://api.elsevier.com/content/abstract/scopus_id/10.1016/B978-0-12-812487-1.00011-9
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"INVALID_INPUT","statusText":"No resource identifier provided"}}}
+2021-02-01 19:55:47,942 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/10.1109/proc.1986.13656
+2021-02-01 19:55:48,344 - elsapy.elsentity - WARNING - HTTP 400 Error from https://api.elsevier.com/content/abstract/scopus_id/10.1109/proc.1986.13656
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"INVALID_INPUT","statusText":"No resource identifier provided"}}}
+2021-02-01 19:55:48,346 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/10.4324/9780429305153-18
+2021-02-01 19:55:49,488 - elsapy.elsentity - WARNING - HTTP 400 Error from https://api.elsevier.com/content/abstract/scopus_id/10.4324/9780429305153-18
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"INVALID_INPUT","statusText":"No resource identifier provided"}}}
+2021-02-01 19:55:49,491 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/10.1007/978-3-319-32552-1
+2021-02-01 19:55:49,899 - elsapy.elsentity - WARNING - HTTP 400 Error from https://api.elsevier.com/content/abstract/scopus_id/10.1007/978-3-319-32552-1
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"INVALID_INPUT","statusText":"No resource identifier provided"}}}
+2021-02-01 19:55:49,902 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/10.1007/978-3-319-03194-1_2
+2021-02-01 19:55:50,295 - elsapy.elsentity - WARNING - HTTP 400 Error from https://api.elsevier.com/content/abstract/scopus_id/10.1007/978-3-319-03194-1_2
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"INVALID_INPUT","statusText":"No resource identifier provided"}}}
+2021-02-01 19:55:50,297 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/10.1002/anie.201800907
+2021-02-01 19:55:50,731 - elsapy.elsentity - WARNING - HTTP 400 Error from https://api.elsevier.com/content/abstract/scopus_id/10.1002/anie.201800907
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"INVALID_INPUT","statusText":"No resource identifier provided"}}}
+2021-02-01 19:55:50,733 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/10.1109/MRA.2009.934833
+2021-02-01 19:55:51,831 - elsapy.elsentity - WARNING - HTTP 400 Error from https://api.elsevier.com/content/abstract/scopus_id/10.1109/MRA.2009.934833
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"INVALID_INPUT","statusText":"No resource identifier provided"}}}
+2021-02-01 19:55:51,834 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/10.1007/978-3-319-32552-1_72
+2021-02-01 19:55:52,961 - elsapy.elsentity - WARNING - HTTP 400 Error from https://api.elsevier.com/content/abstract/scopus_id/10.1007/978-3-319-32552-1_72
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"INVALID_INPUT","statusText":"No resource identifier provided"}}}
+2021-02-01 19:55:52,964 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/10.1007/978-3-319-00065-7
+2021-02-01 19:55:53,396 - elsapy.elsentity - WARNING - HTTP 400 Error from https://api.elsevier.com/content/abstract/scopus_id/10.1007/978-3-319-00065-7
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"INVALID_INPUT","statusText":"No resource identifier provided"}}}
+2021-02-01 19:55:53,398 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/10.1177/0278364913495721
+2021-02-01 19:55:53,789 - elsapy.elsentity - WARNING - HTTP 400 Error from https://api.elsevier.com/content/abstract/scopus_id/10.1177/0278364913495721
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"INVALID_INPUT","statusText":"No resource identifier provided"}}}
+2021-02-01 19:55:53,791 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/10.32614/rj-2013-032
+2021-02-01 19:55:54,267 - elsapy.elsentity - WARNING - HTTP 400 Error from https://api.elsevier.com/content/abstract/scopus_id/10.32614/rj-2013-032
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"INVALID_INPUT","statusText":"No resource identifier provided"}}}
+2021-02-01 19:55:54,269 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/10.1002/anie.201006464
+2021-02-01 19:55:55,018 - elsapy.elsentity - WARNING - HTTP 400 Error from https://api.elsevier.com/content/abstract/scopus_id/10.1002/anie.201006464
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"INVALID_INPUT","statusText":"No resource identifier provided"}}}
+2021-02-01 19:55:55,022 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/10.1177/0278364913491297
+2021-02-01 19:55:55,483 - elsapy.elsentity - WARNING - HTTP 400 Error from https://api.elsevier.com/content/abstract/scopus_id/10.1177/0278364913491297
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"INVALID_INPUT","statusText":"No resource identifier provided"}}}
+2021-02-01 19:55:55,485 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/10.1007/978-3-540-30301-5
+2021-02-01 19:55:55,907 - elsapy.elsentity - WARNING - HTTP 400 Error from https://api.elsevier.com/content/abstract/scopus_id/10.1007/978-3-540-30301-5
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"INVALID_INPUT","statusText":"No resource identifier provided"}}}
+2021-02-01 20:04:59,929 - elsapy.elsclient - INFO - Module loaded.
+2021-02-01 20:04:59,932 - elsapy.elsentity - INFO - Module loaded.
+2021-02-01 20:04:59,933 - elsapy.utils - INFO - Module loaded.
+2021-02-01 20:04:59,933 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-01 20:04:59,961 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-01 20:04:59,963 - elsapy.elssearch - INFO - Module loaded.
+2021-02-01 20:05:04,900 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/2-s2.0-0242681379
+2021-02-01 20:05:05,573 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/abstract/scopus_id/2-s2.0-0242681379
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:05:05,574 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/2-s2.0-84876723097
+2021-02-01 20:05:07,389 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/abstract/scopus_id/2-s2.0-84876723097
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:05:07,390 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/2-s2.0-85081322414
+2021-02-01 20:05:08,972 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/abstract/scopus_id/2-s2.0-85081322414
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:05:08,973 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/2-s2.0-0021430608
+2021-02-01 20:05:10,259 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/abstract/scopus_id/2-s2.0-0021430608
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:05:10,260 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/2-s2.0-85084900910
+2021-02-01 20:05:10,755 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/abstract/scopus_id/2-s2.0-85084900910
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:05:10,756 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/2-s2.0-85068821810
+2021-02-01 20:05:12,050 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/abstract/scopus_id/2-s2.0-85068821810
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:05:12,051 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/2-s2.0-84927632578
+2021-02-01 20:05:16,346 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/abstract/scopus_id/2-s2.0-84927632578
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:05:16,347 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/2-s2.0-85045270949
+2021-02-01 20:05:17,758 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/abstract/scopus_id/2-s2.0-85045270949
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:05:17,759 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/2-s2.0-85008020070
+2021-02-01 20:05:19,068 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/abstract/scopus_id/2-s2.0-85008020070
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:05:19,069 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/2-s2.0-85020390181
+2021-02-01 20:05:24,339 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/abstract/scopus_id/2-s2.0-85020390181
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:07:31,811 - elsapy.elsclient - INFO - Module loaded.
+2021-02-01 20:07:31,814 - elsapy.elsentity - INFO - Module loaded.
+2021-02-01 20:07:31,816 - elsapy.utils - INFO - Module loaded.
+2021-02-01 20:07:31,817 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-01 20:07:31,839 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-01 20:07:31,841 - elsapy.elssearch - INFO - Module loaded.
+2021-02-01 20:10:12,519 - elsapy.elsclient - INFO - Module loaded.
+2021-02-01 20:10:12,521 - elsapy.elsentity - INFO - Module loaded.
+2021-02-01 20:10:12,543 - elsapy.utils - INFO - Module loaded.
+2021-02-01 20:10:12,544 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-01 20:10:12,546 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-01 20:10:12,549 - elsapy.elssearch - INFO - Module loaded.
+2021-02-01 20:13:15,543 - elsapy.elsclient - INFO - Module loaded.
+2021-02-01 20:13:15,545 - elsapy.elsentity - INFO - Module loaded.
+2021-02-01 20:13:15,546 - elsapy.utils - INFO - Module loaded.
+2021-02-01 20:13:15,546 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-01 20:13:15,565 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-01 20:13:15,566 - elsapy.elssearch - INFO - Module loaded.
+2021-02-01 20:13:18,512 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1145/504729.504754
+2021-02-01 20:13:18,989 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1145/504729.504754
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:13:18,990 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/j.tibtech.2013.03.002
+2021-02-01 20:13:24,909 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/j.tibtech.2013.03.002
+2021-02-01 20:13:24,915 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/j.tibtech.2013.03.002 to file
+2021-02-01 20:13:24,916 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/B978-0-12-812487-1.00011-9
+2021-02-01 20:13:25,666 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/B978-0-12-812487-1.00011-9
+2021-02-01 20:13:25,669 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/B978-0-12-812487-1.00011-9 to file
+2021-02-01 20:13:25,670 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/proc.1986.13656
+2021-02-01 20:13:26,077 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/proc.1986.13656
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:13:26,078 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.4324/9780429305153-18
+2021-02-01 20:13:27,254 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.4324/9780429305153-18
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:13:27,255 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1
+2021-02-01 20:13:28,476 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:13:28,477 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-03194-1_2
+2021-02-01 20:13:28,898 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-03194-1_2
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:13:28,899 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1002/anie.201800907
+2021-02-01 20:13:30,159 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1002/anie.201800907
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:13:30,160 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/MRA.2009.934833
+2021-02-01 20:13:31,417 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/MRA.2009.934833
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:13:31,418 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_72
+2021-02-01 20:13:32,561 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_72
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:13:32,561 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-00065-7
+2021-02-01 20:13:32,996 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-00065-7
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:13:32,997 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1177/0278364913495721
+2021-02-01 20:13:34,347 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1177/0278364913495721
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:13:34,348 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.32614/rj-2013-032
+2021-02-01 20:13:35,557 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.32614/rj-2013-032
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:13:35,557 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1002/anie.201006464
+2021-02-01 20:13:35,986 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1002/anie.201006464
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:13:35,987 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1177/0278364913491297
+2021-02-01 20:13:37,199 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1177/0278364913491297
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:13:37,200 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-540-30301-5
+2021-02-01 20:13:38,458 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-540-30301-5
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:14:10,989 - elsapy.elsclient - INFO - Module loaded.
+2021-02-01 20:14:10,991 - elsapy.elsentity - INFO - Module loaded.
+2021-02-01 20:14:10,992 - elsapy.utils - INFO - Module loaded.
+2021-02-01 20:14:10,993 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-01 20:14:11,014 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-01 20:14:11,015 - elsapy.elssearch - INFO - Module loaded.
+2021-02-01 20:14:13,980 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1145/504729.504754
+2021-02-01 20:14:15,147 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1145/504729.504754
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:14:15,148 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/j.tibtech.2013.03.002
+2021-02-01 20:14:16,590 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/j.tibtech.2013.03.002
+2021-02-01 20:14:16,593 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/j.tibtech.2013.03.002 to file
+2021-02-01 20:14:16,593 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/B978-0-12-812487-1.00011-9
+2021-02-01 20:14:18,704 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/B978-0-12-812487-1.00011-9
+2021-02-01 20:14:18,707 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/B978-0-12-812487-1.00011-9 to file
+2021-02-01 20:14:18,707 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/proc.1986.13656
+2021-02-01 20:14:19,100 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/proc.1986.13656
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:14:19,102 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.4324/9780429305153-18
+2021-02-01 20:14:19,499 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.4324/9780429305153-18
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:14:19,499 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1
+2021-02-01 20:14:19,990 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:14:19,991 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-03194-1_2
+2021-02-01 20:14:20,458 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-03194-1_2
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:14:20,458 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1002/anie.201800907
+2021-02-01 20:14:21,641 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1002/anie.201800907
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:14:21,642 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/MRA.2009.934833
+2021-02-01 20:14:22,076 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/MRA.2009.934833
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:14:22,077 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_72
+2021-02-01 20:14:22,472 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_72
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:14:22,473 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-00065-7
+2021-02-01 20:14:22,883 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-00065-7
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:14:22,883 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1177/0278364913495721
+2021-02-01 20:14:23,383 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1177/0278364913495721
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:14:23,383 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.32614/rj-2013-032
+2021-02-01 20:14:23,775 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.32614/rj-2013-032
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:14:23,776 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1002/anie.201006464
+2021-02-01 20:14:24,196 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1002/anie.201006464
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:14:24,197 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1177/0278364913491297
+2021-02-01 20:14:24,605 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1177/0278364913491297
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:14:24,606 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-540-30301-5
+2021-02-01 20:14:25,026 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-540-30301-5
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:15:25,348 - elsapy.elsclient - INFO - Module loaded.
+2021-02-01 20:15:25,350 - elsapy.elsentity - INFO - Module loaded.
+2021-02-01 20:15:25,352 - elsapy.utils - INFO - Module loaded.
+2021-02-01 20:15:25,352 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-01 20:15:25,370 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-01 20:15:25,371 - elsapy.elssearch - INFO - Module loaded.
+2021-02-01 20:15:29,410 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1145/504729.504754
+2021-02-01 20:15:30,002 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1145/504729.504754
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:15:30,004 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/j.tibtech.2013.03.002
+2021-02-01 20:15:31,623 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/j.tibtech.2013.03.002
+2021-02-01 20:15:31,626 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/j.tibtech.2013.03.002 to file
+2021-02-01 20:15:31,627 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/B978-0-12-812487-1.00011-9
+2021-02-01 20:15:32,367 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/B978-0-12-812487-1.00011-9
+2021-02-01 20:15:32,372 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/B978-0-12-812487-1.00011-9 to file
+2021-02-01 20:15:32,372 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/proc.1986.13656
+2021-02-01 20:15:33,523 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/proc.1986.13656
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:15:33,523 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.4324/9780429305153-18
+2021-02-01 20:15:34,030 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.4324/9780429305153-18
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:15:34,030 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1
+2021-02-01 20:15:34,452 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:15:34,453 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-03194-1_2
+2021-02-01 20:15:34,872 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-03194-1_2
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:15:34,872 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1002/anie.201800907
+2021-02-01 20:15:35,302 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1002/anie.201800907
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:15:35,303 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/MRA.2009.934833
+2021-02-01 20:15:36,521 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/MRA.2009.934833
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:15:36,522 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_72
+2021-02-01 20:15:37,653 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_72
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:15:37,654 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-00065-7
+2021-02-01 20:15:38,086 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-00065-7
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:15:38,087 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1177/0278364913495721
+2021-02-01 20:15:38,523 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1177/0278364913495721
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:15:38,524 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.32614/rj-2013-032
+2021-02-01 20:15:38,937 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.32614/rj-2013-032
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:15:38,938 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1002/anie.201006464
+2021-02-01 20:15:39,364 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1002/anie.201006464
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:15:39,365 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1177/0278364913491297
+2021-02-01 20:15:39,776 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1177/0278364913491297
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:15:39,777 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-540-30301-5
+2021-02-01 20:15:40,196 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-540-30301-5
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:17:47,415 - elsapy.elsclient - INFO - Module loaded.
+2021-02-01 20:17:47,418 - elsapy.elsentity - INFO - Module loaded.
+2021-02-01 20:17:47,438 - elsapy.utils - INFO - Module loaded.
+2021-02-01 20:17:47,438 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-01 20:17:47,440 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-01 20:17:47,442 - elsapy.elssearch - INFO - Module loaded.
+2021-02-01 20:18:49,340 - elsapy.elsclient - INFO - Module loaded.
+2021-02-01 20:18:49,364 - elsapy.elsentity - INFO - Module loaded.
+2021-02-01 20:18:49,366 - elsapy.utils - INFO - Module loaded.
+2021-02-01 20:18:49,367 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-01 20:18:49,368 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-01 20:18:49,370 - elsapy.elssearch - INFO - Module loaded.
+2021-02-01 20:18:52,392 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1145/504729.504754
+2021-02-01 20:18:52,941 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1145/504729.504754
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:18:52,942 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/j.tibtech.2013.03.002
+2021-02-01 20:18:53,754 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/j.tibtech.2013.03.002
+2021-02-01 20:18:53,757 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/j.tibtech.2013.03.002 to file
+2021-02-01 20:18:53,757 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/B978-0-12-812487-1.00011-9
+2021-02-01 20:18:55,133 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/B978-0-12-812487-1.00011-9
+2021-02-01 20:18:55,136 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/B978-0-12-812487-1.00011-9 to file
+2021-02-01 20:18:55,136 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/proc.1986.13656
+2021-02-01 20:18:55,586 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/proc.1986.13656
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:18:55,586 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.4324/9780429305153-18
+2021-02-01 20:18:56,002 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.4324/9780429305153-18
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:18:56,003 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1
+2021-02-01 20:18:56,437 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:18:56,438 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-03194-1_2
+2021-02-01 20:18:56,890 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-03194-1_2
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:18:56,891 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1002/anie.201800907
+2021-02-01 20:18:57,387 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1002/anie.201800907
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:18:57,388 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/MRA.2009.934833
+2021-02-01 20:18:58,542 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/MRA.2009.934833
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:18:58,542 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_72
+2021-02-01 20:18:58,971 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_72
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:18:58,972 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-00065-7
+2021-02-01 20:18:59,374 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-00065-7
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:18:59,375 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1177/0278364913495721
+2021-02-01 20:18:59,768 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1177/0278364913495721
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:18:59,769 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.32614/rj-2013-032
+2021-02-01 20:19:00,200 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.32614/rj-2013-032
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:19:00,201 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1002/anie.201006464
+2021-02-01 20:19:00,599 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1002/anie.201006464
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:19:00,600 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1177/0278364913491297
+2021-02-01 20:19:01,016 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1177/0278364913491297
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:19:01,017 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-540-30301-5
+2021-02-01 20:19:01,728 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-540-30301-5
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:19:01,728 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1561/2300000021
+2021-02-01 20:19:02,899 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1561/2300000021
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:19:02,900 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1126/scirobotics.aar7650
+2021-02-01 20:19:03,353 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1126/scirobotics.aar7650
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:19:03,354 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1017/9781316671528
+2021-02-01 20:19:03,816 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1017/9781316671528
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:19:03,816 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-642-25486-4
+2021-02-01 20:19:04,227 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-642-25486-4
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:19:04,228 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/tac.1987.1104613
+2021-02-01 20:19:04,664 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/tac.1987.1104613
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:19:04,665 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/ICORR.2005.1501143
+2021-02-01 20:19:05,805 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/ICORR.2005.1501143
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:19:05,805 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.4249/scholarpedia.1463
+2021-02-01 20:19:06,220 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.4249/scholarpedia.1463
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:19:06,221 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-1-4302-3184-4
+2021-02-01 20:19:06,671 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-1-4302-3184-4
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:19:06,672 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/s0005-1098(02)00169-3
+2021-02-01 20:19:08,213 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/s0005-1098(02)00169-3
+2021-02-01 20:19:08,216 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/s0005-1098(02)00169-3 to file
+2021-02-01 20:19:08,217 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1177/0278364918770733
+2021-02-01 20:19:08,653 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1177/0278364918770733
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:19:08,654 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1038/s41928-018-0024-1
+2021-02-01 20:19:09,086 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1038/s41928-018-0024-1
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:19:09,087 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-662-05099-6
+2021-02-01 20:19:09,631 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-662-05099-6
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:19:09,631 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1002/adma.201603483
+2021-02-01 20:19:10,084 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1002/adma.201603483
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:19:10,085 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1201/9781420039733
+2021-02-01 20:19:10,510 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1201/9781420039733
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:19:10,511 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1038/s41578-018-0022-y
+2021-02-01 20:19:10,956 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1038/s41578-018-0022-y
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:19:10,957 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/TASE.2014.2376492
+2021-02-01 20:19:11,389 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/TASE.2014.2376492
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:19:11,390 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/j.robot.2013.09.004
+2021-02-01 20:19:12,275 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/j.robot.2013.09.004
+2021-02-01 20:19:12,277 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/j.robot.2013.09.004 to file
+2021-02-01 20:19:12,278 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_54
+2021-02-01 20:19:12,758 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_54
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:19:12,759 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_76
+2021-02-01 20:19:13,255 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_76
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:19:13,256 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/mcs.1987.1105394
+2021-02-01 20:19:13,687 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/mcs.1987.1105394
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:19:13,688 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/j.dt.2013.03.001
+2021-02-01 20:19:15,723 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/j.dt.2013.03.001
+2021-02-01 20:19:15,728 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/j.dt.2013.03.001 to file
+2021-02-01 20:19:15,729 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/TAMD.2009.2021702
+2021-02-01 20:19:16,148 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/TAMD.2009.2021702
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:19:16,149 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/j.cub.2014.07.058
+2021-02-01 20:19:17,081 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/j.cub.2014.07.058
+2021-02-01 20:19:17,089 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/j.cub.2014.07.058 to file
+2021-02-01 20:19:17,090 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-62533-1
+2021-02-01 20:19:17,528 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-62533-1
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:20:19,504 - elsapy.elsclient - INFO - Module loaded.
+2021-02-01 20:20:19,508 - elsapy.elsentity - INFO - Module loaded.
+2021-02-01 20:20:19,511 - elsapy.utils - INFO - Module loaded.
+2021-02-01 20:20:19,512 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-01 20:20:19,532 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-01 20:20:19,534 - elsapy.elssearch - INFO - Module loaded.
+2021-02-01 20:21:12,068 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1145/504729.504754
+2021-02-01 20:21:12,489 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1145/504729.504754
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:12,491 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/j.tibtech.2013.03.002
+2021-02-01 20:21:13,150 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/j.tibtech.2013.03.002
+2021-02-01 20:21:13,153 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/j.tibtech.2013.03.002 to file
+2021-02-01 20:21:13,153 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/B978-0-12-812487-1.00011-9
+2021-02-01 20:21:14,241 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/B978-0-12-812487-1.00011-9
+2021-02-01 20:21:14,243 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/B978-0-12-812487-1.00011-9 to file
+2021-02-01 20:21:14,243 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/proc.1986.13656
+2021-02-01 20:21:14,697 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/proc.1986.13656
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:14,697 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.4324/9780429305153-18
+2021-02-01 20:21:15,106 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.4324/9780429305153-18
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:15,106 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1
+2021-02-01 20:21:15,515 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:15,516 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-03194-1_2
+2021-02-01 20:21:15,920 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-03194-1_2
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:15,922 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1002/anie.201800907
+2021-02-01 20:21:16,343 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1002/anie.201800907
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:16,345 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/MRA.2009.934833
+2021-02-01 20:21:16,765 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/MRA.2009.934833
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:16,766 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_72
+2021-02-01 20:21:17,197 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_72
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:17,197 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-00065-7
+2021-02-01 20:21:17,609 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-00065-7
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:17,610 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1177/0278364913495721
+2021-02-01 20:21:18,018 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1177/0278364913495721
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:18,019 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.32614/rj-2013-032
+2021-02-01 20:21:18,460 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.32614/rj-2013-032
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:18,460 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1002/anie.201006464
+2021-02-01 20:21:18,860 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1002/anie.201006464
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:18,861 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1177/0278364913491297
+2021-02-01 20:21:19,264 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1177/0278364913491297
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:19,265 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-540-30301-5
+2021-02-01 20:21:19,730 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-540-30301-5
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:19,732 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1561/2300000021
+2021-02-01 20:21:20,894 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1561/2300000021
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:20,894 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1126/scirobotics.aar7650
+2021-02-01 20:21:21,308 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1126/scirobotics.aar7650
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:21,308 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1017/9781316671528
+2021-02-01 20:21:21,708 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1017/9781316671528
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:21,708 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-642-25486-4
+2021-02-01 20:21:22,162 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-642-25486-4
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:22,163 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/tac.1987.1104613
+2021-02-01 20:21:22,570 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/tac.1987.1104613
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:22,570 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/ICORR.2005.1501143
+2021-02-01 20:21:23,009 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/ICORR.2005.1501143
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:23,010 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.4249/scholarpedia.1463
+2021-02-01 20:21:23,415 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.4249/scholarpedia.1463
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:23,416 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-1-4302-3184-4
+2021-02-01 20:21:23,840 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-1-4302-3184-4
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:23,840 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/s0005-1098(02)00169-3
+2021-02-01 20:21:24,430 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/s0005-1098(02)00169-3
+2021-02-01 20:21:24,435 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/s0005-1098(02)00169-3 to file
+2021-02-01 20:21:24,436 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1177/0278364918770733
+2021-02-01 20:21:24,825 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1177/0278364918770733
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:24,826 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1038/s41928-018-0024-1
+2021-02-01 20:21:25,230 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1038/s41928-018-0024-1
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:25,230 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-662-05099-6
+2021-02-01 20:21:25,633 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-662-05099-6
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:25,633 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1002/adma.201603483
+2021-02-01 20:21:26,081 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1002/adma.201603483
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:26,082 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1201/9781420039733
+2021-02-01 20:21:26,485 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1201/9781420039733
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:26,487 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1038/s41578-018-0022-y
+2021-02-01 20:21:26,902 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1038/s41578-018-0022-y
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:26,902 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/TASE.2014.2376492
+2021-02-01 20:21:27,317 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/TASE.2014.2376492
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:27,318 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/j.robot.2013.09.004
+2021-02-01 20:21:28,258 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/j.robot.2013.09.004
+2021-02-01 20:21:28,261 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/j.robot.2013.09.004 to file
+2021-02-01 20:21:28,261 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_54
+2021-02-01 20:21:28,679 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_54
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:28,680 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_76
+2021-02-01 20:21:29,132 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_76
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:29,134 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/mcs.1987.1105394
+2021-02-01 20:21:30,435 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/mcs.1987.1105394
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:30,436 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/j.dt.2013.03.001
+2021-02-01 20:21:33,669 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/j.dt.2013.03.001
+2021-02-01 20:21:33,677 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/j.dt.2013.03.001 to file
+2021-02-01 20:21:33,678 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/TAMD.2009.2021702
+2021-02-01 20:21:34,089 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/TAMD.2009.2021702
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:21:34,090 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/j.cub.2014.07.058
+2021-02-01 20:21:35,148 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/j.cub.2014.07.058
+2021-02-01 20:21:35,155 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/j.cub.2014.07.058 to file
+2021-02-01 20:21:35,156 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-62533-1
+2021-02-01 20:21:35,578 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-62533-1
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:16,361 - elsapy.elsclient - INFO - Module loaded.
+2021-02-01 20:25:16,364 - elsapy.elsentity - INFO - Module loaded.
+2021-02-01 20:25:16,366 - elsapy.utils - INFO - Module loaded.
+2021-02-01 20:25:16,367 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-01 20:25:16,385 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-01 20:25:16,387 - elsapy.elssearch - INFO - Module loaded.
+2021-02-01 20:25:19,731 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1145/504729.504754
+2021-02-01 20:25:20,293 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1145/504729.504754
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:20,295 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/j.tibtech.2013.03.002
+2021-02-01 20:25:21,486 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/j.tibtech.2013.03.002
+2021-02-01 20:25:21,494 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/j.tibtech.2013.03.002 to file
+2021-02-01 20:25:21,495 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/B978-0-12-812487-1.00011-9
+2021-02-01 20:25:22,304 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/B978-0-12-812487-1.00011-9
+2021-02-01 20:25:22,306 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/B978-0-12-812487-1.00011-9 to file
+2021-02-01 20:25:22,307 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/proc.1986.13656
+2021-02-01 20:25:22,695 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/proc.1986.13656
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:22,697 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.4324/9780429305153-18
+2021-02-01 20:25:23,122 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.4324/9780429305153-18
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:23,124 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1
+2021-02-01 20:25:23,567 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:23,568 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-03194-1_2
+2021-02-01 20:25:24,023 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-03194-1_2
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:24,026 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1002/anie.201800907
+2021-02-01 20:25:24,459 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1002/anie.201800907
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:24,462 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/MRA.2009.934833
+2021-02-01 20:25:24,866 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/MRA.2009.934833
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:24,868 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_72
+2021-02-01 20:25:25,280 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_72
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:25,281 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-00065-7
+2021-02-01 20:25:25,715 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-00065-7
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:25,716 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1177/0278364913495721
+2021-02-01 20:25:26,241 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1177/0278364913495721
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:26,242 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.32614/rj-2013-032
+2021-02-01 20:25:26,664 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.32614/rj-2013-032
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:26,666 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1002/anie.201006464
+2021-02-01 20:25:27,087 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1002/anie.201006464
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:27,088 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1177/0278364913491297
+2021-02-01 20:25:27,560 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1177/0278364913491297
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:27,562 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-540-30301-5
+2021-02-01 20:25:27,939 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-540-30301-5
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:27,941 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1561/2300000021
+2021-02-01 20:25:28,339 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1561/2300000021
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:28,341 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1126/scirobotics.aar7650
+2021-02-01 20:25:28,751 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1126/scirobotics.aar7650
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:28,753 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1017/9781316671528
+2021-02-01 20:25:29,175 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1017/9781316671528
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:29,178 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-642-25486-4
+2021-02-01 20:25:29,622 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-642-25486-4
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:29,623 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/tac.1987.1104613
+2021-02-01 20:25:30,021 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/tac.1987.1104613
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:30,023 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/ICORR.2005.1501143
+2021-02-01 20:25:30,484 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/ICORR.2005.1501143
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:30,486 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.4249/scholarpedia.1463
+2021-02-01 20:25:30,929 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.4249/scholarpedia.1463
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:30,931 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-1-4302-3184-4
+2021-02-01 20:25:31,351 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-1-4302-3184-4
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:31,353 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/s0005-1098(02)00169-3
+2021-02-01 20:25:33,129 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/s0005-1098(02)00169-3
+2021-02-01 20:25:33,132 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/s0005-1098(02)00169-3 to file
+2021-02-01 20:25:33,132 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1177/0278364918770733
+2021-02-01 20:25:33,543 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1177/0278364918770733
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:33,545 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1038/s41928-018-0024-1
+2021-02-01 20:25:33,949 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1038/s41928-018-0024-1
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:33,950 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-662-05099-6
+2021-02-01 20:25:34,347 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-662-05099-6
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:34,349 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1002/adma.201603483
+2021-02-01 20:25:34,745 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1002/adma.201603483
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:34,746 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1201/9781420039733
+2021-02-01 20:25:35,180 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1201/9781420039733
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:35,182 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1038/s41578-018-0022-y
+2021-02-01 20:25:35,604 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1038/s41578-018-0022-y
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:35,605 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/TASE.2014.2376492
+2021-02-01 20:25:35,993 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/TASE.2014.2376492
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:35,995 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/j.robot.2013.09.004
+2021-02-01 20:25:36,755 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/j.robot.2013.09.004
+2021-02-01 20:25:36,761 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/j.robot.2013.09.004 to file
+2021-02-01 20:25:36,761 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_54
+2021-02-01 20:25:37,176 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_54
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:37,178 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_76
+2021-02-01 20:25:37,596 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-32552-1_76
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:37,598 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/mcs.1987.1105394
+2021-02-01 20:25:38,008 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/mcs.1987.1105394
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:38,009 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/j.dt.2013.03.001
+2021-02-01 20:25:39,274 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/j.dt.2013.03.001
+2021-02-01 20:25:39,282 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/j.dt.2013.03.001 to file
+2021-02-01 20:25:39,284 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1109/TAMD.2009.2021702
+2021-02-01 20:25:39,735 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1109/TAMD.2009.2021702
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}
+2021-02-01 20:25:39,736 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/j.cub.2014.07.058
+2021-02-01 20:25:40,762 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/j.cub.2014.07.058
+2021-02-01 20:25:40,769 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/j.cub.2014.07.058 to file
+2021-02-01 20:25:40,769 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1007/978-3-319-62533-1
+2021-02-01 20:25:41,191 - elsapy.elsentity - WARNING - HTTP 404 Error from https://api.elsevier.com/content/article/doi/10.1007/978-3-319-62533-1
+and using headers {'X-ELS-APIKey': '7a286322cb3559da3442a03892947ae4', 'User-Agent': 'elsapy-v0.5.0', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"RESOURCE_NOT_FOUND","statusText":"The resource specified cannot be found."}}}

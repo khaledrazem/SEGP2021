@@ -61,7 +61,7 @@ def isValid_Paper(paper_title):
 
 def store_Paper(paper_title,paper_reader_count,paper_link,paper_year_published):
     if isinDB_Paper(paper_title):
-        if (~ isUpdated_Paper(paper_title)):
+        if (isUpdated_Paper(paper_title) == False):
             update_Paper(paper_title,paper_reader_count,paper_link,paper_year_published)
     else:
         insert_Paper(paper_title, paper_reader_count, paper_link,paper_year_published)
