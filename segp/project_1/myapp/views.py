@@ -56,7 +56,7 @@ def testing(request):
                 comparison_operator.append(i.replace("CO_",""))
             elif "score" in i:
                 score = request.POST[i]
-        
+
         subcategory = filterSubcat(query_A,query_B,comparison_operator,score,True)
 
 
@@ -120,6 +120,9 @@ def subcategory_combination_result(request):
     if request.method == 'GET':
         query_1 = str(request.GET['subcategory_1'])
         query_2 = str(request.GET['subcategory_2'])
+        
+        print(query_1)
+        
         result_keyword = db_subcategory_combination.selectComb(query_1,query_2)
         related_paper = db_paper_subcategory.get_related_paper_with_subcategory_combination(query_1,query_2)
         graph = plotGraph(query_1, query_2)

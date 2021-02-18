@@ -7,8 +7,10 @@ from paper.db_paper import *
 from paper.db_paper_subcategory import *
 from .elsevier_test import *
 import time
+import os
 
 def getTrend(subcat,quick,growth_query,authorscore_query,readercount_query):
+    os.system('cls')
     start = time.time()
     trend = []
     topsubcat = []
@@ -108,6 +110,8 @@ def topCombination(subset,quick,growth_query,authorscore_query,readercount_query
         if status < 2:
             pages = session.catalog.advanced_search(title=x, view="stats")
             authorList=[]
+            fname = []
+            lname = []
             
             a = 0
             fromYear=500
@@ -117,6 +121,7 @@ def topCombination(subset,quick,growth_query,authorscore_query,readercount_query
                 a += 1
             
             for page in pages.iter(page_size=100):
+                complete = 0
                 if isLegalType(page):
                     reader += page.reader_count
                     count += 1
@@ -130,27 +135,43 @@ def topCombination(subset,quick,growth_query,authorscore_query,readercount_query
                                 last_name = authorName.last_name
                             else:
                                 last_name = ""
+                            
                             if authorName.first_name != None:
                                 first_name = authorName.first_name
                             else:
                                 first_name = ""
-                            name = first_name + " " + last_name
+                            
+                            lenfirst = len(first_name)
+                            lenlast = len(last_name)
+                            
+                            if lenlast < 2 or lenfirst < 2:
+                                complete = 0
+                            else:
+                                complete = 1
+                            
+                            if complete == 1:
+                                name = first_name + " " + last_name
 
-                            for y in authorList:
-                                if y == name:
-                                    repeat += 1
-                                    continue
-                            if repeat == 0:     
-                                authorList.append(name)
+                                for y in authorList:
+                                    if y == name:
+                                        repeat += 1
+                                        continue
+                                
+                                if repeat == 0:     
+                                    authorList.append(name)
+                                    fname.append(first_name)
+                                    lname.append(last_name)
                     
                     popular_article_list = popular_article(popular_article_list, page.reader_count, page.link, page.title, page.year)
                     
-                    if page.year == None:
-                        page.year = current_year()
+                    if page.year == None or page.year > current_year():
+                        pubyear = current_year()
+                    else:
+                        pubyear = page.year
                     
-                    index=(current_year() - 1) - page.year
-                    
+                    index = current_year() - pubyear
                     years[index] += 1
+                    
                     growth=calcAvgGrowth(years)
                     
                     if quick:
@@ -162,13 +183,19 @@ def topCombination(subset,quick,growth_query,authorscore_query,readercount_query
                 store_Paper(paper_title=i[2], paper_reader_count=i[0], paper_link=i[1], paper_year_published=i[3])
                 store_Paper_subcategory(paper_title=i[2], query_1=x[0].title(), query_2=x[1].title())
             
-            #authorscore = author_score(authorList)
+            """
+            num_of_author = len(authorList)
+            print(num_of_author,"authors, estimated completion time =", (num_of_author*7)/60,"minutes")
+            print()
+            authorscore = author_score(fname,lname)
+            """
+            
+            authorscore = 0
 
             if status == 1:
-                updateComb(query_1=x[0],query_2=x[1], readercount=round(avgreader, 2), authorscore=round(authorscore, 2), growth=round(growth, 2), quickScore=quick)  # update db
+                updateComb(query_1=x[0],query_2=x[1], readercount=round(avgreader, 2), authorscore=authorscore, growth=round(growth, 2), quickScore=quick)  # update db
             else:
-                insertComb(query_1=x[0],query_2=x[1], readercount=round(avgreader, 2), authorscore=round(authorscore, 2), growth=round(growth, 2), quickScore=quick)  # insert to db
-                
+                insertComb(query_1=x[0],query_2=x[1], readercount=round(avgreader, 2), authorscore=authorscore, growth=round(growth, 2), quickScore=quick)  # insert to db
 
         if status == 2:
             comb_result = selectComb(query_1=x[0], query_2=x[1])    # get data from db
@@ -225,10 +252,16 @@ def topCombination(subset,quick,growth_query,authorscore_query,readercount_query
     return results
 
 def filterSubcat(q1,q2,op,score,quick):
-
+    os.system('cls')
+    start = time.time()
+    
     results = {
         'realresult': filterResult(q1,q2,op,score,quick)
     }
+    
+    end = time.time()
+    print("total time used:", end - start, "s")
+    print()
     
     return results
 
@@ -279,8 +312,16 @@ def filterResult(q1,q2,op,score,quick):
                     reader += page.reader_count
                     count += 1
                     popular_article_list = popular_article(popular_article_list, page.reader_count, page.link, page.title,page.year)
+                                        
+                    if page.year == None or page.year > current_year():
+                        pubyear = current_year()
+                    else:
+                        pubyear = page.year
                     
-                    years[(current_year() - 1) - page.year] += 1
+                    index = current_year() - pubyear
+                    years[index] += 1
+                    #years[(current_year() - 1) - page.year] += 1
+                    
                     growth=calcAvgGrowth(years)
                     
                     if quick:

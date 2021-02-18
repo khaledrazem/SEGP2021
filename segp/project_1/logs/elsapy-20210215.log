@@ -1,0 +1,1313 @@
+2021-02-15 22:41:22,944 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 22:41:23,924 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 22:41:23,925 - elsapy.utils - INFO - Module loaded.
+2021-02-15 22:41:23,925 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 22:41:23,926 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 22:41:23,928 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 22:44:17,000 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 22:44:17,276 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 22:44:17,276 - elsapy.utils - INFO - Module loaded.
+2021-02-15 22:44:17,280 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 22:44:17,281 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 22:44:17,282 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 22:48:20,136 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 22:48:20,409 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 22:48:20,409 - elsapy.utils - INFO - Module loaded.
+2021-02-15 22:48:20,410 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 22:48:20,410 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 22:48:20,411 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 22:48:46,543 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 22:48:46,815 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 22:48:46,816 - elsapy.utils - INFO - Module loaded.
+2021-02-15 22:48:46,816 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 22:48:46,817 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 22:48:46,818 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 22:49:00,383 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 22:49:00,663 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 22:49:00,663 - elsapy.utils - INFO - Module loaded.
+2021-02-15 22:49:00,664 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 22:49:00,664 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 22:49:00,665 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 22:49:22,654 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 22:49:22,924 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 22:49:22,924 - elsapy.utils - INFO - Module loaded.
+2021-02-15 22:49:22,925 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 22:49:22,925 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 22:49:22,926 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 22:49:37,659 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Gowland%29+AND+AUTHFIRST%28David%29
+2021-02-15 22:49:39,834 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8866416000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:49:40,920 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:49:41,931 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220256856?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:49:42,914 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:49:43,918 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Davies%29+AND+AUTHFIRST%28Neville%29
+2021-02-15 22:49:45,994 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610509?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:49:47,101 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:49:48,107 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220710524?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:49:49,117 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:49:50,124 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284632400?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:49:51,948 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:49:52,950 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938583?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:49:54,000 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:49:55,006 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610503?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:49:56,058 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:49:57,059 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610446?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:49:58,088 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:49:59,091 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938582?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:51:20,114 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 22:51:20,381 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 22:51:20,382 - elsapy.utils - INFO - Module loaded.
+2021-02-15 22:51:20,382 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 22:51:20,383 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 22:51:20,383 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 22:51:36,875 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Gowland%29+AND+AUTHFIRST%28David%29
+2021-02-15 22:51:39,013 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8866416000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:51:39,993 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:51:41,006 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220256856?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:51:41,964 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:51:42,969 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Davies%29+AND+AUTHFIRST%28Neville%29
+2021-02-15 22:51:45,042 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610509?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:51:46,055 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:51:47,067 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220710524?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:51:48,108 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:51:49,123 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284632400?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:51:50,210 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:51:51,223 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938583?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:51:52,356 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:51:53,360 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610503?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:51:55,052 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:51:56,061 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610446?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:51:57,124 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:51:58,137 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938582?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:51:59,209 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:00,223 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57212818439?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:52:01,579 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:02,588 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56918230100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:52:03,554 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:04,567 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8680530900?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:52:06,251 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:07,253 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8604098900?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:52:08,410 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:09,419 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938595?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:52:10,622 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:11,637 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57211797164?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:52:13,415 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:14,431 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57188726739?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:52:15,572 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:16,580 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284639600?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:52:17,606 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:18,608 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638600?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:52:19,582 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:20,588 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638500?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:52:21,650 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:22,656 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:52:23,924 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:24,930 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:52:25,956 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:26,968 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56174214000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:52:28,029 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:29,042 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/51763439000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:52:30,043 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:31,051 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Newbold%29+AND+AUTHFIRST%28Paul%29
+2021-02-15 22:52:33,753 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7006974101?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:52:34,823 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:35,826 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/24721625100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:52:36,825 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:37,839 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57190240287?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:52:39,002 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:40,014 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57197768683?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:52:41,001 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:42,014 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Shenkar%29+AND+AUTHFIRST%28Oded%29
+2021-02-15 22:52:44,013 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7003481343?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:52:45,043 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:46,058 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Luo%29+AND+AUTHFIRST%28Yadong%29
+2021-02-15 22:52:48,413 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7404332342?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:52:49,424 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:50,434 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57208208730?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:52:51,639 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:52,654 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57219860270?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:52:53,651 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:54,662 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57194283639?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:52:55,536 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:56,550 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57221390734?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:52:58,300 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:52:59,311 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57221209635?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:53:00,348 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:53:01,360 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57218161994?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:53:02,501 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:53:03,512 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57196217106?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:53:04,580 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:53:05,594 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57195627074?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:53:06,549 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:53:07,563 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57192988181?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:53:08,597 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:53:09,609 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57191255355?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:53:10,613 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:53:11,621 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57189757966?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:53:12,707 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:53:13,712 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56459246600?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:53:14,800 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:53:15,814 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Chi%29+AND+AUTHFIRST%28Tailan%29
+2021-02-15 22:53:17,862 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56187515100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:53:18,919 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:53:19,926 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57215757258?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:53:20,979 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:53:21,981 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7005693574?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:53:23,055 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:53:24,056 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57214501075?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:53:25,101 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:53:26,107 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57215877642?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:53:27,203 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:53:28,205 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57214501073?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:53:29,915 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:53:30,919 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Hofstede%29+AND+AUTHFIRST%28Geert%29
+2021-02-15 22:53:32,917 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57189336477?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:53:33,940 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:53:34,949 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7003537908?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:53:35,941 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:53:36,954 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57208462671?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:53:38,052 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:53:39,062 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Kolk%29+AND+AUTHFIRST%28Ans%29
+2021-02-15 22:53:41,012 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/22985485300?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:53:42,053 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:53:43,063 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28van+Tulder%29+AND+AUTHFIRST%28Rob%29
+2021-02-15 22:53:45,108 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7801620368?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:53:46,079 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:53:47,088 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Dutt%29+AND+AUTHFIRST%28Amitava+Krishna%29
+2021-02-15 22:53:49,118 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7103024509?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:53:50,208 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:53:51,214 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Dransfield%29+AND+AUTHFIRST%28Rob%29
+2021-02-15 22:53:53,230 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57205711733?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:53:54,292 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:53:55,297 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Chand%29+AND+AUTHFIRST%28S%29
+2021-02-15 22:53:57,574 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7102245794?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:53:58,606 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:53:59,619 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/35368074500?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:54:00,855 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:54:01,862 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7102245914?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:54:02,837 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:54:03,845 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57219461819?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:54:04,861 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:54:49,857 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 22:54:50,127 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 22:54:50,128 - elsapy.utils - INFO - Module loaded.
+2021-02-15 22:54:50,128 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 22:54:50,129 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 22:54:50,130 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 22:55:03,068 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Gowland%29+AND+AUTHFIRST%28David%29
+2021-02-15 22:55:05,093 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8866416000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:55:06,895 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:55:07,907 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220256856?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:55:08,951 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:55:09,963 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Davies%29+AND+AUTHFIRST%28Neville%29
+2021-02-15 22:55:12,134 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610509?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:55:13,142 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:55:14,157 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220710524?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:55:15,376 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:55:16,384 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284632400?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:55:17,388 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:55:18,390 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938583?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:55:20,376 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:55:21,381 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610503?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:55:22,350 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:55:23,353 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610446?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:55:24,504 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:55:25,521 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938582?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:55:26,485 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:55:27,487 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57212818439?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:55:28,549 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:55:29,557 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56918230100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:55:30,595 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:55:31,599 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8680530900?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:55:32,626 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:55:33,640 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8604098900?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:55:34,680 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:55:35,683 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938595?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:55:36,757 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:55:37,765 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57211797164?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:55:38,799 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:55:39,805 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57188726739?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:55:40,741 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:55:41,748 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284639600?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:55:42,827 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:55:43,838 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638600?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:55:57,810 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 22:55:58,097 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 22:55:58,098 - elsapy.utils - INFO - Module loaded.
+2021-02-15 22:55:58,098 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 22:55:58,099 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 22:55:58,099 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 22:56:08,306 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Gowland%29+AND+AUTHFIRST%28David%29
+2021-02-15 22:56:10,349 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8866416000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:56:11,410 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:56:12,421 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220256856?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:56:13,391 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:56:14,404 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Davies%29+AND+AUTHFIRST%28Neville%29
+2021-02-15 22:56:16,476 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610509?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:56:17,712 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:56:18,723 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220710524?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:56:19,701 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:56:20,703 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284632400?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:56:21,761 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:56:22,771 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938583?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:56:23,715 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:56:24,721 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610503?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:56:25,720 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:56:26,735 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610446?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:56:27,762 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:56:28,773 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938582?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:56:29,730 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:56:30,736 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57212818439?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:56:31,860 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:56:32,868 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56918230100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:56:33,932 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:56:34,941 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8680530900?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:56:35,947 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:56:36,962 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8604098900?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:56:37,980 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:56:38,992 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938595?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:56:40,014 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:56:41,029 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57211797164?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 22:56:42,033 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 22:56:43,041 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57188726739?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:00:31,580 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 23:00:31,852 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 23:00:31,852 - elsapy.utils - INFO - Module loaded.
+2021-02-15 23:00:31,852 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 23:00:31,853 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 23:00:31,854 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 23:00:48,374 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Gowland%29+AND+AUTHFIRST%28David%29
+2021-02-15 23:00:50,642 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8866416000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:00:51,629 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:00:52,637 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220256856?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:00:53,630 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:00:54,633 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Davies%29+AND+AUTHFIRST%28Neville%29
+2021-02-15 23:00:56,842 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610509?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:00:57,856 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:00:58,872 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220710524?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:00:59,984 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:01:00,995 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284632400?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:02:06,226 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 23:02:06,497 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 23:02:06,497 - elsapy.utils - INFO - Module loaded.
+2021-02-15 23:02:06,498 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 23:02:06,498 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 23:02:06,499 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 23:02:17,410 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Gowland%29+AND+AUTHFIRST%28David%29
+2021-02-15 23:02:20,149 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8866416000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:02:21,435 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:02:22,439 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220256856?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:02:23,481 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:02:36,671 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 23:02:36,943 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 23:02:36,944 - elsapy.utils - INFO - Module loaded.
+2021-02-15 23:02:36,944 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 23:02:36,945 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 23:02:36,946 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 23:02:47,563 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Gowland%29+AND+AUTHFIRST%28David%29
+2021-02-15 23:02:49,589 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8866416000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:02:50,588 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:02:51,594 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220256856?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:02:52,646 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:02:53,651 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Davies%29+AND+AUTHFIRST%28Neville%29
+2021-02-15 23:02:55,691 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610509?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:02:56,690 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:02:57,703 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220710524?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:02:58,628 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:02:59,639 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284632400?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:00,780 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:01,788 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938583?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:02,835 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:03,843 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610503?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:04,993 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:05,994 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610446?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:06,985 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:07,988 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938582?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:08,910 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:09,918 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57212818439?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:10,873 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:11,880 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56918230100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:12,923 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:13,926 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8680530900?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:14,983 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:15,990 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8604098900?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:17,078 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:18,088 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938595?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:19,109 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:20,124 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57211797164?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:21,216 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:22,229 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57188726739?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:23,301 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:24,314 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284639600?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:26,011 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:27,024 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638600?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:28,087 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:29,101 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638500?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:30,145 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:31,155 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:32,202 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:33,210 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:34,570 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:35,584 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56174214000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:36,640 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:37,655 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/51763439000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:38,580 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:39,587 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Newbold%29+AND+AUTHFIRST%28Paul%29
+2021-02-15 23:03:41,580 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7006974101?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:42,685 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:43,690 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/24721625100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:44,714 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:45,726 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57190240287?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:46,746 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:47,756 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57197768683?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:48,714 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:49,719 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Shenkar%29+AND+AUTHFIRST%28Oded%29
+2021-02-15 23:03:51,821 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7003481343?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:52,867 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:53,878 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Luo%29+AND+AUTHFIRST%28Yadong%29
+2021-02-15 23:03:55,839 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7404332342?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:56,991 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:03:57,999 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57208208730?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:03:58,996 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:04:00,011 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57219860270?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:04:01,931 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:04:02,943 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57194283639?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:04:04,029 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:04:05,034 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57221390734?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:04:05,997 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:04:06,999 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57221209635?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:04:07,974 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:04:08,980 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57218161994?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:04:10,081 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:04:11,084 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57196217106?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:04:12,014 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:04:13,018 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57195627074?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:04:14,013 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:04:15,018 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57192988181?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:04:16,043 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:04:17,044 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57191255355?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:04:18,030 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:04:19,038 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57189757966?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:04:19,968 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:04:20,984 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56459246600?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:04:22,184 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:04:23,194 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Chi%29+AND+AUTHFIRST%28Tailan%29
+2021-02-15 23:04:25,144 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56187515100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:04:26,143 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:04:27,153 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57215757258?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:04:28,459 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:04:29,464 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7005693574?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:04:30,420 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:04:31,422 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57214501075?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:04:32,454 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:04:33,466 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57215877642?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:04:34,402 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:04:35,404 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57214501073?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:04:36,469 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:04:37,476 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Hofstede%29+AND+AUTHFIRST%28Geert%29
+2021-02-15 23:04:39,443 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57189336477?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:04:40,772 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:04:41,778 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7003537908?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:04:44,506 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:04:45,518 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57208462671?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:04:46,509 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:04:47,511 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Kolk%29+AND+AUTHFIRST%28Ans%29
+2021-02-15 23:07:12,723 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/22985485300?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:07:13,815 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:07:14,827 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28van+Tulder%29+AND+AUTHFIRST%28Rob%29
+2021-02-15 23:07:16,800 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7801620368?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:07:17,781 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:07:18,793 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Dutt%29+AND+AUTHFIRST%28Amitava+Krishna%29
+2021-02-15 23:07:20,737 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7103024509?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:07:53,297 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 23:07:53,577 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 23:07:53,578 - elsapy.utils - INFO - Module loaded.
+2021-02-15 23:07:53,578 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 23:07:53,579 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 23:07:53,579 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 23:08:07,218 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 23:08:07,489 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 23:08:07,489 - elsapy.utils - INFO - Module loaded.
+2021-02-15 23:08:07,490 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 23:08:07,490 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 23:08:07,491 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 23:09:32,780 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 23:09:33,073 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 23:09:33,074 - elsapy.utils - INFO - Module loaded.
+2021-02-15 23:09:33,074 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 23:09:33,075 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 23:09:33,076 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 23:09:44,363 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Gowland%29+AND+AUTHFIRST%28David%29
+2021-02-15 23:09:46,378 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8866416000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:09:48,049 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:09:52,375 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 23:09:52,673 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 23:09:52,674 - elsapy.utils - INFO - Module loaded.
+2021-02-15 23:09:52,674 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 23:09:52,675 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 23:09:52,676 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 23:10:11,567 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 23:10:11,837 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 23:10:11,838 - elsapy.utils - INFO - Module loaded.
+2021-02-15 23:10:11,838 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 23:10:11,839 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 23:10:11,840 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 23:10:15,948 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 23:10:16,214 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 23:10:16,214 - elsapy.utils - INFO - Module loaded.
+2021-02-15 23:10:16,215 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 23:10:16,215 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 23:10:16,216 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 23:10:28,849 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Gowland%29+AND+AUTHFIRST%28David%29
+2021-02-15 23:10:30,826 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8866416000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:10:31,822 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:10:32,827 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220256856?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:10:34,856 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:10:35,861 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Davies%29+AND+AUTHFIRST%28Neville%29
+2021-02-15 23:10:37,946 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610509?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:10:39,821 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:10:40,822 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220710524?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:10:42,229 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:10:43,240 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284632400?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:11:08,938 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 23:11:09,207 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 23:11:09,208 - elsapy.utils - INFO - Module loaded.
+2021-02-15 23:11:09,208 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 23:11:09,209 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 23:11:09,209 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 23:11:20,317 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Gowland%29+AND+AUTHFIRST%28David%29
+2021-02-15 23:11:22,332 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8866416000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:11:23,258 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:11:24,263 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220256856?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:11:25,318 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:11:26,333 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Davies%29+AND+AUTHFIRST%28Neville%29
+2021-02-15 23:11:28,434 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610509?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:11:29,492 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:11:30,492 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220710524?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:11:31,504 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:11:32,521 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284632400?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:11:33,518 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:11:34,526 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938583?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:11:35,497 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:11:36,504 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610503?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:11:37,451 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:11:38,453 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610446?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:11:39,502 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:11:40,513 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938582?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:11:41,458 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:11:42,464 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57212818439?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:11:43,463 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:11:44,476 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56918230100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:11:45,545 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:11:46,550 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8680530900?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:11:47,614 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:11:48,619 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8604098900?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:11:49,834 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:11:50,841 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938595?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:11:51,866 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:11:52,868 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57211797164?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:11:53,895 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:11:54,897 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57188726739?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:11:55,974 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:11:56,974 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284639600?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:11:58,004 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:11:59,019 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638600?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:00,154 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:12:01,155 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638500?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:02,194 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:12:03,196 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:04,317 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:12:05,329 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:06,325 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:12:07,338 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56174214000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:08,426 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:12:09,439 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/51763439000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:10,473 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:12:11,475 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Newbold%29+AND+AUTHFIRST%28Paul%29
+2021-02-15 23:12:14,182 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7006974101?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:15,348 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:12:16,362 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/24721625100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:17,310 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:12:18,326 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57190240287?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:19,375 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:12:20,381 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57197768683?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:22,198 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:12:23,200 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Shenkar%29+AND+AUTHFIRST%28Oded%29
+2021-02-15 23:12:25,225 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7003481343?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:26,302 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:12:27,313 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Luo%29+AND+AUTHFIRST%28Yadong%29
+2021-02-15 23:12:29,418 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7404332342?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:30,518 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:12:31,527 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57208208730?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:32,664 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:12:33,669 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57219860270?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:34,697 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:12:35,712 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57194283639?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:36,602 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:12:37,612 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57221390734?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:39,465 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:12:40,480 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57221209635?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:41,489 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:12:42,505 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57218161994?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:43,556 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:12:44,558 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57196217106?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:45,494 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:12:46,503 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57195627074?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:47,497 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:12:48,499 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57192988181?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:49,525 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:12:50,538 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57191255355?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:51,605 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:12:52,607 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57189757966?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:53,715 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:12:54,722 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56459246600?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:55,771 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:12:56,778 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Chi%29+AND+AUTHFIRST%28Tailan%29
+2021-02-15 23:12:58,772 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56187515100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:12:59,721 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:13:00,733 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57215757258?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:13:01,717 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:13:02,729 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7005693574?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:13:03,708 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:13:04,711 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57214501075?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:13:05,646 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:13:06,660 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57215877642?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:13:07,893 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:13:08,904 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57214501073?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:13:10,599 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:13:11,614 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Hofstede%29+AND+AUTHFIRST%28Geert%29
+2021-02-15 23:13:14,294 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57189336477?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:13:15,304 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:13:16,316 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7003537908?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:13:17,334 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:13:18,338 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57208462671?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:13:19,268 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:13:20,273 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Kolk%29+AND+AUTHFIRST%28Ans%29
+2021-02-15 23:13:22,265 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/22985485300?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:13:23,366 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:13:24,380 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28van+Tulder%29+AND+AUTHFIRST%28Rob%29
+2021-02-15 23:13:27,089 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7801620368?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:13:28,112 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:13:29,117 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Dutt%29+AND+AUTHFIRST%28Amitava+Krishna%29
+2021-02-15 23:13:31,863 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7103024509?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:13:32,800 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:13:33,813 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Dransfield%29+AND+AUTHFIRST%28Rob%29
+2021-02-15 23:13:35,841 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57205711733?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:13:36,914 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:13:37,927 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Chand%29+AND+AUTHFIRST%28S%29
+2021-02-15 23:13:39,983 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7102245794?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:13:41,071 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:13:42,072 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/35368074500?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:13:43,099 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:13:44,108 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7102245914?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:13:45,127 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:13:46,131 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57219461819?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:13:47,215 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:13:48,229 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57217708097?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:13:49,358 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:13:50,368 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57193093189?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:13:51,441 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:13:52,448 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7102245930?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:13:53,478 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:13:54,491 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56212612400?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:13:55,483 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:13:56,486 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/6602526719?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:13:57,662 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:13:58,666 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7102245947?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:14:00,510 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:14:01,517 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/35616251000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:14:02,486 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:14:03,495 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8072596700?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:14:04,522 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:14:05,525 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57211201910?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:14:06,558 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:14:07,570 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57209217761?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:14:08,553 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:14:09,566 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57102809100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:14:10,571 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:14:11,578 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7102245905?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:14:12,652 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:14:13,661 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/55198869400?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:14:14,689 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:14:15,701 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/34767882000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:14:16,673 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:14:17,680 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7102245924?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:14:18,781 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:14:19,787 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/6508050375?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:14:20,763 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:14:21,764 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57007810100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:14:22,771 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:14:23,772 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/37109379500?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:14:24,849 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:14:25,852 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/26767577300?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:14:26,928 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:14:27,941 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56401592700?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:14:28,864 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:14:29,875 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/55837213800?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:14:31,249 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:14:32,258 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Yala%29+AND+AUTHFIRST%28C%29
+2021-02-15 23:14:34,187 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/6507631733?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:14:35,222 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:14:36,226 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8590906900?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:14:37,270 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:14:38,276 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57012154200?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:14:39,345 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:14:40,359 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Teece%29+AND+AUTHFIRST%28David+J.%29
+2021-02-15 23:14:42,292 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/6701775408?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:14:43,297 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:14:44,306 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Property%29+AND+AUTHFIRST%28Intellectual%29
+2021-02-15 23:17:27,093 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 23:17:27,369 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 23:17:27,370 - elsapy.utils - INFO - Module loaded.
+2021-02-15 23:17:27,370 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 23:17:27,371 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 23:17:27,372 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 23:17:40,450 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Gowland%29+AND+AUTHFIRST%28David%29
+2021-02-15 23:17:42,463 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8866416000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:17:43,523 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:17:44,530 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220256856?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:17:45,562 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:17:46,568 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Davies%29+AND+AUTHFIRST%28Neville%29
+2021-02-15 23:17:48,641 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610509?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:17:49,697 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:17:50,700 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220710524?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:17:51,718 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:17:52,728 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284632400?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:17:53,699 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:17:54,710 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938583?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:17:55,701 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:17:56,708 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610503?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:17:58,331 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:17:59,342 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610446?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:00,367 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:01,382 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938582?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:02,305 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:03,313 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57212818439?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:05,065 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:06,071 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56918230100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:07,084 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:08,096 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8680530900?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:09,064 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:10,073 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8604098900?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:11,142 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:12,157 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938595?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:13,156 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:14,165 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57211797164?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:15,218 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:16,220 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57188726739?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:17,634 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:18,639 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284639600?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:19,687 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:20,701 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638600?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:21,652 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:22,665 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638500?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:23,798 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:24,814 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:25,802 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:26,807 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:27,933 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:28,944 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56174214000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:29,978 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:30,984 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/51763439000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:31,949 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:32,961 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Newbold%29+AND+AUTHFIRST%28Paul%29
+2021-02-15 23:18:35,004 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7006974101?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:36,154 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:37,155 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/24721625100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:38,207 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:39,210 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57190240287?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:40,287 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:41,291 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57197768683?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:42,257 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:43,272 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Shenkar%29+AND+AUTHFIRST%28Oded%29
+2021-02-15 23:18:45,296 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7003481343?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:46,417 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:47,432 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Luo%29+AND+AUTHFIRST%28Yadong%29
+2021-02-15 23:18:49,345 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7404332342?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:50,374 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:51,376 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57208208730?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:52,414 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:53,421 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57219860270?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:54,557 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:55,567 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57194283639?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:56,481 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:18:57,486 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57221390734?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:18:59,221 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:19:00,231 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57221209635?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:19:01,339 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:19:02,350 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57218161994?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:19:03,300 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:19:04,307 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57196217106?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:19:05,330 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:19:06,342 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57195627074?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:19:07,399 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:19:08,401 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57192988181?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:19:09,541 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:19:10,548 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57191255355?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:19:11,630 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:19:12,639 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57189757966?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:19:13,610 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:19:14,618 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56459246600?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:19:15,662 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:19:16,677 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Chi%29+AND+AUTHFIRST%28Tailan%29
+2021-02-15 23:19:18,627 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56187515100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:19:20,310 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:19:21,318 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57215757258?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:19:22,324 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:19:23,329 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7005693574?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:19:24,965 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:19:25,979 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57214501075?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:19:26,947 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:19:27,954 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57215877642?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:19:29,696 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:19:30,710 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57214501073?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:19:31,702 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:19:32,709 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Hofstede%29+AND+AUTHFIRST%28Geert%29
+2021-02-15 23:19:34,654 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57189336477?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:19:35,689 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:19:36,702 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7003537908?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:19:37,671 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:19:38,684 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57208462671?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:19:39,758 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:19:40,767 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Kolk%29+AND+AUTHFIRST%28Ans%29
+2021-02-15 23:19:42,756 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/22985485300?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:19:43,869 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:19:44,878 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28van+Tulder%29+AND+AUTHFIRST%28Rob%29
+2021-02-15 23:19:47,776 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7801620368?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:19:49,600 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:19:50,611 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Dutt%29+AND+AUTHFIRST%28Amitava+Krishna%29
+2021-02-15 23:19:52,638 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7103024509?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:19:54,627 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:19:55,641 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Dransfield%29+AND+AUTHFIRST%28Rob%29
+2021-02-15 23:19:57,654 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57205711733?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:19:59,844 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:00,849 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Chand%29+AND+AUTHFIRST%28S%29
+2021-02-15 23:20:03,138 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7102245794?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:04,241 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:05,245 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/35368074500?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:06,384 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:07,395 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7102245914?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:08,436 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:09,438 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57219461819?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:10,751 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:11,762 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57217708097?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:12,894 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:13,900 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57193093189?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:15,249 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:16,259 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7102245930?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:17,505 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:18,508 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56212612400?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:19,759 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:20,764 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/6602526719?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:21,870 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:22,872 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7102245947?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:24,210 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:25,216 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/35616251000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:26,355 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:27,363 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8072596700?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:28,720 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:29,732 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57211201910?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:30,753 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:31,758 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57209217761?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:32,701 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:33,708 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57102809100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:34,692 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:35,701 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7102245905?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:37,450 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:38,462 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/55198869400?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:39,491 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:40,491 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/34767882000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:41,431 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:42,436 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7102245924?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:43,402 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:44,416 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/6508050375?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:46,196 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:47,206 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57007810100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:48,234 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:49,236 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/37109379500?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:50,947 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:51,962 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/26767577300?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:53,013 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:54,015 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56401592700?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:55,099 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:56,100 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/55837213800?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:20:57,177 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:20:58,192 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Yala%29+AND+AUTHFIRST%28C%29
+2021-02-15 23:21:00,186 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/6507631733?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:21:01,242 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:21:02,245 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8590906900?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:21:03,386 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:21:04,392 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57012154200?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:21:05,364 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:21:06,372 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Teece%29+AND+AUTHFIRST%28David+J.%29
+2021-02-15 23:21:08,397 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/6701775408?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:21:09,587 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:21:10,593 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Property%29+AND+AUTHFIRST%28Intellectual%29
+2021-02-15 23:21:12,590 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Protection%29+AND+AUTHFIRST%28Rights%29
+2021-02-15 23:21:14,567 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Policy%29+AND+AUTHFIRST%28Industrial%29
+2021-02-15 23:21:16,527 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Dirican%29+AND+AUTHFIRST%28C%C3%BCneyt%29
+2021-02-15 23:21:19,311 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Mulhearn%29+AND+AUTHFIRST%28Chris%29
+2021-02-15 23:21:21,355 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8306866200?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:21:22,367 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:21:23,368 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57204994354?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:21:25,094 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:21:26,109 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Vane%29+AND+AUTHFIRST%28Howard+R.%29
+2021-02-15 23:21:28,076 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8306866100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:21:29,050 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:21:30,058 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Lai%29+AND+AUTHFIRST%28Hongyi%29
+2021-02-15 23:21:32,044 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7201967325?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:21:33,125 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:21:34,128 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57193077308?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:21:35,103 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:21:36,111 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57216916293?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:21:37,846 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:21:38,851 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57212739933?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:21:39,926 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:21:40,941 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57207049869?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:21:42,672 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:21:43,684 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57205683819?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:21:44,674 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:21:45,681 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Sampson%29+AND+AUTHFIRST%28Thomas%29
+2021-02-15 23:21:47,663 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7003506649?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:21:48,695 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:21:49,702 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7003506651?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:21:50,751 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:21:51,765 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/34168206300?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:21:53,494 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:21:54,495 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57207615837?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:21:55,576 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:21:56,581 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7003506659?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:21:57,526 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:21:58,541 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56660471700?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:21:59,549 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:22:00,553 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/36591242000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:22:03,138 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:22:04,140 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Devore%29+AND+AUTHFIRST%28Jay%29
+2021-02-15 23:22:06,122 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7004250852?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:22:07,176 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:22:08,177 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57216004651?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:22:09,219 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:22:10,232 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7004250844?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:22:11,336 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:22:12,337 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57202698885?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:22:13,321 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:22:14,333 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28ITC%29+AND+AUTHFIRST%28%29
+2021-02-15 23:24:23,014 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 23:24:23,285 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 23:24:23,285 - elsapy.utils - INFO - Module loaded.
+2021-02-15 23:24:23,286 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 23:24:23,286 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 23:24:23,287 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 23:24:38,967 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 23:24:39,234 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 23:24:39,235 - elsapy.utils - INFO - Module loaded.
+2021-02-15 23:24:39,235 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 23:24:39,236 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 23:24:39,237 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 23:24:42,301 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 23:24:42,566 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 23:24:42,566 - elsapy.utils - INFO - Module loaded.
+2021-02-15 23:24:42,567 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 23:24:42,567 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 23:24:42,568 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 23:25:06,607 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 23:25:06,879 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 23:25:06,880 - elsapy.utils - INFO - Module loaded.
+2021-02-15 23:25:06,880 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 23:25:06,881 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 23:25:06,882 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 23:25:12,041 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 23:25:12,307 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 23:25:12,308 - elsapy.utils - INFO - Module loaded.
+2021-02-15 23:25:12,308 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 23:25:12,309 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 23:25:12,309 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 23:25:33,291 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 23:25:33,564 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 23:25:33,565 - elsapy.utils - INFO - Module loaded.
+2021-02-15 23:25:33,565 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 23:25:33,566 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 23:25:33,566 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 23:25:46,051 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 23:25:46,318 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 23:25:46,319 - elsapy.utils - INFO - Module loaded.
+2021-02-15 23:25:46,319 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 23:25:46,320 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 23:25:46,320 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 23:25:54,678 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 23:25:54,950 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 23:25:54,950 - elsapy.utils - INFO - Module loaded.
+2021-02-15 23:25:54,950 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 23:25:54,951 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 23:25:54,952 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 23:26:30,267 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Gowland%29+AND+AUTHFIRST%28David%29
+2021-02-15 23:26:33,046 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8866416000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:26:33,985 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:26:34,992 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220256856?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:26:35,975 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:26:36,991 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Davies%29+AND+AUTHFIRST%28Neville%29
+2021-02-15 23:26:39,019 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610509?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:26:39,961 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:26:40,965 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220710524?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:26:41,954 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:26:42,967 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284632400?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:26:44,044 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:26:45,047 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938583?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:26:46,067 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:26:47,073 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610503?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:26:48,059 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:26:49,062 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610446?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:26:50,078 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:26:51,084 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938582?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:26:54,522 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:26:55,526 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57212818439?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:26:56,217 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Gowland%29+AND+AUTHFIRST%28David%29
+2021-02-15 23:26:57,215 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:26:58,110 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8866416000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:26:58,219 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56918230100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:26:59,144 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:26:59,194 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:27:00,159 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220256856?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:27:00,206 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8680530900?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:27:01,227 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:27:01,920 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:27:02,235 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8604098900?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:27:02,921 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Davies%29+AND+AUTHFIRST%28Neville%29
+2021-02-15 23:27:03,272 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:27:04,278 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938595?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:27:05,166 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610509?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:27:05,994 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:27:06,170 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:27:07,000 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57211797164?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:27:07,171 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220710524?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:27:07,981 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:27:08,058 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:27:08,992 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57188726739?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:27:09,070 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284632400?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:27:12,527 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 23:27:12,803 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 23:27:12,804 - elsapy.utils - INFO - Module loaded.
+2021-02-15 23:27:12,804 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 23:27:12,804 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 23:27:12,805 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 23:27:28,400 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Gowland%29+AND+AUTHFIRST%28David%29
+2021-02-15 23:27:31,170 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8866416000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:27:32,207 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:27:33,210 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220256856?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:27:34,746 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:27:35,753 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Davies%29+AND+AUTHFIRST%28Neville%29
+2021-02-15 23:27:38,012 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610509?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:27:39,006 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:27:40,020 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220710524?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:27:41,218 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:27:42,229 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284632400?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:27:43,426 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:27:44,429 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938583?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:27:45,470 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:27:46,483 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610503?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:27:47,516 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:27:48,530 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610446?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:27:49,597 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:27:50,599 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938582?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:27:51,571 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:27:52,581 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57212818439?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:27:53,571 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:27:54,579 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56918230100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:27:56,337 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:27:57,351 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8680530900?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:27:58,596 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:27:59,596 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8604098900?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:01,461 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:28:02,467 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938595?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:04,265 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:28:05,270 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57211797164?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:06,201 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:28:07,205 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57188726739?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:08,139 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:28:09,154 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284639600?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:10,117 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:28:11,119 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638600?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:12,014 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:28:13,021 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638500?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:14,052 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:28:15,062 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:16,078 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:28:17,092 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:18,086 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:28:19,091 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56174214000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:20,099 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:28:21,100 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/51763439000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:22,128 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:28:23,140 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Newbold%29+AND+AUTHFIRST%28Paul%29
+2021-02-15 23:28:25,061 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7006974101?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:26,153 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:28:27,157 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/24721625100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:28,151 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:28:29,153 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57190240287?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:30,976 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:28:31,989 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57197768683?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:33,803 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:28:34,818 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Shenkar%29+AND+AUTHFIRST%28Oded%29
+2021-02-15 23:28:37,430 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7003481343?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:38,490 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:28:39,495 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Luo%29+AND+AUTHFIRST%28Yadong%29
+2021-02-15 23:28:41,441 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7404332342?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:43,229 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:28:44,243 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57208208730?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:45,298 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:28:46,311 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57219860270?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:47,267 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:28:48,275 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57194283639?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:49,283 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:28:50,287 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57221390734?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:51,278 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:28:52,281 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57221209635?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:53,311 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:28:54,323 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57218161994?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:55,281 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:28:56,287 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57196217106?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:57,357 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:28:58,371 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57195627074?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:28:59,284 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:29:00,289 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57192988181?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:29:02,038 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:29:03,051 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57191255355?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:29:04,122 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:29:05,135 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57189757966?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:29:06,094 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:29:07,107 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56459246600?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:29:08,840 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:29:09,848 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Chi%29+AND+AUTHFIRST%28Tailan%29
+2021-02-15 23:29:11,813 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56187515100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:29:12,875 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:29:13,877 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57215757258?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:29:14,823 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:29:15,829 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7005693574?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:29:17,560 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:29:18,563 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57214501075?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:29:19,576 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:29:20,590 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57215877642?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:29:21,619 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:29:22,620 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57214501073?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:29:23,601 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:29:24,611 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Hofstede%29+AND+AUTHFIRST%28Geert%29
+2021-02-15 23:29:26,529 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57189336477?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:29:28,405 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:29:29,411 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7003537908?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:29:31,151 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:29:32,158 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57208462671?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:29:33,855 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:29:34,868 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Kolk%29+AND+AUTHFIRST%28Ans%29
+2021-02-15 23:29:37,632 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/22985485300?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:29:38,690 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:29:39,703 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28van+Tulder%29+AND+AUTHFIRST%28Rob%29
+2021-02-15 23:29:41,692 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7801620368?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:29:42,662 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:33:59,722 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 23:33:59,999 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 23:33:59,999 - elsapy.utils - INFO - Module loaded.
+2021-02-15 23:34:00,000 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 23:34:00,000 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 23:34:00,001 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 23:34:12,331 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Gowland%29+AND+AUTHFIRST%28David%29
+2021-02-15 23:34:14,404 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8866416000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:34:15,455 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:34:16,456 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220256856?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:34:17,466 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:34:18,482 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Davies%29+AND+AUTHFIRST%28Neville%29
+2021-02-15 23:34:21,126 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610509?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:34:22,790 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:34:23,802 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220710524?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:34:24,811 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:34:25,822 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284632400?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:34:27,470 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:34:28,481 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938583?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:34:30,231 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:34:31,239 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610503?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:34:32,263 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:34:33,277 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610446?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:34:34,278 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:34:35,289 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938582?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:34:36,982 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:34:37,995 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57212818439?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:34:39,766 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:34:40,779 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56918230100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:34:42,547 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:34:43,553 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8680530900?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:34:44,527 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:34:45,529 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8604098900?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:34:46,521 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:34:47,526 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938595?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:34:48,550 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:34:49,558 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57211797164?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:34:50,536 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:34:51,537 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57188726739?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:34:52,551 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:34:53,564 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284639600?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:34:54,536 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:34:55,537 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638600?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:34:57,144 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:34:58,155 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638500?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:35:00,075 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:35:01,080 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:35:04,209 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:35:05,216 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:35:06,950 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:35:07,953 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56174214000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:35:08,954 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:35:09,960 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/51763439000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:35:11,009 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:35:12,011 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Newbold%29+AND+AUTHFIRST%28Paul%29
+2021-02-15 23:35:13,977 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7006974101?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:35:15,007 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:35:16,020 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/24721625100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:35:17,784 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:35:18,790 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57190240287?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:35:19,780 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:35:20,784 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57197768683?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:35:22,451 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:35:23,461 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Shenkar%29+AND+AUTHFIRST%28Oded%29
+2021-02-15 23:35:25,364 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7003481343?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:35:26,344 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:35:27,351 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Luo%29+AND+AUTHFIRST%28Yadong%29
+2021-02-15 23:35:30,121 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7404332342?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:35:32,046 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:35:33,050 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57208208730?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:35:34,764 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:35:35,777 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57219860270?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:35:36,793 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:35:37,804 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57194283639?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:35:38,708 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:35:39,712 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57221390734?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:35:40,670 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:35:41,672 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57221209635?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:35:42,669 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:35:43,681 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57218161994?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:35:44,704 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:35:45,709 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57196217106?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:35:46,660 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:35:47,668 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57195627074?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:35:48,604 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:35:49,607 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57192988181?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:35:50,579 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:35:51,589 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57191255355?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:35:52,579 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:35:53,587 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57189757966?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:35:54,614 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:35:55,630 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56459246600?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:35:56,618 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:35:57,621 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Chi%29+AND+AUTHFIRST%28Tailan%29
+2021-02-15 23:35:59,582 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56187515100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:36:00,652 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:36:01,662 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57215757258?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:36:02,631 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:36:03,631 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7005693574?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:36:04,728 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:36:05,732 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57214501075?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:36:06,785 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:36:07,787 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57215877642?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:36:08,711 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:36:09,718 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57214501073?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:36:11,440 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:36:12,442 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Hofstede%29+AND+AUTHFIRST%28Geert%29
+2021-02-15 23:36:35,933 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 23:36:36,202 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 23:36:36,202 - elsapy.utils - INFO - Module loaded.
+2021-02-15 23:36:36,203 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 23:36:36,203 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 23:36:36,204 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 23:36:54,698 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Gowland%29+AND+AUTHFIRST%28David%29
+2021-02-15 23:36:56,723 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8866416000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:36:57,649 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:36:58,655 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220256856?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:36:59,657 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:37:00,663 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Davies%29+AND+AUTHFIRST%28Neville%29
+2021-02-15 23:37:03,514 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610509?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:37:04,550 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:37:05,555 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220710524?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:37:06,598 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:37:07,612 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284632400?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:37:08,605 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:37:09,610 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938583?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:37:10,606 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:37:11,620 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610503?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:37:13,394 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:37:14,400 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610446?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:37:15,518 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:37:16,532 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938582?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:37:18,224 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:37:19,238 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57212818439?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:37:20,845 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:37:21,856 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56918230100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:37:22,876 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:37:23,884 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8680530900?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:37:25,525 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:37:26,531 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8604098900?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:37:28,336 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:37:29,351 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220938595?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:37:31,034 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:37:32,048 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57211797164?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:37:33,068 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:37:34,070 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57188726739?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:37:35,076 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:37:36,077 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284639600?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:37:37,121 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:37:38,133 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638600?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:37:39,168 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:37:40,172 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638500?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:37:41,168 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:37:42,169 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:37:43,182 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:37:44,196 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56284638000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:37:45,284 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:37:46,296 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/56174214000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:37:47,884 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:37:48,892 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/51763439000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:37:49,924 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:37:50,939 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Newbold%29+AND+AUTHFIRST%28Paul%29
+2021-02-15 23:37:52,911 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7006974101?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:37:54,619 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:37:55,630 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/24721625100?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:37:57,366 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:37:58,372 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57190240287?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:38:00,086 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:38:01,092 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57197768683?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:38:02,099 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:38:03,112 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Shenkar%29+AND+AUTHFIRST%28Oded%29
+2021-02-15 23:38:05,105 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7003481343?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:38:06,810 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:38:07,815 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Luo%29+AND+AUTHFIRST%28Yadong%29
+2021-02-15 23:38:09,964 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7404332342?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:38:11,765 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:38:12,772 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57208208730?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:38:13,811 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:38:14,815 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57219860270?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:38:15,888 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:38:16,903 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57194283639?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:38:18,639 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:38:19,654 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57221390734?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:38:21,056 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 23:38:21,332 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 23:38:21,333 - elsapy.utils - INFO - Module loaded.
+2021-02-15 23:38:21,333 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 23:38:21,334 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 23:38:21,334 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 23:38:25,675 - elsapy.elsclient - INFO - Module loaded.
+2021-02-15 23:38:25,946 - elsapy.elsentity - INFO - Module loaded.
+2021-02-15 23:38:25,947 - elsapy.utils - INFO - Module loaded.
+2021-02-15 23:38:25,947 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-15 23:38:25,948 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-15 23:38:25,949 - elsapy.elssearch - INFO - Module loaded.
+2021-02-15 23:38:36,752 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Gowland%29+AND+AUTHFIRST%28David%29
+2021-02-15 23:38:36,771 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Gowland%29+AND+AUTHFIRST%28David%29
+2021-02-15 23:38:38,764 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8866416000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:38:39,497 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/8866416000?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:38:39,863 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:38:40,879 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220256856?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:38:41,183 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:38:41,877 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:38:42,185 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/57220256856?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:38:42,884 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Davies%29+AND+AUTHFIRST%28Neville%29
+2021-02-15 23:38:43,185 - elsapy.elsprofile - INFO - Added/updated author metrics
+2021-02-15 23:38:44,193 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Davies%29+AND+AUTHFIRST%28Neville%29
+2021-02-15 23:38:44,799 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7202610509?field=document-count,cited-by-count,citation-count,h-index,dc:identifier
+2021-02-15 23:38:45,863 - elsapy.elsprofile - INFO - Added/updated author metrics
