@@ -25,7 +25,8 @@ def categoryscraper(cat):
         try:
             item=item.text
             if (storing):
-                categories_arr.append(item)
+                subcategory = item.replace(" & "," and ")
+                categories_arr.append(subcategory)
             if "Subcategories" in item: #start saving data after subcategories field
                 storing = True
 

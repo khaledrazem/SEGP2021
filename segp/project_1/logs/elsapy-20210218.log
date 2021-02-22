@@ -94,3 +94,15 @@
 2021-02-18 10:37:54,146 - elsapy.elsprofile - INFO - Module loaded.
 2021-02-18 10:37:54,147 - elsapy.elsdoc - INFO - Module loaded.
 2021-02-18 10:37:54,148 - elsapy.elssearch - INFO - Module loaded.
+2021-02-18 12:15:54,074 - elsapy.elsclient - INFO - Module loaded.
+2021-02-18 12:15:54,364 - elsapy.elsentity - INFO - Module loaded.
+2021-02-18 12:15:54,364 - elsapy.utils - INFO - Module loaded.
+2021-02-18 12:15:54,365 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-18 12:15:54,365 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-18 12:15:54,366 - elsapy.elssearch - INFO - Module loaded.
+2021-02-18 14:14:02,879 - elsapy.elsclient - INFO - Module loaded.
+2021-02-18 14:14:03,181 - elsapy.elsentity - INFO - Module loaded.
+2021-02-18 14:14:03,181 - elsapy.utils - INFO - Module loaded.
+2021-02-18 14:14:03,182 - elsapy.elsprofile - INFO - Module loaded.
+2021-02-18 14:14:03,182 - elsapy.elsdoc - INFO - Module loaded.
+2021-02-18 14:14:03,183 - elsapy.elssearch - INFO - Module loaded.

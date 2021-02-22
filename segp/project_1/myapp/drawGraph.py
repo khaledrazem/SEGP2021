@@ -16,8 +16,8 @@ def plotGraph(query1, query2):
         query3 = query1 + " " + query2
         kw_list = [query1, query2]
         kw_list2 = [query3]
-        title2 = "Combination Trend of " + query1 + " and " + query2
-        title1 = "Trend of " + query1 + " and " + query2
+        title2 = "Combination Trend of " + query1 + " & " + query2
+        title1 = "Trend of " + query1 + " & " + query2
 
     pytrends = TrendReq(hl='en-US', tz=360)
     daterange = "today 5-y"  # date range ( 5-y means 5 years )
@@ -50,6 +50,24 @@ def plotGraph(query1, query2):
         fig.update_yaxes(showline=True, linewidth=2, linecolor='black')
         fig.update_yaxes(gridcolor='black', gridwidth=0.5)
         the_graph['graph1'] = plot(fig, output_type='div')
+    else:
+            fig = go.Figure(data=[])
+            fig.update_layout(
+                title={
+                    'text': title1,
+                },
+                autosize=False,
+                width=1000,
+                height=350,
+                paper_bgcolor='rgba(0,0,0,0)',
+                plot_bgcolor='rgba(0,0,0,0)',
+            )
+
+            fig.update_xaxes(showline=True, linewidth=2, linecolor='black')
+            fig.update_yaxes(showline=True, linewidth=2, linecolor='black')
+            fig.update_yaxes(gridcolor='black', gridwidth=0.5)
+
+            the_graph['graph1'] = plot(fig, output_type='div')
 
     # plot combination graph
     if query2 != None:
