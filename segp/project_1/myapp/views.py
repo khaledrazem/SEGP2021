@@ -53,12 +53,13 @@ def testing(request):
                 comparison_operator.append(i.replace("CO_",""))
             elif "score" in i:
                 score = request.POST[i]
+        query = str(request.POST['hidden_input'])
         subcategory = filterSubcat(query_A,comparison_operator,score,True)
-
-
+        categories = categoryscraper(query)
     context = {
         'subcategories_list':categories,
         'subcategories' : subcategory,
+        'hidden_input': query,
     }
     return render(request, 'Testing.html',context)
 
@@ -83,9 +84,11 @@ def single_category(request):
     if request.method == 'GET':
         query = str(request.GET['category'])
         results = search(query,False)
+        graph = plotGraph(query, None)
         context = {
             "query":query,
-            "results":results
+            "results":results,
+            "graph": graph,
         }
     return render(request, 'SingleCategoryResult.html',context)
 
@@ -94,9 +97,11 @@ def single_keyword_result(request):
         query = str(request.GET['keyword'])
         result_keyword = db_keyword_query.db_get_keyword_data(query)
         related_paper = db_paper_keyword.get_related_paper_with_keyword_combination(query, None)
+        graph = plotGraph(query, None)
         context = {
             "keyword":result_keyword,
-            "related":related_paper
+            "related":related_paper,
+            "graph": graph,
         }
     return render(request, 'SingleKeywordResult.html',context)
 
@@ -106,9 +111,11 @@ def keyword_combination_result(request):
         query_2 = str(request.GET['keyword_2'])
         result_keyword = db_keyword_combination.db_select_KeywordCombination(query_1,query_2)
         related_paper = db_paper_keyword.get_related_paper_with_keyword_combination(query_1,query_2)
+        graph = plotGraph(query_1, query_2)
         context = {
             "keyword": result_keyword,
-            "related": related_paper
+            "related": related_paper,
+            "graph": graph,
         }
     return render(request, 'KeywordCombination.html',context)
 

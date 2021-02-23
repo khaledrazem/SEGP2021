@@ -16,6 +16,7 @@ def getTrend(subcat,quick,growth_query,authorscore_query,readercount_query):
 
     print()
     for x in subcat:
+        connection = 0
         # check status of data
         if isinSubcatDB(x):
             subcat_result = selectSubcat(x)
@@ -27,22 +28,22 @@ def getTrend(subcat,quick,growth_query,authorscore_query,readercount_query):
         else:
             status = 0      #not in db
 
-
         if status < 2:
             # check current trend of the keyword
             fake = []
             fake.append(x)
             
+            pytrends = TrendReq(hl='en-US', tz=360)
+            kw_list = fake
+            pytrends.build_payload(kw_list, cat=0, timeframe='now 7-d', geo='', gprop='')
+                
             try:
-                pytrends = TrendReq(hl='en-US', tz=360)
+                trenddata = pytrends.interest_over_time()
                 connection = 1
             except:
                 print("Unable to connect to Google Trends! Try Again Later!")
             
             if connection == 1:
-                kw_list = fake
-                pytrends.build_payload(kw_list, cat=0, timeframe='now 7-d', geo='', gprop='')
-                trenddata = pytrends.interest_over_time()
                 if not trenddata.empty:
                     this_trend = float(trenddata[x].sum())      # total trend of current week
                 else:

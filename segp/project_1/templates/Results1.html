@@ -2,103 +2,81 @@
 
 <!DOCTYPE html>
 <script>
-			//Togglebar
-            function togglebar(){
-                var show = document.getElementById("likedlist");
-                if (window.getComputedStyle(show).display === "none") {
-                    return openbar();
-                    }
-                return closebar();
-            }
+	//Togglebar
+	function togglebar(){
+		var show = document.getElementById("likedlist");
+		if (window.getComputedStyle(show).display === "none") {
+			return openbar();
+			}
+		return closebar();
+	}
 
-            function openbar(){
-            document.getElementById("likelisttopic").style.display = "block";
-            document.getElementById("likedlist").style.display = "block";
-            }
+	function openbar(){
+	document.getElementById("likelisttopic").style.display = "block";
+	document.getElementById("likedlist").style.display = "block";
+	}
 
-            function closebar(){
-            document.getElementById("likelisttopic").style.display = "none";
-            document.getElementById("likedlist").style.display = "none";
-            }
+	function closebar(){
+	document.getElementById("likelisttopic").style.display = "none";
+	document.getElementById("likedlist").style.display = "none";
+	}
 
-            //function for collapsing sidebar depending screen size
-            function screenSize(x) {
-            if (x.matches) {
-                document.getElementById("likelisttopic").style.display = "none";
-                document.getElementById("likedlist").style.display = "none";
-            }
+	//function for collapsing sidebar depending screen size
+	function screenSize(x) {
+	if (x.matches) {
+		document.getElementById("likelisttopic").style.display = "none";
+		document.getElementById("likedlist").style.display = "none";
+	}
 
-            else {
-                document.getElementById("likelisttopic").style.display = "block";
-                document.getElementById("likedlist").style.display = "block";
-                }
-            }
+	else {
+		document.getElementById("likelisttopic").style.display = "block";
+		document.getElementById("likedlist").style.display = "block";
+		}
+	}
 
-            var x = window.matchMedia("(max-width: 1030px)")
-            screenSize(x)
-            x.addListener(screenSize)
+	var x = window.matchMedia("(max-width: 1030px)")
+	screenSize(x)
+	x.addListener(screenSize)
 </script>
+
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--tab title-->
-        <title>
-            Research Website
-        </title>
-        <!--style sheet-->
+        <!-- tab title -->
+        <title>Research Website</title>
+        <!-- style sheet -->
         <link rel="stylesheet" href="{% static 'research_styles.css' %}">
-        <!--icon library-->
+        <!-- icon library -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 	
     <body>
-        <!--nav bar class-->
+        <!-- nav bar -->
         <div class="navbar">
-            <!--nav bar contents-->
             <ul>
-	            <li class="navlist">
-                    <button type="button" class ="fav" onclick="togglebar()">
-                    <div class= "menu"></div>
-                    <div class= "menu"></div>
-                    <div class= "menu"></div>
-                    </span>
+                <li class="navlist">
+					<a class="WebName" href="../"><i>Website Name.</i></a>
+				</li>
+				<li class="navlist">
+					<a class="navlink" href="/About">About</a>
                 </li>
-                <li class="navlist"><a class="WebName" href="../">
-                    <i>Website Name.
-                    </i>
-                </a></li>
-                <li class="navlist1"><a class="navlink" href="/Topics">
-					Topics</a>
-                </li>
-				<li class="navlist"><a class="navlink" href="/About">
-					About</a>
-                </li>
-                <!--add more if needed to nav bar-->
-            </ul>
-        <!--nav bar div end-->    
+            </ul>   
         </div>
         
-        <!--main page class-->
+        <!-- main page -->
         <div class="main">
+			<!--website title-->
             <p>
-                <!--website title-->
-                <a class="title">
-                    Results.
-                </a>
-                <!--delete this part later-->
+                <a class="title">Results.</a>
             </p>
-            <p class="title2">
-                Entity Pairings
-            </p>
-			<p> To view more information about each entity, click on the respective entity, or click on more info
-			to view more info regarding both entities.</p>
-            <!--
-            list of entity pairings with the most compatible at the top 
-            
 			
-            Question:
-            Should the score be displayed here as well? e.g: next to each entity pair
-            -->
+            <p class="title2">Entity Pairings</p>
+			
+			<p>
+				To view more information about each entity, click on the respective entity, or click on more info
+				to view more info regarding both entities.
+			</p>
+			
             <table class="tableproperty">
 				<tr class="tabletopic">
 					<th>Topic A</th>
@@ -122,64 +100,30 @@
 
 					</tr>
 				{% endfor %}
-				<!--<tr>-->
-					<!--<td>&nbsp; </td>-->
-					<!--<td>&nbsp; </td>-->
-					<!--<td>&nbsp; </td>-->
-					<!--<td>&nbsp; </td>-->
-				<!--</tr>-->
-				<!--<tr>-->
-					<!--<td><a href="../Results2">1</a></td>-->
-					<!--<td><a href="../Results2">1</a></td>-->
-					<!--<td>1</td>-->
-					<!--<td><a href="../Results2">more</a></td>-->
-				<!--</tr>-->
-				<!--<tr>-->
-					<!--<td><a href="../Results2">2</a></td>-->
-					<!--<td><a href="../Results2">2</a></td>-->
-					<!--<td>2</td>-->
-					<!--<td><a href="../Results2">more</a></td>-->
-				<!--</tr>-->
-				<!--<tr>-->
-					<!--<td><a href="../Results2">3</a></td>-->
-					<!--<td><a href="../Results2">3</a></td>-->
-					<!--<td>3</td>-->
-					<!--<td><a href="../Results2">more</a></td>-->
-				<!--</tr>-->
-				<!--<tr>-->
-					<!--<td><a href="../Results2">4</a></td>-->
-					<!--<td><a href="../Results2">4</a></td>-->
-					<!--<td>4</td>-->
-					<!--<td><a href="../Results2">more</a></td>-->
-				<!--</tr>-->
-				<!--<tr>-->
-					<!--<td><a href="../Results2">5</a></td>-->
-					<!--<td><a href="../Results2">5</a></td>-->
-					<!--<td>5</td>-->
-					<!--<td><a href="../Results2">more</a></td>-->
-				<!--</tr>-->
 			</table>
+			
 			<br><br>
-                
-				
+            
 			<!-- Like feature coding -->
 			<!-- List of liked words/phrases coding -->
 			<ul class="likelisttopic" id="likelisttopic">
-			<li><div class="like">FAVOURITES</div></li>
-			<li><button onclick="refresh()"> Refresh </button>&nbsp&nbsp&nbsp&nbsp<button onclick="emtpylist()"> Clear </button></li>
+				<li><div class="like">FAVOURITES</div></li>
+				<li>
+					<button onclick="refresh()"> Refresh </button>
+					&nbsp;
+					<button onclick="emtpylist()"> Clear </button>
+				</li>
 			</ul>
-            <!--Liked List-->
+            <!-- Liked List -->
             <ul class="likelist" id="likedlist">
             </ul>
-		<!--main div end-->
         </div>
-    <!--body end-->
     </body>
 	<footer>
-	<div class="footer">
-		<span class="left">Contact Email : <a href="mailto:hfyma6@nottingham.edu.my">hfyma6@nottingham.edu.my</a></span>
-		<span class="right">Created by SEGP Group 4B</span>​
-	</div>
+		<div class="footer">
+			<span class="left">Contact Email : <a href="mailto:hfyma6@nottingham.edu.my">hfyma6@nottingham.edu.my</a></span>
+			<span class="right">Created by SEGP Group 4B</span>​
+		</div>
 	</footer>
 </html>
 

@@ -372,7 +372,6 @@ input[type=checkbox]:hover{
     cursor: pointer;
 }
 
-
 /*Table*/
 .tabletopic{
 	font-size: 20px;
@@ -629,7 +628,6 @@ footer p{
 }
 
 @media screen and (max-width:528px){
-
 	.navlist1{
     display:inline;
 	margin: 2%;
@@ -645,6 +643,3 @@ footer p{
 	font-size: 11px;
 	}
 }
-
-
-

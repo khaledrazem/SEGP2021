@@ -3,64 +3,52 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--tab title-->
-        <title>
-            Research Website
-        </title>
-        <!--style sheet-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- tab title -->
+        <title>Research Website</title>
+        <!-- style sheet -->
 		<link rel="stylesheet" href="{% static 'research_styles.css' %}">
-        <!--icon library-->
+        <!-- icon library -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 	
-    <body  onload="refresh()">
-        <!--nav bar class-->
+    <body onload="refresh()">
+        <!-- nav bar -->
         <div class="navbar">
-            <!--nav bar contents-->
             <ul>
-                <li class="navlist"><a class="WebName" href="../">
-                    <i>Website Name.
-                    </i>
-                </a></li>
-                <li class="navlist"><a class="navlink" href="/Topics">
-                    Topics
-                </a></li>
-				<li class="navlist"><a class="navlink" href="/About">
-                    About
-                </a></li>
-                <!--add more if needed to nav bar-->
-            </ul>
-        <!--nav bar div end-->    
+                <li class="navlist">
+					<a class="WebName" href="../"><i>Website Name.</i></a>
+				</li>
+				<li class="navlist">
+					<a class="navlink" href="/About">About</a>
+				</li>
+            </ul> 
         </div>
         
-        <!--main page class-->
+        <!-- main page -->
         <div class="main">
             <p>
                 <!--website title-->
-                <a class="title">
-                    Website Name.
-                </a>
-                <!--link 2-->
-                <a class="case" href="../Case2">
-                    Case 2   
-                </a>
+                <a class="title">Website Name.</a>
+                <!-- case 2 link -->
+                <a class="case" href="/Case2">Case 2</a>
                 <!--divider-->
-                <a class="case">&nbsp;|&nbsp; 
-                </a>
-                <!--link 1-->
-                <a class="case" href="/">
-                    Case 1
-                </a>
+                <a class="case">&nbsp;|&nbsp;</a>
+                <!-- case 1 link -->
+                <a class="case" href="/Case1">Case 1</a>
             </p>
+			
             <p class="summary">
                 Enter multiple entities (max. 3) to begin your search.
             </p>
-            <!--ADD/DELETE entities-->
+			
+            <!-- ADD/DELETE entities -->
             <div class="header">
-					<input class="inputsearchbar" type="text" id="myInput" placeholder="Enter entity (maximum 3)">
-					<span onclick="newElement()" class="Add" id="newAdd">Add</span><br><br>
+				<input class="inputsearchbar" type="text" id="myInput" placeholder="Enter entity (maximum 3)">
+				<span onclick="newElement()" class="Add" id="newAdd">Add</span>
+				<br><br>
             </div>
+			
 			<form id="input_form" method="GET" action="../Results1/">{% csrf_token %}
                 <input type="hidden" name="input_submitted" id="input_submitted"  value="">
                 <div class="quicksearch">
@@ -69,22 +57,19 @@
 			    </div>
             </form>
 
-			
             </br>
+			
             <div class="elist">
-            <ul id="myUL" class="entities">
-                    <li class="entitylist">Human Computer Interaction</li>
-                    <li class="entitylist">Internet of Thing</li>
-                    <li class="entitylist">Augmented Reality</li>
-            </ul>
-            <ul class="send">
-                <li>
-                    <button id="test" onclick="pass_input_to_form()">
-                        <!--<a href="/Results1">Send</a>-->
-                        Send
-                    </button>
-                </li>
-            </ul>
+				<ul id="myUL" class="entities">
+					<li class="entitylist">Human Computer Interaction</li>
+					<li class="entitylist">Internet of Thing</li>
+					<li class="entitylist">Augmented Reality</li>
+				</ul>
+				<ul class="send">
+					<li>
+						<button id="test" onclick="pass_input_to_form()">Send</button>
+					</li>
+				</ul>
             </div>
 
             <!--2nd title-->
@@ -93,20 +78,21 @@
 			
 			<!-- Like feature coding -->
 			<ul class="likelisttopic">
-			<li><div class="like">FAVOURITES</div></li>
-			<li><button onclick="refresh()"> Refresh </button>&nbsp&nbsp&nbsp&nbsp<button onclick="emtpylist()"> Clear </button></li>
+				<li><div class="like">FAVOURITES</div></li>
+				<li>
+					<button onclick="refresh()"> Refresh </button>
+					&nbsp;
+					<button onclick="emtpylist()"> Clear </button>
+				</li>
 			</ul>
             <!--Liked List-->
-            <ul class="likelist" id="likedlist">
-            </ul>
-            <!--main div end-->
+            <ul class="likelist" id="likedlist"></ul>
         </div>
         
-        <!--JAVASCRIPT-->
+        <!-- JAVASCRIPT -->
         <script>
             //Create a "close" button and append it to each list item
-            var counter = 0;
-
+            var counter = 3;
             var myNodelist = document.getElementsByClassName("entitylist");
             var i;
             for (i = 0; i < myNodelist.length; i++) {
@@ -115,7 +101,7 @@
                 span.className = "close";
                 span.appendChild(txt);
                 myNodelist[i].appendChild(span);
-            }//end for loop
+            }
 
             // Click on a close button to hide the current list item
             var close = document.getElementsByClassName("close");
@@ -129,24 +115,25 @@
                     //var div1 = document.getElementById("myUL");
                     //div1.removeChild(div1.childNodes[i]);
                 }
-            }//end for loop
+            }
 
             //ADD function to append new entities in list
-            //FUNCTION
             function newElement() {
                 if (counter < 3){
                     counter++;
                     var li = document.createElement("li");
                     var inputValue = document.getElementById("myInput").value;
                     var t = document.createTextNode(inputValue);
-
+					var inputValueTrim=inputValue.trim()
                     li.appendChild(t);
-                    if (inputValue === '') {
+					
+                    if (inputValueTrim == '') {
                         alert("You must write something!");
-                    }//end if
+						counter--;
+                    }
                     else {
                         document.getElementById("myUL").appendChild(li);
-                    }//end else
+                    }
                     document.getElementById("myInput").value = "";
 
                     var span = document.createElement("SPAN");
@@ -164,12 +151,12 @@
                             //var div1 = document.getElementById("myUL");
                             //div1.removeChild(div1.childNodes[i]);
                         }
-                    }//end for loop
-                }//end big IF
+                    }
+                }
                 else {
                     document.getElementById("newAdd").disabled=true;
-                }//end big ELSE
-            }//end function
+                }
+            }
 
             //GET ELEMENTS FUNCTION
             var items = [];
@@ -228,15 +215,13 @@
 				localStorage.setItem("data", "[]");
 				refresh();
 			}
-
         </script>
-
-    <!--body end-->
     </body>
+	
 	<footer>
-	<div class="footer">
-		<span class="left">Contact Email : <a href="mailto:hfyma6@nottingham.edu.my">hfyma6@nottingham.edu.my</a></span>
-		<span class="right">Created by SEGP Group 4B</span>​
-	</div>
+		<div class="footer">
+			<span class="left">Contact Email : <a href="mailto:hfyma6@nottingham.edu.my">hfyma6@nottingham.edu.my</a></span>
+			<span class="right">Created by SEGP Group 4B</span>​
+		</div>
 	</footer>
 </html>
