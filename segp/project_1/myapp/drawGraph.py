@@ -8,16 +8,6 @@ def plotGraph(query1, query2):
         'graph1': [],
         'graph2': [],
     }
-
-    """
-    if query2 == None:
-        kw_list = [query1]
-    else:
-        query3 = query1 + " and " + query2
-        print(query3)
-        kw_list = [query3]
-    """
-
     if query2 == None:
         kw_list = [query1]
         title1 = "Trend of " + query1
@@ -25,16 +15,10 @@ def plotGraph(query1, query2):
         query3 = query1 + " " + query2
         kw_list = [query1, query2]
         kw_list2 = [query3]
-        title2 = "Combination Trend of " + query1 + " and " + query2
-        title1 = "Trend of " + query1 + " and " + query2
-
-    # query3 = query1 + " " + query2
-    # kw_list = [query1,query2,query3] #input keywords
-    # kw_list = [query1] #input keywords
+        title2 = "Combination Trend of " + query1 + " & " + query2
+        title1 = "Trend of " + query1 + " & " + query2
 
     pytrends = TrendReq(hl='en-US', tz=360)
-    # keywords = pytrends.suggestions(keyword=query3)
-    # print(keywords)
     daterange = "today 5-y"  # date range ( 5-y means 5 years )
 
     pytrends.build_payload(kw_list, cat=0, timeframe=daterange, geo='', gprop='')
@@ -64,13 +48,28 @@ def plotGraph(query1, query2):
         fig.update_xaxes(showline=True, linewidth=2, linecolor='black')
         fig.update_yaxes(showline=True, linewidth=2, linecolor='black')
         fig.update_yaxes(gridcolor='black', gridwidth=0.5)
-        # fig.show()
-        # plt_div = plot(fig,output_type='div')
         the_graph['graph1'] = plot(fig, output_type='div')
-        # print(plt_div)
+    else:
+            fig = go.Figure(data=[])
+            fig.update_layout(
+                title={
+                    'text': title1,
+                },
+                autosize=False,
+                width=1000,
+                height=350,
+                paper_bgcolor='rgba(0,0,0,0)',
+                plot_bgcolor='rgba(0,0,0,0)',
+            )
 
+            fig.update_xaxes(showline=True, linewidth=2, linecolor='black')
+            fig.update_yaxes(showline=True, linewidth=2, linecolor='black')
+            fig.update_yaxes(gridcolor='black', gridwidth=0.5)
+
+            the_graph['graph1'] = plot(fig, output_type='div')
+
+    # plot combination graph
     if query2 != None:
-
         pytrends = TrendReq(hl='en-US', tz=360)
         pytrends.build_payload(kw_list2, cat=0, timeframe=daterange, geo='', gprop='')
         data2 = pytrends.interest_over_time()
@@ -120,5 +119,4 @@ def plotGraph(query1, query2):
 
             the_graph['graph2'] = plot(fig2, output_type='div')
 
-    # return(plt_div)
     return the_graph

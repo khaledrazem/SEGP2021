@@ -29,7 +29,9 @@ def case2(request):
     return render(request, 'Case2.html')
 
 def testing(request):
-    categories =[]
+    categories = []
+    
+    # search function
     if request.method == 'GET':
         query = str(request.GET['topics'])
         growth_query = 'growth' in request.GET
@@ -37,36 +39,24 @@ def testing(request):
         readercount_query = 'readercount' in request.GET
         quick = 'quicksearch' in request.GET
         categories = categoryscraper(query)
-        #print(categories)
-        print("growth =",growth_query)
-        print("author =",authorscore_query)
-        print("reader =",readercount_query)
         subcategory = getTrend(categories, quick, growth_query,authorscore_query,readercount_query)
     
+    # filter function
     if request.method == 'POST':
         query_A=[]
-        query_B=[]
         comparison_operator=[]
         keys=list(request.POST.keys())
         for i in keys:
             if "A_" in i:
                 query_A.append(i.replace("A_",""))
-            elif "B_" in i:
-                query_B.append(i.replace("B_",""))
             elif "CO_" in i:
                 comparison_operator.append(i.replace("CO_",""))
             elif "score" in i:
                 score = request.POST[i]
-        print(query_A)
-        print(query_B)
-        print(comparison_operator)
-        print(score)
-        
-        subcategory = filterSubcat(query_A,query_B,comparison_operator,score,True)
+        subcategory = filterSubcat(query_A,comparison_operator,score,True)
 
 
     context = {
-        #'subcategories' :catScoresList(queryList=categories,fromYear=10)
         'subcategories_list':categories,
         'subcategories' : subcategory,
     }
@@ -76,11 +66,9 @@ def results1(request):
     if request.method == 'GET':
         query = str(request.GET['input_submitted']).split("\\n")
         query.remove("")
-        print("ori:",query)
         quick_search = 'quicksearch' in request.GET
 
     context = {
-
         'scores_result' :scoresList(query, quick_search)
     }
     return render(request, 'Results1.html',context)
@@ -89,7 +77,6 @@ def results2(request):
     if request.method == 'GET':
         query_1 = str(request.GET['category_1'])
         query_2 = str(request.GET['category_2'])
-        print(query_1,query_2)
     return render(request, 'Results2.html')
 
 def single_category(request):
@@ -107,7 +94,6 @@ def single_keyword_result(request):
         query = str(request.GET['keyword'])
         result_keyword = db_keyword_query.db_get_keyword_data(query)
         related_paper = db_paper_keyword.get_related_paper_with_keyword_combination(query, None)
-        print(related_paper[0].paper.name)
         context = {
             "keyword":result_keyword,
             "related":related_paper

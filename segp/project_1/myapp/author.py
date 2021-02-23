@@ -2,36 +2,53 @@ from elsapy.elsclient import ElsClient
 from elsapy.elsprofile import ElsAuthor, ElsAffil
 from elsapy.elsdoc import FullDoc, AbsDoc
 from elsapy.elssearch import ElsSearch
+import time
 
-def elsapy_auth():
-    apikey = "7a286322cb3559da3442a03892947ae4"
-    insttoken = ""
-    client = ElsClient(apikey,insttoken)
+def elsevier_auth():
+    client = ElsClient("1ebaeb2ea719e96071ce074a5c341963")
+    client.inst_token = "6383ea4db27ea6b7353107935f098932"
     return client
 
-def author_score(queryList):
-    client = elsapy_auth()
+def author_score(fname, lname):
+    client = elsevier_auth()
     
-    citation = 0
+    the_zip = zip(fname,lname)
+    num = len(fname)
+    count = 0
+    total = 0
+    score = 0
     
-    for author in queryList:
-        #client = elsapy_auth()
-        auth_srch = ElsSearch("AUTHOR-NAME("+author+")","scopus")
-        auth_srch.execute(client)
-        paper = auth_srch.results
+    for first, last in the_zip:
+        start = time.time()
+        print(first,last)
+        myDocSrch = ElsSearch('AUTHLASTNAME('+last+') AND AUTHFIRST('+first+')','author')
+        myDocSrch.execute(client)
         
-        for x in paper:
+        for x in myDocSrch.results:
             try:
-                val = int(x['citedby-count'])
-                print(val, end="\t")
+                a_id = x['dc:identifier']
             except:
-                val = 0
-            citation += val
-        print()
-        print("=================================")
-        print(author,"=",citation)
-        print()
+                continue
+            auth_id = a_id.replace('AUTHOR_ID:','')
             
-        #print(citation)
-    
-    return citation
+            author = ElsAuthor(author_id = auth_id)
+            if(author.read_metrics(client)):
+                h_index = author.data['h-index']
+                score += h_index
+                print(first,last," ID:",auth_id," h-index:",h_index)
+            else:
+                print("no data")
+                score += 0
+        
+        end = time.time()
+        diff = end - start
+        total += diff
+        count += 1
+        num -= 1
+        avg =  total/count
+        est = (num*avg)/60
+        print("time used for this author:", end - start, "s")
+        print(num,"authors, estimated time left:",est,"minutes")
+        print()
+    return score
+

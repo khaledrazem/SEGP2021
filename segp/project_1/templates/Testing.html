@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="/resources/demos/style.css">
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
         <style>
             .multiselect {
               width: 200px;
@@ -94,7 +95,7 @@
                 <div class="multiselect">
                  <div class="selectBox" onclick="showCheckboxes('checkboxes_topic_A')">
                   <select>
-                    <option>Select Topic A</option>
+                    <option>Select Topic</option>
                   </select>
                   <div class="overSelect"></div>
                 </div>
@@ -103,18 +104,6 @@
                     <label for="A_{{x}}">
                         <input type="checkbox" id="A_{{x}}" name="A_{{x}}" />{{x}}
                     </label>
-                    {% endfor %}
-                </div>
-                <div class="selectBox" onclick="showCheckboxes('checkboxes_topic_B')">
-                  <select>
-                    <option>Select Topic B</option>
-                  </select>
-                  <div class="overSelect"></div>
-                </div>
-                <div id="checkboxes_topic_B" class="checkboxes">
-                    {% for x in subcategories_list %}
-                    <label for="B_{{x}}">
-                        <input type="checkbox" id="B_{{x}}" name="B_{{x}}" />{{x}}</label>
                     {% endfor %}
                 </div>
                 <div class="selectBox" onclick="showCheckboxes('checkboxes_comparison_operators')">
@@ -139,16 +128,15 @@
               <input type="submit" class ="submit" value="Submit">
 
             </form>
-            <table div class="tableproperty">
-				<tr div class="tabletopic">
-					<th>Topic A</th>
-					<th>Topic B</th>
-					<th>Combination Score</th>
+            <table div class="tableproperty" id="myTable">
+                <tr>
+                    <th onclick="w3.sortHTML('#myTable', '.item', 'td:nth-child(1)')" style="cursor:pointer">Topic A</th>
+                    <th onclick="w3.sortHTML('#myTable', '.item', 'td:nth-child(2)')" style="cursor:pointer">Topic B</th>
+                    <th onclick="w3.sortHTML('#myTable', '.item', 'td:nth-child(3)')" style="cursor:pointer">Combination Score</th>
 					<th>Info</th>
-					</div>
-				</tr>
+                </tr>
 				{% for x,y in subcategories.realresult.zipped%}
-					<tr>
+					<tr class="item">
                         <td><a href="../SingleCategoryResult/?category={{x.0}}">{{x.0}}</a></td>
 						<td><a href="../SingleCategoryResult/?&category={{x.1}}">{{x.1}}</a></td>
 						<td>{{y}}</td>

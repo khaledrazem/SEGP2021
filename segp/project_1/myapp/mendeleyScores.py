@@ -14,7 +14,6 @@ def isLegalType(page):
             return 1
     return 0
 
-
 # return paired tuples
 def pair_subset(query):
     subset = []
@@ -27,13 +26,11 @@ def pair_subset(query):
         i += 1
     return subset
 
-
 # return paired tuples and single queries
 def all_subset(query):
     subset = query
     subset += pair_subset(query)
     return subset
-
 
 # calculate and return growth
 def calcAvgGrowth(years):
@@ -44,7 +41,6 @@ def calcAvgGrowth(years):
         i -= 1
     avgGrowth = round(totalGrowth / (len(years) - 1), 2)
     return avgGrowth
-
 
 # calculate and return growth and average publication scores
 def scoresList(queryList, quickSearch):
@@ -117,7 +113,6 @@ def scoresList(queryList, quickSearch):
     results['zipped'] = zip(results['singleTopics'], results['marks'])
 
     return results
-
 
 def search(query, quickSearch):
     fromYear = 5
