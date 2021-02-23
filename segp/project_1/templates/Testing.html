@@ -2,21 +2,20 @@
 
 <!DOCTYPE html>
 <html>
-
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--tab title-->
-        <title>
-            Research Website
-        </title>
-        <!--style sheet-->
+        <!-- tab title -->
+        <title>Research Website</title>
+        <!-- style sheet -->
         <link rel="stylesheet" href="{% static 'research_styles.css' %}">
-        <!--icon library-->
+        <!-- icon library -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!--jquery-->
+        <!-- jquery -->
         <link rel="stylesheet" href="/resources/demos/style.css">
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+		
         <style>
             .multiselect {
               width: 200px;
@@ -55,117 +54,109 @@
     </head>
 	
     <body>
-        <!--nav bar class-->
+        <!-- nav bar -->
         <div class="navbar">
-            <!--nav bar contents-->
             <ul>
-                <li class="navlist"><a class="WebName" href="../">
-                    <i>Website Name.
-                    </i>
-                </a></li>
-                <li class="navlist"><a class="navlink" href="/Topics">
-                    Topics
+                <li class="navlist">
+					<a class="WebName" href="../"><i>Website Name.</i></a>
+				</li>
+				<li class="navlist">
+					<a class="navlink" href="/About">About</a>
                 </li>
-				<li class="navlist"><a class="navlink" href="/About">
-                    About
-                </li>
-                <!--add more if needed to nav bar-->
             </ul>
-        <!--nav bar div end-->    
         </div>
         
-        <!--main page class-->
+        <!-- main page -->
         <div class="main">
             <p>
-                <!--website title-->
-                <a class="title">
-                    Results.
-                </a>
-                <!--delete this part later-->
+                <a class="title">Results.</a>
             </p>
-            <p class="title2">
-                Entity Pairings
-            </p>
-			<p> To view more information about each entity, click on the respective entity, or click on more info
-			to view more info regarding both entities.</p>
+			
+            <p class="title2">Entity Pairings</p>
+			
+			<p>
+				To view more information about each entity, click on the respective entity, or click on more info
+				to view more info regarding both entities.
+			</p>
 
             <p id="skip"></p>
             <form method="post" action="?"> {% csrf_token %}
                 <div class="multiselect">
-                 <div class="selectBox" onclick="showCheckboxes('checkboxes_topic_A')">
-                  <select>
-                    <option>Select Topic A</option>
-                  </select>
-                  <div class="overSelect"></div>
-                </div>
-                <div id="checkboxes_topic_A" class="checkboxes" style="width: 200px; height: 100px; overflow-y: scroll;">
-                    {% for x in subcategories_list %}
-                    <label for="A_{{x}}">
-                        <input type="checkbox" id="A_{{x}}" name="A_{{x}}" />{{x}}
-                    </label>
-                    {% endfor %}
-                </div>
-                <div class="selectBox" onclick="showCheckboxes('checkboxes_topic_B')">
-                  <select>
-                    <option>Select Topic B</option>
-                  </select>
-                  <div class="overSelect"></div>
-                </div>
-                <div id="checkboxes_topic_B" class="checkboxes">
-                    {% for x in subcategories_list %}
-                    <label for="B_{{x}}">
-                        <input type="checkbox" id="B_{{x}}" name="B_{{x}}" />{{x}}</label>
-                    {% endfor %}
-                </div>
-                <div class="selectBox" onclick="showCheckboxes('checkboxes_comparison_operators')">
-                  <select>
-                    <option>Select operators</option>
-                  </select>
-                  <div class="overSelect"></div>
-                </div>
-                <div id="checkboxes_comparison_operators" class="checkboxes">
-                    <label for= "<">
-                        <input type="checkbox" id="<" name="CO_smaller"/><</label>
-                    <label for=">">
-                        <input type="checkbox" id=">" name="CO_greater"/>></label>
-                    <label for="=">
-                        <input type="checkbox" id="=" name="CO_equal"/>=</label>
-                </div>
-                <div>
-                      <label for="score">Score (between 1 and 100):</label>
-                      <input type="number" id="score" name="score" min="1" max="5000">
-                </div>
-              </div>
-              <input type="submit" class ="submit" value="Submit">
-
-            </form>
-            <table div class="tableproperty">
-				<tr div class="tabletopic">
-					<th>Topic A</th>
-					<th>Topic B</th>
-					<th>Combination Score</th>
-					<th>Info</th>
+					<div class="selectBox" onclick="showCheckboxes('checkboxes_topic_A')">
+						<select>
+							<option>Select Topic</option>
+						</select>
+						<div class="overSelect"></div>
 					</div>
-				</tr>
+					
+					<div id="checkboxes_topic_A" class="checkboxes" style="width: 200px; height: 100px; overflow-y: scroll;">
+						{% for x in subcategories_list %}
+						<label for="A_{{x}}">
+							<input type="checkbox" id="A_{{x}}" name="A_{{x}}" />{{x}}
+						</label>
+						{% endfor %}
+					</div>
+					
+					<div class="selectBox" onclick="showCheckboxes('checkboxes_comparison_operators')">
+						<select>
+							<option>Select operators</option>
+						</select>
+						<div class="overSelect"></div>
+					</div>
+					
+					<div id="checkboxes_comparison_operators" class="checkboxes">
+						<label for= "<">
+							<input type="checkbox" id="<" name="CO_smaller"/>&lt;
+						</label>
+						<label for=">">
+							<input type="checkbox" id=">" name="CO_greater"/>&gt;
+						</label>
+						<label for="=">
+							<input type="checkbox" id="=" name="CO_equal"/>=
+						</label>
+					</div>
+					
+					<div>
+						<label for="score">Score (between 1 and 100):</label>
+						<input type="number" id="score" name="score" min="1" max="5000">
+					</div>
+					
+					<input type="hidden" id="hidden_input" name="hidden_input" value="{{hidden_input}}">
+				</div>
+			  
+				<input type="submit" class ="submit" value="Submit">
+            </form>
+			
+            <table div class="tableproperty" id="myTable">
+                <tr>
+                    <th onclick="w3.sortHTML('#myTable', '.item', 'td:nth-child(1)')" style="cursor:pointer">Topic A</th>
+                    <th onclick="w3.sortHTML('#myTable', '.item', 'td:nth-child(2)')" style="cursor:pointer">Topic B</th>
+                    <th onclick="w3.sortHTML('#myTable', '.item', 'td:nth-child(3)')" style="cursor:pointer">Combination Score</th>
+					<th>Info</th>
+                </tr>
+				
 				{% for x,y in subcategories.realresult.zipped%}
-					<tr>
+					<tr class="item">
                         <td><a href="../SingleCategoryResult/?category={{x.0}}">{{x.0}}</a></td>
-						<td><a href="../SingleCategoryResult/?&category={{x.1}}">{{x.1}}</a></td>
+						<td><a href="../SingleCategoryResult/?category={{x.1}}">{{x.1}}</a></td>
 						<td>{{y}}</td>
 						<td><a href="../SubcategoryCombination/?subcategory_1={{x.0}}&subcategory_2={{x.1}}">more</a></td>
 					</tr>
 				{% endfor %}
 			</table>
+			
 			<br><br>
 			
 			<ul class="likelisttopic">
-			<li><div class="like">FAVOURITES</div></li>
-			<li><button onclick="refresh()"> Refresh </button>&nbsp&nbsp&nbsp&nbsp<button onclick="emtpylist()"> Clear </button></li>
+				<li><div class="like">FAVOURITES</div></li>
+				<li>
+					<button onclick="refresh()"> Refresh </button>
+					&nbsp;
+					<button onclick="emtpylist()"> Clear </button>
+				</li>
 			</ul>
 		<!--Liked List-->
-			<ul class="likelist" id="likedlist">
-			</ul>		
-		<!--main div end-->
+			<ul class="likelist" id="likedlist"></ul>
         </div>
 		
 		
@@ -175,23 +166,24 @@
             var expanded = false;
 
             function showCheckboxes(x) {
-              var checkboxes = document.getElementById(x);
-              if (!expanded) {
-                checkboxes.style.display = "block";
-                expanded = true;
-              } else {
-                checkboxes.style.display = "none";
-                expanded = false;
-              }
+				var checkboxes = document.getElementById(x);
+				if (!expanded) {
+					checkboxes.style.display = "block";
+					expanded = true;
+				} else {
+					checkboxes.style.display = "none";
+					expanded = false;
+				}
             }
 			
 			function add1() {
 				
 				var new_data = ' \n ' + document.getElementById("R1").textContent; 
-				<!--If nothing saved at the start, save an empty array-->
+				<!-- If nothing saved at the start, save an empty array -->
 				if(localStorage.getItem("data") == null){
-				localStorage.setItem("data", "[]");
+					localStorage.setItem("data", "[]");
 				}
+				
 				var old_data = JSON.parse(localStorage.getItem("data"));
 				old_data.push(new_data);
 				<!--Saving to local storage-->
@@ -206,7 +198,7 @@
 				var new_data = ' \n ' + document.getElementById("R2").textContent; 
 				<!--If nothing saved at the start, save an empty array-->
 				if(localStorage.getItem("data") == null){
-				localStorage.setItem("data", "[]");
+					localStorage.setItem("data", "[]");
 				}
 				var old_data = JSON.parse(localStorage.getItem("data"));
 				old_data.push(new_data);
@@ -218,28 +210,23 @@
 			}
 			
 			function refresh(){
-			
 				if(localStorage.getItem("data") != null){
 					document.getElementById("likedlist").innerHTML = JSON.parse(localStorage.getItem("data"));
-					}
+				}
 			}
 			
 			function emtpylist(){
 				localStorage.setItem("data", "[]");
 				refresh();
 			}
-			
-
-			
-			
 		</script>
-    <!--body end-->
     </body>
+	
 	<footer>
-	<div class="footer">
-		<span class="left">Contact Email : <a href="mailto:hfyma6@nottingham.edu.my">hfyma6@nottingham.edu.my</a></span>
-		<span class="right">Created by SEGP Group 4B</span>​
-	</div>
+		<div class="footer">
+			<span class="left">Contact Email : <a href="mailto:hfyma6@nottingham.edu.my">hfyma6@nottingham.edu.my</a></span>
+			<span class="right">Created by SEGP Group 4B</span>​
+		</div>
 	</footer>
 </html>
 

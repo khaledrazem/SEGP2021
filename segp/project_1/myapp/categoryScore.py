@@ -18,7 +18,7 @@ def getTrend(subcat,quick,growth_query,authorscore_query,readercount_query):
     print()
     for x in subcat:
         connection = 0
-
+        
         # check status of data
         if isinSubcatDB(x):
             subcat_result = selectSubcat(x)
@@ -30,23 +30,22 @@ def getTrend(subcat,quick,growth_query,authorscore_query,readercount_query):
         else:
             status = 0      #not in db
 
-
         if status < 2:
             # check current trend of the keyword
             fake = []
             fake.append(x)
             
+            pytrends = TrendReq(hl='en-US', tz=360)
+            kw_list = fake
+            pytrends.build_payload(kw_list, cat=0, timeframe='now 7-d', geo='', gprop='')
+                
             try:
-                pytrends = TrendReq(hl='en-US', tz=360)
+                trenddata = pytrends.interest_over_time()
                 connection = 1
             except:
                 print("Unable to connect to Google Trends! Try Again Later!")
             
             if connection == 1:
-                kw_list = fake
-                pytrends.build_payload(kw_list, cat=0, timeframe='now 7-d', geo='', gprop='')
-                trenddata = pytrends.interest_over_time()
-
                 if not trenddata.empty:
                     this_trend = float(trenddata[x].sum())      # total trend of current week
                 else:
@@ -262,12 +261,12 @@ def topCombination(subset,quick,growth_query,authorscore_query,readercount_query
 
     return results
 
-def filterSubcat(q1,q2,op,score,quick):
+def filterSubcat(q1,op,score,quick):
     os.system('cls')
     start = time.time()
     
     results = {
-        'realresult': filterResult(q1,q2,op,score,quick)
+        'realresult': filterResult(q1,op,score,quick)
     }
     
     end = time.time()
@@ -276,8 +275,8 @@ def filterSubcat(q1,q2,op,score,quick):
     
     return results
 
-def filterResult(q1,q2,op,score,quick):
-    subcat = q1 + q2
+def filterResult(q1,op,score,quick):
+    subcat = q1
     
     session = mendeleyAuth()
     readerCount = []
@@ -458,6 +457,7 @@ def filterResult(q1,q2,op,score,quick):
 
     return results
 
+
 def popular_article(list_of_link,reader_count,link,title,year_published):
     if len(list_of_link) < 5:
         new_data = (reader_count,link,title,year_published)
@@ -470,6 +470,7 @@ def popular_article(list_of_link,reader_count,link,title,year_published):
                     new_data = (reader_count, link,title, year_published)
                     list_of_link.append(new_data)
                     break
+
     return list_of_link
 
 """
@@ -483,3 +484,4 @@ def author_score(queryList):
         count+=1
     return count
 """
+

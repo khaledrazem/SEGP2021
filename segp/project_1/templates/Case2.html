@@ -1,12 +1,10 @@
-
 {% load static %}
+
 <!DOCTYPE html>
 <html>
     <head>
         <!--tab title-->
-        <title>
-            Research Website
-        </title>
+        <title>Research Website</title>
         <!--style sheet-->
         <link rel="stylesheet" href="{% static 'research_styles.css' %}">
         <!--icon library-->
@@ -14,103 +12,84 @@
     </head>
 
     <body onload="refresh()">
-        <!--nav bar class-->
+        <!-- nav bar -->
         <div class="navbar">
-            <!--nav bar contents-->
             <ul>
-                <li class="navlist"><a class="WebName" href="../">
-                    <i>Website Name.
-                    </i>
-                </a></li>
-                <li class="navlist"><a class="navlink" href="/Topics">
-                    Topics</a>
+                <li class="navlist">
+					<a class="WebName" href="../"><i>Website Name.</i></a>
+				</li>
+				<li class="navlist">
+					<a class="navlink" href="/About">About</a>
                 </li>
-				<li class="navlist"><a class="navlink" href="/About">
-                    About</a>
-                </li>
-                <!--add more if needed to nav bar-->
             </ul>
         </div>
-        <!--main page class-->
+		
+        <!-- main page -->
         <div class="main">
             <p>
                 <!--website title-->
-                <a class="title">
-                    Website Name.
-                </a>
+                <a class="title">Website Name.</a>
                 <!--link 2-->
-                <a class="case" href="/">
-                    Case 2   
-                </a>
+                <a class="case" href="/Case2">Case 2</a>
                 <!--divider-->
-                <a class="case">&nbsp;|&nbsp; 
-                </a>
+                <a class="case">&nbsp;|&nbsp;</a>
                 <!--link 1-->
-                <a class="case" href="/Case1">
-                    Case 1
-                </a>
+                <a class="case" href="/Case1">Case 1</a>
             </p>
             
-            <!--dropdown select menu-->
-            <form method="GET" action="../Testing/">
-                <!-- category select-->
+            <!-- dropdown select menu -->
+            <form id="category_form" method="GET" action="../Testing/">
                 <select name="topics" id="topics" class="choose">
-                <option value="" disabled selected hidden>Categories</option>
-                <option value="bus">Business, Economic & Management</option>
-                <option value="chm">Chemical & Material Sciences</option>
-                <option value="eng">Engineering & Computer Science</option>
-                <option value="med">Health & Medical Sciences</option>
-                <option value="hum">Humanities, Literature & Arts</option>
-                <option value="bio">Life Sciences & Earth Sciences</option>
-                <option value="phy">Physics & Mathematics</option>
-                <option value="soc">Social Sciences</option>
+					<!--<option value="" disabled selected hidden>Categories</option>-->
+					<option value="bus">Business, Economic & Management</option>
+					<option value="chm">Chemical & Material Sciences</option>
+					<option value="eng">Engineering & Computer Science</option>
+					<option value="med">Health & Medical Sciences</option>
+					<option value="hum">Humanities, Literature & Arts</option>
+					<option value="bio">Life Sciences & Earth Sciences</option>
+					<option value="phy">Physics & Mathematics</option>
+					<option value="soc">Social Sciences</option>
                 </select>
-                
+
                 <!--submit button-->
-                <input type="submit" class ="submit" value="Submit">
-                
+                <button onclick="check_radio_button()" type="button">submit</button>
+
                 <br>
                 <!-- checkboxes -->
                 <div class="check">
-                <input type="checkbox" id="growth" name="growth" value="Growth">
-                <label for="Growth">Growth &nbsp;</label>
-                <input type="checkbox" id="authorscore" name="authorscore" value="Authorscore">
-                <label for="authorscore">Author Score &nbsp;</label>
-                <input type="checkbox" id="readercount" name="readercount" value="Readercount">
-                <label for="readerCount">ReaderCount</label>
-				<div class="quicksearch">
-					<input type="checkbox" id="quicksearch" name="quicksearch" checked>
-					<label for="quicksearch">Quick Search</label><br><br>
+                    <input name="algorithm_choice" type="checkbox" id="growth" name="growth" value="Growth">
+                    <label for="Growth">Growth &nbsp;</label>
+					
+                    <input name="algorithm_choice" type="checkbox" id="authorscore" name="authorscore" value="Authorscore">
+                    <label for="authorscore">Author Score &nbsp;</label>
+					
+                    <input name="algorithm_choice" type="checkbox" id="readercount" name="readercount" value="Readercount">
+                    <label for="readerCount">ReaderCount</label>
+					
+                    <div class="quicksearch">
+                        <input type="checkbox" id="quicksearch" name="quicksearch" checked>
+                        <label for="quicksearch">Quick Search</label><br><br>
+                    </div>
                 </div>
             </form>
-            
-            <!--
-			<div class="quicksearch">
-				<form>
-					<input type="checkbox" id="quicksearch" name="quicksearch" checked>
-					<label for="quicksearch">
-                        Quick Search
-                    </label><br><br>
-				</form>
-			</div>
-			-->
 
 			<ul class="likelisttopic">
-			<li><div class="like">FAVOURITES</div></li>
-			<li><button onclick="refresh()"> Refresh </button>&nbsp&nbsp&nbsp&nbsp<button onclick="emtpylist()"> Clear </button></li>
+				<li><div class="like">FAVOURITES</div></li>
+				<li>
+					<button onclick="refresh()"> Refresh </button>
+					&nbsp;
+					<button onclick="emtpylist()"> Clear </button>
+				</li>
 			</ul>
-		<!--Liked List-->
-			<ul class="likelist" id="likedlist">
-			</ul>		
-        </div>
-			
+			<!--Liked List-->
+			<ul class="likelist" id="likedlist"></ul>
         </div>
 		
+		<!-- JAVASCRIPT -->
 		<script>
             function refresh(){
-			
-			if(localStorage.getItem("data") != null){
-				document.getElementById("likedlist").innerHTML = JSON.parse(localStorage.getItem("data"));
+				if(localStorage.getItem("data") != null){
+					document.getElementById("likedlist").innerHTML = JSON.parse(localStorage.getItem("data"));
 				}
 			}
 			
@@ -118,14 +97,25 @@
 				localStorage.setItem("data", "[]");
 				refresh();
 			}
+			
+			function check_radio_button(){
+                 var radios = document.getElementsByName("algorithm_choice");
+
+                 for (var i = 0, len = radios.length; i < len; i++) {
+                      if (radios[i].checked) {
+                          console.log("selected")
+                          document.getElementById("category_form").submit()
+                      }
+                 }
+                 console.log("nothing selected")
+            }
 		</script>
-		
     </body>
 
 	<footer>
-	<div class="footer">
-		<span class="left">Contact Email : <a href="mailto:hfyma6@nottingham.edu.my">hfyma6@nottingham.edu.my</a></span>
-		<span class="right">Created by SEGP Group 4B</span>​
-	</div>
+		<div class="footer">
+			<span class="left">Contact Email : <a href="mailto:hfyma6@nottingham.edu.my">hfyma6@nottingham.edu.my</a></span>
+			<span class="right">Created by SEGP Group 4B</span>​
+		</div>
 	</footer>
 </html>

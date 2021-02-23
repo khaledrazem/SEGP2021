@@ -2199,9 +2199,12 @@
 2021-02-09 15:26:42,762 - elsapy.elsprofile - INFO - Module loaded.
 2021-02-09 15:26:42,763 - elsapy.elsdoc - INFO - Module loaded.
 2021-02-09 15:26:42,764 - elsapy.elssearch - INFO - Module loaded.
+<<<<<<< HEAD
+=======
 2021-02-09 20:48:07,825 - elsapy.elsclient - INFO - Module loaded.
 2021-02-09 20:48:09,649 - elsapy.elsentity - INFO - Module loaded.
 2021-02-09 20:48:09,650 - elsapy.utils - INFO - Module loaded.
 2021-02-09 20:48:09,651 - elsapy.elsprofile - INFO - Module loaded.
 2021-02-09 20:48:09,652 - elsapy.elsdoc - INFO - Module loaded.
 2021-02-09 20:48:09,653 - elsapy.elssearch - INFO - Module loaded.
+>>>>>>> e7ec29a30cd1f97c71c61b8df051888a4043776a

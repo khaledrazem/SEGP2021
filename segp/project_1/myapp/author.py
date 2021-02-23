@@ -52,31 +52,3 @@ def author_score(fname, lname):
         print()
     return score
 
-"""
-def author_score(queryList):
-    client = elsapy_auth()
-    
-    citation = 0
-    
-    for author in queryList:
-        #client = elsapy_auth()
-        auth_srch = ElsSearch("AUTHOR-NAME("+author+")","scopus")
-        auth_srch.execute(client)
-        paper = auth_srch.results
-        
-        for x in paper:
-            try:
-                val = int(x['citedby-count'])
-                print(val, end="\t")
-            except:
-                val = 0
-            citation += val
-        print()
-        print("=================================")
-        print(author,"=",citation)
-        print()
-            
-        #print(citation)
-    
-    return citation
-"""
