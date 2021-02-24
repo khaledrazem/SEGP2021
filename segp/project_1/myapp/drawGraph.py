@@ -8,7 +8,6 @@ def plotGraph(query1, query2):
         'graph1': [],
         'graph2': [],
     }
-    
     if query2 == None:
         kw_list = [query1]
         title1 = "Trend of " + query1

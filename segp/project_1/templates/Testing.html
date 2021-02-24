@@ -15,7 +15,10 @@
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script src="https://www.w3schools.com/lib/w3.js"></script>
+<<<<<<< HEAD
+=======
 		
+>>>>>>> 7a8f673f2522107f33fd04a8a68093a80995dbe4
         <style>
             .multiselect {
               width: 200px;
@@ -94,6 +97,7 @@
 						<label for="A_{{x}}">
 							<input type="checkbox" id="A_{{x}}" name="A_{{x}}" />{{x}}
 						</label>
+						<input type="hidden" id="B_{{x}}" name="B_{{x}}" value="B_{{x}}"/>
 						{% endfor %}
 					</div>
 					
@@ -126,7 +130,7 @@
 			  
 				<input type="submit" class ="submit" value="Submit">
             </form>
-			
+
             <table div class="tableproperty" id="myTable">
                 <tr>
                     <th onclick="w3.sortHTML('#myTable', '.item', 'td:nth-child(1)')" style="cursor:pointer">Topic A</th>
@@ -134,7 +138,7 @@
                     <th onclick="w3.sortHTML('#myTable', '.item', 'td:nth-child(3)')" style="cursor:pointer">Combination Score</th>
 					<th>Info</th>
                 </tr>
-				
+
 				{% for x,y in subcategories.realresult.zipped%}
 					<tr class="item">
                         <td><a href="../SingleCategoryResult/?category={{x.0}}">{{x.0}}</a></td>

@@ -18,7 +18,6 @@ def getTrend(subcat,quick,growth_query,authorscore_query,readercount_query):
     print()
     for x in subcat:
         connection = 0
-        
         # check status of data
         if isinSubcatDB(x):
             subcat_result = selectSubcat(x)
@@ -109,6 +108,7 @@ def topCombination(subset,quick,growth_query,authorscore_query,readercount_query
         
         # check status of data
         if isinCombDB(query_1=x[0],query_2=x[1]):
+            print(x[0],"and",x[1],"in comb db")
             comb_result = selectComb(query_1=x[0],query_2=x[1])
             if (isCombUpdated(query_1=x[0],query_2=x[1])==False) or (comb_result.quick_search_data != quick):
                 status = 1      # in db but not updated

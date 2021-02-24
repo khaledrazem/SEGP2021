@@ -36,7 +36,7 @@
                 <!--link 1-->
                 <a class="case" href="/Case1">Case 1</a>
             </p>
-            
+
             <!-- dropdown select menu -->
             <form id="category_form" method="GET" action="../Testing/">
                 <select name="topics" id="topics" class="choose">
@@ -57,15 +57,15 @@
                 <br>
                 <!-- checkboxes -->
                 <div class="check">
-                    <input name="algorithm_choice" type="checkbox" id="growth" name="growth" value="Growth">
+                    <input class="algorithm_choice" type="checkbox" id="growth" name="growth" value="Growth">
                     <label for="Growth">Growth &nbsp;</label>
 					
-                    <input name="algorithm_choice" type="checkbox" id="authorscore" name="authorscore" value="Authorscore">
+                    <input class="algorithm_choice" type="checkbox" id="authorscore" name="authorscore" value="Authorscore">
                     <label for="authorscore">Author Score &nbsp;</label>
 					
-                    <input name="algorithm_choice" type="checkbox" id="readercount" name="readercount" value="Readercount">
+                    <input class="algorithm_choice" type="checkbox" id="readercount" name="readercount" value="Readercount">
                     <label for="readerCount">ReaderCount</label>
-					
+
                     <div class="quicksearch">
                         <input type="checkbox" id="quicksearch" name="quicksearch" checked>
                         <label for="quicksearch">Quick Search</label><br><br>
@@ -92,14 +92,13 @@
 					document.getElementById("likedlist").innerHTML = JSON.parse(localStorage.getItem("data"));
 				}
 			}
-			
+
 			function emtpylist(){
 				localStorage.setItem("data", "[]");
 				refresh();
 			}
-			
 			function check_radio_button(){
-                 var radios = document.getElementsByName("algorithm_choice");
+                 var radios = document.getElementsByClassName("algorithm_choice");
 
                  for (var i = 0, len = radios.length; i < len; i++) {
                       if (radios[i].checked) {
@@ -119,3 +118,6 @@
 		</div>
 	</footer>
 </html>
+
+
+case2
