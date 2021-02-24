@@ -5,6 +5,7 @@ from combinations.db_keyword_combination import *
 from paper.db_paper import *
 from paper.db_paper_keyword import *
 from combinations.models import keyword_combination
+import os
 
 # check if paper is legal
 def isLegalType(page):
@@ -44,7 +45,7 @@ def calcAvgGrowth(years):
 
 # calculate and return growth and average publication scores
 def scoresList(queryList, quickSearch):
-    print(queryList)
+    os.system('cls')
     # dictionary containing lists needed to be returned
     results = {
         'singleTopics': queryList,

@@ -57,13 +57,13 @@
                 <br>
                 <!-- checkboxes -->
                 <div class="check">
-                    <input name="algorithm_choice" type="checkbox" id="growth" name="growth" value="Growth">
+                    <input class="algorithm_choice" type="checkbox" id="growth" name="growth" value="Growth">
                     <label for="Growth">Growth &nbsp;</label>
 					
-                    <input name="algorithm_choice" type="checkbox" id="authorscore" name="authorscore" value="Authorscore">
+                    <input class="algorithm_choice" type="checkbox" id="authorscore" name="authorscore" value="Authorscore">
                     <label for="authorscore">Author Score &nbsp;</label>
 					
-                    <input name="algorithm_choice" type="checkbox" id="readercount" name="readercount" value="Readercount">
+                    <input class="algorithm_choice" type="checkbox" id="readercount" name="readercount" value="Readercount">
                     <label for="readerCount">ReaderCount</label>
 
                     <div class="quicksearch">
@@ -98,7 +98,7 @@
 				refresh();
 			}
 			function check_radio_button(){
-                 var radios = document.getElementsByName("algorithm_choice");
+                 var radios = document.getElementsByClassName("algorithm_choice");
 
                  for (var i = 0, len = radios.length; i < len; i++) {
                       if (radios[i].checked) {

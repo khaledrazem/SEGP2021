@@ -49,13 +49,14 @@ def testing(request):
         for i in keys:
             if "A_" in i:
                 query_A.append(i.replace("A_",""))
+            if "B_" in i:
+                categories.append(i.replace("B_",""))
             elif "CO_" in i:
                 comparison_operator.append(i.replace("CO_",""))
             elif "score" in i:
                 score = request.POST[i]
         query = str(request.POST['hidden_input'])
         subcategory = filterSubcat(query_A,comparison_operator,score,True)
-        categories = categoryscraper(query)
     context = {
         'subcategories_list':categories,
         'subcategories' : subcategory,
