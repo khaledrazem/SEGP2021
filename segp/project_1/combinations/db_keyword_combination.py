@@ -42,7 +42,12 @@ def insert_KeywordCombination(query_1,query_2,average_reader_count,total_publica
 
 # update database
 def update_KeywordCombination(query_1,query_2,average_reader_count,total_publication,growth,quickSearch):
-    result = db_select_KeywordCombination(query_1,query_2)
+    keyword_1 = db_get_keyword_data(query_1)
+    keyword_2 = db_get_keyword_data(query_2)
+    if (keyword_combination.objects.filter(keyword_1=keyword_1, keyword_2=keyword_2).exists()):
+        result = keyword_combination.objects.get(keyword_1=keyword_1, keyword_2=keyword_2)
+    elif (keyword_combination.objects.filter(keyword_1=keyword_2, keyword_2=keyword_1).exists()):
+        result = keyword_combination.objects.get(keyword_1=keyword_2, keyword_2=keyword_1)
     result.average_reader_count = average_reader_count
     result.total_publication = total_publication
     result.growth = growth

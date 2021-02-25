@@ -36,7 +36,7 @@ def insert_Paper(paper_title,paper_reader_count,paper_link,paper_year_published)
 
 # update database
 def update_Paper(paper_title,paper_reader_count,paper_link, paper_year_published):
-    result = select_Paper(paper_title)
+    result = Paper.objects.get(name=paper_title)
     result.reader_count = paper_reader_count
     result.link = paper_link
     result.last_update = getCurrentTime()

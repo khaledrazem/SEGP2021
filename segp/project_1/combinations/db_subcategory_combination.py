@@ -32,18 +32,15 @@ def insertComb(query_1,query_2, readercount, authorscore,growth,quickScore):
     print("insert", subcategory_1.name,"and", subcategory_2.name)
 
 # update database
-def updateComb(query_1,query_2, score,quickScore):
+def updateComb(query_1,query_2, readercount, authorscore,growth,quickScore):
     subcategory_1 = selectSubcat(query_1)
     subcategory_2 = selectSubcat(query_2)
-    try:
-        comb = subcategory_combination.objects.get(subcategory_1=subcategory_1, subcategory_2=subcategory_2, quick_search_data=quickScore)
-    except:
-        comb = subcategory_combination.objects.get(subcategory_1=subcategory_1, subcategory_2=subcategory_2)
-    #comb = subcategory_combination.objects.get(subcategory_1=subcategory_1, subcategory_2=subcategory_2, quick_search_data=quickScore)
+    comb = subcategory_combination.objects.get(subcategory_1=subcategory_1, subcategory_2=subcategory_2)
     comb.combination_score = readercount
     comb.combination_authorscore = authorscore
     comb.combination_growth = growth
     comb.last_update = getCurrentTime()
+    comb.quick_search_data = quickScore
     comb.save()
     print("update", subcategory_1.name,"and", subcategory_2.name)
 

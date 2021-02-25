@@ -59,7 +59,7 @@ def testing(request):
         subcategory = filterSubcat(query_A,categories,comparison_operator,score,True)
     context = {
         'subcategories_list':categories,
-        'subcategories': subcategory,
+        'subcategories' : subcategory,
         'hidden_input': query,
     }
     return render(request, 'Testing.html',context)

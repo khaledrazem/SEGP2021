@@ -10,6 +10,7 @@ import time
 import os
 
 def getTrend(subcat,quick,growth_query,authorscore_query,readercount_query):
+    os.system('cls')
     start = time.time()
     trend = []
     topsubcat = []
@@ -190,7 +191,8 @@ def topCombination(subset,quick,growth_query,authorscore_query,readercount_query
             avgreader = round((reader+1) / (count+1),2)
             for i in popular_article_list:
                 store_Paper(paper_title=i[2], paper_reader_count=i[0], paper_link=i[1], paper_year_published=i[3])
-                store_Paper_subcategory(paper_title=i[2], query_1=x[0].title(), query_2=x[1].title())
+                store_Paper_subcategory(paper_title=i[2], query_1=x[0], query_2=x[1])
+                #store_Paper_subcategory(paper_title=i[2], query_1=x[0].title(), query_2=x[1].title())
             
             """
             num_of_author = len(authorList)
@@ -275,7 +277,7 @@ def filterSubcat(q1,q2,op,score,quick):
     return results
 
 def filterResult(q1,q2,op,score,quick):
-    subset=[]
+    subset = []
     
     session = mendeleyAuth()
     readerCount = []
@@ -300,7 +302,7 @@ def filterResult(q1,q2,op,score,quick):
             if p[0] == q or p[1] == q:
                 subset.append(p)
     subset = list(dict.fromkeys(subset))
-    
+
     for x in subset:
         popular_article_list=[]
         reader = count = avgreader = this = 0
