@@ -17,8 +17,11 @@
         <script src="https://www.w3schools.com/lib/w3.js"></script>
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 		
 >>>>>>> 7a8f673f2522107f33fd04a8a68093a80995dbe4
+>>>>>>> 74c02a8af36c01979b05d37493d61660403ce371
         <style>
             .multiselect {
               width: 200px;
@@ -133,9 +136,9 @@
 
             <table div class="tableproperty" id="myTable">
                 <tr>
-                    <th onclick="w3.sortHTML('#myTable', '.item', 'td:nth-child(1)')" style="cursor:pointer">Topic A</th>
-                    <th onclick="w3.sortHTML('#myTable', '.item', 'td:nth-child(2)')" style="cursor:pointer">Topic B</th>
-                    <th onclick="w3.sortHTML('#myTable', '.item', 'td:nth-child(3)')" style="cursor:pointer">Combination Score</th>
+                    <th onclick="sort_column(1)" style="cursor:pointer">Topic A&emsp;<i class="fa fa-caret-down" style="font-size:26px" id="sort_1"></i></th>
+                    <th onclick="sort_column(2)" style="cursor:pointer">Topic B&emsp;<i class="fa fa-caret-down" style="font-size:26px" id="sort_2"></i></th>
+                    <th onclick="sort_column(3)" style="cursor:pointer">Combination Score&emsp;<i class="fa fa-caret-down" style="font-size:26px" id="sort_3"></i></th>
 					<th>Info</th>
                 </tr>
 
@@ -162,10 +165,21 @@
 		<!--Liked List-->
 			<ul class="likelist" id="likedlist"></ul>
         </div>
-		
+		<!--Liked List-->
 		
 		
 		<script>
+
+            function sort_column(x){
+                w3.sortHTML('#myTable', '.item', 'td:nth-child('+x+')');
+                var sort_button = document.getElementById("sort_"+x).className
+                if (sort_button == "fa fa-caret-down"){
+                       document.getElementById("sort_"+x).className = "fa fa-caret-up";
+                }
+                else{
+                       document.getElementById("sort_"+x).className = "fa fa-caret-down";
+                }
+            }
 
             var expanded = false;
 

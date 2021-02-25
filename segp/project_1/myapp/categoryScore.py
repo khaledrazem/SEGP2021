@@ -10,7 +10,6 @@ import time
 import os
 
 def getTrend(subcat,quick,growth_query,authorscore_query,readercount_query):
-    os.system('cls')
     start = time.time()
     trend = []
     topsubcat = []
@@ -261,12 +260,12 @@ def topCombination(subset,quick,growth_query,authorscore_query,readercount_query
 
     return results
 
-def filterSubcat(q1,op,score,quick):
+def filterSubcat(q1,q2,op,score,quick):
     os.system('cls')
     start = time.time()
     
     results = {
-        'realresult': filterResult(q1,op,score,quick)
+        'realresult': filterResult(q1,q2,op,score,quick)
     }
     
     end = time.time()
@@ -275,8 +274,8 @@ def filterSubcat(q1,op,score,quick):
     
     return results
 
-def filterResult(q1,op,score,quick):
-    subcat = q1
+def filterResult(q1,q2,op,score,quick):
+    subset=[]
     
     session = mendeleyAuth()
     readerCount = []
@@ -292,8 +291,16 @@ def filterResult(q1,op,score,quick):
     comb=[]
     i = 0
     
-    subset = pair_subset(subcat)
-
+    # find all subcategory combination
+    all_comb = pair_subset(q2)
+    
+    # keep checked subcategory
+    for p in all_comb:
+        for q in q1:
+            if p[0] == q or p[1] == q:
+                subset.append(p)
+    subset = list(dict.fromkeys(subset))
+    
     for x in subset:
         popular_article_list=[]
         reader = count = avgreader = this = 0

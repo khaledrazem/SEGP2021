@@ -56,11 +56,10 @@ def testing(request):
             elif "score" in i:
                 score = request.POST[i]
         query = str(request.POST['hidden_input'])
-        subcategory = filterSubcat(query_A,comparison_operator,score,True)
-        
+        subcategory = filterSubcat(query_A,categories,comparison_operator,score,True)
     context = {
         'subcategories_list':categories,
-        'subcategories' : subcategory,
+        'subcategories': subcategory,
         'hidden_input': query,
     }
     return render(request, 'Testing.html',context)
