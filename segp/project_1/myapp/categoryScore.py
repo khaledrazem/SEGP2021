@@ -51,7 +51,7 @@ def getTrend(subcat,quick,growth_query,authorscore_query,readercount_query):
                     this_trend = 0       # no trend
             else:
                 if status == 0:
-                    this_trend == 0
+                    this_trend = 0
 
             if status == 1:
                 updateSubcat(x, this_trend, quick)    # update db
