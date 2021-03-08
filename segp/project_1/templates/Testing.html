@@ -12,9 +12,30 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- jquery -->
         <link rel="stylesheet" href="/resources/demos/style.css">
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script src="https://www.w3schools.com/lib/w3.js"></script>
+		
+		<script>
+		$( function() {
+			$( "#slider-range" ).slider({
+				range: true,
+				min: 0,
+				max: 100,
+				values: [0,100],
+				slide: function( event, ui ) {
+					$( "#amount" ).val( "" + ui.values[ 0 ] + " - " + ui.values[ 1 ] );
+					$("#min_val").val(ui.values[ 0 ]);
+					$("#max_val").val(ui.values[ 1 ]);
+				}
+			});
+			$("#amount").val( $( "#slider-range" ).slider( "values", 0 ) + " - " + $( "#slider-range" ).slider( "values", 1 ) );
+			
+		} );
+		
+			</script>
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -103,33 +124,22 @@
 						<input type="hidden" id="B_{{x}}" name="B_{{x}}" value="B_{{x}}"/>
 						{% endfor %}
 					</div>
+										
+					<p>
+						<label for="amount">Price range:</label>
+						<input type="text" id="amount" name="amount" readonly>
+						<input type="hidden" id="min_val" name="min_val">
+						<input type="hidden" id="max_val" name="max_val">
+					</p>
+										
+					<div id="slider-range"></div>
 					
-					<div class="selectBox" onclick="showCheckboxes('checkboxes_comparison_operators')">
-						<select>
-							<option>Select operators</option>
-						</select>
-						<div class="overSelect"></div>
-					</div>
-					
-					<div id="checkboxes_comparison_operators" class="checkboxes">
-						<label for= "<">
-							<input type="checkbox" id="<" name="CO_smaller"/>&lt;
-						</label>
-						<label for=">">
-							<input type="checkbox" id=">" name="CO_greater"/>&gt;
-						</label>
-						<label for="=">
-							<input type="checkbox" id="=" name="CO_equal"/>=
-						</label>
-					</div>
-					
-					<div>
-						<label for="score">Score (between 1 and 100):</label>
-						<input type="number" id="score" name="score" min="1" max="5000">
-					</div>
+					<br/>
 					
 					<input type="hidden" id="hidden_input" name="hidden_input" value="{{hidden_input}}">
 				</div>
+				
+				
 			  
 				<input type="submit" class ="submit" value="Submit">
             </form>
@@ -236,6 +246,7 @@
 			function emtpylist(){
 				localStorage.setItem("data", "[]");
 				refresh();
+				
 			}
 		</script>
     </body>

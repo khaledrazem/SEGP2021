@@ -51,7 +51,7 @@ def getTrend(subcat,quick,growth_query,authorscore_query,readercount_query):
                     this_trend = 0       # no trend
             else:
                 if status == 0:
-                    this_trend == 0
+                    this_trend = 0
 
             if status == 1:
                 updateSubcat(x, this_trend, quick)    # update db
@@ -218,29 +218,31 @@ def topCombination(subset,quick,growth_query,authorscore_query,readercount_query
             authorScore.append(str(authorscore))
             Growth.append(str(growth))
     
-    score = []
+    tempscore = []
     
     # choose which data to display
     if readercount_query and growth_query and authorscore_query:
-        score = readerCount
+        tempscore = readerCount
     else:
         if readercount_query and growth_query:
             zipped_lists = zip(readerCount, Growth)
-            score = [float(x) + float(y) for (x, y) in zipped_lists]
+            tempscore = [float(x) + float(y) for (x, y) in zipped_lists]
         elif readercount_query and authorscore_query:
             zipped_lists = zip(readerCount, authorScore)
-            score = [float(x) + float(y) for (x, y) in zipped_lists]
+            tempscore = [float(x) + float(y) for (x, y) in zipped_lists]
         elif growth_query and authorscore_query:
             zipped_lists = zip(authorScore, Growth)
-            score = [float(x) + float(y) for (x, y) in zipped_lists]
+            tempscore = [float(x) + float(y) for (x, y) in zipped_lists]
         elif readercount_query:
-            score = readerCount
+            tempscore = readerCount
         elif growth_query:
-            score = Growth
+            tempscore = Growth
         elif authorscore_query: 
-            score = authorScore
+            tempscore = authorScore
         else:
-            score = readerCount
+            tempscore = readerCount
+    
+    score = data_norm(tempscore)
     
     # get position of largest data
     largest = sorted(range(len(score)), key=lambda sub: score[sub])[-N:]
@@ -262,12 +264,12 @@ def topCombination(subset,quick,growth_query,authorscore_query,readercount_query
 
     return results
 
-def filterSubcat(q1,q2,op,score,quick):
-    os.system('cls')
+def filterSubcat(q1,q2,minval,maxval,quick):
+    #os.system('cls')
     start = time.time()
     
     results = {
-        'realresult': filterResult(q1,q2,op,score,quick)
+        'realresult': filterResult(q1,q2,minval,maxval,quick)
     }
     
     end = time.time()
@@ -276,11 +278,11 @@ def filterSubcat(q1,q2,op,score,quick):
     
     return results
 
-def filterResult(q1,q2,op,score,quick):
+def filterResult(q1,q2,minval,maxval,quick):
     subset = []
     
     session = mendeleyAuth()
-    readerCount = []
+    tempreaderCount = []
     results = {
         'topReader': [],
         'realReader': [],
@@ -358,12 +360,13 @@ def filterResult(q1,q2,op,score,quick):
             else:
                 insertComb(query_1=x[0],query_2=x[1], readercount=round(avgreader, 2), authorscore=round(authorscore, 2), growth=round(growth, 2), quickScore=quick)  # insert to db
 
-
         if status == 2:
             comb_result = selectComb(query_1=x[0], query_2=x[1])    # get data from db
-            readerCount.append(comb_result.combination_score)
+            tempreaderCount.append(comb_result.combination_score)
         else:
-            readerCount.append(avgreader)       # get data from calc
+            tempreaderCount.append(avgreader)       # get data from calc
+    
+    readerCount = data_norm(tempreaderCount)
     
     N=len(readerCount)
 
@@ -384,6 +387,42 @@ def filterResult(q1,q2,op,score,quick):
     readers.reverse()
     comb.reverse()
     
+    if minval == '':
+        minval = 0
+    
+    if maxval == '':
+        maxval = 100
+    
+    if minval == maxval:
+        m = [pos for pos, val in enumerate(comb) if val == float(minval)]
+        if m:
+            q = 0
+            while q < len(m):
+                results['realReader'].append(readers[m[q]])
+                results['realComb'].append(comb[m[q]])
+                q += 1
+        else:
+            results['realReader'] = readers
+            results['realComb'] = comb
+    else:
+        # >=
+        try:
+            m = next(pos for pos, val in enumerate(comb) if val < float(minval))
+            readers = readers[:m]
+            comb = comb[:m]
+        except:
+            readers = readers
+            comb = comb
+        # <=
+        try:
+            m = next(pos for pos, val in enumerate(comb) if val <= float(maxval))
+            results['realReader'] = readers[m:]
+            results['realComb'] = comb[m:]
+        except:
+            results['realReader'] = readers
+            results['realComb'] = comb
+    
+    """
     # default score is 0
     if score == '':
         score = 0
@@ -461,7 +500,7 @@ def filterResult(q1,q2,op,score,quick):
             else:
                 results['realReader'] = readers
                 results['realComb'] = comb
-        
+    """
     results['zipped'] = zip(results['realReader'], results['realComb'])
 
     return results
@@ -481,6 +520,18 @@ def popular_article(list_of_link,reader_count,link,title,year_published):
                     break
 
     return list_of_link
+
+def data_norm(arr):
+    max_val = float(max(arr)) * 1.05
+    min_val = float(min(arr)) * 0.95
+    score = []
+    
+    for x in arr:
+        point = (float(x) - min_val)/(max_val - min_val)*100
+        score.append(round(point,2))
+    
+    return score
+
 
 """
 def author_score(queryList):
