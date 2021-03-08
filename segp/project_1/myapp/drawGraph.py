@@ -26,19 +26,22 @@ def plotGraph(query1, query2):
     try:
         data1 = pytrends.interest_over_time()
     except:
-        print("Google trend down")
         timeout = 1
+        print("Google Trend down!")
     
-    if not data1.empty and timeout == 0:
-        data1 = data1.drop(labels=['isPartial'], axis='columns')
-
-        trace = [go.Scatter(
-            x=data1.index,
-            y=data1[col], name=col) for col in data1.columns]
-        
-        the_graph['graph1'] = dataGraph(title1,trace)
-    else:
+    if timeout == 1:
         the_graph['graph1'] = emptyGraph(title1)
+    else:
+        if not data1.empty:
+            data1 = data1.drop(labels=['isPartial'], axis='columns')
+
+            trace = [go.Scatter(
+                x=data1.index,
+                y=data1[col], name=col) for col in data1.columns]
+            
+            the_graph['graph1'] = dataGraph(title1,trace)
+        else:
+            the_graph['graph1'] = emptyGraph(title1)
 
     # plot combination graph
     if query2 != None:
@@ -48,19 +51,22 @@ def plotGraph(query1, query2):
         try:
             data2 = pytrends.interest_over_time()
         except:
-            print("Google trend down")
+            print("Google Trend down!")
             timeout = 1
-
-        if not data2.empty and timeout == 0:
-            data2 = data2.drop(labels=['isPartial'], axis='columns')
-
-            trace = [go.Scatter(
-                x=data2.index,
-                y=data2[col], line=dict(color='#00FF00', width=2), name=col) for col in data2.columns]
-
-            the_graph['graph2'] = dataGraph(title2,trace)
-        else:
+        
+        if timeout == 1:
             the_graph['graph2'] = emptyGraph(title2)
+        else:
+            if not data2.empty:
+                data2 = data2.drop(labels=['isPartial'], axis='columns')
+
+                trace = [go.Scatter(
+                    x=data2.index,
+                    y=data2[col], line=dict(color='#00FF00', width=2), name=col) for col in data2.columns]
+
+                the_graph['graph2'] = dataGraph(title2,trace)
+            else:
+                the_graph['graph2'] = emptyGraph(title2)
 
     return the_graph
 

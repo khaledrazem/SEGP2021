@@ -5,6 +5,7 @@ from combinations.db_keyword_combination import *
 from paper.db_paper import *
 from paper.db_paper_keyword import *
 from combinations.models import keyword_combination
+from itertools import combinations
 import os
 
 # check if paper is legal
@@ -18,13 +19,10 @@ def isLegalType(page):
 # return paired tuples
 def pair_subset(query):
     subset = []
-    i = 0
-    while i < len(query):
-        j = i + 1
-        while j < len(query):
-            subset.append((query[i], query[j]))
-            j += 1
-        i += 1
+    comb = combinations(query,2)
+    for i in comb:
+        subset.append(i)
+    
     return subset
 
 # return paired tuples and single queries

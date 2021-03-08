@@ -44,6 +44,7 @@ def testing(request):
     # filter function
     if request.method == 'POST':
         query_A=[]
+        score = 0
         comparison_operator=[]
         keys=list(request.POST.keys())
         for i in keys:
@@ -51,12 +52,15 @@ def testing(request):
                 query_A.append(i.replace("A_",""))
             if "B_" in i:
                 categories.append(i.replace("B_",""))
-            elif "CO_" in i:
-                comparison_operator.append(i.replace("CO_",""))
-            elif "score" in i:
-                score = request.POST[i]
+            elif "min_val" in i:
+                minval = request.POST['min_val']
+            elif "max_val" in i:
+                maxval = request.POST['max_val']
+        print(minval,maxval)
         query = str(request.POST['hidden_input'])
-        subcategory = filterSubcat(query_A,comparison_operator,score,True)
+
+        subcategory = filterSubcat(query_A,categories,minval,maxval,True)
+
     context = {
         'subcategories_list':categories,
         'subcategories' : subcategory,
