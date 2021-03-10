@@ -65,4 +65,12 @@ def get_related_paper_with_subcategory_combination(query_1,query_2):
     else:
         subcategory_2 = selectSubcat(query_2)
     return paper_subcategory_relationship.objects.filter(paper_subcategory_1=subcategory_1, paper_subcategory_2=subcategory_2)
+    
 
+def get_related_paper_with_keyword(query_1,query_2):
+    subcategory_1 = selectSubcat(query_1)
+    if paper_subcategory_relationship.objects.filter(paper_subcategory_1=subcategory_1).exists():
+        results = paper_subcategory_relationship.objects.filter(paper_subcategory_1=subcategory_1)
+    else:
+        results = paper_subcategory_relationship.objects.filter(paper_subcategory_2=subcategory_1)
+    return results

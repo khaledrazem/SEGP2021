@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2021-03-10 13:36:37,587 - elsapy.elsclient - INFO - Module loaded.
 2021-03-10 13:36:39,701 - elsapy.elsentity - INFO - Module loaded.
 2021-03-10 13:36:39,702 - elsapy.utils - INFO - Module loaded.
@@ -6,3 +7,35 @@
 2021-03-10 13:36:39,722 - elsapy.elssearch - INFO - Module loaded.
 2021-03-10 13:36:39,734 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scidir?query=Transportation+%2B+Architecture
 2021-03-10 13:36:42,484 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scidir?query=Transportation+%2B+Architecture
+=======
+2021-03-10 13:40:35,179 - elsapy.elsclient - INFO - Module loaded.
+2021-03-10 13:40:36,198 - elsapy.elsentity - INFO - Module loaded.
+2021-03-10 13:40:36,199 - elsapy.utils - INFO - Module loaded.
+2021-03-10 13:40:36,200 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-10 13:40:36,201 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-10 13:40:36,202 - elsapy.elssearch - INFO - Module loaded.
+2021-03-10 13:41:55,223 - elsapy.elsclient - INFO - Module loaded.
+2021-03-10 13:41:55,525 - elsapy.elsentity - INFO - Module loaded.
+2021-03-10 13:41:55,525 - elsapy.utils - INFO - Module loaded.
+2021-03-10 13:41:55,529 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-10 13:41:55,529 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-10 13:41:55,530 - elsapy.elssearch - INFO - Module loaded.
+2021-03-10 13:48:39,127 - elsapy.elsclient - INFO - Module loaded.
+2021-03-10 13:48:39,414 - elsapy.elsentity - INFO - Module loaded.
+2021-03-10 13:48:39,415 - elsapy.utils - INFO - Module loaded.
+2021-03-10 13:48:39,415 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-10 13:48:39,416 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-10 13:48:39,416 - elsapy.elssearch - INFO - Module loaded.
+2021-03-10 13:49:13,948 - elsapy.elsclient - INFO - Module loaded.
+2021-03-10 13:49:14,233 - elsapy.elsentity - INFO - Module loaded.
+2021-03-10 13:49:14,233 - elsapy.utils - INFO - Module loaded.
+2021-03-10 13:49:14,234 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-10 13:49:14,234 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-10 13:49:14,235 - elsapy.elssearch - INFO - Module loaded.
+2021-03-10 13:49:32,670 - elsapy.elsclient - INFO - Module loaded.
+2021-03-10 13:49:32,954 - elsapy.elsentity - INFO - Module loaded.
+2021-03-10 13:49:32,954 - elsapy.utils - INFO - Module loaded.
+2021-03-10 13:49:32,955 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-10 13:49:32,955 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-10 13:49:32,956 - elsapy.elssearch - INFO - Module loaded.
+>>>>>>> ecd0f8df1ac896c2bbd7c393bb62660a9a1c8ebd
