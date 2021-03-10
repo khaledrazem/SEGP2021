@@ -4,27 +4,27 @@ from elsapy.elsclient import ElsClient
 from elsapy.elsprofile import ElsAuthor, ElsAffil
 from elsapy.elsdoc import FullDoc, AbsDoc
 from elsapy.elssearch import ElsSearch
+from collections import Counter
 import json
 
 
 def elsevier_auth():
-    ## Initialize client
-    client = ElsClient("7a286322cb3559da3442a03892947ae4")
-    client.inst_token = ""
+    client = ElsClient("1ebaeb2ea719e96071ce074a5c341963")
+    client.inst_token = "6383ea4db27ea6b7353107935f098932"
     return client
 
-def find_abstract(doi):
-    client = elsevier_auth()
-    ## ScienceDirect (full-text) document example using DOI
-    doi_doc = FullDoc(doi=doi)
-    if doi_doc.read(client):
-        print("doi_doc.title: ", doi_doc.title)
-        print("doi_doc.abstract: ", doi_doc.data['coredata']['dc:description'])
-        doi_doc.write()
-    else:
-        print("Read document failed.")
-
-# client = elsevier_auth()
-# myDocSrch = ElsSearch('Transportation + Architecture','scidir')
-# if myDocSrch.execute(client):
-#     print(myDocSrch.results)
+client = elsevier_auth()
+myDocSrch = ElsSearch('Transportation + Architecture','sciencedirect')
+myDocSrch.execute(client,get_all = False)
+text=''
+for i in myDocSrch.results:
+    print(i['prism:url'])
+    pii_doc = FullDoc(sd_pii=i['pii'])
+    if pii_doc.read(client):
+        text += pii_doc.data['coredata']['dc:description']
+split_it = text.split()
+Counter = Counter(split_it)
+most_occur = Counter.most_common(40)
+print(most_occur)
+# pii_doc.data['coredata']['dc:description']
+        # prism: coverDisplayDate

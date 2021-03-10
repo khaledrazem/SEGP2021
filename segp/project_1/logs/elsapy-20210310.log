@@ -1,0 +1,8 @@
+2021-03-10 13:36:37,587 - elsapy.elsclient - INFO - Module loaded.
+2021-03-10 13:36:39,701 - elsapy.elsentity - INFO - Module loaded.
+2021-03-10 13:36:39,702 - elsapy.utils - INFO - Module loaded.
+2021-03-10 13:36:39,702 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-10 13:36:39,704 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-10 13:36:39,722 - elsapy.elssearch - INFO - Module loaded.
+2021-03-10 13:36:39,734 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scidir?query=Transportation+%2B+Architecture
+2021-03-10 13:36:42,484 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scidir?query=Transportation+%2B+Architecture

@@ -39,12 +39,12 @@
             </p>
 			
             <p class="summary">
-                Enter multiple entities (max. 3) to begin your search.
+                Enter multiple entities to begin your search.
             </p>
 			
             <!-- ADD/DELETE entities -->
             <div class="header">
-				<input class="inputsearchbar" type="text" id="myInput" placeholder="Enter entity (maximum 3)">
+				<input class="inputsearchbar" type="text" id="myInput" placeholder="Enter your keyword entity">
 				<span onclick="newElement()" class="Add" id="newAdd">Add</span>
 				<br><br>
             </div>
@@ -119,8 +119,6 @@
 
             //ADD function to append new entities in list
             function newElement() {
-                if (counter < 3){
-                    counter++;
                     var li = document.createElement("li");
                     var inputValue = document.getElementById("myInput").value;
                     var t = document.createTextNode(inputValue);
@@ -129,7 +127,6 @@
 					
                     if (inputValueTrim == '') {
                         alert("You must write something!");
-						counter--;
                     }
                     else {
                         document.getElementById("myUL").appendChild(li);
@@ -144,18 +141,12 @@
 
                     for (i = 0; i < close.length; i++) {
                         close[i].onclick = function() {
-                            counter--;
-
                             var div = this.parentElement;
                             div.remove();
                             //var div1 = document.getElementById("myUL");
                             //div1.removeChild(div1.childNodes[i]);
                         }
                     }
-                }
-                else {
-                    document.getElementById("newAdd").disabled=true;
-                }
             }
 
             //GET ELEMENTS FUNCTION
