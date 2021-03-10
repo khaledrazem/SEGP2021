@@ -991,3 +991,28 @@ and using headers {'X-ELS-APIKey': '1ebaeb2ea719e96071ce074a5c341963', 'User-Age
 2021-03-10 15:12:57,070 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0968090X19305868
 2021-03-10 15:12:58,070 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0360319915319868
 2021-03-10 15:12:59,306 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0360319915319868
+2021-03-10 20:38:15,242 - elsapy.elsclient - INFO - Module loaded.
+2021-03-10 20:38:16,375 - elsapy.elsentity - INFO - Module loaded.
+2021-03-10 20:38:16,377 - elsapy.utils - INFO - Module loaded.
+2021-03-10 20:38:16,378 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-10 20:38:16,380 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-10 20:38:16,382 - elsapy.elssearch - INFO - Module loaded.
+2021-03-10 20:38:16,384 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Transportation+%2B+Architecture
+2021-03-10 20:38:18,947 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-10 20:38:19,935 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S235214652100329X
+2021-03-10 20:38:21,228 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S235214652100329X
+2021-03-10 20:38:22,228 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S209526352030042X
+2021-03-10 20:38:51,312 - elsapy.elsclient - INFO - Module loaded.
+2021-03-10 20:38:51,757 - elsapy.elsentity - INFO - Module loaded.
+2021-03-10 20:38:51,758 - elsapy.utils - INFO - Module loaded.
+2021-03-10 20:38:51,759 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-10 20:38:51,759 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-10 20:38:51,760 - elsapy.elssearch - INFO - Module loaded.
+2021-03-10 20:38:52,313 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Transportation+%2B+Architecture
+2021-03-10 20:38:53,212 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-10 20:38:54,209 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S235214652100329X
+2021-03-10 20:38:55,492 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S235214652100329X
+2021-03-10 20:38:56,492 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S209526352030042X
+2021-03-10 20:38:57,933 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S209526352030042X
+2021-03-10 20:38:58,933 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1389041719304772
+2021-03-10 20:39:02,372 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1389041719304772

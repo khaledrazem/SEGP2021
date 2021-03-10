@@ -18,13 +18,14 @@ myDocSrch = ElsSearch('Transportation + Architecture','sciencedirect')
 myDocSrch.execute(client,get_all = False)
 text=''
 for i in myDocSrch.results:
-    print(i['prism:url'])
+    print(i['dc:title'])
     pii_doc = FullDoc(sd_pii=i['pii'])
     if pii_doc.read(client):
-        text += pii_doc.data['coredata']['dc:description']
-split_it = text.split()
-Counter = Counter(split_it)
-most_occur = Counter.most_common(40)
-print(most_occur)
+        print(pii_doc.data['coredata']['dc:description'])
+        # text += pii_doc.data['coredata']['dc:description']
+# split_it = text.split()
+# Counter = Counter(split_it)
+# most_occur = Counter.most_common(40)
+# print(most_occur)
 # pii_doc.data['coredata']['dc:description']
         # prism: coverDisplayDate
