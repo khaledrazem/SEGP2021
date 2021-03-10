@@ -39,6 +39,8 @@
 	x.addListener(screenSize)
 </script>
 
+		
+
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,7 +50,69 @@
         <link rel="stylesheet" href="{% static 'research_styles.css' %}">
         <!-- icon library -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
+		<!-- jquery -->
+		<link rel="stylesheet" href="/resources/demos/style.css">
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<script src="https://www.w3schools.com/lib/w3.js"></script>
+		
+		<script>
+		$( function() {
+			$( "#slider-range" ).slider({
+				range: true,
+				min: 0,
+				max: 100,
+				values: [0,100],
+				slide: function( event, ui ) {
+					$( "#amount" ).val( "" + ui.values[ 0 ] + " - " + ui.values[ 1 ] );
+					$("#min_val").val(ui.values[ 0 ]);
+					$("#max_val").val(ui.values[ 1 ]);
+				}
+			});
+			$("#amount").val( $( "#slider-range" ).slider( "values", 0 ) + " - " + $( "#slider-range" ).slider( "values", 1 ) );
+			
+		} );
+		
+		</script>
+			
+		<style>
+            .multiselect {
+              width: 200px;
+            }
+
+            .selectBox {
+              position: relative;
+            }
+
+            .selectBox select {
+              width: 100%;
+              font-weight: bold;
+            }
+
+            .overSelect {
+              position: absolute;
+              left: 0;
+              right: 0;
+              top: 0;
+              bottom: 0;
+            }
+
+            .checkboxes {
+              display: none;
+              border: 1px #dadada solid;
+            }
+
+            .checkboxes label {
+              display: block;
+            }
+
+            .checkboxes label:hover {
+              background-color: #1e90ff;
+            }
+        </style>	
+   </head>
 	
     <body>
         <!-- nav bar -->
@@ -77,6 +141,43 @@
 				to view more info regarding both entities.
 			</p>
 			
+			<p id="skip"></p>
+            <form method="post" action="?"> {% csrf_token %}
+                <div class="multiselect">
+					<div class="selectBox" onclick="showCheckboxes('checkboxes_topic_A')">
+						<select>
+							<option>Select Topic</option>
+						</select>
+						<div class="overSelect"></div>
+					</div>
+					
+					<div id="checkboxes_topic_A" class="checkboxes" style="width: 200px; height: 100px; overflow-y: scroll;">
+						{% for x in query_list %}
+						<label for="A_{{x}}">
+							<input type="checkbox" id="A_{{x}}" name="A_{{x}}" />{{x}}
+						</label>
+						<input type="hidden" id="B_{{x}}" name="B_{{x}}" value="B_{{x}}"/>
+						{% endfor %}
+					</div>
+										
+					<p>
+						<label for="amount">Price range:</label>
+						<input type="text" id="amount" name="amount" readonly>
+						<input type="hidden" id="min_val" name="min_val">
+						<input type="hidden" id="max_val" name="max_val">
+					</p>
+										
+					<div id="slider-range"></div>
+					
+					<br/>
+					
+				</div>
+				
+				
+			  
+				<input type="submit" class ="submit" value="Submit">
+            </form>
+			
             <table class="tableproperty">
 				<tr class="tabletopic">
 					<th>Topic A</th>
@@ -85,7 +186,7 @@
 					<th>Info</th>
 				</tr>
 
-				{% for x,y in scores_result.zipped%}
+				{% for x,y in scores_result.realresult.zipped %}
 					<tr>
 						<td><a href="../SingleKeywordResult/?keyword={{x.0}}">{{x.0}} </a></td>
 						{% if x.1 in '-' %}
@@ -118,6 +219,22 @@
             <ul class="likelist" id="likedlist">
             </ul>
         </div>
+		
+		<script>
+			
+			var expanded = false;
+			
+			function showCheckboxes(x) {
+				var checkboxes = document.getElementById(x);
+				if (!expanded) {
+					checkboxes.style.display = "block";
+					expanded = true;
+				} else {
+					checkboxes.style.display = "none";
+					expanded = false;
+				}
+            }
+		</script>
     </body>
 	<footer>
 		<div class="footer">

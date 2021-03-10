@@ -1,6 +1,6 @@
 from django.shortcuts import render,redirect
-from .mendeleyScores import scoresList,search
-from .categoryScore import getTrend, filterSubcat
+from .mendeleyScores import *
+from .categoryScore import getTrend, filterSubcat, searchKeyword
 from .categoryscraper import categoryscraper
 from search_keyword import db_keyword_query
 from combinations import db_keyword_combination,db_subcategory_combination
@@ -44,8 +44,6 @@ def testing(request):
     # filter function
     if request.method == 'POST':
         query_A=[]
-        score = 0
-        comparison_operator=[]
         keys=list(request.POST.keys())
         for i in keys:
             if "A_" in i:
@@ -56,24 +54,42 @@ def testing(request):
                 minval = request.POST['min_val']
             elif "max_val" in i:
                 maxval = request.POST['max_val']
-        print(minval,maxval)
-        query = str(request.POST['hidden_input'])
         subcategory = filterSubcat(query_A,categories,minval,maxval,True)
     context = {
         'subcategories_list':categories,
-        'subcategories' : subcategory,
-        'hidden_input': query,
+        'subcategories': subcategory,
     }
     return render(request, 'Testing.html',context)
 
 def results1(request):
+    keyword = []
+
     if request.method == 'GET':
         query = str(request.GET['input_submitted']).split("\\n")
         query.remove("")
+        keyword = query
         quick_search = 'quicksearch' in request.GET
-
+        query_result = getTrend(query, quick_search, False, False, True)
+    
+    # filter function
+    if request.method == 'POST':
+        query_A=[]
+        keys=list(request.POST.keys())
+        for i in keys:
+            if "A_" in i:
+                query_A.append(i.replace("A_",""))
+            if "B_" in i:
+                keyword.append(i.replace("B_",""))
+            elif "min_val" in i:
+                minval = request.POST['min_val']
+            elif "max_val" in i:
+                maxval = request.POST['max_val']
+        
+        query_result = filterSubcat(query_A,keyword,minval,maxval,True)
+    
     context = {
-        'scores_result' :scoresList(query, quick_search)
+        'query_list':keyword,
+        'scores_result':query_result,
     }
     return render(request, 'Results1.html',context)
 
@@ -86,25 +102,28 @@ def results2(request):
 def single_category(request):
     if request.method == 'GET':
         query = str(request.GET['category'])
-        results = search(query,False)
+        results = searchKeyword(query,True)
+        related_paper = db_paper_subcategory.get_related_paper_with_keyword(query, None)
         graph = plotGraph(query, None)
         context = {
-            "query":query,
+            "keyword":query,
             "results":results,
             "graph": graph,
+            "related": related_paper,
         }
     return render(request, 'SingleCategoryResult.html',context)
 
 def single_keyword_result(request):
     if request.method == 'GET':
         query = str(request.GET['keyword'])
-        result_keyword = db_keyword_query.db_get_keyword_data(query)
-        related_paper = db_paper_keyword.get_related_paper_with_keyword_combination(query, None)
+        results = searchKeyword(query,True)
+        related_paper = db_paper_subcategory.get_related_paper_with_keyword(query, None)
         graph = plotGraph(query, None)
         context = {
-            "keyword":result_keyword,
-            "related":related_paper,
+            "keyword":query,
+            "results":results,
             "graph": graph,
+            "related": related_paper,
         }
     return render(request, 'SingleKeywordResult.html',context)
 
@@ -112,8 +131,10 @@ def keyword_combination_result(request):
     if request.method == 'GET':
         query_1 = str(request.GET['keyword_1'])
         query_2 = str(request.GET['keyword_2'])
-        result_keyword = db_keyword_combination.db_select_KeywordCombination(query_1,query_2)
-        related_paper = db_paper_keyword.get_related_paper_with_keyword_combination(query_1,query_2)
+        #result_keyword = db_keyword_combination.db_select_KeywordCombination(query_1,query_2)
+        #related_paper = db_paper_keyword.get_related_paper_with_keyword_combination(query_1,query_2)
+        result_keyword = db_subcategory_combination.selectComb(query_1,query_2)
+        related_paper = db_paper_subcategory.get_related_paper_with_subcategory_combination(query_1,query_2)
         graph = plotGraph(query_1, query_2)
         context = {
             "keyword": result_keyword,

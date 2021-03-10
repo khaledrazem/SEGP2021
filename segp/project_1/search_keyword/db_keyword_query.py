@@ -30,6 +30,8 @@ def isinDB(query):
         # print(query, "-> can't be found")
         return False
 
+
+
 def isUpdated(query):
     last = datetime.strptime(getCurrentTime(), "%Y-%m-%d")
     day_diff = (last.date() - query.last_update).days
@@ -62,3 +64,43 @@ def db_get_keyword_data(query_name):
     else:
         return False
 
+
+
+def isinSingleDB(query):
+    #keyword_1 = selectSingle(query)
+    """
+    if (Keyword.objects.filter(name = keyword_1).exists()):
+        return True
+    else:
+        return False
+    """
+    try:
+        Keyword.objects.filter(name = keyword_1).exists()
+        return True
+    except:
+        return False
+    
+def selectSingle(query):
+    result = Keyword.objects.get(name = query)
+    return result
+
+def isSingleUpdated(query):
+    last = datetime.strptime(getCurrentTime(), "%Y-%m-%d")
+    query_1 = selectSingle(query)
+    key = Keyword.objects.get(name = query_1)
+    day_diff = (last.date() - key.last_update).days
+    if (day_diff <= 14):
+        return True
+    else:
+        return False
+
+def updateSingle(query,readercount,authorscore,growth,quickScore):
+    query_1 = selectSingle(query)
+    key = Keyword.objects.get(name = query_1)
+    key.keyword_score = readercount
+    key.keyword_authorscore = authorscore
+    key.keyword_growth = growth
+    key.last_update = getCurrentTime()
+    key.quick_search_data = quickScore
+    key.save()
+    print("update", query_1.name)

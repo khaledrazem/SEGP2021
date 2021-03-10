@@ -29,7 +29,7 @@
         <div class="main">
 			<!--website title-->
             <p>
-                <a class="title">{{keyword.name}}</a>
+                <a class="title">{{keyword}}</a>
             </p>
 			
 			<p>Return to <a href="javascript:history.back()">Results 1</a></p>
@@ -62,22 +62,20 @@
 			
 			<table div class="tablepropertyV">
 				<tr>
-					<th div class="r2th">Citations</th>
-					<td>{{keyword.average_reader_count}}</td>
+					<th div class="r2th">Reader Count</th>
+					<td>{{results.reader}}</td>
 				</tr>
 			</table>
-			
 			<table div class="tablepropertyV">
 				<tr>
-					<th div class="r2th">Publications</th>
-					<td>{{keyword.total_publication}}</td>
+					<th div class="r2th">Author Score</th>
+					<td>{{results.author}}</td>
 				</tr>
 			</table>
-			
 			<table div class="tablepropertyV">
 				<tr>
-					<th div class="r2th">Score</th>
-					<td>{{keyword.score}}</td>
+					<th div class="r2th">Growth</th>
+					<td>{{results.growth}}</td>
 				</tr>
 			</table>
 			

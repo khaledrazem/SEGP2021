@@ -24,6 +24,7 @@ def isinDB_Paper_keyword(paper_title,query_1,query_2):
 
 # insert to database
 def insert_Paper_keyword(paper_title,query_1,query_2):
+    
     keyword_1 =  db_get_keyword_data(query_1)
     if query_2 == None:
         keyword_2 = None
@@ -42,6 +43,9 @@ def select_Paper_keyword(paper_title,query_1,query_2):
     else:
         keyword_2 =  db_get_keyword_data(query_2)
     paper = select_Paper(paper_title)
+    print()
+    print("this ", keyword_1)
+    print()
     result = paper_keyword_relationship.objects.get(paper_keyword_1=keyword_1, paper_keyword_2=keyword_2,paper=paper)
     return result
 
@@ -49,6 +53,7 @@ def select_Paper_keyword(paper_title,query_1,query_2):
 def store_Paper_keyword(paper_title,keyword_1,keyword_2):
     if (isinDB_Paper_keyword(paper_title,keyword_1,keyword_2)==False):
         insert_Paper_keyword(paper_title,keyword_1,keyword_2)
+        print("store")
 
 def get_related_paper_with_keyword_combination(query_1,query_2):
     keyword_1 = db_get_keyword_data(query_1)

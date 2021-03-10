@@ -6,6 +6,7 @@ from paper.db_paper import *
 from paper.db_paper_keyword import *
 from combinations.models import keyword_combination
 from itertools import combinations
+import time
 import os
 
 # check if paper is legal
@@ -41,10 +42,12 @@ def calcAvgGrowth(years):
     avgGrowth = round(totalGrowth / (len(years) - 1), 2)
     return avgGrowth
 
+"""
 # calculate and return growth and average publication scores
 def scoresList(queryList, quickSearch):
-    os.system('cls')
+    #os.system('cls')
     # dictionary containing lists needed to be returned
+    query_marks=[]
     results = {
         'singleTopics': queryList,
         'combTopics': pair_subset(queryList),
@@ -57,7 +60,7 @@ def scoresList(queryList, quickSearch):
         'marks': [],
         # growth score of topics
         'growth': [],
-        'zipped': []
+        'zipped': [],
     }
     # calculate scores for all queries
     for query in results['allTopics']:
@@ -98,7 +101,9 @@ def scoresList(queryList, quickSearch):
                 store_Paper_keyword(paper_title=i[2], keyword_1=query[0].title(), keyword_2=query[1].title())
         results['totalPub'].append(keyword_result['num_of_publication'])
         results['avgReaderC'].append(keyword_result['average_reader_count'])
-        results['marks'].append(keyword_result['query_marks'])
+        
+        query_marks.append(keyword_result['query_marks'])
+        #results['marks'].append(keyword_result['query_marks'])
         results['growth'].append(keyword_result['query_growth'])
     # zip results
     all_query=[]
@@ -109,9 +114,11 @@ def scoresList(queryList, quickSearch):
             i=(i[0].title,i[1].title)
         all_query.append(i)
     results['singleTopics']=all_query
+    results['marks'] = data_norm(query_marks)
     results['zipped'] = zip(results['singleTopics'], results['marks'])
-
-    return results
+    
+    return results    
+"""
 
 def search(query, quickSearch):
     fromYear = 5
@@ -152,6 +159,7 @@ def search(query, quickSearch):
         'query_paper': popular_article_list,
     }
     return query_result
+
 
 def popular_article(list_of_link,reader_count,link,title,year_published):
     if len(list_of_link) < 5:
