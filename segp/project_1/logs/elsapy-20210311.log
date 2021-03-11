@@ -1,0 +1,256 @@
+2021-03-11 11:01:07,125 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 11:01:09,640 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 11:01:09,641 - elsapy.utils - INFO - Module loaded.
+2021-03-11 11:01:09,642 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 11:01:09,676 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 11:01:09,680 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 11:06:47,753 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 11:06:48,441 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 11:06:48,442 - elsapy.utils - INFO - Module loaded.
+2021-03-11 11:06:48,443 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 11:06:48,461 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 11:06:48,463 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 11:07:01,932 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 11:07:02,442 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 11:07:02,443 - elsapy.utils - INFO - Module loaded.
+2021-03-11 11:07:02,443 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 11:07:02,462 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 11:07:02,464 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 11:07:20,106 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 11:07:20,564 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 11:07:20,565 - elsapy.utils - INFO - Module loaded.
+2021-03-11 11:07:20,565 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 11:07:20,582 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 11:07:20,584 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 11:07:30,638 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 11:07:31,127 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 11:07:31,129 - elsapy.utils - INFO - Module loaded.
+2021-03-11 11:07:31,130 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 11:07:31,149 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 11:07:31,151 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 11:07:40,239 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 11:07:40,698 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 11:07:40,699 - elsapy.utils - INFO - Module loaded.
+2021-03-11 11:07:40,700 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 11:07:40,716 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 11:07:40,717 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 11:07:48,835 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 11:07:49,313 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 11:07:49,314 - elsapy.utils - INFO - Module loaded.
+2021-03-11 11:07:49,314 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 11:07:49,331 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 11:07:49,332 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 11:07:58,434 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 11:07:58,938 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 11:07:58,939 - elsapy.utils - INFO - Module loaded.
+2021-03-11 11:07:58,939 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 11:07:58,940 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 11:07:58,958 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 11:08:06,204 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 11:08:06,848 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 11:08:06,850 - elsapy.utils - INFO - Module loaded.
+2021-03-11 11:08:06,851 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 11:08:06,875 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 11:08:06,877 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 11:08:14,040 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 11:08:14,491 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 11:08:14,492 - elsapy.utils - INFO - Module loaded.
+2021-03-11 11:08:14,492 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 11:08:14,509 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 11:08:14,510 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 11:08:20,654 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 11:08:21,111 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 11:08:21,112 - elsapy.utils - INFO - Module loaded.
+2021-03-11 11:08:21,113 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 11:08:21,130 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 11:08:21,131 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 11:08:49,390 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 11:08:49,910 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 11:08:49,911 - elsapy.utils - INFO - Module loaded.
+2021-03-11 11:08:49,911 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 11:08:49,939 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 11:08:49,941 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 11:26:55,474 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 11:26:56,204 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 11:26:56,207 - elsapy.utils - INFO - Module loaded.
+2021-03-11 11:26:56,208 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 11:26:56,233 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 11:26:56,235 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 11:29:03,058 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 11:29:03,471 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 11:29:03,472 - elsapy.utils - INFO - Module loaded.
+2021-03-11 11:29:03,472 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 11:29:03,489 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 11:29:03,490 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 21:42:57,595 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 21:42:58,572 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 21:42:58,574 - elsapy.utils - INFO - Module loaded.
+2021-03-11 21:42:58,574 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 21:42:58,598 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 21:42:58,600 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 21:43:18,143 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 21:43:18,781 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 21:43:18,783 - elsapy.utils - INFO - Module loaded.
+2021-03-11 21:43:18,784 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 21:43:18,808 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 21:43:18,810 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 21:43:19,143 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Transportation+%2B+Architecture
+2021-03-11 21:43:20,185 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-11 21:43:21,168 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S235214652100329X
+2021-03-11 21:43:23,201 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S235214652100329X
+2021-03-11 21:43:28,140 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 21:43:28,762 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 21:43:28,764 - elsapy.utils - INFO - Module loaded.
+2021-03-11 21:43:28,765 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 21:43:28,791 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 21:43:28,793 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 21:43:29,141 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Transportation+%2B+Architecture
+2021-03-11 21:43:30,953 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-11 21:43:31,950 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S235214652100329X
+2021-03-11 21:43:34,542 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S235214652100329X
+2021-03-11 21:43:35,543 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S209526352030042X
+2021-03-11 21:43:36,938 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S209526352030042X
+2021-03-11 21:43:37,939 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1389041719304772
+2021-03-11 21:43:40,595 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1389041719304772
+2021-03-11 21:43:41,595 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1389128618312969
+2021-03-11 21:43:43,033 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1389128618312969
+2021-03-11 21:43:44,033 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2210650218300853
+2021-03-11 21:43:46,440 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2210650218300853
+2021-03-11 21:43:47,438 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0957417418305657
+2021-03-11 21:43:48,624 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0957417418305657
+2021-03-11 21:43:49,624 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2095756420301409
+2021-03-11 21:43:52,402 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2095756420301409
+2021-03-11 21:43:53,403 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/B9780128142950000022
+2021-03-11 21:43:55,753 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/B9780128142950000022
+2021-03-11 21:43:56,753 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2352146521003264
+2021-03-11 21:43:58,123 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2352146521003264
+2021-03-11 21:43:59,124 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1877705817301042
+2021-03-11 21:44:00,435 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1877705817301042
+2021-03-11 21:44:01,436 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S187705091731133X
+2021-03-11 21:44:03,692 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S187705091731133X
+2021-03-11 21:44:04,692 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1877050917312796
+2021-03-11 21:44:06,776 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1877050917312796
+2021-03-11 21:44:07,777 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S037843711500566X
+2021-03-11 21:44:09,090 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S037843711500566X
+2021-03-11 21:44:10,089 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2210539521000031
+2021-03-11 21:44:15,437 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 21:44:15,934 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 21:44:15,935 - elsapy.utils - INFO - Module loaded.
+2021-03-11 21:44:15,935 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 21:44:15,954 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 21:44:15,956 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 21:53:31,892 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 21:53:32,811 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 21:53:32,813 - elsapy.utils - INFO - Module loaded.
+2021-03-11 21:53:32,814 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 21:53:32,837 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 21:53:32,840 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 21:54:55,711 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 21:54:56,165 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 21:54:56,166 - elsapy.utils - INFO - Module loaded.
+2021-03-11 21:54:56,166 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 21:54:56,168 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 21:54:56,169 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 21:58:02,784 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 21:58:03,260 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 21:58:03,261 - elsapy.utils - INFO - Module loaded.
+2021-03-11 21:58:03,261 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 21:58:03,280 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 21:58:03,281 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 21:58:48,805 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 21:58:49,309 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 21:58:49,310 - elsapy.utils - INFO - Module loaded.
+2021-03-11 21:58:49,311 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 21:58:49,330 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 21:58:49,331 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 22:07:49,590 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 22:07:50,054 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 22:07:50,055 - elsapy.utils - INFO - Module loaded.
+2021-03-11 22:07:50,055 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 22:07:50,073 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 22:07:50,075 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 22:07:50,590 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Transportation+%2B+Architecture
+2021-03-11 22:07:51,647 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-11 22:07:52,634 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S235214652100329X
+2021-03-11 22:07:54,837 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S235214652100329X
+2021-03-11 22:07:55,837 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S209526352030042X
+2021-03-11 22:07:58,400 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S209526352030042X
+2021-03-11 22:07:59,401 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1389041719304772
+2021-03-11 22:08:02,125 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1389041719304772
+2021-03-11 22:08:03,124 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1389128618312969
+2021-03-11 22:08:04,692 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1389128618312969
+2021-03-11 22:08:05,693 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2210650218300853
+2021-03-11 22:08:07,371 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2210650218300853
+2021-03-11 22:08:08,370 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0957417418305657
+2021-03-11 22:08:11,046 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0957417418305657
+2021-03-11 22:08:12,045 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2095756420301409
+2021-03-11 22:08:13,934 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2095756420301409
+2021-03-11 22:08:14,934 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/B9780128142950000022
+2021-03-11 22:08:16,587 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/B9780128142950000022
+2021-03-11 22:08:17,587 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2352146521003264
+2021-03-11 22:08:19,042 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2352146521003264
+2021-03-11 22:08:20,041 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1877705817301042
+2021-03-11 22:08:22,521 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1877705817301042
+2021-03-11 22:08:23,521 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S187705091731133X
+2021-03-11 22:08:29,226 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S187705091731133X
+2021-03-11 22:08:30,226 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1877050917312796
+2021-03-11 22:08:32,493 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1877050917312796
+2021-03-11 22:08:33,493 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S037843711500566X
+2021-03-11 22:08:36,063 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S037843711500566X
+2021-03-11 22:08:37,063 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2210539521000031
+2021-03-11 22:08:39,135 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2210539521000031
+2021-03-11 22:08:40,135 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2452414X20300030
+2021-03-11 22:08:41,766 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2452414X20300030
+2021-03-11 22:08:42,766 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2352146520307791
+2021-03-11 22:08:44,082 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2352146520307791
+2021-03-11 22:08:45,082 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1877042812042188
+2021-03-11 22:08:46,302 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1877042812042188
+2021-03-11 22:08:47,303 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1474667015347480
+2021-03-11 22:08:48,782 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1474667015347480
+2021-03-11 22:08:49,782 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0149718909000561
+2021-03-11 22:08:51,164 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0149718909000561
+2021-03-11 22:08:52,165 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2095263520300406
+2021-03-11 22:08:54,410 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2095263520300406
+2021-03-11 22:08:55,411 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0094576520305567
+2021-03-11 22:08:58,425 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0094576520305567
+2021-03-11 22:08:59,425 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2352146521003203
+2021-03-11 22:09:01,659 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2352146521003203
+2021-03-11 22:09:02,659 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2352146521003306
+2021-03-11 22:09:04,081 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2352146521003306
+2021-03-11 22:09:05,081 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0968090X19305868
+2021-03-11 22:09:07,028 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0968090X19305868
+2021-03-11 22:09:08,026 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0360319915319868
+2021-03-11 22:09:09,459 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0360319915319868
+2021-03-11 22:13:55,922 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 22:13:56,320 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 22:13:56,320 - elsapy.utils - INFO - Module loaded.
+2021-03-11 22:13:56,321 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 22:13:56,322 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 22:13:56,323 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 22:13:56,923 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Transportation+%2B+Architecture
+2021-03-11 22:13:58,020 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-11 22:13:59,007 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S235214652100329X
+2021-03-11 22:14:01,314 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S235214652100329X
+2021-03-11 22:14:02,314 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S209526352030042X
+2021-03-11 22:14:04,894 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S209526352030042X
+2021-03-11 22:14:05,893 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1389041719304772
+2021-03-11 22:14:07,396 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1389041719304772
+2021-03-11 22:14:08,397 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1389128618312969
+2021-03-11 22:14:12,256 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 22:14:12,628 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 22:14:12,629 - elsapy.utils - INFO - Module loaded.
+2021-03-11 22:14:12,629 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 22:14:12,639 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 22:14:12,640 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 22:14:18,010 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 22:14:18,377 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 22:14:18,378 - elsapy.utils - INFO - Module loaded.
+2021-03-11 22:14:18,378 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 22:14:18,379 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 22:14:18,380 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 22:14:26,477 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 22:14:26,923 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 22:14:26,924 - elsapy.utils - INFO - Module loaded.
+2021-03-11 22:14:26,925 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 22:14:26,940 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 22:14:26,941 - elsapy.elssearch - INFO - Module loaded.
