@@ -8,6 +8,7 @@
         <title>Research Website</title>
         <!-- style shee t-->
         <link rel="stylesheet" href="{% static 'research_styles.css' %}">
+		<link rel="stylesheet" href="{% static 'test_navigation.css' %}">
         <!-- icon library -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
@@ -54,16 +55,6 @@
 				<li>Solar Energy</li>
 				<li>Renewable Energy</li>
 			</ul>
-
-			<div class="graph">
-				{% autoescape off %}
-				{{ graph.graph1 }}
-				{% endautoescape %}
-				
-				{% autoescape off %}
-				{{ graph.graph2 }}
-				{% endautoescape %}
-			</div>
 			
 			<table div class="tablepropertyV">
 				<tr>
@@ -72,27 +63,81 @@
 				</tr>
 			</table>
 			
-			<br>
-			<!-- List of keyword input & its citation number, published number, and score -->
-			<p class="title2">Research Papers</p>
-			
-			<table div class="tableproperty">
-				<tr div class="tabletopic">
-					<th>Title</th>
-					<th>Citations</th>
-					<th>Date Published</th>
-					<th>Link</th>
-				</tr>
-                {% for x in related %}
-				<tr>
-                    <td>{{x.paper.name}}</td>
-                    <td>{{x.paper.reader_count}}</td>
-                    <td>{{x.paper.year_published}}</td>
-                    <td><a href="{{x.paper.link}}">Link</a></td>
-				</tr>
-                {% endfor %}
-			</table>
-			<br><br>
+			<div class="file_container">
+				<ul class="main-menu">
+					<li><button onclick="show(1)">Statistical Trend</button></li>
+					<li><button onclick="show(2)">Related Keyword</button></li>
+					<li><button onclick="show(3)">Related Paper</button></li>
+				</ul>
+				
+				<div class="content">
+					<div class="sub_content" id="1">
+						<div class="graph">
+							{% autoescape off %}
+							{{ graph.graph1 }}
+							{% endautoescape %}
+							
+							{% autoescape off %}
+							{{ graph.graph2 }}
+							{% endautoescape %}
+						</div>
+					</div>
+						
+					<div class="sub_content" id="2" style="display:none">
+						<table div class="tableproperty">
+							<tr div class="tabletopic">
+								<th colspan="2">Related Words</th>
+							</tr>
+							{% for x,y in related_word.words %}
+								{% if forloop.counter|divisibleby:2 %}
+										<td style="font-size:{{y}}px;">{{x}}</td>
+									</tr>
+								{% else %}
+									{% if forloop.last %}
+										<tr>
+											<td colspan="2" style="font-size:{{y}}px;">{{x}}</td>
+										</tr>
+									{% else %}
+										<tr>
+											<td style="font-size:{{y}}px;">{{x}}</td>
+									{% endif %}
+								{% endif %}
+							{% endfor %}
+						</table>
+					</div>
+						
+					<div class="sub_content" id="3" style="display:none">
+						<p class="title2">Research Papers</p>
+		
+						<table div class="tableproperty">
+							<tr div class="tabletopic">
+								<th>Title</th>
+								<th>Citations</th>
+								<th>Date Published</th>
+								<th>Link</th>
+							</tr>
+							
+							{% for x in related %}
+								<tr>
+									<td>{{x.paper.name}}</td>
+									<td>{{x.paper.reader_count}}</td>
+									<td>{{x.paper.year_published}}</td>
+									<td><a href="{{x.paper.link}}">Link</a></td>
+								</tr>
+							{% endfor %}
+							
+							{% for x in related2.paper %}
+								<tr>
+									<td>{{x.name}}</td>
+									<td>{{x.reader_count}}</td>
+									<td>{{x.year_published}}</td>
+									<td><a href="{{x.link}}">Link</a></td>
+								</tr>
+							{% endfor %}
+						</table>
+					</div>
+				</div>
+			</div>
         </div>
     </body>
 	
@@ -103,4 +148,14 @@
 		</div>
 	</footer>
 </html>
+<script>
+	function show(x){
+		var elements = document.getElementsByClassName("sub_content");
+		for (var i = 0, len = elements.length; i < len; i++) {
+			 elements[i].style.display = "none";
+		}
+		var content_chose = document.getElementById(x);
+		content_chose.style.display = "block";
 
+	}
+</script>

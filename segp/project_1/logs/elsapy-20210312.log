@@ -1,0 +1,1617 @@
+2021-03-12 11:03:37,176 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:03:37,693 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:03:37,694 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:03:37,694 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:03:37,695 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:03:37,696 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:03:45,902 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:03:46,209 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:03:46,209 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:03:46,213 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:03:46,213 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:03:46,214 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:04:18,797 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Designing+the+user+interface+strategies+for+effective+human-computer+interaction
+2021-03-12 11:05:09,121 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:05:09,431 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:05:09,432 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:05:09,432 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:05:09,433 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:05:09,433 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:05:18,422 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 11:09:13,579 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:09:13,883 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:09:13,884 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:09:13,884 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:09:13,885 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:09:13,886 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:09:31,340 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 11:10:37,757 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:10:38,051 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:10:38,052 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:10:38,053 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:10:38,053 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:10:38,053 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:10:40,056 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:10:40,353 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:10:40,354 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:10:40,354 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:10:40,355 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:10:40,355 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:10:50,257 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 11:11:15,644 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:11:15,944 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:11:15,944 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:11:15,945 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:11:15,945 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:11:15,946 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:11:23,148 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 11:11:24,580 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 11:11:25,578 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:11:28,196 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:11:29,204 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:11:32,378 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:11:33,382 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 11:12:20,636 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:12:20,941 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:12:20,942 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:12:20,942 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:12:20,943 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:12:20,943 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:12:33,193 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 11:12:35,388 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 11:12:36,391 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:12:37,831 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:12:38,845 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:12:41,094 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:12:42,106 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 11:12:43,316 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 11:12:44,330 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 11:12:45,937 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 11:12:46,942 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 11:12:48,808 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 11:12:49,813 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S104732031930361X
+2021-03-12 11:12:51,637 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S104732031930361X
+2021-03-12 11:12:52,650 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933120301204
+2021-03-12 11:12:54,165 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933120301204
+2021-03-12 11:12:55,175 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1110016820300168
+2021-03-12 11:12:56,579 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1110016820300168
+2021-03-12 11:12:57,587 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2096579621000097
+2021-03-12 11:12:58,649 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2096579621000097
+2021-03-12 11:12:59,663 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0016328718305123
+2021-03-12 11:13:01,602 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0016328718305123
+2021-03-12 11:13:02,610 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933120307699
+2021-03-12 11:13:04,195 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933120307699
+2021-03-12 11:13:05,205 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2096579619300282
+2021-03-12 11:13:07,097 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2096579619300282
+2021-03-12 11:13:08,100 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0967066119301108
+2021-03-12 11:13:09,587 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0967066119301108
+2021-03-12 11:13:10,597 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0360131519302787
+2021-03-12 11:13:12,740 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0360131519302787
+2021-03-12 11:13:13,749 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0001691820305291
+2021-03-12 11:13:15,096 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0001691820305291
+2021-03-12 11:13:16,110 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S138904171830980X
+2021-03-12 11:13:17,628 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S138904171830980X
+2021-03-12 11:13:18,641 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0263224118310704
+2021-03-12 11:13:20,029 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0263224118310704
+2021-03-12 11:13:21,031 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2590118420300083
+2021-03-12 11:13:22,507 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2590118420300083
+2021-03-12 11:13:23,514 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2405844017305261
+2021-03-12 11:13:25,185 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2405844017305261
+2021-03-12 11:13:26,187 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1571066119300106
+2021-03-12 11:13:27,431 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1571066119300106
+2021-03-12 11:13:28,446 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0378216617307245
+2021-03-12 11:13:30,260 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0378216617307245
+2021-03-12 11:13:31,274 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0747563219303759
+2021-03-12 11:13:33,914 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0747563219303759
+2021-03-12 11:13:34,925 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0924424718310872
+2021-03-12 11:13:36,629 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0924424718310872
+2021-03-12 11:13:37,641 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0003687020302982
+2021-03-12 11:13:40,192 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0003687020302982
+2021-03-12 11:13:41,199 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0169814118304414
+2021-03-12 11:13:42,703 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0169814118304414
+2021-03-12 11:14:06,284 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 11:14:07,613 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 11:14:08,626 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:14:10,149 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:14:11,156 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:14:12,616 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:14:15,874 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:14:16,171 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:14:16,171 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:14:16,171 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:14:16,172 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:14:16,173 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:18:14,380 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:18:14,672 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:18:14,673 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:18:14,673 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:18:14,674 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:18:14,674 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:18:33,585 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:18:33,884 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:18:33,885 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:18:33,885 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:18:33,886 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:18:33,887 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:19:07,490 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:19:07,784 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:19:07,785 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:19:07,785 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:19:07,786 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:19:07,787 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:19:15,097 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:19:15,394 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:19:15,395 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:19:15,395 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:19:15,395 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:19:15,396 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:19:25,230 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 11:19:26,585 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 11:19:27,596 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:19:28,950 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:19:29,961 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:19:31,030 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:19:32,039 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 11:19:33,673 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 11:19:34,678 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 11:19:37,019 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 11:19:38,030 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 11:19:39,915 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 11:19:40,922 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S104732031930361X
+2021-03-12 11:19:42,525 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S104732031930361X
+2021-03-12 11:22:06,799 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:22:07,090 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:22:07,091 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:22:07,091 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:22:07,092 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:22:07,093 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:22:11,202 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:22:11,500 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:22:11,501 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:22:11,501 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:22:11,502 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:22:11,502 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:22:14,581 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:22:14,876 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:22:14,877 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:22:14,877 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:22:14,878 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:22:14,879 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:27:19,458 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:27:19,758 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:27:19,758 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:27:19,758 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:27:19,759 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:27:19,760 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:28:52,289 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 11:28:53,600 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 11:28:54,607 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:28:56,114 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:28:57,118 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:28:58,525 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:28:59,532 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 11:29:01,229 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 11:29:02,240 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 11:29:04,509 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 11:29:05,524 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 11:29:07,361 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 11:29:08,365 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S104732031930361X
+2021-03-12 11:29:09,610 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S104732031930361X
+2021-03-12 11:29:27,055 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 11:29:28,340 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 11:29:29,353 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:29:30,971 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:29:31,980 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:29:33,466 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:29:34,469 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 11:29:36,838 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 11:29:37,840 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 11:29:39,368 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 11:29:40,383 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 11:29:41,856 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 11:29:42,868 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S104732031930361X
+2021-03-12 11:29:44,479 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S104732031930361X
+2021-03-12 11:31:28,605 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:31:28,902 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:31:28,903 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:31:28,903 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:31:28,904 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:31:28,905 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:33:00,928 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:33:01,223 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:33:01,223 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:33:01,224 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:33:01,224 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:33:01,225 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:35:15,017 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:35:15,318 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:35:15,319 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:35:15,319 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:35:15,320 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:35:15,320 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:35:18,428 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:35:18,731 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:35:18,731 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:35:18,732 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:35:18,732 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:35:18,733 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:35:24,996 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:35:25,296 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:35:25,296 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:35:25,297 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:35:25,297 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:35:25,298 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:35:27,312 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:35:27,608 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:35:27,608 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:35:27,609 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:35:27,609 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:35:27,610 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:35:56,002 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:35:56,297 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:35:56,298 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:35:56,298 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:35:56,299 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:35:56,300 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:35:58,324 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:35:58,619 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:35:58,620 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:35:58,620 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:35:58,621 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:35:58,622 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:36:03,790 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:36:04,087 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:36:04,088 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:36:04,088 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:36:04,089 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:36:04,089 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:37:04,135 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:37:04,438 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:37:04,439 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:37:04,439 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:37:04,440 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:37:04,440 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:37:09,652 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:37:09,949 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:37:09,950 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:37:09,950 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:37:09,951 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:37:09,952 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:37:47,306 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 11:37:48,751 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 11:37:49,761 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:37:51,357 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:37:52,363 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:37:54,160 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:37:55,168 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 11:37:57,732 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 11:37:58,738 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 11:38:00,286 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 11:38:01,298 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 11:38:02,875 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 11:38:03,880 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S104732031930361X
+2021-03-12 11:38:05,511 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S104732031930361X
+2021-03-12 11:38:44,043 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 11:38:45,560 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 11:38:46,568 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:38:48,090 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:38:49,094 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:38:50,549 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:38:51,556 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 11:38:52,930 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 11:38:53,936 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 11:38:56,363 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 11:38:57,377 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 11:38:58,890 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 11:38:59,903 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S104732031930361X
+2021-03-12 11:39:01,511 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S104732031930361X
+2021-03-12 11:39:47,039 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:39:47,335 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:39:47,335 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:39:47,336 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:39:47,336 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:39:47,337 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:39:54,652 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:39:54,944 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:39:54,945 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:39:54,945 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:39:54,946 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:39:54,947 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:41:47,213 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:41:47,513 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:41:47,514 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:41:47,514 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:41:47,515 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:41:47,515 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:42:08,158 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 11:42:09,424 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 11:42:10,437 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:42:12,044 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:42:13,051 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:42:14,400 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:42:15,416 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 11:42:19,560 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 11:42:20,570 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 11:42:21,913 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 11:42:22,925 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 11:42:24,855 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 11:42:25,860 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S104732031930361X
+2021-03-12 11:42:27,396 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S104732031930361X
+2021-03-12 11:43:51,804 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:43:52,104 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:43:52,105 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:43:52,106 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:43:52,107 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:43:52,108 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:44:01,209 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 11:44:02,632 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 11:44:03,642 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:44:05,297 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:44:06,304 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:44:08,507 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:44:09,516 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 11:44:11,053 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 11:47:12,219 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 11:47:13,571 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 11:47:14,582 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:47:15,955 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:47:24,252 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:47:24,871 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:47:25,164 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:47:25,164 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:47:25,165 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:47:25,165 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:47:25,166 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:47:31,151 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 11:47:34,709 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:47:35,002 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:47:35,003 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:47:35,003 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:47:35,004 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:47:35,004 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:47:43,349 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 11:47:44,417 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 11:47:45,438 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 11:47:45,644 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 11:47:46,438 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:47:46,653 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:47:48,810 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:47:48,838 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:47:49,826 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:47:49,841 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:47:51,225 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:47:51,254 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:47:52,231 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 11:47:52,262 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 11:47:53,771 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 11:47:54,664 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 11:54:20,484 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:54:20,783 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:54:20,783 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:54:20,784 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:54:20,784 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:54:20,785 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:54:27,061 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 11:54:27,369 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 11:54:27,369 - elsapy.utils - INFO - Module loaded.
+2021-03-12 11:54:27,369 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 11:54:27,370 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 11:54:27,371 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 11:54:37,485 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 11:54:39,032 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 11:54:40,034 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:54:41,484 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 11:54:42,498 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:54:43,905 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 11:54:44,910 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 11:54:46,879 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 12:11:05,908 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 12:11:06,216 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 12:11:06,216 - elsapy.utils - INFO - Module loaded.
+2021-03-12 12:11:06,216 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 12:11:06,217 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 12:11:06,218 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 12:11:23,018 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 12:11:23,312 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 12:11:23,313 - elsapy.utils - INFO - Module loaded.
+2021-03-12 12:11:23,313 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 12:11:23,314 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 12:11:23,315 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 12:11:31,666 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 12:11:31,962 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 12:11:31,963 - elsapy.utils - INFO - Module loaded.
+2021-03-12 12:11:31,963 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 12:11:31,964 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 12:11:31,964 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 12:11:42,449 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 12:11:42,744 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 12:11:42,745 - elsapy.utils - INFO - Module loaded.
+2021-03-12 12:11:42,745 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 12:11:42,746 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 12:11:42,746 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 12:11:46,879 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 12:11:47,171 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 12:11:47,172 - elsapy.utils - INFO - Module loaded.
+2021-03-12 12:11:47,172 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 12:11:47,173 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 12:11:47,173 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 12:11:50,101 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 12:11:50,393 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 12:11:50,394 - elsapy.utils - INFO - Module loaded.
+2021-03-12 12:11:50,394 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 12:11:50,395 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 12:11:50,396 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 12:12:10,352 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 12:12:10,646 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 12:12:10,647 - elsapy.utils - INFO - Module loaded.
+2021-03-12 12:12:10,647 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 12:12:10,648 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 12:12:10,648 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 12:14:35,150 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 12:14:35,455 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 12:14:35,456 - elsapy.utils - INFO - Module loaded.
+2021-03-12 12:14:35,456 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 12:14:35,457 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 12:14:35,457 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 12:14:45,740 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 12:14:46,035 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 12:14:46,036 - elsapy.utils - INFO - Module loaded.
+2021-03-12 12:14:46,036 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 12:14:46,037 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 12:14:46,038 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 12:14:49,123 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 12:14:49,419 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 12:14:49,420 - elsapy.utils - INFO - Module loaded.
+2021-03-12 12:14:49,420 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 12:14:49,421 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 12:14:49,422 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 12:14:57,773 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 12:14:58,070 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 12:14:58,071 - elsapy.utils - INFO - Module loaded.
+2021-03-12 12:14:58,071 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 12:14:58,072 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 12:14:58,073 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 12:15:04,321 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 12:15:04,622 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 12:15:04,623 - elsapy.utils - INFO - Module loaded.
+2021-03-12 12:15:04,623 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 12:15:04,624 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 12:15:04,624 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 12:15:22,476 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 12:15:22,778 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 12:15:22,779 - elsapy.utils - INFO - Module loaded.
+2021-03-12 12:15:22,779 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 12:15:22,780 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 12:15:22,781 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 12:15:53,053 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 12:15:53,353 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 12:15:53,354 - elsapy.utils - INFO - Module loaded.
+2021-03-12 12:15:53,354 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 12:15:53,355 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 12:15:53,356 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 12:16:30,463 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 12:16:32,604 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 12:16:33,609 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 12:16:35,127 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 12:17:41,422 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 12:17:41,711 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 12:17:41,711 - elsapy.utils - INFO - Module loaded.
+2021-03-12 12:17:41,712 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 12:17:41,712 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 12:17:41,713 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 12:17:51,116 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 12:17:53,335 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 12:17:54,336 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 12:17:56,504 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 13:34:00,342 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 13:34:00,648 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 13:34:00,649 - elsapy.utils - INFO - Module loaded.
+2021-03-12 13:34:00,649 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 13:34:00,650 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 13:34:00,650 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 13:34:28,270 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 13:34:29,619 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 13:34:30,625 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 13:34:32,213 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 13:34:50,838 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 13:34:51,125 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 13:34:51,126 - elsapy.utils - INFO - Module loaded.
+2021-03-12 13:34:51,126 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 13:34:51,126 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 13:34:51,127 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 13:35:00,031 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 13:35:02,136 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 13:35:03,138 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 13:35:05,497 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 13:35:06,498 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 13:35:07,654 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 13:35:08,659 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 13:35:10,282 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 13:36:09,901 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 13:36:10,190 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 13:36:10,191 - elsapy.utils - INFO - Module loaded.
+2021-03-12 13:36:10,191 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 13:36:10,192 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 13:36:10,192 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 13:36:24,227 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 13:36:25,463 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 13:36:26,466 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 13:36:29,405 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 13:36:30,420 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 13:36:31,882 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 13:36:32,899 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 13:36:34,119 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 13:37:26,365 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 13:37:26,661 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 13:37:26,662 - elsapy.utils - INFO - Module loaded.
+2021-03-12 13:37:26,662 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 13:37:26,663 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 13:37:26,665 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 13:37:35,611 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 13:37:37,206 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 13:37:38,207 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 13:37:40,676 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 13:37:41,692 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 13:37:43,371 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 13:37:44,373 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 13:37:46,850 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 13:38:17,394 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 13:38:17,683 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 13:38:17,683 - elsapy.utils - INFO - Module loaded.
+2021-03-12 13:38:17,683 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 13:38:17,684 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 13:38:17,685 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 13:38:20,730 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 13:38:21,016 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 13:38:21,017 - elsapy.utils - INFO - Module loaded.
+2021-03-12 13:38:21,017 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 13:38:21,018 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 13:38:21,019 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 13:38:28,314 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 13:38:28,603 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 13:38:28,604 - elsapy.utils - INFO - Module loaded.
+2021-03-12 13:38:28,604 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 13:38:28,605 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 13:38:28,606 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 13:38:40,054 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 13:38:40,340 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 13:38:40,340 - elsapy.utils - INFO - Module loaded.
+2021-03-12 13:38:40,341 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 13:38:40,341 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 13:38:40,342 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 13:38:50,767 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 13:38:51,049 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 13:38:51,049 - elsapy.utils - INFO - Module loaded.
+2021-03-12 13:38:51,050 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 13:38:51,050 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 13:38:51,051 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 13:38:57,244 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 13:38:57,528 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 13:38:57,528 - elsapy.utils - INFO - Module loaded.
+2021-03-12 13:38:57,529 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 13:38:57,529 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 13:38:57,530 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 13:38:59,565 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 13:38:59,856 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 13:38:59,857 - elsapy.utils - INFO - Module loaded.
+2021-03-12 13:38:59,857 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 13:38:59,858 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 13:38:59,858 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 13:39:11,126 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 13:39:12,497 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 13:39:13,509 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 13:39:16,125 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 13:39:17,136 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 13:39:19,287 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 13:39:20,299 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 13:39:22,841 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 13:46:07,204 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 13:46:08,631 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 13:46:09,643 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 13:46:10,914 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 13:46:45,030 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 13:46:45,325 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 13:46:45,325 - elsapy.utils - INFO - Module loaded.
+2021-03-12 13:46:45,326 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 13:46:45,326 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 13:46:45,327 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 13:46:51,057 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 13:46:52,396 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 13:46:53,394 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 13:46:54,921 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 13:46:55,928 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 13:46:57,422 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 13:46:58,425 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 13:47:00,259 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 13:47:10,223 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 13:47:10,508 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 13:47:10,509 - elsapy.utils - INFO - Module loaded.
+2021-03-12 13:47:10,509 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 13:47:10,509 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 13:47:10,510 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 13:47:30,029 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 13:47:31,220 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 13:47:32,232 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 13:47:33,707 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 13:47:34,724 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 13:47:36,853 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 13:47:37,861 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 13:47:39,401 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 14:05:03,558 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:05:03,848 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:05:03,849 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:05:03,849 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:05:03,849 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:05:03,850 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:05:10,025 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:05:10,309 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:05:10,309 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:05:10,309 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:05:10,310 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:05:10,311 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:05:17,574 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:05:17,867 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:05:17,867 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:05:17,868 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:05:17,868 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:05:17,869 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:05:51,437 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:05:51,723 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:05:51,724 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:05:51,724 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:05:51,725 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:05:51,725 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:08:20,433 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:08:20,724 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:08:20,724 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:08:20,725 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:08:20,725 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:08:20,726 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:08:23,843 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:08:24,133 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:08:24,134 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:08:24,134 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:08:24,134 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:08:24,135 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:08:59,117 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 14:09:00,808 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 14:09:01,813 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 14:09:03,424 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 14:09:04,426 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 14:09:05,667 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 14:09:06,674 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 14:09:08,462 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 14:09:09,478 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 14:09:11,042 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 14:09:12,054 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 14:09:13,921 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 14:14:20,531 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:14:20,832 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:14:20,833 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:14:20,833 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:14:20,833 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:14:20,834 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:14:36,324 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:14:36,619 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:14:36,620 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:14:36,620 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:14:36,621 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:14:36,621 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:16:07,457 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:16:07,751 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:16:07,752 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:16:07,752 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:16:07,753 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:16:07,753 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:16:12,885 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:16:13,173 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:16:13,173 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:16:13,174 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:16:13,174 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:16:13,175 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:16:31,240 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=A+survey+of+augmented+reality
+2021-03-12 14:16:33,238 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 14:16:34,250 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2212827120307332
+2021-03-12 14:16:35,617 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2212827120307332
+2021-03-12 14:16:36,633 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S036083521930628X
+2021-03-12 14:16:39,406 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S036083521930628X
+2021-03-12 14:16:40,412 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2666557321000033
+2021-03-12 14:16:42,634 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2666557321000033
+2021-03-12 14:16:43,650 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S209657961930052X
+2021-03-12 14:16:45,297 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S209657961930052X
+2021-03-12 14:16:46,310 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2452414X20300509
+2021-03-12 14:17:48,970 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:17:49,272 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:17:49,273 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:17:49,273 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:17:49,274 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:17:49,274 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:19:07,525 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:19:07,815 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:19:07,816 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:19:07,816 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:19:07,817 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:19:07,817 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:19:41,291 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:19:41,579 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:19:41,580 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:19:41,580 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:19:41,580 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:19:41,581 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:20:58,174 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:20:58,476 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:20:58,476 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:20:58,477 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:20:58,477 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:20:58,478 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:21:44,249 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:21:44,534 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:21:44,534 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:21:44,535 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:21:44,535 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:21:44,536 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:21:56,033 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:21:56,324 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:21:56,325 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:21:56,325 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:21:56,326 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:21:56,326 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:21:59,381 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:21:59,666 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:21:59,667 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:21:59,667 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:21:59,668 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:21:59,668 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:24:32,353 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:24:32,647 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:24:32,648 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:24:32,648 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:24:32,649 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:24:32,649 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:24:52,557 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:24:52,844 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:24:52,844 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:24:52,845 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:24:52,845 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:24:52,846 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:25:02,226 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:25:02,516 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:25:02,517 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:25:02,517 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:25:02,518 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:25:02,518 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:25:15,074 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:25:15,360 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:25:15,361 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:25:15,361 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:25:15,362 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:25:15,362 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:25:17,369 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:25:17,659 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:25:17,659 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:25:17,660 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:25:17,660 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:25:17,661 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:25:24,936 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:25:25,222 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:25:25,222 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:25:25,222 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:25:25,223 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:25:25,224 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:25:47,260 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:25:47,550 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:25:47,551 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:25:47,551 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:25:47,552 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:25:47,552 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:25:51,668 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:25:51,954 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:25:51,954 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:25:51,955 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:25:51,955 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:25:51,956 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:28:10,569 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:28:10,858 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:28:10,858 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:28:10,859 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:28:10,859 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:28:10,860 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:28:20,223 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:28:20,509 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:28:20,510 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:28:20,510 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:28:20,511 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:28:20,512 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:28:41,063 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 14:28:43,089 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 14:28:44,096 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 14:28:45,734 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 14:28:46,748 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 14:28:48,163 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 14:28:49,165 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 14:28:50,865 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 14:28:51,878 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 14:28:54,261 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 14:28:55,263 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 14:28:56,810 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 14:29:38,463 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction+%2B+Augmented+Reality
+2021-03-12 14:29:40,218 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 14:29:41,222 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2096579620300905
+2021-03-12 14:29:42,527 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2096579620300905
+2021-03-12 14:29:43,529 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2212827121001190
+2021-03-12 14:29:44,913 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2212827121001190
+2021-03-12 14:29:45,927 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1877050917303496
+2021-03-12 14:29:47,314 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1877050917303496
+2021-03-12 14:29:48,323 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2096579620300589
+2021-03-12 14:29:49,735 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2096579620300589
+2021-03-12 14:29:50,736 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2214785321013936
+2021-03-12 14:29:52,274 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2214785321013936
+2021-03-12 14:30:36,907 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Marketing
+2021-03-12 14:30:38,735 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 14:30:39,742 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0019850121000286
+2021-03-12 14:30:42,131 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0019850121000286
+2021-03-12 14:30:43,142 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S001985012100002X
+2021-03-12 14:30:45,128 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S001985012100002X
+2021-03-12 14:30:46,132 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S014829632030847X
+2021-03-12 14:30:49,379 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S014829632030847X
+2021-03-12 14:30:50,384 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S026840122031495X
+2021-03-12 14:30:53,186 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S026840122031495X
+2021-03-12 14:30:54,194 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0019850120308361
+2021-03-12 14:30:56,047 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0019850120308361
+2021-03-12 14:31:52,222 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:31:52,514 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:31:52,515 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:31:52,515 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:31:52,516 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:31:52,517 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:32:02,910 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:32:03,194 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:32:03,194 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:32:03,195 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:32:03,195 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:32:03,196 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:32:09,389 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 14:32:09,677 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 14:32:09,677 - elsapy.utils - INFO - Module loaded.
+2021-03-12 14:32:09,678 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 14:32:09,678 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 14:32:09,679 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 14:32:13,657 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economics+%2B+Marketing
+2021-03-12 14:32:14,891 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 14:32:15,899 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S004484861931230X
+2021-03-12 14:32:17,805 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S004484861931230X
+2021-03-12 14:32:18,818 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/B9780128121634000231
+2021-03-12 14:32:21,018 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/B9780128121634000231
+2021-03-12 14:32:22,033 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0743016716301425
+2021-03-12 14:32:24,765 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0743016716301425
+2021-03-12 14:32:25,777 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0167811620301063
+2021-03-12 14:32:27,197 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0167811620301063
+2021-03-12 14:32:28,203 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1877042816305055
+2021-03-12 14:32:29,576 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1877042816305055
+2021-03-12 16:37:31,464 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:37:31,757 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:37:31,758 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:37:31,759 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:37:31,759 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:37:31,760 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:38:02,902 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:38:03,190 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:38:03,190 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:38:03,191 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:38:03,191 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:38:03,192 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:38:31,668 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:38:31,958 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:38:31,959 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:38:31,959 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:38:31,959 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:38:31,960 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:39:02,825 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:39:03,114 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:39:03,115 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:39:03,115 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:39:03,116 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:39:03,117 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:41:36,630 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:41:36,925 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:41:36,926 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:41:36,926 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:41:36,927 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:41:36,927 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:42:03,168 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:42:03,460 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:42:03,460 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:42:03,461 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:42:03,461 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:42:03,462 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:42:22,017 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 16:42:24,341 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 16:42:25,349 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 16:42:27,042 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 16:42:28,050 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 16:42:29,418 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 16:42:30,430 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 16:42:32,091 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 16:42:33,097 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 16:42:34,829 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 16:42:35,836 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 16:42:37,399 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 16:43:53,562 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:43:53,850 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:43:53,851 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:43:53,851 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:43:53,852 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:43:53,853 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:44:03,637 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 16:44:04,940 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 16:44:05,952 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 16:44:07,625 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 16:44:08,634 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 16:44:11,866 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 16:44:12,871 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 16:44:15,415 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 16:44:16,424 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 16:44:18,099 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 16:44:19,108 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 16:44:21,737 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 16:45:13,424 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:45:13,732 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:45:13,733 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:45:13,733 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:45:13,734 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:45:13,734 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:45:23,293 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 16:45:24,585 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 16:45:25,588 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 16:45:28,045 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 16:45:29,061 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 16:45:31,335 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 16:45:32,349 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 16:45:34,275 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 16:45:35,288 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 16:45:37,544 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 16:45:38,555 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 16:45:40,922 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 16:46:08,282 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:46:08,576 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:46:08,577 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:46:08,577 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:46:08,578 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:46:08,579 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:46:19,152 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 16:46:21,339 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 16:46:22,338 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 16:46:23,818 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 16:46:24,821 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 16:46:27,253 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 16:46:28,264 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 16:46:29,768 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 16:46:30,771 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 16:46:33,778 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 16:46:34,794 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 16:46:37,538 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 16:47:11,479 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:47:11,768 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:47:11,769 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:47:11,769 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:47:11,770 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:47:11,771 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:47:21,017 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 16:47:22,286 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 16:47:23,289 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 16:47:24,869 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 16:47:25,880 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 16:47:28,045 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 16:47:29,052 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 16:47:30,546 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 16:47:31,548 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 16:47:33,209 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 16:47:34,221 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 16:47:36,930 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 16:48:20,295 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:48:20,584 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:48:20,585 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:48:20,585 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:48:20,586 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:48:20,587 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:48:31,072 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:48:31,358 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:48:31,359 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:48:31,359 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:48:31,360 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:48:31,361 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:48:43,871 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 16:48:45,349 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 16:48:46,361 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 16:48:48,029 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 16:48:49,040 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 16:48:50,498 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 16:48:51,501 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 16:48:53,055 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 16:48:54,070 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 16:48:56,351 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 16:48:57,367 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 16:48:59,152 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 16:49:18,338 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:49:18,629 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:49:18,630 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:49:18,630 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:49:18,631 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:49:18,632 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:49:25,943 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 16:49:27,218 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 16:49:28,224 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 16:49:29,814 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 16:49:30,823 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 16:49:32,483 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 16:49:33,493 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 16:49:35,177 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 16:49:36,185 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 16:49:41,565 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 16:49:42,580 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 16:49:44,561 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 16:51:35,874 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:51:36,168 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:51:36,168 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:51:36,169 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:51:36,169 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:51:36,170 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:51:39,067 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:51:39,353 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:51:39,354 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:51:39,354 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:51:39,355 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:51:39,356 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:51:45,520 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:51:45,811 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:51:45,812 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:51:45,812 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:51:45,813 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:51:45,813 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:52:08,100 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:52:08,392 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:52:08,393 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:52:08,393 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:52:08,394 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:52:08,395 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:52:12,367 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:52:12,656 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:52:12,656 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:52:12,656 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:52:12,657 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:52:12,658 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:52:29,546 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:52:29,834 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:52:29,834 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:52:29,835 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:52:29,835 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:52:29,836 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:53:22,340 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:53:22,632 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:53:22,633 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:53:22,633 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:53:22,634 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:53:22,634 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:53:37,176 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:53:37,461 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:53:37,462 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:53:37,462 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:53:37,463 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:53:37,463 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:53:40,435 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:53:40,724 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:53:40,725 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:53:40,725 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:53:40,725 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:53:40,726 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:54:19,195 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 16:54:25,130 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:54:25,426 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:54:25,427 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:54:25,427 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:54:25,428 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:54:25,429 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:54:44,994 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 16:54:46,239 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 16:54:47,239 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 16:54:48,670 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 16:54:49,683 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 16:54:51,901 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 16:54:52,910 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 16:54:54,621 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S8755461520300669
+2021-03-12 16:54:55,636 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 16:54:57,247 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0167739X20312450
+2021-03-12 16:54:58,254 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 16:55:00,187 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S092523122031599X
+2021-03-12 16:56:08,004 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:56:08,292 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:56:08,293 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:56:08,293 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:56:08,294 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:56:08,295 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:56:25,314 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:56:25,611 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:56:25,612 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:56:25,612 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:56:25,612 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:56:25,613 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:56:42,119 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 16:56:44,035 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 16:56:45,035 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 16:56:46,508 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 16:56:47,516 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 16:56:48,913 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 16:57:53,892 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:57:54,182 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:57:54,182 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:57:54,182 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:57:54,183 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:57:54,184 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:58:06,784 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:58:07,068 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:58:07,069 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:58:07,069 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:58:07,070 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:58:07,071 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:58:16,350 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:58:16,636 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:58:16,637 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:58:16,637 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:58:16,638 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:58:16,638 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:58:22,767 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:58:23,055 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:58:23,056 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:58:23,056 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:58:23,056 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:58:23,057 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:58:59,335 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:58:59,629 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:58:59,630 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:58:59,630 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:58:59,631 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:58:59,631 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:59:03,610 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:59:03,897 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:59:03,897 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:59:03,898 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:59:03,898 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:59:03,899 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:59:12,168 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:59:12,458 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:59:12,459 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:59:12,459 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:59:12,460 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:59:12,460 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:59:20,744 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 16:59:21,035 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 16:59:21,036 - elsapy.utils - INFO - Module loaded.
+2021-03-12 16:59:21,036 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 16:59:21,037 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 16:59:21,037 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 16:59:31,044 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 16:59:33,073 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 16:59:34,080 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 16:59:36,922 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 16:59:37,924 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 16:59:39,369 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:00:07,506 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:00:07,795 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:00:07,795 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:00:07,796 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:00:07,796 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:00:07,797 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:00:19,990 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 17:00:21,342 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 17:00:22,343 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:00:24,071 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:00:25,080 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:00:26,662 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:01:43,987 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:01:44,276 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:01:44,277 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:01:44,277 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:01:44,278 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:01:44,278 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:02:29,233 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:02:29,525 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:02:29,526 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:02:29,526 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:02:29,527 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:02:29,527 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:03:32,968 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:03:33,275 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:03:33,276 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:03:33,276 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:03:33,277 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:03:33,277 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:04:33,414 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:04:33,716 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:04:33,716 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:04:33,717 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:04:33,717 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:04:33,718 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:04:47,041 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 17:04:48,460 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 17:04:49,472 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:04:51,825 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:04:52,829 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:04:54,945 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:05:22,720 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:05:23,013 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:05:23,013 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:05:23,013 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:05:23,014 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:05:23,015 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:12:34,050 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:12:34,350 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:12:34,351 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:12:34,351 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:12:34,352 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:12:34,353 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:12:48,065 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:12:48,355 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:12:48,355 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:12:48,355 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:12:48,356 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:12:48,357 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:12:51,207 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:12:51,494 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:12:51,495 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:12:51,495 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:12:51,496 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:12:51,496 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:13:09,477 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:13:09,765 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:13:09,766 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:13:09,766 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:13:09,767 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:13:09,768 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:13:27,406 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:13:27,694 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:13:27,694 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:13:27,695 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:13:27,695 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:13:27,696 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:13:33,805 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:13:34,094 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:13:34,094 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:13:34,095 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:13:34,095 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:13:34,096 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:13:51,007 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:13:51,307 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:13:51,307 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:13:51,307 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:13:51,308 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:13:51,309 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:14:09,304 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:14:09,592 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:14:09,593 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:14:09,593 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:14:09,594 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:14:09,595 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:14:38,438 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:14:38,725 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:14:38,726 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:14:38,726 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:14:38,727 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:14:38,728 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:14:42,728 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:14:43,017 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:14:43,017 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:14:43,018 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:14:43,018 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:14:43,019 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:17:21,136 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 17:17:23,148 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 17:17:24,161 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:17:27,769 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:17:28,773 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:17:30,991 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:18:10,241 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 17:18:11,672 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 17:18:12,685 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:18:15,166 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:18:16,168 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:18:17,555 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:18:58,932 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:18:59,219 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:18:59,220 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:18:59,220 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:18:59,221 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:18:59,222 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:19:08,064 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 17:19:09,312 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 17:19:10,317 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:19:11,929 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:19:12,941 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:19:14,396 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:22:31,183 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 17:22:32,774 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 17:22:33,778 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:22:37,034 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:22:38,042 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:22:39,460 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:26:41,814 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:26:42,104 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:26:42,105 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:26:42,105 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:26:42,105 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:26:42,106 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:27:14,116 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:27:14,406 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:27:14,407 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:27:14,407 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:27:14,407 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:27:14,408 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:27:29,124 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:27:29,409 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:27:29,410 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:27:29,410 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:27:29,411 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:27:29,411 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:27:32,252 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:27:32,542 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:27:32,542 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:27:32,542 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:27:32,543 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:27:32,544 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:28:01,302 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:28:01,590 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:28:01,590 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:28:01,591 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:28:01,591 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:28:01,592 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:29:34,020 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:29:34,311 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:29:34,312 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:29:34,312 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:29:34,313 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:29:34,314 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:29:42,614 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:29:42,906 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:29:42,906 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:29:42,907 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:29:42,907 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:29:42,908 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:29:46,859 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:29:47,142 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:29:47,143 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:29:47,143 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:29:47,144 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:29:47,144 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:29:55,439 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:29:55,730 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:29:55,731 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:29:55,731 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:29:55,731 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:29:55,732 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:30:05,118 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:30:05,404 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:30:05,405 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:30:05,405 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:30:05,406 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:30:05,406 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:30:18,009 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:30:18,298 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:30:18,298 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:30:18,298 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:30:18,299 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:30:18,300 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:30:59,976 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:31:00,264 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:31:00,265 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:31:00,265 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:31:00,266 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:31:00,266 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:32:29,502 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:32:29,795 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:32:29,796 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:32:29,796 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:32:29,797 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:32:29,797 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:32:35,897 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:32:36,184 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:32:36,185 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:32:36,185 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:32:36,186 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:32:36,186 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:32:47,749 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:32:48,035 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:32:48,035 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:32:48,036 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:32:48,036 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:32:48,037 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:32:59,167 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 17:33:01,346 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 17:33:02,355 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:33:03,838 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:33:04,852 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:33:07,537 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:34:38,975 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:34:39,287 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:34:39,287 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:34:39,288 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:34:39,288 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:34:39,289 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:34:48,156 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 17:34:49,410 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 17:34:50,409 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:34:51,938 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:34:52,941 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:34:54,542 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:35:29,282 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:35:29,568 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:35:29,569 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:35:29,569 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:35:29,570 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:35:29,571 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:35:37,044 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 17:35:39,158 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 17:35:40,172 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:35:41,610 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:35:42,617 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:35:45,024 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:36:01,762 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:36:02,053 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:36:02,054 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:36:02,054 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:36:02,055 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:36:02,056 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:36:10,095 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 17:36:11,352 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 17:36:12,349 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:36:14,090 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:36:15,102 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:36:16,625 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:37:01,773 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:37:02,070 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:37:02,071 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:37:02,071 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:37:02,072 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:37:02,073 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:37:06,092 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:37:06,394 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:37:06,395 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:37:06,395 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:37:06,396 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:37:06,397 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:37:14,756 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 17:37:15,101 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 17:37:15,102 - elsapy.utils - INFO - Module loaded.
+2021-03-12 17:37:15,102 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 17:37:15,103 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 17:37:15,104 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 17:37:22,340 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 17:37:23,666 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 17:37:24,668 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:37:26,954 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:37:27,970 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:37:29,390 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:40:19,317 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 17:40:20,535 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 17:40:21,548 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:40:23,082 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:40:24,094 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:40:25,447 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:47:43,092 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 17:47:45,168 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 17:47:46,175 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:47:47,727 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:47:48,733 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:47:52,313 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:48:59,619 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 17:49:00,947 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 17:49:01,958 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:49:04,204 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:49:05,209 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:49:06,644 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:56:24,060 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 17:56:26,246 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 17:56:27,256 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:56:32,789 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:56:33,797 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:56:35,705 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:57:48,180 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 17:57:49,448 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 17:57:50,462 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:57:52,316 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 17:57:53,332 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 17:57:55,861 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 18:02:47,447 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 18:02:48,818 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 18:02:49,830 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 18:02:51,506 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 18:02:52,509 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 18:02:54,719 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 18:03:31,010 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 18:03:32,260 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 18:03:33,263 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 18:03:34,588 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 18:03:35,589 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 18:03:37,045 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 18:04:09,002 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 18:04:10,257 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 18:04:11,265 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 18:04:12,828 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 18:04:13,831 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 18:04:15,468 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 18:05:58,140 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction
+2021-03-12 18:05:59,523 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 18:06:00,536 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 18:06:02,295 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0141933121002647
+2021-03-12 18:06:03,299 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 18:06:04,676 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2468502X20300668
+2021-03-12 18:07:05,880 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 18:07:06,175 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 18:07:06,175 - elsapy.utils - INFO - Module loaded.
+2021-03-12 18:07:06,176 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 18:07:06,176 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 18:07:06,177 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 18:07:09,046 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 18:07:09,327 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 18:07:09,328 - elsapy.utils - INFO - Module loaded.
+2021-03-12 18:07:09,328 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 18:07:09,329 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 18:07:09,329 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 18:07:14,351 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 18:07:14,632 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 18:07:14,633 - elsapy.utils - INFO - Module loaded.
+2021-03-12 18:07:14,633 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 18:07:14,634 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 18:07:14,634 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 18:07:21,809 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 18:07:22,094 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 18:07:22,094 - elsapy.utils - INFO - Module loaded.
+2021-03-12 18:07:22,095 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 18:07:22,095 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 18:07:22,096 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 18:07:44,380 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 18:07:44,664 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 18:07:44,665 - elsapy.utils - INFO - Module loaded.
+2021-03-12 18:07:44,665 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 18:07:44,665 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 18:07:44,666 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 18:08:37,316 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Computer+Interaction+%2B+Augmented+Reality
+2021-03-12 18:08:38,402 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 18:08:39,405 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2096579620300905
+2021-03-12 18:08:40,683 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2096579620300905
+2021-03-12 18:08:41,688 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2212827121001190
+2021-03-12 18:08:43,153 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2212827121001190
+2021-03-12 18:09:16,791 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economics
+2021-03-12 18:09:17,829 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 18:09:18,833 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2352550921000737
+2021-03-12 18:09:22,135 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2352550921000737
+2021-03-12 18:09:23,150 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2214799320301089
+2021-03-12 18:09:24,257 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2214799320301089
+2021-03-12 18:09:43,269 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economics+%2B+Marketing
+2021-03-12 18:09:45,113 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 18:09:46,114 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S004484861931230X
+2021-03-12 18:09:48,204 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S004484861931230X
+2021-03-12 18:09:49,219 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/B9780128121634000231
+2021-03-12 18:09:51,410 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/B9780128121634000231
+2021-03-12 18:10:59,531 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 18:10:59,823 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 18:10:59,823 - elsapy.utils - INFO - Module loaded.
+2021-03-12 18:10:59,824 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 18:10:59,824 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 18:10:59,825 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 18:11:05,066 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Finance+%2B+Marketing
+2021-03-12 18:11:06,171 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 18:11:07,179 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0167811620300811
+2021-03-12 18:11:09,420 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0167811620300811
+2021-03-12 18:11:10,427 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1062940817302449
+2021-03-12 18:11:12,600 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1062940817302449
+2021-03-12 18:11:13,602 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0278431917304838
+2021-03-12 18:11:16,177 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0278431917304838
+2021-03-12 18:11:17,188 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1877050920315234
+2021-03-12 18:11:20,238 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1877050920315234
+2021-03-12 18:11:21,246 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1877050915015537
+2021-03-12 18:11:23,413 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1877050915015537
+2021-03-12 18:12:21,338 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 18:12:21,631 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 18:12:21,631 - elsapy.utils - INFO - Module loaded.
+2021-03-12 18:12:21,632 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 18:12:21,632 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 18:12:21,633 - elsapy.elssearch - INFO - Module loaded.

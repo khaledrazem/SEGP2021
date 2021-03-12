@@ -9,22 +9,56 @@ import json
 
 def elsevier_auth():
     ## Initialize client
-    client = ElsClient("7a286322cb3559da3442a03892947ae4")
-    client.inst_token = ""
+    client = ElsClient("1ebaeb2ea719e96071ce074a5c341963")
+    client.inst_token = "6383ea4db27ea6b7353107935f098932"
     return client
 
-def find_abstract(doi):
+def elsevier_des(keyword):
     client = elsevier_auth()
-    ## ScienceDirect (full-text) document example using DOI
-    doi_doc = FullDoc(doi=doi)
-    if doi_doc.read(client):
-        print("doi_doc.title: ", doi_doc.title)
-        print("doi_doc.abstract: ", doi_doc.data['coredata']['dc:description'])
-        doi_doc.write()
-    else:
-        print("Read document failed.")
+    #myDocSrch = ElsSearch("TITLE("+paper+")","scopus")
+    myDocSrch = ElsSearch(keyword,'sciencedirect')
+    myDocSrch.execute(client,get_all = False)
 
-# client = elsevier_auth()
-# myDocSrch = ElsSearch('Transportation + Architecture','scidir')
-# if myDocSrch.execute(client):
-#     print(myDocSrch.results)
+    pii = []
+    
+    count=0
+    
+    for i in myDocSrch.results:
+        if count < 5:
+            try:
+                pii.append(i['pii'])
+            except:
+                pii.append("-")
+            count += 1
+
+    paper = []
+    
+    for j in pii:
+        if j != "-":
+            pii_doc = FullDoc(sd_pii=j)
+            if pii_doc.read(client):
+                #print(pii_doc.data['coredata']['prism:coverDisplayDate'])
+                
+                result = {
+                    'name': [],
+                    'reader_count': [],
+                    'link': [],
+                    'year_published': [],
+                    'discription': [],
+                }
+                
+                result['name'] = pii_doc.data['coredata']['dc:title']
+                result['reader_count'] = 0
+                result['link'] = "https://www.sciencedirect.com/science/article/pii/"+j
+                year = pii_doc.data['coredata']['prism:coverDate']
+                result['year_published'] = year[:4]
+                result['discription'] = pii_doc.data['coredata']['dc:description']
+                
+                paper.append(result)
+            print("reading data...")
+
+    paper = {
+        'paper': paper,
+    }
+    
+    return paper

@@ -7,6 +7,8 @@ from combinations import db_keyword_combination,db_subcategory_combination
 from paper import db_paper_keyword,db_paper_subcategory
 from paper.models import paper_keyword_relationship
 from .drawGraph import *
+from .nlp_test import *
+from .elsevier_test import elsevier_des
 
 #from django.shortcuts import render,redirect
 #from django.core.files.storage import FileSystemStorage
@@ -102,43 +104,64 @@ def results2(request):
 def single_category(request):
     if request.method == 'GET':
         query = str(request.GET['category'])
+        
         results = searchKeyword(query,True)
-        related_paper = db_paper_subcategory.get_related_paper_with_keyword(query, None)
+        related_paper = db_paper_subcategory.get_related_paper_with_keyword(query, None)[:5]
+        related_paper2 = elsevier_des(query)
+        related_word = disc(related_paper2['paper'])
         graph = plotGraph(query, None)
+        
         context = {
             "keyword":query,
             "results":results,
             "graph": graph,
             "related": related_paper,
+            "related2": related_paper2,
+            "related_word": related_word,
         }
     return render(request, 'SingleCategoryResult.html',context)
 
 def single_keyword_result(request):
     if request.method == 'GET':
         query = str(request.GET['keyword'])
+        
         results = searchKeyword(query,True)
-        related_paper = db_paper_subcategory.get_related_paper_with_keyword(query, None)
+        related_paper = db_paper_subcategory.get_related_paper_with_keyword(query, None)[:5]
+        related_paper2 = elsevier_des(query)
+        related_word = disc(related_paper2['paper'])
+        
         graph = plotGraph(query, None)
+        
         context = {
             "keyword":query,
             "results":results,
             "graph": graph,
             "related": related_paper,
+            "related2": related_paper2,
+            "related_word": related_word,
         }
+
     return render(request, 'SingleKeywordResult.html',context)
 
 def keyword_combination_result(request):
     if request.method == 'GET':
         query_1 = str(request.GET['keyword_1'])
         query_2 = str(request.GET['keyword_2'])
+        real_query = query_1 + " + " + query_2
+        
         #result_keyword = db_keyword_combination.db_select_KeywordCombination(query_1,query_2)
         #related_paper = db_paper_keyword.get_related_paper_with_keyword_combination(query_1,query_2)
         result_keyword = db_subcategory_combination.selectComb(query_1,query_2)
-        related_paper = db_paper_subcategory.get_related_paper_with_subcategory_combination(query_1,query_2)
+        related_paper = db_paper_subcategory.get_related_paper_with_subcategory_combination(query_1,query_2)[:5]
+        related_paper2 = elsevier_des(real_query)
+        related_word = disc(related_paper2['paper'])
         graph = plotGraph(query_1, query_2)
+        
         context = {
             "keyword": result_keyword,
             "related": related_paper,
+            "related2": related_paper2,
+            "related_word": related_word,
             "graph": graph,
         }
     return render(request, 'KeywordCombination.html',context)
@@ -147,12 +170,19 @@ def subcategory_combination_result(request):
     if request.method == 'GET':
         query_1 = str(request.GET['subcategory_1'])
         query_2 = str(request.GET['subcategory_2'])
+        real_query = query_1 + " + " + query_2
+        
         result_keyword = db_subcategory_combination.selectComb(query_1,query_2)
-        related_paper = db_paper_subcategory.get_related_paper_with_subcategory_combination(query_1,query_2)
+        related_paper = db_paper_subcategory.get_related_paper_with_subcategory_combination(query_1,query_2)[:5]
+        related_paper2 = elsevier_des(real_query)
+        related_word = disc(related_paper2['paper'])
         graph = plotGraph(query_1, query_2)
+        
         context = {
             "keyword": result_keyword,
             "related": related_paper,
+            "related2": related_paper2,
+            "related_word": related_word,
             "graph": graph,
         }
     return render(request, 'SubcategoryCombination.html',context)
