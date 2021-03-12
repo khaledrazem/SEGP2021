@@ -473,8 +473,6 @@ def author_score(queryList):
     return count
 """
 
-
-
 def searchKeyword(keyword,quick):
     os.system('cls')
     session = mendeleyAuth()
