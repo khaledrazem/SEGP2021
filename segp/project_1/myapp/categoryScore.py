@@ -224,29 +224,33 @@ def topCombination(subset,quick,growth_query,authorscore_query,readercount_query
     
     tempscore = []
     
+    readerCount = data_norm(readerCount)
+    Growth = data_norm(Growth)
+    #authorScore = data_norm(authorScore)
+    
     # choose which data to display
     if readercount_query and growth_query and authorscore_query:
-        tempscore = readerCount
+        score = readerCount
     else:
         if readercount_query and growth_query:
             zipped_lists = zip(readerCount, Growth)
-            tempscore = [float(x) + float(y) for (x, y) in zipped_lists]
+            score = [(float(x) + float(y))/2 for (x, y) in zipped_lists]
         elif readercount_query and authorscore_query:
             zipped_lists = zip(readerCount, authorScore)
-            tempscore = [float(x) + float(y) for (x, y) in zipped_lists]
+            score = [(float(x) + float(y))/2 for (x, y) in zipped_lists]
         elif growth_query and authorscore_query:
             zipped_lists = zip(authorScore, Growth)
-            tempscore = [float(x) + float(y) for (x, y) in zipped_lists]
+            score = [(float(x) + float(y))/2 for (x, y) in zipped_lists]
         elif readercount_query:
-            tempscore = readerCount
+            score = readerCount
         elif growth_query:
-            tempscore = Growth
+            score = Growth
         elif authorscore_query: 
-            tempscore = authorScore
+            score = authorScore
         else:
-            tempscore = readerCount
+            score = readerCount
     
-    score = data_norm(tempscore)
+    #score = data_norm(tempscore)
     
     # get position of largest data
     largest = sorted(range(len(score)), key=lambda sub: score[sub])[-N:]

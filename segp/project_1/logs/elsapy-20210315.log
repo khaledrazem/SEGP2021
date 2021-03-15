@@ -1,0 +1,48 @@
+2021-03-15 15:42:27,948 - elsapy.elsclient - INFO - Module loaded.
+2021-03-15 15:42:28,765 - elsapy.elsentity - INFO - Module loaded.
+2021-03-15 15:42:28,766 - elsapy.utils - INFO - Module loaded.
+2021-03-15 15:42:28,766 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-15 15:42:28,767 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-15 15:42:28,768 - elsapy.elssearch - INFO - Module loaded.
+2021-03-15 20:48:29,636 - elsapy.elsclient - INFO - Module loaded.
+2021-03-15 20:48:30,189 - elsapy.elsentity - INFO - Module loaded.
+2021-03-15 20:48:30,190 - elsapy.utils - INFO - Module loaded.
+2021-03-15 20:48:30,190 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-15 20:48:30,191 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-15 20:48:30,192 - elsapy.elssearch - INFO - Module loaded.
+2021-03-15 20:57:53,069 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=test
+2021-03-15 20:57:55,246 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-15 20:57:56,248 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0163445320304230
+2021-03-15 20:57:59,010 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0163445320304230
+2021-03-15 20:58:00,018 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0009898113003641
+2021-03-15 20:58:01,949 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0009898113003641
+2021-03-15 20:58:02,949 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0166093413003480
+2021-03-15 20:58:05,632 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0166093413003480
+2021-03-15 20:58:06,646 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0022534714029450
+2021-03-15 20:58:09,026 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0022534714029450
+2021-03-15 20:58:10,040 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0196655315001406
+2021-03-15 20:58:12,485 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0196655315001406
+2021-03-15 21:00:35,989 - elsapy.elsclient - INFO - Module loaded.
+2021-03-15 21:00:36,291 - elsapy.elsentity - INFO - Module loaded.
+2021-03-15 21:00:36,292 - elsapy.utils - INFO - Module loaded.
+2021-03-15 21:00:36,292 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-15 21:00:36,293 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-15 21:00:36,293 - elsapy.elssearch - INFO - Module loaded.
+2021-03-15 21:00:48,915 - elsapy.elsclient - INFO - Module loaded.
+2021-03-15 21:00:49,210 - elsapy.elsentity - INFO - Module loaded.
+2021-03-15 21:00:49,211 - elsapy.utils - INFO - Module loaded.
+2021-03-15 21:00:49,211 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-15 21:00:49,212 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-15 21:00:49,212 - elsapy.elssearch - INFO - Module loaded.
+2021-03-15 21:01:01,873 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=test
+2021-03-15 21:01:03,932 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-15 21:01:04,934 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0163445320304230
+2021-03-15 21:01:06,411 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0163445320304230
+2021-03-15 21:01:07,422 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0009898113003641
+2021-03-15 21:01:09,422 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0009898113003641
+2021-03-15 21:01:10,431 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0166093413003480
+2021-03-15 21:01:13,022 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0166093413003480
+2021-03-15 21:01:14,026 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0022534714029450
+2021-03-15 21:01:19,127 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0022534714029450
+2021-03-15 21:01:20,132 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0196655315001406
+2021-03-15 21:01:22,194 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0196655315001406
