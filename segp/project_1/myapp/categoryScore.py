@@ -69,9 +69,13 @@ def getTrend(subcat,quick,growth_query,authorscore_query,readercount_query):
         N = len(trend)
 
     i = 0
-
+    
+    print(trend)
+    
     # get position of largest data
     largest = sorted(range(len(trend)), key=lambda sub: trend[sub])[-N:]
+    
+    print(largest)
     
     # get top N subcategory
     print()
@@ -219,8 +223,8 @@ def topCombination(subset,quick,growth_query,authorscore_query,readercount_query
             Growth.append(comb_result.combination_growth)
         else:
             readerCount.append(avgreader)       # get data from calc
-            authorScore.append(str(authorscore))
-            Growth.append(str(growth))
+            authorScore.append(authorscore)
+            Growth.append(growth)
     
     tempscore = []
     

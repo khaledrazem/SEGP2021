@@ -77,6 +77,7 @@ def results1(request):
     if request.method == 'POST':
         query_A=[]
         keys=list(request.POST.keys())
+        print(keys)
         for i in keys:
             if "A_" in i:
                 query_A.append(i.replace("A_",""))
