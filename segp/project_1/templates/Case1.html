@@ -51,10 +51,26 @@
 			
 			<form id="input_form" method="GET" action="../Results1/">{% csrf_token %}
                 <input type="hidden" name="input_submitted" id="input_submitted"  value="">
-                <div class="quicksearch">
-                    <input type="checkbox" id="quicksearch" name="quicksearch" checked>
-                    <label for="quicksearch">Quick Search</label>
-			    </div>
+				
+				<div class="check">
+                    <input class="algorithm_choice" type="checkbox" id="growth" name="growth" value="Growth">
+                    <label for="Growth">Growth &nbsp;</label>
+					
+                    <input class="algorithm_choice" type="checkbox" id="authorscore" name="authorscore" value="Authorscore">
+                    <label for="authorscore">Author Score &nbsp;</label>
+					
+                    <input class="algorithm_choice" type="checkbox" id="readercount" name="readercount" value="Readercount">
+                    <label for="readercount">ReaderCount</label>
+					
+					<input class="algorithm_choice" type="checkbox" id="eip" name="eip" value="eip">
+                    <label for="eip">EIP</label>
+					
+					
+					<div class="quicksearch">
+						<input type="checkbox" id="quicksearch" name="quicksearch" checked>
+						<label for="quicksearch">Quick Search</label>
+					</div>
+				</div>
             </form>
 
             <br>

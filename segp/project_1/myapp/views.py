@@ -1,6 +1,6 @@
 from django.shortcuts import render,redirect
 from .mendeleyScores import *
-from .categoryScore import getTrend, filterSubcat, searchKeyword
+from .categoryScore import getTrend, filterSubcat, searchKeyword, getCode
 from .categoryscraper import categoryscraper
 from search_keyword import db_keyword_query
 from combinations import db_keyword_combination,db_subcategory_combination
@@ -39,10 +39,12 @@ def testing(request):
         growth_query = 'growth' in request.GET
         authorscore_query = 'authorscore' in request.GET
         readercount_query = 'readercount' in request.GET
+        pie_query = 'eip' in request.GET
         quick = 'quicksearch' in request.GET
         categories = categoryscraper(query)
-        subcategory = getTrend(categories, quick, growth_query,authorscore_query,readercount_query)
-    
+        subcategory = getTrend(categories, quick, growth_query,authorscore_query,readercount_query,pie_query)
+        code = getCode(readercount_query,growth_query,authorscore_query,pie_query)
+        
     # filter function
     if request.method == 'POST':
         query_A=[]
@@ -56,10 +58,14 @@ def testing(request):
                 minval = request.POST['min_val']
             elif "max_val" in i:
                 maxval = request.POST['max_val']
-        subcategory = filterSubcat(query_A,categories,minval,maxval,True)
+            elif "thiscode" in i:
+                code = request.POST['thiscode']
+        
+        subcategory = filterSubcat(query_A,categories,minval,maxval,code,True)
     context = {
         'subcategories_list':categories,
         'subcategories': subcategory,
+        'code': code,
     }
     return render(request, 'Testing.html',context)
 
@@ -70,29 +76,36 @@ def results1(request):
         query = str(request.GET['input_submitted']).split("\\n")
         query.remove("")
         keyword = query
+        growth_query = 'growth' in request.GET
+        authorscore_query = 'authorscore' in request.GET
+        readercount_query = 'readercount' in request.GET
+        pie_query = 'eip' in request.GET
         quick_search = 'quicksearch' in request.GET
-        query_result = getTrend(query, quick_search, False, False, True)
+        query_result = getTrend(query, quick_search, growth_query, authorscore_query, readercount_query, pie_query)
+        code = getCode(readercount_query,growth_query,authorscore_query,pie_query)
     
     # filter function
     if request.method == 'POST':
         query_A=[]
         keys=list(request.POST.keys())
-        print(keys)
         for i in keys:
             if "A_" in i:
                 query_A.append(i.replace("A_",""))
             if "B_" in i:
                 keyword.append(i.replace("B_",""))
-            elif "min_val" in i:
+            if "min_val" in i:
                 minval = request.POST['min_val']
-            elif "max_val" in i:
+            if "max_val" in i:
                 maxval = request.POST['max_val']
+            elif "thiscode" in i:
+                code = request.POST['thiscode']
         
-        query_result = filterSubcat(query_A,keyword,minval,maxval,True)
+        query_result = filterSubcat(query_A,keyword,minval,maxval,code,True)
     
     context = {
         'query_list':keyword,
         'scores_result':query_result,
+        'code': code,
     }
     return render(request, 'Results1.html',context)
 
