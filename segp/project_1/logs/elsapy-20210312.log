@@ -1615,3 +1615,75 @@
 2021-03-12 18:12:21,632 - elsapy.elsprofile - INFO - Module loaded.
 2021-03-12 18:12:21,632 - elsapy.elsdoc - INFO - Module loaded.
 2021-03-12 18:12:21,633 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 19:40:30,578 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 19:40:31,243 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 19:40:31,245 - elsapy.utils - INFO - Module loaded.
+2021-03-12 19:40:31,245 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 19:40:31,247 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 19:40:31,249 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 19:41:43,017 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 19:41:43,421 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 19:41:43,422 - elsapy.utils - INFO - Module loaded.
+2021-03-12 19:41:43,423 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 19:41:43,440 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 19:41:43,441 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 19:42:36,276 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 19:42:36,691 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 19:42:36,692 - elsapy.utils - INFO - Module loaded.
+2021-03-12 19:42:36,693 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 19:42:36,709 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 19:42:36,710 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 19:43:30,376 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economics+%2B+Marketing
+2021-03-12 19:43:32,227 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 19:43:33,207 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S004484861931230X
+2021-03-12 19:43:35,385 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S004484861931230X
+2021-03-12 19:43:36,384 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/B9780128121634000231
+2021-03-12 19:43:38,423 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/B9780128121634000231
+2021-03-12 19:43:39,424 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0743016716301425
+2021-03-12 19:43:41,209 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0743016716301425
+2021-03-12 19:43:42,210 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0167811620301063
+2021-03-12 19:43:45,084 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0167811620301063
+2021-03-12 19:43:46,084 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1877042816305055
+2021-03-12 19:43:47,974 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1877042816305055
+2021-03-12 19:45:23,053 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economics+%2B+Marketing
+2021-03-12 19:45:24,816 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 19:45:25,815 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S004484861931230X
+2021-03-12 19:45:28,118 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S004484861931230X
+2021-03-12 19:45:29,119 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/B9780128121634000231
+2021-03-12 19:45:31,224 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/B9780128121634000231
+2021-03-12 19:45:32,226 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0743016716301425
+2021-03-12 19:45:35,056 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0743016716301425
+2021-03-12 19:45:36,056 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0167811620301063
+2021-03-12 19:45:38,347 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0167811620301063
+2021-03-12 19:45:39,347 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1877042816305055
+2021-03-12 19:45:41,107 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1877042816305055
+2021-03-12 19:53:56,646 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biotechnology+%2B+Robotics
+2021-03-12 19:53:58,286 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 19:53:59,279 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0168165616306113
+2021-03-12 19:54:01,197 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0168165616306113
+2021-03-12 19:54:02,198 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0168165615003892
+2021-03-12 19:54:04,531 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0168165615003892
+2021-03-12 19:54:05,533 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0168165616304746
+2021-03-12 19:54:07,672 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0168165616304746
+2021-03-12 19:54:08,674 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1742706120307078
+2021-03-12 19:54:14,809 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1742706120307078
+2021-03-12 19:54:15,809 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1322769620301049
+2021-03-12 19:54:17,952 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1322769620301049
+2021-03-12 19:55:53,460 - elsapy.elsclient - INFO - Module loaded.
+2021-03-12 19:55:54,226 - elsapy.elsentity - INFO - Module loaded.
+2021-03-12 19:55:54,227 - elsapy.utils - INFO - Module loaded.
+2021-03-12 19:55:54,227 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-12 19:55:54,245 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-12 19:55:54,248 - elsapy.elssearch - INFO - Module loaded.
+2021-03-12 19:55:56,774 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biotechnology+%2B+Robotics
+2021-03-12 19:55:57,683 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-12 19:55:58,678 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0168165616306113
+2021-03-12 19:56:00,673 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0168165616306113
+2021-03-12 19:56:01,675 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0168165615003892
+2021-03-12 19:56:02,974 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0168165615003892
+2021-03-12 19:56:03,976 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0168165616304746
+2021-03-12 19:56:08,105 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0168165616304746
+2021-03-12 19:56:09,107 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1742706120307078
+2021-03-12 19:56:11,512 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1742706120307078
+2021-03-12 19:56:12,513 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1322769620301049
+2021-03-12 19:56:14,723 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1322769620301049
