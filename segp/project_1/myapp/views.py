@@ -1,6 +1,7 @@
 from django.shortcuts import render,redirect
 from .mendeleyScores import *
-from .categoryScore import getTrend, filterSubcat, searchKeyword, getCode
+from .mendeleyScript import *
+from .categoryScore import getTrend, filterResult, searchData, getCode
 from .categoryscraper import categoryscraper
 from search_keyword import db_keyword_query
 from combinations import db_keyword_combination,db_subcategory_combination
@@ -14,7 +15,6 @@ from .elsevier_test import elsevier_des
 #from django.core.files.storage import FileSystemStorage
 
 # Create your views here.
-
 def home(request):
     return render(request, 'WebsiteSEGP.html')
 
@@ -42,8 +42,8 @@ def testing(request):
         pie_query = 'eip' in request.GET
         quick = 'quicksearch' in request.GET
         categories = categoryscraper(query)
-        subcategory = getTrend(categories, quick, growth_query,authorscore_query,readercount_query,pie_query)
         code = getCode(readercount_query,growth_query,authorscore_query,pie_query)
+        subcategory = getTrend(categories, quick, code)
         
     # filter function
     if request.method == 'POST':
@@ -61,9 +61,10 @@ def testing(request):
             elif "thiscode" in i:
                 code = request.POST['thiscode']
         
-        subcategory = filterSubcat(query_A,categories,minval,maxval,code,True)
+        subcategory = filterResult(query_A,categories,minval,maxval,code,True)
+    
     context = {
-        'subcategories_list':categories,
+        'subcategories_list': categories,
         'subcategories': subcategory,
         'code': code,
     }
@@ -81,8 +82,8 @@ def results1(request):
         readercount_query = 'readercount' in request.GET
         pie_query = 'eip' in request.GET
         quick_search = 'quicksearch' in request.GET
-        query_result = getTrend(query, quick_search, growth_query, authorscore_query, readercount_query, pie_query)
         code = getCode(readercount_query,growth_query,authorscore_query,pie_query)
+        query_result = getTrend(query, quick_search, code)
     
     # filter function
     if request.method == 'POST':
@@ -100,11 +101,11 @@ def results1(request):
             elif "thiscode" in i:
                 code = request.POST['thiscode']
         
-        query_result = filterSubcat(query_A,keyword,minval,maxval,code,True)
+        query_result = filterResult(query_A,keyword,minval,maxval,code,True)
     
     context = {
-        'query_list':keyword,
-        'scores_result':query_result,
+        'query_list': keyword,
+        'scores_result': query_result,
         'code': code,
     }
     return render(request, 'Results1.html',context)
@@ -119,15 +120,16 @@ def single_category(request):
     if request.method == 'GET':
         query = str(request.GET['category'])
         
-        results = searchKeyword(query,True)
+        session = mendeleyAuth()
+        results = searchData(query,session,None,True)
         related_paper = db_paper_subcategory.get_related_paper_with_keyword(query, None)[:5]
         related_paper2 = elsevier_des(query)
         related_word = disc(related_paper2['paper'])
         graph = plotGraph(query, None)
         
         context = {
-            "keyword":query,
-            "results":results,
+            "keyword": query,
+            "results": results,
             "graph": graph,
             "related": related_paper,
             "related2": related_paper2,
@@ -139,7 +141,8 @@ def single_keyword_result(request):
     if request.method == 'GET':
         query = str(request.GET['keyword'])
         
-        results = searchKeyword(query,True)
+        session = mendeleyAuth()
+        results = searchData(query,session,None,True)
         related_paper = db_paper_subcategory.get_related_paper_with_keyword(query, None)[:5]
         related_paper2 = elsevier_des(query)
         related_word = disc(related_paper2['paper'])
@@ -147,14 +150,13 @@ def single_keyword_result(request):
         graph = plotGraph(query, None)
         
         context = {
-            "keyword":query,
-            "results":results,
+            "keyword": query,
+            "results": results,
             "graph": graph,
             "related": related_paper,
             "related2": related_paper2,
             "related_word": related_word,
         }
-
     return render(request, 'SingleKeywordResult.html',context)
 
 def keyword_combination_result(request):
@@ -163,8 +165,6 @@ def keyword_combination_result(request):
         query_2 = str(request.GET['keyword_2'])
         real_query = query_1 + " + " + query_2
         
-        #result_keyword = db_keyword_combination.db_select_KeywordCombination(query_1,query_2)
-        #related_paper = db_paper_keyword.get_related_paper_with_keyword_combination(query_1,query_2)
         result_keyword = db_subcategory_combination.selectComb(query_1,query_2)
         related_paper = db_paper_subcategory.get_related_paper_with_subcategory_combination(query_1,query_2)[:5]
         related_paper2 = elsevier_des(real_query)

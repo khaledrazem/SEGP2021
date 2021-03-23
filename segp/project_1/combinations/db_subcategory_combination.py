@@ -56,3 +56,15 @@ def getCurrentTime():
     now = datetime.now()
     current_time = now.strftime("%Y-%m-%d")
     return current_time
+
+def checkCombStatus(x,quick):
+    if isinCombDB(query_1=x[0],query_2=x[1]):
+        comb_result = selectComb(query_1=x[0],query_2=x[1])
+        if (isCombUpdated(query_1=x[0],query_2=x[1])==False) or (comb_result.quick_search_data != quick):
+            status = 1      # in db but not updated
+        else:
+            status = 2      # in db and is updated
+    else:
+        status = 0      # not in db
+
+    return status

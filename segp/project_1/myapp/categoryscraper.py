@@ -2,35 +2,15 @@ from bs4 import BeautifulSoup
 import requests
     
 def categoryscraper(cat):
-
-    temp=cat
-
-    headers = {
-        'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9'
+    subcategory = {
+        'bus': ['Accounting and Taxation', 'Business, Economics and Management (general)', 'Development Economics', 'Economic History', 'Economic Policy', 'Economics', 'Educational Administration', 'Emergency Management', 'Entrepreneurship and Innovation', 'Finance', 'Game Theory and Decision Science', 'Human Resources and Organizations', 'International Business', 'Marketing', 'Strategic Management', 'Tourism and Hospitality'],
+        'chm': ['Analytical Chemistry', 'Biochemistry', 'Ceramic Engineering', 'Chemical and Material Sciences (general)', 'Chemical Kinetics and Catalysis', 'Combustion and Propulsion', 'Composite Materials', 'Crystallography and Structural Chemistry', 'Dispersion Chemistry', 'Electrochemistry', 'Inorganic Chemistry', 'Materials Engineering', 'Medicinal Chemistry', 'Nanotechnology', 'Oil, Petroleum and Natural Gas', 'Organic Chemistry', 'Polymers and Plastics'],
+        'eng': ['Architecture', 'Artificial Intelligence', 'Automation and Control Theory', 'Aviation and Aerospace Engineering', 'Bioinformatics and Computational Biology', 'Biomedical Technology', 'Biotechnology', 'Ceramic Engineering', 'Civil Engineering', 'Combustion and Propulsion', 'Computational Linguistics', 'Computer Graphics', 'Computer Hardware Design', 'Computer Networks and Wireless Communication', 'Computer Security and Cryptography', 'Computer Vision and Pattern Recognition', 'Computing Systems', 'Data Mining and Analysis', 'Databases and Information Systems', 'Educational Technology', 'Engineering and Computer Science (general)', 'Environmental and Geological Engineering', 'Evolutionary Computation', 'Food Science and Technology', 'Fuzzy Systems', 'Game Theory and Decision Science', 'Human Computer Interaction', 'Library and Information Science', 'Manufacturing and Machinery', 'Materials Engineering', 'Mechanical Engineering', 'Medical Informatics', 'Metallurgy', 'Microelectronics and Electronic Packaging', 'Mining and Mineral Resources', 'Multimedia', 'Nanotechnology', 'Ocean and Marine Engineering', 'Oil, Petroleum and Natural Gas', 'Operations Research', 'Plasma and Fusion', 'Power Engineering', 'Quality and Reliability', 'Radar, Positioning and Navigation', 'Remote Sensing', 'Robotics', 'Signal Processing', 'Software Systems', 'Structural Engineering', 'Sustainable Energy', 'Technology Law', 'Textile Engineering', 'Theoretical Computer Science', 'Transportation', 'Water Supply and Treatment', 'Wood Science and Technology'],
+        'med': ['Addiction', 'AIDS and HIV', 'Alternative and Traditional Medicine', 'Anesthesiology', 'Audiology, Speech and Language Pathology', 'Bioethics', 'Biomedical Technology', 'Cardiology', 'Child and Adolescent Psychology', 'Clinical Laboratory Science', 'Communicable Diseases', 'Critical Care', 'Dentistry', 'Dermatology', 'Developmental Disabilities', 'Diabetes', 'Emergency Medicine', 'Endocrinology', 'Epidemiology', 'Gastroenterology and Hepatology', 'Genetics and Genomics', 'Gerontology and Geriatric Medicine', 'Gynecology and Obstetrics', 'Health and Medical Sciences (general)', 'Heart and Thoracic Surgery', 'Hematology', 'Hospice and Palliative Care', 'Immunology', 'Medical Informatics', 'Medicinal Chemistry', 'Molecular Biology', 'Natural Medicines and Medicinal Plants', 'Neurology', 'Neurosurgery', 'Nuclear Medicine, Radiotherapy and Molecular Imaging', 'Nursing', 'Nutrition Science', 'Obesity', 'Oncology', 'Ophthalmology and Optometry', 'Oral and Maxillofacial Surgery', 'Orthopedic Medicine and Surgery', 'Otolaryngology', 'Pain and Pain Management', 'Pathology', 'Pediatric Medicine', 'Pharmacology and Pharmacy', 'Physical Education and Sports Medicine', 'Physiology', 'Plastic and Reconstructive Surgery', 'Pregnancy and Childbirth', 'Primary Health Care', 'Psychiatry', 'Psychology', 'Public Health', 'Pulmonology', 'Radiology and Medical Imaging', 'Rehabilitation Therapy', 'Reproductive Health', 'Rheumatology', 'Social Psychology', 'Surgery', 'Toxicology', 'Transplantation', 'Tropical Medicine and Parasitology', 'Urology and Nephrology', 'Vascular Medicine', 'Veterinary Medicine', 'Virology'],
+        'hum': ['African Studies and History', 'American Literature and Studies', 'Asian Studies and History', 'Canadian Studies and History', 'Chinese Studies and History', 'Communication', 'Drama and Theater Arts', 'English Language and Literature', 'Epistemology and Scientific History', 'Ethnic and Cultural Studies', "Feminism and Women's Studies", 'Film', 'Foreign Language Learning', 'French Studies', 'Gender Studies', 'History', 'Humanities, Literature and Arts (general)', 'Language and Linguistics', 'Latin American Studies', 'Literature and Writing', 'Middle Eastern and Islamic Studies', 'Music and Musicology', 'Philosophy', 'Religion', 'Sex and Sexuality', 'Visual Arts'],
+        'bio': ['Agronomy and Crop Science', 'Animal Behavior and Ethology', 'Animal Husbandry', 'Atmospheric Sciences', 'Biochemistry', 'Biodiversity and Conservation Biology', 'Bioinformatics and Computational Biology', 'Biophysics', 'Biotechnology', 'Birds', 'Botany', 'Cell Biology', 'Developmental Biology and Embryology', 'Ecology', 'Environmental and Geological Engineering', 'Environmental Sciences', 'Evolutionary Biology', 'Food Science and Technology', 'Forests and Forestry', 'Geochemistry and Mineralogy', 'Geology', 'Hydrology and Water Resources', 'Insects and Arthropods', 'Life Sciences and Earth Sciences (general)', 'Marine Sciences and Fisheries', 'Microbiology', 'Molecular Biology', 'Mycology', 'Oceanography', 'Paleontology', 'Pest Control and Pesticides', 'Plant Pathology', 'Proteomics, Peptides and Aminoacids', 'Soil Sciences', 'Sustainable Development', 'Sustainable Energy', 'Virology', 'Wood Science and Technology', 'Zoology'],
+        'phy': ['Acoustics and Sound', 'Algebra', 'Astronomy and Astrophysics', 'Biophysics', 'Computational Mathematics', 'Condensed Matter Physics and Semiconductors', 'Discrete Mathematics', 'Electromagnetism', 'Fluid Mechanics', 'Geometry', 'Geophysics', 'High Energy and Nuclear Physics', 'Mathematical Analysis', 'Mathematical Optimization', 'Mathematical Physics', 'Nonlinear Science', 'Optics and Photonics', 'Physics and Mathematics (general)', 'Plasma and Fusion', 'Probability and Statistics with Applications', 'Pure and Applied Mathematics', 'Spectroscopy and Molecular Physics', 'Thermal Sciences'],
+        'soc': ['Academic and Psychological Testing', 'African Studies and History', 'Anthropology', 'Archaeology', 'Architecture', 'Asian Studies and History', 'Bioethics', 'Canadian Studies and History', 'Chinese Studies and History', 'Cognitive Science', 'Criminology, Criminal Law and Policing', 'Development Economics', 'Diplomacy and International Relations', 'Early Childhood Education', 'Economic History', 'Education', 'Educational Administration', 'Educational Psychology and Counseling', 'Educational Technology', 'Environmental and Occupational Medicine', 'Environmental Law and Policy', 'Epistemology and Scientific History', 'Ethics', 'European Law', 'Family Studies', "Feminism and Women's Studies", 'Forensic Science', 'Geography and Cartography', 'Health Policy and Medical Law', 'Higher Education', 'History', 'Human Migration', 'Human Resources and Organizations', 'International Law', 'Law', 'Library and Information Science', 'Middle Eastern and Islamic Studies', 'Military Studies', 'Paleontology', 'Political Science', 'Public Health', 'Public Policy and Administration', 'Science and Engineering Education', 'Sex and Sexuality', 'Social Sciences (general)', 'Social Work', 'Sociology', 'Special Education', 'Sustainable Development', 'Teaching and Teacher Education', 'Technology Law', 'Urban Studies and Planning'],
     }
-    
-    url="https://scholar.google.com/citations?view_op=top_venues&hl=en&vq="+temp    #scholar url and temp is the url code for the category
 
-
-    response = requests.get(url,headers=headers)    #must have header to not get blocked
-
-    soup = BeautifulSoup(response.content,'lxml')
-
-    storing = False   #trigger so it doesnt print menu title, (sign in, and "subcategories"
-
-    categories_arr= []
-    
-    #filter out tags to get number of citations and title
-    for item in soup.select('a.gs_md_li',{"tabindex":"-1"}):    #item is string of subcategory, parameters are tags of wanted fields(as can be seen in inspect element)
-        try:
-            item=item.text
-            if (storing):
-                subcategory = item.replace(" & "," and ")
-                categories_arr.append(subcategory)
-            if "Subcategories" in item: #start saving data after subcategories field
-                storing = True
-
-        except Exception as e:
-            print('')
-    
-    return categories_arr
+    return subcategory.get(cat, "nothing")
