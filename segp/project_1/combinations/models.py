@@ -28,6 +28,6 @@ class subcategory_combination(models.Model):
     combination_score = models.DecimalField(max_digits=10, decimal_places=2,default=0)
     combination_authorscore = models.DecimalField(max_digits=10, decimal_places=2,default=0)
     combination_growth = models.DecimalField(max_digits=10, decimal_places=2,default=0)
-    combination_pie = models.DecimalField(max_digits=10, decimal_places=2,default=0)
+    combination_pie = models.DecimalField(max_digits=10, decimal_places=5,default=0)
     quick_search_data = models.BooleanField(null=True, blank=True)
     last_update = models.DateField(null=True, blank=True)

@@ -1,12 +1,9 @@
-"""An example program that uses the elsapy module"""
-
 from .mendeleyScript import current_year
 from elsapy.elsclient import ElsClient
 from elsapy.elsprofile import ElsAuthor, ElsAffil
 from elsapy.elsdoc import FullDoc, AbsDoc
 from elsapy.elssearch import ElsSearch
 import json
-
 
 def elsevier_auth():
     ## Initialize client
@@ -16,7 +13,6 @@ def elsevier_auth():
 
 def elsevier_des(keyword):
     client = elsevier_auth()
-    #myDocSrch = ElsSearch("TITLE("+paper+")","scopus")
     myDocSrch = ElsSearch(keyword,'sciencedirect')
     myDocSrch.execute(client,get_all = False)
 
@@ -38,8 +34,7 @@ def elsevier_des(keyword):
         if j != "-":
             pii_doc = FullDoc(sd_pii=j)
             if pii_doc.read(client):
-                #print(pii_doc.data['coredata']['prism:coverDisplayDate'])
-                
+            
                 result = {
                     'name': [],
                     'reader_count': [],
@@ -80,7 +75,5 @@ def pie(doi,rc,year):
             print("%35s\t%5d\t    0\t%3.5f" % (doi,rc,point))
     else:
         point = 0
-    
-    #print("DOI:",doi," RC:",rc,"rc"," cited",myDoc.results[0]['citedby-count']," score:",point)
-    
+        
     return point

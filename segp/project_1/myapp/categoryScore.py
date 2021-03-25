@@ -6,6 +6,7 @@ from combinations.db_subcategory_combination import *
 from paper.db_paper import *
 from paper.db_paper_subcategory import *
 from .elsevier_test import *
+from .async_search import *
 import time
 import os
 
@@ -113,8 +114,8 @@ def topCombination(subset,quick,code):
     # normalize data
     readerCount = data_norm(readerCount)
     Growth = data_norm(Growth)
-    #pieScore = data_norm(pieScore)
-    #authorScore = data_norm(authorScore)
+    pieScore = data_norm(pieScore)
+    authorScore = data_norm(authorScore)
     
     # choose which data to display
     score = chooseDisplayData(code,readerCount,Growth,authorScore,pieScore)
@@ -191,8 +192,8 @@ def filterResult(q1,q2,minval,maxval,code,quick):
     # normalize data
     readerCount = data_norm(readerCount)
     Growth = data_norm(Growth)
-    #pieScore = data_norm(pieScore)
-    #authorScore = data_norm(authorScore)
+    pieScore = data_norm(pieScore)
+    authorScore = data_norm(authorScore)
     
     score = chooseDisplayData(code,readerCount,Growth,authorScore,pieScore)
     
@@ -219,37 +220,23 @@ def filterResult(q1,q2,minval,maxval,code,quick):
         minval = 0
     if maxval == '':
         maxval = 100
-    
-    # =
-    if minval == maxval:
-        m = [pos for pos, val in enumerate(comb) if val == float(minval)]
-        if m:
-            q = 0
-            while q < len(m):
-                results['realReader'].append(readers[m[q]])
-                results['realComb'].append(comb[m[q]])
-                q += 1
-        else:
-            results['realReader'] = readers
-            results['realComb'] = comb
-    else:
-        # >=
-        try:
-            m = next(pos for pos, val in enumerate(comb) if val < float(minval))
-            readers = readers[:m]
-            comb = comb[:m]
-        except:
-            readers = readers
-            comb = comb
-        # <=
-        try:
-            m = next(pos for pos, val in enumerate(comb) if val <= float(maxval))
-            results['realReader'] = readers[m:]
-            results['realComb'] = comb[m:]
-        except:
-            results['realReader'] = readers
-            results['realComb'] = comb
-    
+        
+    try:
+        m = next(pos for pos, val in enumerate(comb) if val < float(minval))
+        readers = readers[:m]
+        comb = comb[:m]
+    except:
+        readers = readers
+        comb = comb
+    # <=
+    try:
+        m = next(pos for pos, val in enumerate(comb) if val <= float(maxval))
+        results['realReader'] = readers[m:]
+        results['realComb'] = comb[m:]
+    except:
+        results['realReader'] = readers
+        results['realComb'] = comb
+        
     results['zipped'] = zip(results['realReader'], results['realComb'])
     
     actualResult = {
@@ -290,18 +277,6 @@ def data_norm(arr):
     
     return score
 
-"""
-def author_score(queryList):
-    count=0
-    session = mendeleyAuth()
-    author_name=' \"' +queryList+ '\"'
-    oter=session.catalog.advanced_search(author=author_name,view='all')
-    for otr in oter.iter(page_size=100):
-        print(otr.id)
-        count+=1
-    return count
-"""
-
 def getCode(readercount_query,growth_query,authorscore_query,pie_query):
     tempcode = [0]*4
     if readercount_query:
@@ -323,9 +298,7 @@ def getCode(readercount_query,growth_query,authorscore_query,pie_query):
 def searchData(x,session,status,quick):
     reader = count = avgreader = pie_score = this = a = 0
     popular_article_list = []
-    authorList=[]
-    fname = []
-    lname = []
+    all_paper = []
     fromYear = 100
     
     # contains all number of publications for all the years
@@ -334,7 +307,9 @@ def searchData(x,session,status,quick):
         years[a] = 0
         a += 1
 	
-    pages = session.catalog.advanced_search(title=x, view="stats")
+    min_yr = current_year() - 99
+    
+    pages = session.catalog.advanced_search(title=x, view="stats", min_year=min_yr, max_year=current_year())
     for page in pages.iter(page_size=100):
         complete = repeat = 0
         
@@ -344,51 +319,16 @@ def searchData(x,session,status,quick):
             yr_diff = -1
         
         # if paper type and publish year is valid
-        if isLegalType(page) and yr_diff >= 0 and yr_diff <= 99:
-            """
+        if isLegalType(page) and yr_diff >= 0:
+            
             try:
-                pie_score += pie(page.identifiers['doi'],page.reader_count,page.year)
+                new_paper = [page.identifiers['doi'], page.reader_count,page.year]
+                all_paper.append(new_paper)
             except:
-                pie_score += 0
-            """
-            pie_score+=0
+                continue
+                
             reader += page.reader_count
             count += 1
-
-            # get author name
-            author = page.authors
-            if author != None:
-                for authorName in author:
-                    if authorName.last_name != None:
-                        last_name = authorName.last_name
-                    else:
-                        last_name = ""
-
-                    if authorName.first_name != None:
-                        first_name = authorName.first_name
-                    else:
-                        first_name = ""
-
-                    lenfirst = len(first_name)
-                    lenlast = len(last_name)
-
-                    if lenlast < 2 or lenfirst < 2:
-                        complete = 0
-                    else:
-                        complete = 1
-
-                    if complete == 1:
-                        name = first_name + " " + last_name
-
-                    for y in authorList:
-                        if y == name:
-                            repeat += 1
-                            continue
-
-                    if repeat == 0 and complete == 1:     
-                        authorList.append(name)
-                        fname.append(first_name)
-                        lname.append(last_name)
 
             # get popular paper info
             popular_article_list = popular_article(popular_article_list, page.reader_count, page.link, page.title, page.year)
@@ -404,15 +344,11 @@ def searchData(x,session,status,quick):
     # get reader count score
     avgreader = round((reader+1) / (count+1),2)
 	
-    """
-    # get author score
-    num_of_author = len(authorList)
-    print(num_of_author,"authors, estimated completion time =", (num_of_author*7)/60,"minutes")
-    print()
-    authorscore = author_score(fname,lname)
-    """
-    authorscore = 0
-
+    the_data = calcData(all_paper)
+    authorscore = the_data['author']
+    pieScore = the_data['pie']
+    
+    #pieScore = 0
     if status != None:
         for i in popular_article_list:
             store_Paper(paper_title=i[2], paper_reader_count=i[0], paper_link=i[1], paper_year_published=i[3])
@@ -420,10 +356,10 @@ def searchData(x,session,status,quick):
     
         if status == 1:
             # update db
-            updateComb(query_1=x[0],query_2=x[1], readercount=round(avgreader, 2), authorscore=authorscore, growth=round(growth, 2),pie_score=round(pie_score,2), quickScore=quick)
+            updateComb(query_1=x[0],query_2=x[1], readercount=round(avgreader, 2), authorscore=authorscore, growth=round(growth, 2),pie_score=pieScore, quickScore=quick)
         else:
             # insert to db
-            insertComb(query_1=x[0],query_2=x[1], readercount=round(avgreader, 2), authorscore=authorscore, growth=round(growth, 2),pie_score=round(pie_score,2), quickScore=quick)
+            insertComb(query_1=x[0],query_2=x[1], readercount=round(avgreader, 2), authorscore=authorscore, growth=round(growth, 2),pie_score=pieScore, quickScore=quick)
     else:
         os.system('cls')
         
@@ -436,51 +372,22 @@ def searchData(x,session,status,quick):
         return results
 
 def chooseDisplayData(code,readerCount,Growth,authorScore,pieScore):
-    n = code.count('1')
-    
-    if n == 4 or n == 0:
-        zipped_lists = zip(readerCount,Growth,authorScore,pieScore)
-        temp = [(float(a) + float(b) + float(c) + float(d))/4 for (a,b,c,d) in zipped_lists]
-        
-    elif n == 3:
-        if code == "1110":
-            zipped_lists = zip(readerCount, Growth, authorScore)
-        elif code == "1101":
-            zipped_lists = zip(readerCount, Growth, pieScore)
-        elif code == "1011":
-            zipped_lists = zip(readerCount, authorScore, pieScore)
-        elif code == "0111":
-            zipped_lists = zip(Growth, authorScore, pieScore)
-        temp = [(float(a) + float(b) + float(c))/3 for (a,b,c) in zipped_lists]
-        
-    elif n == 2:
-        if code == "1100":
-            zipped_lists = zip(readerCount, Growth)
-        elif code == "1010":
-            zipped_lists = zip(readerCount, authorScore)
-        elif code == "1001":
-            zipped_lists = zip(readerCount, pieScore)
-        elif code == "0110":
-            zipped_lists = zip(Growth, authorScore)
-        elif code == "0101":
-            zipped_lists = zip(Growth, pieScore)
-        elif code == "0011":
-            zipped_lists = zip(authorScore, pieScore)
-        temp = [(float(a) + float(b))/2 for (a,b) in zipped_lists]
-        
-    else:
-        if code == "1000":
-            temp = readerCount
-        elif code == "0100":
-            temp = Growth
-        elif code == "0010":
-            temp = authorScore
-        elif code == "0001":
-            temp = pieScore
-    
+    temp = [readerCount,Growth,authorScore,pieScore]
+    j = 0
+    displayData = []
     score = []
     
-    for x in temp:
-        score.append(round(x,2))
-        
+    # what happens if code = "0000"
+    
+    for i in code:
+        if i == '1':
+            displayData.append(temp[j])
+        j+=1
+    
+    for x in range(len(readerCount)):
+        tempscore = 0
+        for y in displayData:
+            tempscore += float(y[x])
+        score.append(round((tempscore/len(displayData))))
+    
     return score
