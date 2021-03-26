@@ -16,7 +16,7 @@ def disc(arr):
     discription = ""
     for i in arr:
         temp = ""
-        if i['discription']:
+        if i['discription'] is not None:
             temp = " " + i['discription']
             discription += temp
     #print(discription)

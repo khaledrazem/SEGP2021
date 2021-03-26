@@ -39,31 +39,44 @@
             </p>
 			
             <p class="summary">
-                Enter multiple entities (max. 10) to begin your search.
+                Enter multiple entities to begin your search.
             </p>
 			
             <!-- ADD/DELETE entities -->
             <div class="header">
-				<input class="inputsearchbar" type="text" id="myInput" placeholder="Enter entity (maximum 10)">
+				<input class="inputsearchbar" type="text" id="myInput" placeholder="Enter entity">
 				<span onclick="newElement()" class="Add" id="newAdd">Add</span>
 				<br><br>
             </div>
 			
 			<form id="input_form" method="GET" action="../Results1/">{% csrf_token %}
                 <input type="hidden" name="input_submitted" id="input_submitted"  value="">
-                <div class="quicksearch">
-                    <input type="checkbox" id="quicksearch" name="quicksearch" checked>
-                    <label for="quicksearch">Quick Search</label>
-			    </div>
+				
+				<div class="check">
+                    <input class="algorithm_choice" type="checkbox" id="growth" name="growth" value="Growth">
+                    <label for="Growth">Growth &nbsp;</label>
+					
+                    <input class="algorithm_choice" type="checkbox" id="authorscore" name="authorscore" value="Authorscore">
+                    <label for="authorscore">Author Score &nbsp;</label>
+					
+                    <input class="algorithm_choice" type="checkbox" id="readercount" name="readercount" value="Readercount">
+                    <label for="readercount">ReaderCount</label>
+					
+					<input class="algorithm_choice" type="checkbox" id="eip" name="eip" value="eip">
+                    <label for="eip">EIP</label>
+					
+					
+					<div class="quicksearch">
+						<input type="checkbox" id="quicksearch" name="quicksearch" checked>
+						<label for="quicksearch">Quick Search</label>
+					</div>
+				</div>
             </form>
 
             <br>
 			
             <div class="elist">
 				<ul id="myUL" class="entities">
-					<li class="entitylist">Human Computer Interaction</li>
-					<li class="entitylist">Internet of Thing</li>
-					<li class="entitylist">Augmented Reality</li>
 				</ul>
 				<ul class="send">
 					<li>
@@ -92,7 +105,7 @@
         <!-- JAVASCRIPT -->
         <script>
             //Create a "close" button and append it to each list item
-            var counter = 3;
+            var counter = 0;
             var myNodelist = document.getElementsByClassName("entitylist");
             var i;
             for (i = 0; i < myNodelist.length; i++) {
@@ -120,8 +133,12 @@
             //ADD function to append new entities in list
             function newElement() {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 if (counter < 10){
+=======
+                if (counter >= 0){
+>>>>>>> d8d3807904bff8b82dd84c14552395d0be5f3038
                     counter++;
 >>>>>>> ecd0f8df1ac896c2bbd7c393bb62660a9a1c8ebd
                     var li = document.createElement("li");

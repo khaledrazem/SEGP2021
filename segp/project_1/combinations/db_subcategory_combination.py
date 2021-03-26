@@ -24,21 +24,22 @@ def isCombUpdated(query_1,query_2):
         return False
 
 # insert to database
-def insertComb(query_1,query_2, readercount, authorscore,growth,quickScore):
+def insertComb(query_1,query_2, readercount, authorscore,growth,pie_score,quickScore):
     subcategory_1 = selectSubcat(query_1)
     subcategory_2 = selectSubcat(query_2)
-    comb = subcategory_combination(subcategory_1=subcategory_1, subcategory_2=subcategory_2, combination_score=readercount,combination_authorscore=authorscore,combination_growth=growth, last_update=getCurrentTime(), quick_search_data=quickScore)
+    comb = subcategory_combination(subcategory_1=subcategory_1, subcategory_2=subcategory_2, combination_score=readercount,combination_authorscore=authorscore,combination_growth=growth,combination_pie = pie_score,last_update=getCurrentTime(), quick_search_data=quickScore)
     comb.save()
     print("insert", subcategory_1.name,"and", subcategory_2.name)
 
 # update database
-def updateComb(query_1,query_2, readercount, authorscore,growth,quickScore):
+def updateComb(query_1,query_2, readercount, authorscore,growth,pie_score,quickScore):
     subcategory_1 = selectSubcat(query_1)
     subcategory_2 = selectSubcat(query_2)
     comb = subcategory_combination.objects.get(subcategory_1=subcategory_1, subcategory_2=subcategory_2)
     comb.combination_score = readercount
     comb.combination_authorscore = authorscore
     comb.combination_growth = growth
+    comb.combination_pie = pie_score
     comb.last_update = getCurrentTime()
     comb.quick_search_data = quickScore
     comb.save()

@@ -1,5 +1,6 @@
 """An example program that uses the elsapy module"""
 
+from .mendeleyScript import current_year
 from elsapy.elsclient import ElsClient
 from elsapy.elsprofile import ElsAuthor, ElsAffil
 from elsapy.elsdoc import FullDoc, AbsDoc
@@ -62,3 +63,24 @@ def elsevier_des(keyword):
     }
     
     return paper
+
+def pie(doi,rc,year):
+    client = elsevier_auth()
+    myDoc = ElsSearch("DOI("+doi+")", "scopus")
+    myDoc.execute(client,get_all = False)
+    
+    if len(myDoc.results[0]) > 2:
+        year_diff = current_year()-year
+        temp = int(myDoc.results[0]['citedby-count'])/rc
+        if year_diff > 0:
+            point = round(temp/year,5)
+            print("%35s\t%5d\t%5s\t%3.5f" % (doi,rc,myDoc.results[0]['citedby-count'],point))
+        else:
+            point = round(temp,5)
+            print("%35s\t%5d\t    0\t%3.5f" % (doi,rc,point))
+    else:
+        point = 0
+    
+    #print("DOI:",doi," RC:",rc,"rc"," cited",myDoc.results[0]['citedby-count']," score:",point)
+    
+    return point

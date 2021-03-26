@@ -1,0 +1,1510 @@
+2021-03-19 10:53:42,578 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 10:53:44,208 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 10:53:44,209 - elsapy.utils - INFO - Module loaded.
+2021-03-19 10:53:44,210 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 10:53:44,211 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 10:53:44,212 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 10:54:14,985 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1117%2F1.2819119%29
+2021-03-19 10:54:15,946 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-981-13-9113-2_15%29
+2021-03-19 10:54:17,093 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:17,095 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1142%2FS0129065704001899%29
+2021-03-19 10:54:18,050 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:18,052 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.4018%2Fij3dim.2017070101%29
+2021-03-19 10:54:19,012 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1080%2F09332480.2014.914768%29
+2021-03-19 10:54:19,908 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1109%2FTIT.1963.1057854%29
+2021-03-19 10:54:20,891 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:20,894 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.14429%2Fdsj.35.6027%29
+2021-03-19 10:54:21,878 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:21,880 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1017%2Fcbo9780511804779%29
+2021-03-19 10:54:22,860 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1002%2Fcpt.1796%29
+2021-03-19 10:54:24,058 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:24,060 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1023%2FA%3A1020281327116%29
+2021-03-19 10:54:25,072 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:25,073 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FB978-0-12-815739-8.00001-8%29
+2021-03-19 10:54:26,263 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:26,266 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1126%2Fscience.aaa8415%29
+2021-03-19 10:54:27,211 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:27,214 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-3-319-63913-0%29
+2021-03-19 10:54:28,134 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:28,135 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1145%2F505282.505283%29
+2021-03-19 10:54:29,295 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:29,296 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2139%2Fssrn.3399990%29
+2021-03-19 10:54:30,164 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1038%2Fnature14541%29
+2021-03-19 10:54:31,131 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:31,133 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1145%2F2347736.2347755%29
+2021-03-19 10:54:32,227 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:32,228 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fc2009-0-19715-5%29
+2021-03-19 10:54:33,949 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:33,950 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1161%2FCIRCULATIONAHA.115.001593%29
+2021-03-19 10:54:34,993 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:34,995 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1023%2FA%3A1022602019183%29
+2021-03-19 10:54:35,954 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:35,955 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1002%2F9781119557500%29
+2021-03-19 10:54:36,856 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1038%2Fnrg3920%29
+2021-03-19 10:54:37,825 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:37,827 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1038%2Fnature23474%29
+2021-03-19 10:54:39,042 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:39,043 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1214%2F009053607000000677%29
+2021-03-19 10:54:40,067 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:40,068 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-981-10-6808-9%29
+2021-03-19 10:54:41,202 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:41,205 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.3390%2Fs18082674%29
+2021-03-19 10:54:42,184 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:42,187 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-1-62703-748-8_7%29
+2021-03-19 10:54:43,291 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:43,292 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-3-540-28650-9_4%29
+2021-03-19 10:54:44,886 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:44,887 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.neucom.2005.12.126%29
+2021-03-19 10:54:45,851 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:45,853 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.5860%2Fchoice.27-0936%29
+2021-03-19 10:54:46,783 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1038%2Fs41586-018-0337-2%29
+2021-03-19 10:54:47,854 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:47,857 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-3-642-21004-4_10%29
+2021-03-19 10:54:48,819 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:48,822 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1201%2Fb17476%29
+2021-03-19 10:54:49,701 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:49,705 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1038%2Fnphys4035%29
+2021-03-19 10:54:50,708 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:50,710 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1017%2FCBO9781107298019%29
+2021-03-19 10:54:51,740 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:51,741 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.15864%2Fjmscm.1208%29
+2021-03-19 10:54:52,683 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-3-030-36826-5_10%29
+2021-03-19 10:54:54,937 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1103%2FRevModPhys.91.045002%29
+2021-03-19 10:54:56,000 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:56,001 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1109%2FTPAMI.2018.2798607%29
+2021-03-19 10:54:57,021 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:57,024 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-981-10-1509-0_9%29
+2021-03-19 10:54:59,800 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:54:59,803 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2Fs10994-013-5335-x%29
+2021-03-19 10:55:01,019 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:01,020 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1146%2Fannurev-fluid-010719-060214%29
+2021-03-19 10:55:02,246 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:02,250 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1093%2Fbib%2Fbbk007%29
+2021-03-19 10:55:03,247 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:03,249 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1056%2Fnejmra1814259%29
+2021-03-19 10:55:04,784 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:04,786 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.jacr.2017.12.028%29
+2021-03-19 10:55:05,945 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:05,948 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.31449%2Finf.v31i3.148%29
+2021-03-19 10:55:06,820 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-0-387-21579-2_9%29
+2021-03-19 10:55:08,134 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1109%2FMS.2016.114%29
+2021-03-19 10:55:09,374 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:09,377 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1148%2Frg.2017160130%29
+2021-03-19 10:55:13,282 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:13,284 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-0-387-30164-8%29
+2021-03-19 10:55:14,608 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.media.2012.02.005%29
+2021-03-19 10:55:15,698 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:15,700 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.neuroimage.2010.11.004%29
+2021-03-19 10:55:16,663 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:16,665 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1136%2Farchdischild-2020-319415%29
+2021-03-19 10:55:17,753 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:17,754 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-3-642-40991-2%29
+2021-03-19 10:55:18,625 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1093%2Fbib%2F3.3.321%29
+2021-03-19 10:55:20,433 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2307%2F2291432%29
+2021-03-19 10:55:21,972 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1080%2F00107514.2014.964942%29
+2021-03-19 10:55:23,641 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:23,643 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.neuroimage.2008.11.007%29
+2021-03-19 10:55:24,803 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:24,807 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.gsf.2015.07.003%29
+2021-03-19 10:55:26,202 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:26,204 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1371%2Fjournal.pcbi.0030116%29
+2021-03-19 10:55:27,723 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:27,725 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-1-4419-9326-7%29
+2021-03-19 10:55:28,798 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1039%2Fc7sc02664a%29
+2021-03-19 10:55:29,883 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:29,885 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1147%2Frd.441.0206%29
+2021-03-19 10:55:31,509 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:31,511 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.csbj.2014.11.005%29
+2021-03-19 10:55:32,637 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:32,639 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.7208%2Fchicago%2F9780226613475.003.0021%29
+2021-03-19 10:55:33,526 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1201%2Fb14300%29
+2021-03-19 10:55:34,926 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:34,928 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1201%2F9780367816377-16%29
+2021-03-19 10:55:35,895 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1002%2Fwcms.1183%29
+2021-03-19 10:55:38,146 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:38,147 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.drudis.2018.05.010%29
+2021-03-19 10:55:39,079 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:39,081 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1002%2F9781119505914.ch7%29
+2021-03-19 10:55:40,257 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:41,829 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.cell.2018.05.015%29
+2021-03-19 10:55:43,061 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:43,062 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1098%2Frsta.2012.0222%29
+2021-03-19 10:55:44,054 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:44,056 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1198%2Ftech.2007.s518%29
+2021-03-19 10:55:45,116 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1137%2F16M1080173%29
+2021-03-19 10:55:46,172 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:46,173 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2Fj.1467-985x.2009.00624_10.x%29
+2021-03-19 10:55:47,026 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1162%2F15324430152748236%29
+2021-03-19 10:55:48,143 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1109%2FJPROC.2015.2483592%29
+2021-03-19 10:55:49,367 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:49,369 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1515%2F9783110670707-003%29
+2021-03-19 10:55:51,408 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:51,410 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.4018%2F978-1-5225-9902-9.ch008%29
+2021-03-19 10:55:52,301 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1177%2F2053951715622512%29
+2021-03-19 10:55:53,291 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:53,295 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1001%2Fjama.2015.18421%29
+2021-03-19 10:55:54,513 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:54,517 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1145%2F3317287.3328534%29
+2021-03-19 10:55:55,765 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:55,767 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1109%2FACCESS.2018.2836950%29
+2021-03-19 10:55:57,119 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:57,119 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1201%2F9781315371658%29
+2021-03-19 10:55:58,382 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:58,384 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.3389%2Ffninf.2014.00014%29
+2021-03-19 10:55:59,418 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:55:59,420 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1103%2FPhysRevLett.117.130501%29
+2021-03-19 10:56:00,410 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:57:24,148 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1017%2F9781108770422.026%29
+2021-03-19 10:57:25,807 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:57:25,808 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2F0925-2312%2895%2990020-9%29
+2021-03-19 10:57:27,005 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.neuron.2017.06.011%29
+2021-03-19 10:57:27,990 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:57:27,991 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1038%2Fnature14541%29
+2021-03-19 10:57:28,921 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:57:28,922 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.metabol.2017.01.011%29
+2021-03-19 10:57:31,882 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:57:31,886 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.4018%2Fijeei.2018070102%29
+2021-03-19 10:57:33,051 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:57:33,054 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1038%2Fs41568-018-0016-5%29
+2021-03-19 10:57:34,232 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:57:34,234 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1177%2F1094670517752459%29
+2021-03-19 10:57:36,211 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:57:36,212 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1201%2F9781003080626-1%29
+2021-03-19 10:57:37,264 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1038%2Fs41551-018-0305-z%29
+2021-03-19 10:57:38,254 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:57:38,256 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-981-15-9589-9_1%29
+2021-03-19 10:57:39,438 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:57:39,442 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1109%2FJRPROC.1961.287775%29
+2021-03-19 10:57:40,418 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:57:40,422 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1177%2F0008125619864925%29
+2021-03-19 10:57:41,372 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:57:41,373 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2Fs00146-016-0685-0%29
+2021-03-19 10:57:42,736 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1201%2F9781420049138%29
+2021-03-19 10:57:43,728 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fs0004-3702%2898%2900055-1%29
+2021-03-19 10:57:44,916 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:57:44,918 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.jacc.2018.03.521%29
+2021-03-19 10:57:46,199 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:57:46,204 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1038%2Fs41591-018-0300-7%29
+2021-03-19 10:57:47,751 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:57:47,752 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1109%2FTPAMI.1981.4767059%29
+2021-03-19 10:57:49,288 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:57:49,290 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1136%2Fsvn-2017-000101%29
+2021-03-19 10:57:50,722 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:57:50,728 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%28https%3A%2F%2Fai100.stanford.edu%29
+2021-03-19 10:57:51,723 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1109%2FMIS.2013.39%29
+2021-03-19 10:57:53,138 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:57:53,140 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1017%2Fcbo9780511819346%29
+2021-03-19 10:57:54,697 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:57:54,699 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1126%2Fscience.aaa8403%29
+2021-03-19 10:57:59,582 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:57:59,585 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2Fs11036-017-0932-8%29
+2021-03-19 10:58:00,712 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:00,715 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-3-030-28987-4_6%29
+2021-03-19 10:58:01,788 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:01,790 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.7861%2Ffuturehosp.6-2-94%29
+2021-03-19 10:58:02,800 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.artint.2018.07.007%29
+2021-03-19 10:58:03,839 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:03,841 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1308%2F147870804290%29
+2021-03-19 10:58:05,674 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:05,675 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1093%2Fitnow%2Fbwy020%29
+2021-03-19 10:58:06,767 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:06,768 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.4249%2Fscholarpedia.31847%29
+2021-03-19 10:58:07,829 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1142%2F9789812774750_0007%29
+2021-03-19 10:58:08,757 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-94-017-9579-1_21%29
+2021-03-19 10:58:10,411 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:10,415 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.jacc.2017.03.571%29
+2021-03-19 10:58:11,584 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:11,586 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.nic.2020.07.004%29
+2021-03-19 10:58:13,357 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:13,358 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1198%2Ftech.2005.s836%29
+2021-03-19 10:58:14,466 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.preteyeres.2018.07.004%29
+2021-03-19 10:58:16,219 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:16,220 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1002%2Fwics.200%29
+2021-03-19 10:58:17,883 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:17,884 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1093%2Fjcr%2Fucz013%29
+2021-03-19 10:58:18,897 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:18,899 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.artmed.2008.07.017%29
+2021-03-19 10:58:20,723 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:20,725 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-0-387-98197-0%29
+2021-03-19 10:58:21,868 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:21,872 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1017%2FS0269888900007724%29
+2021-03-19 10:58:22,751 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-3-030-06167-8_11%29
+2021-03-19 10:58:23,868 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2307%2F3438581%29
+2021-03-19 10:58:24,767 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1017%2FCBO9780511794797%29
+2021-03-19 10:58:27,213 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:27,215 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.artint.2007.05.001%29
+2021-03-19 10:58:28,180 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:28,181 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FJ.ENG.2016.04.018%29
+2021-03-19 10:58:29,301 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:29,303 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-3-540-74972-1_1%29
+2021-03-19 10:58:30,350 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.4018%2F978-1-59140-827-7%29
+2021-03-19 10:58:31,256 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:31,258 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-3-030-64246-4_5%29
+2021-03-19 10:58:32,520 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:32,521 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2307%2F3105016%29
+2021-03-19 10:58:33,548 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1126%2Fscirobotics.aay7120%29
+2021-03-19 10:58:35,604 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:35,606 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2F0022-2496%2883%2990037-8%29
+2021-03-19 10:58:40,418 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.7208%2Fchicago%2F9780226613475.003.0009%29
+2021-03-19 10:58:41,786 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.5860%2Fchoice.33-1577%29
+2021-03-19 10:58:43,263 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1136%2Fbjophthalmol-2018-313173%29
+2021-03-19 10:58:46,563 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:46,566 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-3-642-16239-8%29
+2021-03-19 10:58:49,474 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:49,475 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.3233%2FSHTI200677%29
+2021-03-19 10:58:51,500 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:51,502 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1038%2F521415a%29
+2021-03-19 10:58:53,160 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:53,161 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2Fs10892-017-9252-2%29
+2021-03-19 10:58:54,349 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:54,353 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1051%2Fmedsci%2F2020189%29
+2021-03-19 10:58:56,483 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:56,485 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.sbspro.2015.06.134%29
+2021-03-19 10:58:57,978 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1038%2F262435a0%29
+2021-03-19 10:58:59,530 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:58:59,531 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1109%2FACCESS.2020.2988510%29
+2021-03-19 10:59:00,814 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:59:00,815 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1145%2F2639475.2639478%29
+2021-03-19 10:59:01,787 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2F0305-0548%2886%2990048-1%29
+2021-03-19 10:59:03,818 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:59:03,820 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS1470-2045%2819%2930154-8%29
+2021-03-19 10:59:04,788 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:59:04,792 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1155%2F2012%2F145974%29
+2021-03-19 10:59:07,552 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:59:07,553 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1017%2FS0269888900007724%29
+2021-03-19 10:59:09,535 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-981-13-3384-2_8%29
+2021-03-19 10:59:10,692 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:59:10,695 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2F0167-739x%2887%2990021-5%29
+2021-03-19 10:59:11,684 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.chb.2004.02.010%29
+2021-03-19 10:59:13,749 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:59:13,752 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-3-319-63519-4%29
+2021-03-19 10:59:14,749 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:59:14,750 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2F0950-5849%2887%2990035-8%29
+2021-03-19 10:59:16,814 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-3-030-21445-6_2%29
+2021-03-19 10:59:18,000 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:59:18,002 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.dsx.2020.04.012%29
+2021-03-19 10:59:19,258 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:59:19,260 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.7551%2Fmitpress%2F11645.003.0020%29
+2021-03-19 10:59:20,174 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1080%2F09540090210144948%29
+2021-03-19 10:59:21,968 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-3-030-28954-6_1%29
+2021-03-19 10:59:23,242 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:59:23,243 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.7208%2Fchicago%2F9780226613475.003.0008%29
+2021-03-19 10:59:24,217 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1787%2Feedfee77-en%29
+2021-03-19 10:59:25,291 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.4018%2F978-1-59904-849-9%29
+2021-03-19 10:59:27,897 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.neuron.2019.08.034%29
+2021-03-19 10:59:29,108 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:59:29,110 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.17863%2FCAM.22520%29
+2021-03-19 10:59:30,081 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1017%2Fcbo9781139046855.020%29
+2021-03-19 10:59:31,136 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.18034%2Fgdeb.v7i2.515%29
+2021-03-19 10:59:32,602 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS1353-4858%2817%2930039-9%29
+2021-03-19 10:59:33,645 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:59:33,647 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1609%2Faimag.v36i4.2577%29
+2021-03-19 10:59:34,948 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:59:34,950 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2F0004-3702%2895%2900039-H%29
+2021-03-19 10:59:36,062 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 10:59:36,062 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2F0004-3702%2889%2990072-6%29
+2021-03-19 11:09:00,154 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1214%2Faoms%2F1177730491%29
+2021-03-19 11:09:01,088 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.33102%2Fsainsinsani.vol5no1.203%29
+2021-03-19 11:09:01,935 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.4324%2F9781315265803-9%29
+2021-03-19 11:09:03,446 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.7312%2Fzhao12754-003%29
+2021-03-19 11:09:04,426 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.4324%2F9781315268545-7%29
+2021-03-19 11:09:05,275 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1037%2F0033-295X.97.3.404%29
+2021-03-19 11:09:06,349 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:06,350 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1136%2Fvr.g4996%29
+2021-03-19 11:09:07,450 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:07,452 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2Fs00776-009-1371-6%29
+2021-03-19 11:09:08,436 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:08,438 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.wem.2014.12.008%29
+2021-03-19 11:09:09,517 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2F0166-4328%2888%2990157-X%29
+2021-03-19 11:09:10,437 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:10,439 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1371%2Fjournal.pone.0003647%29
+2021-03-19 11:09:11,340 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:11,341 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2753%2FCSH0009-4633260222%29
+2021-03-19 11:09:12,599 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:12,600 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1186%2F2040-2392-4-33%29
+2021-03-19 11:09:16,399 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:16,401 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.beproc.2014.03.010%29
+2021-03-19 11:09:24,469 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:24,470 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2Fj.1600-0838.1998.tb00192.x%29
+2021-03-19 11:09:25,733 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:25,737 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.4135%2F9781412985949.n3%29
+2021-03-19 11:09:27,209 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1520%2Fmnl10913m%29
+2021-03-19 11:09:28,219 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.expthermflusci.2007.11.006%29
+2021-03-19 11:09:29,342 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:29,344 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS0160-2896%2803%2900062-X%29
+2021-03-19 11:09:30,528 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:30,529 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS1572-5480%2808%2900201-7%29
+2021-03-19 11:09:31,975 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:31,977 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.4135%2F9781412984218.n3%29
+2021-03-19 11:09:32,852 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1207%2Fs15327906mbr0102_10%29
+2021-03-19 11:09:33,874 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:33,875 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.11648%2Fj.ijamtp.20180402.13%29
+2021-03-19 11:09:34,856 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.12968%2Fijtr.2009.16.6.42433%29
+2021-03-19 11:09:35,799 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:35,801 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1038%2Fnature09042%29
+2021-03-19 11:09:36,724 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:36,726 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1093%2Fbeheco%2Fark016%29
+2021-03-19 11:09:37,771 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:37,773 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1093%2Farclin%2Fact034%29
+2021-03-19 11:09:38,750 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:38,752 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.24247%2Fijdrdjun20187%29
+2021-03-19 11:09:39,668 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1287%2Forsc.11.5.509.15199%29
+2021-03-19 11:09:40,570 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:40,574 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.24247%2Fijdrdjun20186%29
+2021-03-19 11:09:41,475 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1519%2FJSC.0b013e3181d67c4b%29
+2021-03-19 11:09:43,113 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:43,114 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1176%2Fappi.ajp.2018.17121383%29
+2021-03-19 11:09:44,144 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:44,145 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1136%2Fbmj.328.7447.1073%29
+2021-03-19 11:09:45,112 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:45,114 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2519%2Fjospt.1998.28.1.23%29
+2021-03-19 11:09:46,766 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:46,769 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.37757%2FMR2020.V22.N2.11%29
+2021-03-19 11:09:47,833 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:47,833 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2307%2F3615906%29
+2021-03-19 11:09:48,700 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1103%2FPhysRevLett.86.5188%29
+2021-03-19 11:09:49,746 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:49,748 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1037%2F0022-3514.73.3.481%29
+2021-03-19 11:09:50,713 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:50,714 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.prevetmed.2010.07.003%29
+2021-03-19 11:09:53,767 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:53,769 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1371%2Fjournal.pone.0010314%29
+2021-03-19 11:09:54,818 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:54,820 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1519%2FJSC.0b013e318220db2c%29
+2021-03-19 11:09:55,757 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:55,760 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1136%2Fbmj.315.7109.629%29
+2021-03-19 11:09:56,782 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:56,783 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.11613%2FBM.2013.018%29
+2021-03-19 11:09:57,764 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:57,766 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2F0030-5073%2876%2990016-7%29
+2021-03-19 11:09:58,832 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:09:58,833 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.4324%2F9780203422366-37%29
+2021-03-19 11:09:59,735 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.3102%2F00346543066004579%29
+2021-03-19 11:10:00,711 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:00,715 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1186%2Fs13756-015-0091-2%29
+2021-03-19 11:10:01,794 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:01,796 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.paid.2016.08.032%29
+2021-03-19 11:10:05,128 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:05,130 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1038%2Fnprot.2013.155%29
+2021-03-19 11:10:06,236 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:06,240 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.gaitpost.2010.09.005%29
+2021-03-19 11:10:07,338 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:07,339 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1097%2FPRS.0b013e318287a0b3%29
+2021-03-19 11:10:08,285 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:08,287 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1109%2FTPAMI.2006.79%29
+2021-03-19 11:10:09,233 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:09,235 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1080%2F02640410802428089%29
+2021-03-19 11:10:10,209 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:10,211 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.pmatsci.2006.08.001%29
+2021-03-19 11:10:11,193 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:11,195 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1214%2Faos%2F1176346577%29
+2021-03-19 11:10:12,122 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1287%2Fisre.6.2.144%29
+2021-03-19 11:10:13,982 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:13,983 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1287%2Fmnsc.1110.1509%29
+2021-03-19 11:10:14,995 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:14,996 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1038%2Fnature05301%29
+2021-03-19 11:10:16,063 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:16,068 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2Fj.2041-210X.2012.00196.x%29
+2021-03-19 11:10:17,207 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:17,211 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1037%2Fa0029146%29
+2021-03-19 11:10:18,136 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS0169-5347%2803%2900213-1%29
+2021-03-19 11:10:19,449 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:19,451 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.tree.2006.04.007%29
+2021-03-19 11:10:20,516 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:20,517 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.3389%2Ffpsyg.2017.00557%29
+2021-03-19 11:10:21,477 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:21,479 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1080%2F00273171.2014.962683%29
+2021-03-19 11:10:22,493 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:22,495 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1080%2F13803390500205718%29
+2021-03-19 11:10:24,218 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:24,220 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.firesaf.2008.12.008%29
+2021-03-19 11:10:25,751 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:25,754 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS0166-4328%2805%2980315-8%29
+2021-03-19 11:10:26,735 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:26,737 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1164%2Fajrccm.166.1.at1102%29
+2021-03-19 11:10:27,750 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:27,752 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1186%2F1471-2288-11-13%29
+2021-03-19 11:10:28,739 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:28,741 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2519%2Fjospt.2002.32.3.98%29
+2021-03-19 11:10:29,633 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:29,637 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-3-319-57111-9_1544%29
+2021-03-19 11:10:33,779 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1002%2Fadma.200390087%29
+2021-03-19 11:10:34,770 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:34,772 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1037%2F0022-3514.90.5.751%29
+2021-03-19 11:10:35,764 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:35,768 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.concog.2014.12.003%29
+2021-03-19 11:10:36,768 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:36,773 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.4324%2F9781315744131-8%29
+2021-03-19 11:10:37,654 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1590%2FS1415-47572013000400002%29
+2021-03-19 11:10:38,625 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:38,627 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.medcli.2020.02.002%29
+2021-03-19 11:10:39,580 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:39,583 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.4097%2Fkjae.2015.68.6.540%29
+2021-03-19 11:10:40,535 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:40,537 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1201%2F9781482271362-89%29
+2021-03-19 11:10:41,310 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2Fj.1865-1682.2010.01125.x%29
+2021-03-19 11:10:42,251 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:43,876 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1177%2F1087054708323019%29
+2021-03-19 11:10:45,614 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:45,616 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2147%2FCOPD.S91176%29
+2021-03-19 11:10:46,573 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:46,575 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1096%2Ffj.02-0473rev%29
+2021-03-19 11:10:47,513 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:10:47,515 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2307%2F2333709%29
+2021-03-19 11:18:24,323 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 11:18:24,679 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 11:18:24,679 - elsapy.utils - INFO - Module loaded.
+2021-03-19 11:18:24,680 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 11:18:24,681 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 11:18:24,682 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 11:29:28,594 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2307%2F249688%29
+2021-03-19 11:29:29,767 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:29:29,769 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.33102%2Fsainsinsani.vol5no1.203%29
+2021-03-19 11:29:30,849 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-1-4939-0311-5_7%29
+2021-03-19 11:29:31,776 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:29:31,777 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.5860%2Fchoice.48-5140%29
+2021-03-19 11:29:32,981 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.4337%2F9781784711603.00023%29
+2021-03-19 11:29:34,568 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1109%2FTCIAIG.2009.2032534%29
+2021-03-19 11:29:36,004 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:29:36,006 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1073%2Fpnas.1422953112%29
+2021-03-19 11:29:37,085 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:29:37,087 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.4324%2F9781315390789-3%29
+2021-03-19 11:29:38,099 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2Fj.0014-3820.2002.tb00844.x%29
+2021-03-19 11:29:39,307 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:29:39,307 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1191%2F0265532203lt258oa%29
+2021-03-19 11:29:40,476 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:29:40,479 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS0143-8166%2801%2900145-2%29
+2021-03-19 11:29:41,397 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:29:41,400 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1145%2F329124.329126%29
+2021-03-19 11:29:42,264 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.13182%2Fnse70-a19705%29
+2021-03-19 11:29:43,192 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1038%2Fscientificamerican0991-94%29
+2021-03-19 11:29:44,073 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2Fs11136-005-6651-9%29
+2021-03-19 11:29:45,044 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:29:45,047 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1177%2F0146167204266650%29
+2021-03-19 11:29:46,002 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:29:46,004 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.3390%2Fs120201211%29
+2021-03-19 11:29:48,611 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:29:48,612 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.jcrimjus.2010.05.003%29
+2021-03-19 11:29:49,615 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:29:49,617 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2307%2F2938686%29
+2021-03-19 11:29:50,785 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1002%2F9781119072218.ch5%29
+2021-03-19 11:29:51,784 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:29:51,786 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.3402%2Fijch.v61i0.17503%29
+2021-03-19 11:29:52,941 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:29:52,942 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.4324%2F9780429042522-10%29
+2021-03-19 11:29:53,751 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FB978-0-12-373932-2.00060-0%29
+2021-03-19 11:29:54,701 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:29:54,703 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2F1467-9868.00294%29
+2021-03-19 11:29:55,670 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:29:55,671 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.4324%2F9781315228372-6%29
+2021-03-19 11:29:56,605 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1080%2F13803390490515432%29
+2021-03-19 11:29:58,864 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:29:58,866 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2307%2Fj.ctvx5wc3k.19%29
+2021-03-19 11:29:59,963 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.chb.2013.03.008%29
+2021-03-19 11:30:01,013 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:01,015 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1520%2Fmnl10913m%29
+2021-03-19 11:30:01,848 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2190%2F7chy-5cm0-4d00-6jcg%29
+2021-03-19 11:30:02,731 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS0079-6700%2802%2900030-8%29
+2021-03-19 11:30:04,590 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:04,591 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS1388-2457%2802%2900057-3%29
+2021-03-19 11:30:05,910 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:05,912 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2F0026-2692%2893%2990111-q%29
+2021-03-19 11:30:07,779 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2307%2F1422176%29
+2021-03-19 11:30:08,675 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1177%2F0265532210367633%29
+2021-03-19 11:30:10,677 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:10,678 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1145%2F512526.512528%29
+2021-03-19 11:30:11,605 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.apmr.2011.05.020%29
+2021-03-19 11:30:13,090 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:13,091 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1145%2F363235.363259%29
+2021-03-19 11:30:14,157 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:14,159 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FB978-0-08-097086-8.95090-6%29
+2021-03-19 11:30:15,122 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:15,124 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.4135%2F9781412984218.n3%29
+2021-03-19 11:30:16,006 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1142%2F9789813207158_0026%29
+2021-03-19 11:30:17,391 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:17,392 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1207%2Fs15327906mbr0102_10%29
+2021-03-19 11:30:18,506 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:18,508 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1103%2FPhysRevLett.86.5188%29
+2021-03-19 11:30:19,543 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:19,544 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1887%2F0852743920%29
+2021-03-19 11:30:20,403 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fb978-0-444-70536-5.50047-6%29
+2021-03-19 11:30:21,390 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1097%2Faud.0b013e31821473f7%29
+2021-03-19 11:30:22,310 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1038%2Fnature12502%29
+2021-03-19 11:30:23,269 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:23,270 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1038%2Fnature09042%29
+2021-03-19 11:30:24,440 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:24,444 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1207%2FS15327051HCI1404_2%29
+2021-03-19 11:30:25,524 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:25,526 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2FBF01532020%29
+2021-03-19 11:30:26,624 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:26,626 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS0747-5632%2897%2900035-6%29
+2021-03-19 11:30:27,678 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:27,680 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1093%2Fbeheco%2Fark016%29
+2021-03-19 11:30:28,740 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:28,742 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1177%2F089443938700500420%29
+2021-03-19 11:30:29,698 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:29,699 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1109%2FTHFE2.1960.4503259%29
+2021-03-19 11:30:30,746 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:30,747 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2F0378-4290%2891%2990040-3%29
+2021-03-19 11:30:31,789 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:31,791 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.mayocp.2011.12.008%29
+2021-03-19 11:30:32,760 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:32,761 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F3-540-47979-1%29
+2021-03-19 11:30:33,691 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1287%2Fmnsc.35.8.982%29
+2021-03-19 11:30:34,755 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1162%2Fpres.19.1.35%29
+2021-03-19 11:30:35,825 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:35,829 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1038%2Fnature10836%29
+2021-03-19 11:30:36,818 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:36,821 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2Fs11192-009-0146-3%29
+2021-03-19 11:30:37,890 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:37,891 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.24247%2Fijdrdjun20187%29
+2021-03-19 11:30:38,837 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2F1467-9213.00309%29
+2021-03-19 11:30:39,964 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:39,966 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.24247%2Fijdrdjun20186%29
+2021-03-19 11:30:41,321 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1145%2F1941487.1941506%29
+2021-03-19 11:30:42,436 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:42,437 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-1-4471-6639-9%29
+2021-03-19 11:30:43,325 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1136%2Fbmj.328.7447.1073%29
+2021-03-19 11:30:44,421 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:44,423 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.compedu.2016.08.001%29
+2021-03-19 11:30:45,417 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:45,418 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1201%2F9781420041316%29
+2021-03-19 11:30:46,313 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-3-540-88546-7_26%29
+2021-03-19 11:30:48,056 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:48,057 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.jhsa.2014.06.130%29
+2021-03-19 11:30:49,056 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:49,058 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.cviu.2006.10.019%29
+2021-03-19 11:30:49,979 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:49,980 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1089%2Fcpb.2007.9945%29
+2021-03-19 11:30:50,987 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:50,989 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1126%2Fscience.1065547%29
+2021-03-19 11:30:52,046 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:52,048 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS1474-4422%2808%2970223-0%29
+2021-03-19 11:30:53,218 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:53,219 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1682%2FJRRD.2011.04.0081%29
+2021-03-19 11:30:54,316 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:54,318 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1214%2Fss%2F1177012413%29
+2021-03-19 11:30:55,522 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:55,524 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2F0022-5096%2878%2990010-8%29
+2021-03-19 11:30:56,532 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:30:56,534 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1109%2Fmprv.2002.993141%29
+2021-03-19 11:30:57,807 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1201%2F9781420000177%29
+2021-03-19 11:31:00,024 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:31:00,026 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1037%2F1040-3590.12.1.6%29
+2021-03-19 11:31:01,113 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:31:03,161 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1023%2FA%3A1011440125207%29
+2021-03-19 11:31:04,158 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:31:04,159 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1177%2F0093650208330251%29
+2021-03-19 11:31:05,168 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:31:05,172 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1145%2F361604.361612%29
+2021-03-19 11:31:06,113 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:31:06,115 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.5840%2Fphilstudies19588020%29
+2021-03-19 11:31:07,703 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1046%2Fj.1365-294X.2000.01020.x%29
+2021-03-19 11:31:08,693 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:31:08,695 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.obhdp.2005.11.002%29
+2021-03-19 11:31:09,701 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:31:09,702 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1145%2F366532.366554%29
+2021-03-19 11:31:10,993 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 11:31:10,995 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F11935070%29
+2021-03-19 11:45:04,646 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 11:45:05,664 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 11:45:05,665 - elsapy.utils - INFO - Module loaded.
+2021-03-19 11:45:05,666 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 11:45:05,667 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 11:45:05,668 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 11:53:49,790 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 11:53:50,090 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 11:53:50,090 - elsapy.utils - INFO - Module loaded.
+2021-03-19 11:53:50,091 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 11:53:50,091 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 11:53:50,092 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 12:14:37,280 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 12:14:37,600 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 12:14:37,601 - elsapy.utils - INFO - Module loaded.
+2021-03-19 12:14:37,601 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 12:14:37,602 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 12:14:37,603 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 12:14:49,321 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1086%2F261420%29
+2021-03-19 12:14:53,478 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 12:14:53,792 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 12:14:53,793 - elsapy.utils - INFO - Module loaded.
+2021-03-19 12:14:53,793 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 12:14:53,794 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 12:14:53,795 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 12:15:00,266 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1086%2F261420%29
+2021-03-19 12:15:01,363 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1086%2F261764%29
+2021-03-19 12:15:02,413 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:15:02,415 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2307%2F1816469%29
+2021-03-19 12:15:03,483 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.jfineco.2011.03.016%29
+2021-03-19 12:15:04,680 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:15:04,681 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1126%2Fscience.1251936%29
+2021-03-19 12:15:05,864 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:15:05,866 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2308%2Faccr.2008.83.1.61%29
+2021-03-19 12:15:07,362 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:15:07,363 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1257%2Fjel.49.1.3%29
+2021-03-19 12:15:08,421 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:15:08,422 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1088%2F1748-0221%2F5%2F03%2FT03006%29
+2021-03-19 12:15:09,716 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:15:09,762 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1126%2Fscience.1164744%29
+2021-03-19 12:15:10,771 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:15:10,772 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-3-030-28987-4_10%29
+2021-03-19 12:15:12,024 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:15:12,025 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.jprocont.2009.09.006%29
+2021-03-19 12:15:13,098 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:15:13,099 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.jue.2017.01.001%29
+2021-03-19 12:15:14,171 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:15:14,173 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1177%2F000312240907400301%29
+2021-03-19 12:15:15,243 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:15:15,244 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1257%2Faer.104.10.3003%29
+2021-03-19 12:15:20,858 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 12:15:21,177 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 12:15:21,178 - elsapy.utils - INFO - Module loaded.
+2021-03-19 12:15:21,178 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 12:15:21,179 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 12:15:21,180 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 12:15:41,246 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1086%2F261420%29
+2021-03-19 12:15:42,344 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1086%2F261764%29
+2021-03-19 12:15:43,370 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:15:43,372 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2307%2F1816469%29
+2021-03-19 12:15:46,410 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.jfineco.2011.03.016%29
+2021-03-19 12:15:47,548 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:15:47,549 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1126%2Fscience.1251936%29
+2021-03-19 12:15:48,614 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:15:48,615 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2308%2Faccr.2008.83.1.61%29
+2021-03-19 12:15:49,727 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:15:49,728 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1257%2Fjel.49.1.3%29
+2021-03-19 12:15:50,737 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:15:50,738 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1088%2F1748-0221%2F5%2F03%2FT03006%29
+2021-03-19 12:15:52,146 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:15:52,202 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1126%2Fscience.1164744%29
+2021-03-19 12:15:53,390 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:15:53,392 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-3-030-28987-4_10%29
+2021-03-19 12:15:54,465 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:15:54,466 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.jprocont.2009.09.006%29
+2021-03-19 12:15:55,500 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:15:55,501 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.jue.2017.01.001%29
+2021-03-19 12:15:56,670 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:15:56,671 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1177%2F000312240907400301%29
+2021-03-19 12:15:57,704 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:15:57,704 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1257%2Faer.104.10.3003%29
+2021-03-19 12:15:58,850 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:15:58,851 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1126%2Fscience.256.5063.1539%29
+2021-03-19 12:15:59,847 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:15:59,848 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1109%2FTKDE.2013.109%29
+2021-03-19 12:16:00,952 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:00,953 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1257%2Faer.20131311%29
+2021-03-19 12:16:02,674 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:02,675 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS0896-6273%2804%2900111-4%29
+2021-03-19 12:16:03,747 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:03,748 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FB978-0-444-59429-7.00016-9%29
+2021-03-19 12:16:04,800 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:04,802 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1162%2FREST_a_00544%29
+2021-03-19 12:16:06,052 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:06,053 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS0262-4079%2813%2961064-7%29
+2021-03-19 12:16:07,089 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:07,090 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS1574-0684%2805%2901006-3%29
+2021-03-19 12:16:08,208 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:08,210 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.joule.2020.06.010%29
+2021-03-19 12:16:09,368 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:09,370 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2Fj.1540-6261.1991.tb03743.x%29
+2021-03-19 12:16:10,590 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:10,591 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.uclim.2015.05.001%29
+2021-03-19 12:16:11,715 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:11,717 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FB978-008045405-4.00153-1%29
+2021-03-19 12:16:12,758 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:12,759 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.jdeveco.2010.07.004%29
+2021-03-19 12:16:13,729 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:13,730 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2307%2F2951541%29
+2021-03-19 12:16:14,805 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FB978-0-08-102220-7.00019-4%29
+2021-03-19 12:16:15,876 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:15,878 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.jdeveco.2016.05.006%29
+2021-03-19 12:16:17,200 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:17,202 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2F1468-5957.00370%29
+2021-03-19 12:16:18,365 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:18,366 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-3-030-56449-0_8%29
+2021-03-19 12:16:19,516 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:19,518 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2Fj.1540-5907.2005.00147.x%29
+2021-03-19 12:16:20,778 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:20,779 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2307%2F2393015%29
+2021-03-19 12:16:21,762 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1101%2Fcshperspect.a029736%29
+2021-03-19 12:16:22,854 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:22,856 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fs0146-664x%2875%2980008-6%29
+2021-03-19 12:16:23,819 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1089%2Fbig.2013.1508%29
+2021-03-19 12:16:24,916 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:24,917 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FC2009-0-61819-5%29
+2021-03-19 12:16:26,739 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:26,741 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS0001-8686%2803%2900125-8%29
+2021-03-19 12:16:27,759 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:27,760 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.5422%2Ffso%2F9780823225507.003.0010%29
+2021-03-19 12:16:28,719 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2Fj.1540-6261.2010.01639.x%29
+2021-03-19 12:16:29,771 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:29,773 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2F0022-1082.00086%29
+2021-03-19 12:16:30,825 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:30,826 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1080%2F02640418808729800%29
+2021-03-19 12:16:31,851 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:31,853 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1109%2F83.725367%29
+2021-03-19 12:16:32,954 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:32,955 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2F0022-1694%2864%2990022-8%29
+2021-03-19 12:16:33,965 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:33,966 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.4337%2F9781788110563.00011%29
+2021-03-19 12:16:35,074 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:35,075 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1126%2Fscience.aah5309%29
+2021-03-19 12:16:36,083 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:36,084 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.ijpharm.2011.02.019%29
+2021-03-19 12:16:37,186 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:37,187 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1080%2F713827180%29
+2021-03-19 12:16:38,301 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:38,302 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.24148%2Fwp2020-09%29
+2021-03-19 12:16:39,449 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1073%2Fpnas.1101825108%29
+2021-03-19 12:16:40,589 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:40,591 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1257%2Faer.20130375%29
+2021-03-19 12:16:41,672 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:41,674 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.3982%2Fecta9508%29
+2021-03-19 12:16:42,886 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:42,888 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2Fj.1365-2753.2008.01050.x%29
+2021-03-19 12:16:43,950 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:43,951 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1103%2FPhysRevLett.100.218103%29
+2021-03-19 12:16:45,040 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:45,041 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2Fj.1523-1739.1987.tb00055.x%29
+2021-03-19 12:16:45,986 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1515%2F9783035603958.132a%29
+2021-03-19 12:16:47,029 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1257%2FAER.20171349%29
+2021-03-19 12:16:48,111 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:48,112 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.18637%2Fjss.v059.i10%29
+2021-03-19 12:16:49,147 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:49,149 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.euroecorev.2003.08.010%29
+2021-03-19 12:16:50,357 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:50,358 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1093%2Fnar%2F28.1.235%29
+2021-03-19 12:16:51,447 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:51,450 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.4135%2F9781412950602.n705%29
+2021-03-19 12:16:52,383 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2Fj.1467-985x.2010.00676_9.x%29
+2021-03-19 12:16:53,309 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2307%2F2529310%29
+2021-03-19 12:16:54,579 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:54,582 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2Fs10822-016-9900-9%29
+2021-03-19 12:16:56,344 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:56,347 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1038%2Fnature04311%29
+2021-03-19 12:16:57,452 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:57,454 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.brainres.2016.04.003%29
+2021-03-19 12:16:58,644 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:16:58,646 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.tcb.2005.08.004%29
+2021-03-19 12:17:00,494 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:00,495 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2514%2F5.9781600862007.0449.0492%29
+2021-03-19 12:17:01,525 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.jfineco.2007.12.003%29
+2021-03-19 12:17:02,706 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:02,707 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS0304-3932%2897%2900063-9%29
+2021-03-19 12:17:03,882 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:03,883 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1088%2F0004-637X%2F715%2F2%2F1438%29
+2021-03-19 12:17:05,874 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:05,896 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2F0022-1082.00205%29
+2021-03-19 12:17:07,041 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:07,042 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1145%2F1327452.1327492%29
+2021-03-19 12:17:08,249 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:08,250 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2Fcico.12080%29
+2021-03-19 12:17:09,377 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1017%2FS0043887109000094%29
+2021-03-19 12:17:10,578 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:10,580 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.jpubeco.2009.04.003%29
+2021-03-19 12:17:11,789 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:11,791 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1140%2Fepjc%2Fs10052-014-3071-4%29
+2021-03-19 12:17:13,077 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:13,198 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1162%2F003355301753265589%29
+2021-03-19 12:17:14,262 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:14,263 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1126%2Fscience.aaw2403%29
+2021-03-19 12:17:15,499 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:15,501 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2F1475-679X.12167%29
+2021-03-19 12:17:16,666 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:16,668 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.jmoneco.2009.10.010%29
+2021-03-19 12:17:17,808 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:17,809 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1257%2Faer.20160763%29
+2021-03-19 12:17:19,036 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:19,037 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1890%2F0012-9658%282002%29083%5B2145%3AHODFRO%5D2.0.CO%3B2%29
+2021-03-19 12:17:20,001 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1257%2Faer.101.1.371%29
+2021-03-19 12:17:21,117 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:21,118 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1126%2Fscience.1170451%29
+2021-03-19 12:17:22,276 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:22,277 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2307%2F2951777%29
+2021-03-19 12:17:23,249 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1002%2Fwcs.72%29
+2021-03-19 12:17:24,399 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:24,400 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-3-319-39264-6_15%29
+2021-03-19 12:17:25,559 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:25,560 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1093%2Fgenetics%2F155.2.945%29
+2021-03-19 12:17:26,558 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1140%2Fepjc%2Fs10052-019-6650-6%29
+2021-03-19 12:17:28,105 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:28,245 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1146%2Fannurev-physiol-020911-153305%29
+2021-03-19 12:17:29,570 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:34,395 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1080%2F07350015.1997.10524691%29
+2021-03-19 12:17:35,438 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:35,440 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2519%2Fjospt.2014.0113%29
+2021-03-19 12:17:36,590 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:36,591 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2307%2F2950910%29
+2021-03-19 12:17:37,557 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FB978-0-444-42872-1.50007-2%29
+2021-03-19 12:17:38,581 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:38,582 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2307%2F2534687%29
+2021-03-19 12:17:39,844 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:42,023 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1086%2F343873%29
+2021-03-19 12:17:43,297 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:43,299 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.33102%2Fsainsinsani.vol5no1.203%29
+2021-03-19 12:17:44,356 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2F0022-1694%2871%2990015-1%29
+2021-03-19 12:17:45,374 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS0022-1694%2897%2900125-X%29
+2021-03-19 12:17:46,654 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:46,655 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1093%2Fgenetics%2F116.1.153%29
+2021-03-19 12:17:47,678 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS0887-6177%2803%2900039-8%29
+2021-03-19 12:17:50,337 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:50,339 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.surfcoat.2005.03.018%29
+2021-03-19 12:17:52,745 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:52,747 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1002%2Fjoc.3370060607%29
+2021-03-19 12:17:53,883 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:53,884 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.csda.2003.10.021%29
+2021-03-19 12:17:54,917 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:54,918 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.ajhg.2011.05.029%29
+2021-03-19 12:17:56,026 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:56,027 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1109%2F32.57624%29
+2021-03-19 12:17:57,119 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:57,121 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1201%2F9781420049107-75%29
+2021-03-19 12:17:58,037 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1080%2F01621459.1988.10478722%29
+2021-03-19 12:17:59,243 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:17:59,245 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1029%2FWR020i006p00727%29
+2021-03-19 12:18:00,247 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:00,248 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-3-030-28987-4_10%29
+2021-03-19 12:18:01,430 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:01,431 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1002%2Fstvr.294%29
+2021-03-19 12:18:02,572 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:02,573 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2F1468-0084.0610s1631%29
+2021-03-19 12:18:03,719 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:03,721 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1109%2FTKDE.2013.109%29
+2021-03-19 12:18:07,406 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:07,407 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2F2041-210X.12552%29
+2021-03-19 12:18:08,796 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:08,798 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1109%2FC-M.1978.218136%29
+2021-03-19 12:18:10,012 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:10,013 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2Fj.1600-0587.2011.07259.x%29
+2021-03-19 12:18:11,582 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:11,584 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1076%2Fclin.12.1.43.1726%29
+2021-03-19 12:18:14,529 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:14,530 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1119%2F1.18809%29
+2021-03-19 12:18:15,633 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:15,635 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.jeconom.2008.05.009%29
+2021-03-19 12:18:20,212 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:20,214 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1023%2FA%3A1009674322348%29
+2021-03-19 12:18:21,476 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:21,478 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1109%2F32.988709%29
+2021-03-19 12:18:22,644 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:22,646 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FB978-008045405-4.00153-1%29
+2021-03-19 12:18:23,707 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:23,709 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2307%2F2290157%29
+2021-03-19 12:18:24,648 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1093%2Fbiomet%2F69.3.553%29
+2021-03-19 12:18:25,642 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:25,643 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1109%2F70.976019%29
+2021-03-19 12:18:26,739 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:26,741 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FB978-0-08-102220-7.00019-4%29
+2021-03-19 12:18:27,915 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:27,916 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.pmrj.2010.10.023%29
+2021-03-19 12:18:29,007 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:29,009 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1002%2F%28SICI%291098-2736%28199808%2935%3A6%3C623%3A%3AAID-TEA3%3E3.0.CO%3B2-O%29
+2021-03-19 12:18:30,122 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:30,123 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1149%2F1.2044210%29
+2021-03-19 12:18:31,177 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:31,177 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-3-030-56449-0_8%29
+2021-03-19 12:18:32,254 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:32,255 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1056%2Fnejmp2014836%29
+2021-03-19 12:18:33,229 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:33,230 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1002%2F%28SICI%291099-1689%28199912%299%3A4%3C263%3A%3AAID-STVR190%3E3.0.CO%3B2-Y%29
+2021-03-19 12:18:34,261 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:34,262 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1037%2F1082-989X.8.1.88%29
+2021-03-19 12:18:35,515 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:35,516 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1520%2Fmnl10913m%29
+2021-03-19 12:18:36,553 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1109%2F32.92910%29
+2021-03-19 12:18:37,656 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:37,657 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2Fj.1755-0998.2010.02866.x%29
+2021-03-19 12:18:39,068 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:39,070 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1089%2Fbig.2013.1508%29
+2021-03-19 12:18:40,205 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:40,206 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1177%2F1536867x0900900208%29
+2021-03-19 12:18:42,022 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:42,023 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2Fs11205-015-0983-9%29
+2021-03-19 12:18:43,038 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:43,039 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FC2009-0-61819-5%29
+2021-03-19 12:18:44,157 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:44,158 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS0001-8686%2803%2900125-8%29
+2021-03-19 12:18:45,261 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:45,262 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1097%2FWAD.0b013e318191c7dd%29
+2021-03-19 12:18:46,433 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:46,435 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1105%2Ftpc.15.00238%29
+2021-03-19 12:18:47,825 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:47,826 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1109%2FTSE.1985.232226%29
+2021-03-19 12:18:49,007 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:49,009 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2Fj.1469-7610.1993.tb01105.x%29
+2021-03-19 12:18:50,076 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:50,078 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.4135%2F9781412984218.n3%29
+2021-03-19 12:18:51,105 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1207%2Fs15327906mbr0102_10%29
+2021-03-19 12:18:52,260 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:52,261 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1186%2Fs13073-016-0302-3%29
+2021-03-19 12:18:53,329 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:53,330 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.4337%2F9781788110563.00011%29
+2021-03-19 12:18:54,701 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:54,702 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2Fjofi.12126%29
+2021-03-19 12:18:55,874 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:55,876 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.ijpharm.2011.02.019%29
+2021-03-19 12:18:57,142 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:57,143 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1080%2F713827180%29
+2021-03-19 12:18:58,284 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:58,285 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1093%2Ftreephys%2F14.7-8-9.797%29
+2021-03-19 12:18:59,287 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:18:59,289 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2307%2F2992285%29
+2021-03-19 12:19:00,225 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2F0166-4328%2888%2990157-X%29
+2021-03-19 12:19:01,356 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:01,357 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1098%2Frstb.2005.1728%29
+2021-03-19 12:19:04,592 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:04,593 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1038%2Fnature09042%29
+2021-03-19 12:19:05,579 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:05,580 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1186%2F1471-2288-6-31%29
+2021-03-19 12:19:06,717 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:06,719 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1093%2Fbeheco%2Fark016%29
+2021-03-19 12:19:07,863 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:07,865 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1515%2F9783035603958.132a%29
+2021-03-19 12:19:08,880 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1109%2FTSE.1976.233817%29
+2021-03-19 12:19:10,154 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:10,155 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS0266-8920%2800%2900012-6%29
+2021-03-19 12:19:11,195 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:11,197 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2Fs004420100720%29
+2021-03-19 12:19:14,040 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:14,041 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2F2041-210X.12511%29
+2021-03-19 12:19:15,186 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:15,186 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.18637%2Fjss.v059.i10%29
+2021-03-19 12:19:16,247 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:16,248 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1006%2Fclad.2000.0140%29
+2021-03-19 12:19:17,366 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:17,367 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1093%2Fnar%2F28.1.235%29
+2021-03-19 12:19:19,669 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:19,671 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1080%2F00273170701384340%29
+2021-03-19 12:19:21,092 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:21,093 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.im.2018.11.001%29
+2021-03-19 12:19:23,284 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:23,286 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-1-4615-0931-8_13%29
+2021-03-19 12:19:24,297 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2Fj.1745-6584.2003.tb02561.x%29
+2021-03-19 12:19:25,295 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:25,296 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2Fj.1467-985x.2010.00676_9.x%29
+2021-03-19 12:19:26,243 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2307%2F2529310%29
+2021-03-19 12:19:27,281 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:27,282 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.24247%2Fijdrdjun20187%29
+2021-03-19 12:19:28,237 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.joep.2015.05.002%29
+2021-03-19 12:19:29,329 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:29,331 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2F0162-895x.00329%29
+2021-03-19 12:19:30,408 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:30,409 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2F0002-1571%2872%2990045-3%29
+2021-03-19 12:19:31,534 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:31,536 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2514%2F5.9781600862007.0449.0492%29
+2021-03-19 12:19:32,495 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.24247%2Fijdrdjun20186%29
+2021-03-19 12:19:33,523 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2466%2Fpr0.1967.20.3.975%29
+2021-03-19 12:19:34,663 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:34,664 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1093%2Fbioinformatics%2Fbts394%29
+2021-03-19 12:19:35,729 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:35,730 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1136%2Fbmj.328.7447.1073%29
+2021-03-19 12:19:36,876 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:36,877 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1080%2F01621459.1998.10473763%29
+2021-03-19 12:19:38,044 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:38,045 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2307%2F3802302%29
+2021-03-19 12:19:39,219 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:39,220 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1145%2F1327452.1327492%29
+2021-03-19 12:19:40,298 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:40,299 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1002%2Fstvr.264%29
+2021-03-19 12:19:41,643 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:46,187 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.5194%2Fisprsarchives-xxxviii-1-c22-7-2011%29
+2021-03-19 12:19:47,268 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.3766%2Fjaaa.25.3.3%29
+2021-03-19 12:19:48,309 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:48,310 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1002%2Fwcs.72%29
+2021-03-19 12:19:49,395 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:49,396 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1023%2FA%3A1024582529645%29
+2021-03-19 12:19:50,610 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:50,612 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2F978-3-319-39264-6_15%29
+2021-03-19 12:19:52,420 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:53,928 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1080%2F02640418808729800%29
+2021-03-19 12:19:55,088 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:55,089 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1136%2Fbjsm.22.4.141%29
+2021-03-19 12:19:56,106 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:56,107 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.33102%2Fsainsinsani.vol5no1.203%29
+2021-03-19 12:19:57,347 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1086%2F261420%29
+2021-03-19 12:19:58,327 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1086%2F261764%29
+2021-03-19 12:19:59,445 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:19:59,446 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS0304-405X%2896%2900890-2%29
+2021-03-19 12:20:00,811 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:00,812 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.jfineco.2011.03.016%29
+2021-03-19 12:20:02,062 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:02,063 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1126%2Fscience.1251936%29
+2021-03-19 12:20:03,168 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:03,170 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2308%2Faccr.2008.83.1.61%29
+2021-03-19 12:20:04,269 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:04,270 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1257%2Fjel.49.1.3%29
+2021-03-19 12:20:05,381 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:05,382 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1126%2Fscience.1164744%29
+2021-03-19 12:20:06,468 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:06,470 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.jprocont.2009.09.006%29
+2021-03-19 12:20:07,573 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:07,574 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1177%2F000312240907400301%29
+2021-03-19 12:20:08,668 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:08,669 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1519%2F13993.1%29
+2021-03-19 12:20:09,640 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:09,642 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1136%2Fbjsm.2004.012500%29
+2021-03-19 12:20:10,670 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:10,671 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1257%2Faer.104.10.3003%29
+2021-03-19 12:20:11,886 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:11,888 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1055%2Fs-2000-8858%29
+2021-03-19 12:20:12,945 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:12,947 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1126%2Fscience.256.5063.1539%29
+2021-03-19 12:20:14,021 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:14,022 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1257%2Faer.20131311%29
+2021-03-19 12:20:15,066 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:15,067 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fs1836-9553%2810%2970046-1%29
+2021-03-19 12:20:16,148 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:16,150 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS0896-6273%2804%2900111-4%29
+2021-03-19 12:20:17,350 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:17,351 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FB978-0-444-59429-7.00016-9%29
+2021-03-19 12:20:18,479 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:18,481 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS0262-4079%2813%2961064-7%29
+2021-03-19 12:20:19,512 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:19,513 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.enpol.2010.07.020%29
+2021-03-19 12:20:20,592 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:20,593 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS1574-0684%2805%2901006-3%29
+2021-03-19 12:20:21,747 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:21,749 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2FBF00428958%29
+2021-03-19 12:20:22,836 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:22,837 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.joule.2020.06.010%29
+2021-03-19 12:20:23,853 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:23,855 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2478%2Fhukin-2014-0035%29
+2021-03-19 12:20:25,129 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:25,130 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2Fj.1540-6261.1991.tb03743.x%29
+2021-03-19 12:20:30,964 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:30,966 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.7205%2FMILMED-D-10-00373%29
+2021-03-19 12:20:32,190 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:32,192 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2Fs00421-007-0432-9%29
+2021-03-19 12:20:33,348 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:33,349 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1519%2FJSC.0000000000000261%29
+2021-03-19 12:20:34,473 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:34,475 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.jdeveco.2010.07.004%29
+2021-03-19 12:20:35,553 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:35,555 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2307%2F2951541%29
+2021-03-19 12:20:36,530 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.5604%2F20831862.1127283%29
+2021-03-19 12:20:38,563 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:38,564 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.jdeveco.2016.05.006%29
+2021-03-19 12:20:39,647 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:39,648 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2165%2F00007256-200333040-00003%29
+2021-03-19 12:20:40,830 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:40,831 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1123%2Fijspp.1.2.137%29
+2021-03-19 12:20:42,001 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:42,002 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1080%2F02640414.2018.1468149%29
+2021-03-19 12:20:43,459 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:43,460 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2Fj.1540-5907.2005.00147.x%29
+2021-03-19 12:20:44,554 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:44,555 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2307%2F2393015%29
+2021-03-19 12:20:45,700 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1520%2Fmnl10913m%29
+2021-03-19 12:20:47,490 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1101%2Fcshperspect.a029736%29
+2021-03-19 12:20:48,716 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:48,717 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fs0146-664x%2875%2980008-6%29
+2021-03-19 12:20:49,635 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.7205%2FMILMED-D-09-00101%29
+2021-03-19 12:20:50,730 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:50,732 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1080%2F02640410500432193%29
+2021-03-19 12:20:51,964 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:51,966 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.5422%2Ffso%2F9780823225507.003.0010%29
+2021-03-19 12:20:53,002 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2Fj.1540-6261.2010.01639.x%29
+2021-03-19 12:20:54,034 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:54,035 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2F0022-1082.00086%29
+2021-03-19 12:20:55,136 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:55,138 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1109%2F83.725367%29
+2021-03-19 12:20:56,240 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:56,241 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2Fs00431-007-0553-5%29
+2021-03-19 12:20:58,950 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:20:58,951 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.4135%2F9781412984218.n3%29
+2021-03-19 12:21:00,012 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1207%2Fs15327906mbr0102_10%29
+2021-03-19 12:21:01,150 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:01,151 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1126%2Fscience.aah5309%29
+2021-03-19 12:21:02,270 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:02,271 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.24148%2Fwp2020-09%29
+2021-03-19 12:21:03,389 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1073%2Fpnas.1101825108%29
+2021-03-19 12:21:04,525 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:04,527 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1257%2Faer.20130375%29
+2021-03-19 12:21:05,669 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:05,670 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1038%2Fnature09042%29
+2021-03-19 12:21:06,754 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:06,756 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.3982%2Fecta9508%29
+2021-03-19 12:21:08,538 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:08,539 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.amepre.2011.07.008%29
+2021-03-19 12:21:09,774 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:09,775 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2Fj.1365-2753.2008.01050.x%29
+2021-03-19 12:21:10,892 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:10,894 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1103%2FPhysRevLett.100.218103%29
+2021-03-19 12:21:12,022 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:12,023 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2Fj.1523-1739.1987.tb00055.x%29
+2021-03-19 12:21:12,982 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1093%2Fbeheco%2Fark016%29
+2021-03-19 12:21:14,135 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:14,137 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.euroecorev.2003.08.010%29
+2021-03-19 12:21:15,367 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:15,369 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.4135%2F9781412950602.n705%29
+2021-03-19 12:21:16,321 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1007%2Fs10822-016-9900-9%29
+2021-03-19 12:21:17,510 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:17,512 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1038%2Fnature04311%29
+2021-03-19 12:21:18,773 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:18,774 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.brainres.2016.04.003%29
+2021-03-19 12:21:19,926 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:19,928 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.24247%2Fijdrdjun20187%29
+2021-03-19 12:21:20,901 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.tcb.2005.08.004%29
+2021-03-19 12:21:21,977 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:21,979 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.jfineco.2007.12.003%29
+2021-03-19 12:21:23,011 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:23,012 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.24247%2Fijdrdjun20186%29
+2021-03-19 12:21:24,868 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2FS0304-3932%2897%2900063-9%29
+2021-03-19 12:21:26,460 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:26,462 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1136%2Fbmj.328.7447.1073%29
+2021-03-19 12:21:28,227 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:28,228 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2F0022-1082.00205%29
+2021-03-19 12:21:29,254 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:29,255 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1055%2Fs-0031-1277179%29
+2021-03-19 12:21:30,375 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:30,376 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2Fcico.12080%29
+2021-03-19 12:21:31,379 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1017%2FS0043887109000094%29
+2021-03-19 12:21:33,123 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:33,125 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1162%2F003355301753265589%29
+2021-03-19 12:21:34,351 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:34,353 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1162%2Frest_a_00815%29
+2021-03-19 12:21:35,469 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:35,471 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1126%2Fscience.aaw2403%29
+2021-03-19 12:21:36,785 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:36,786 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1111%2F1475-679X.12167%29
+2021-03-19 12:21:39,713 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:39,714 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.jmoneco.2009.10.010%29
+2021-03-19 12:21:40,870 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:40,871 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1257%2Faer.20160763%29
+2021-03-19 12:21:42,690 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:42,691 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1890%2F0012-9658%282002%29083%5B2145%3AHODFRO%5D2.0.CO%3B2%29
+2021-03-19 12:21:43,653 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1257%2Faer.101.1.371%29
+2021-03-19 12:21:44,759 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:44,760 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1126%2Fscience.1170451%29
+2021-03-19 12:21:45,885 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:45,887 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1093%2Fmilmed%2F165.5.418%29
+2021-03-19 12:21:47,076 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:47,078 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.2307%2F2951777%29
+2021-03-19 12:21:51,986 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1080%2F02640410902902835%29
+2021-03-19 12:21:53,017 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 12:21:53,018 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2Fj.artmed.2008.06.004%29
+2021-03-19 12:21:54,114 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 22:48:46,511 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 22:48:47,552 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 22:48:47,553 - elsapy.utils - INFO - Module loaded.
+2021-03-19 22:48:47,553 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 22:48:47,555 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 22:48:47,556 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 22:49:24,037 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economics+%2B+Finance
+2021-03-19 22:49:26,809 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-19 22:49:27,818 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0149197020302511
+2021-03-19 22:49:31,378 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0149197020302511
+2021-03-19 22:49:32,380 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0929119920301243
+2021-03-19 22:49:35,031 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0929119920301243
+2021-03-19 22:49:36,031 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0040162519302586
+2021-03-19 22:49:37,759 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0040162519302586
+2021-03-19 22:49:38,761 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0921800919302496
+2021-03-19 22:49:41,979 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0921800919302496
+2021-03-19 22:49:42,987 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1364032119307270
+2021-03-19 22:49:45,356 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1364032119307270
+2021-03-19 22:56:28,545 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 22:56:28,847 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 22:56:28,848 - elsapy.utils - INFO - Module loaded.
+2021-03-19 22:56:28,848 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 22:56:28,849 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 22:56:28,849 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 22:57:57,028 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 22:57:57,331 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 22:57:57,332 - elsapy.utils - INFO - Module loaded.
+2021-03-19 22:57:57,332 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 22:57:57,333 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 22:57:57,333 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 22:58:08,913 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 22:58:09,208 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 22:58:09,209 - elsapy.utils - INFO - Module loaded.
+2021-03-19 22:58:09,209 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 22:58:09,210 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 22:58:09,211 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:02:41,835 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:02:42,137 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:02:42,138 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:02:42,138 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:02:42,139 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:02:42,139 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:03:03,742 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:03:04,036 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:03:04,037 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:03:04,037 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:03:04,038 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:03:04,038 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:03:06,917 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:03:07,211 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:03:07,212 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:03:07,212 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:03:07,213 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:03:07,213 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:03:48,925 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:03:49,220 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:03:49,221 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:03:49,221 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:03:49,222 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:03:49,223 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:03:53,216 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:03:53,505 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:03:53,505 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:03:53,506 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:03:53,506 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:03:53,507 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:06:06,068 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:06:06,361 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:06:06,362 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:06:06,362 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:06:06,363 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:06:06,364 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:08:17,008 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:08:17,301 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:08:17,302 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:08:17,302 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:08:17,303 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:08:17,303 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:08:51,513 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:08:51,809 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:08:51,809 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:08:51,810 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:08:51,810 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:08:51,811 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:08:54,747 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:08:55,037 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:08:55,037 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:08:55,037 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:08:55,038 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:08:55,039 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:10:26,418 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:10:26,713 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:10:26,714 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:10:26,714 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:10:26,715 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:10:26,716 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:10:30,734 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:10:31,026 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:10:31,026 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:10:31,027 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:10:31,027 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:10:31,028 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:14:18,886 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:14:19,177 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:14:19,178 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:14:19,178 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:14:19,179 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:14:19,179 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:14:25,311 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:14:25,605 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:14:25,606 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:14:25,606 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:14:25,607 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:14:25,607 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:17:15,009 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:17:15,306 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:17:15,306 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:17:15,306 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:17:15,307 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:17:15,308 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:17:21,462 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:17:21,752 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:17:21,753 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:17:21,753 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:17:21,754 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:17:21,754 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:18:14,173 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:18:14,464 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:18:14,465 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:18:14,465 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:18:14,466 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:18:14,466 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:25:30,651 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:25:30,957 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:25:30,958 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:25:30,958 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:25:30,959 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:25:30,959 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:25:54,347 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:25:54,669 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:25:54,670 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:25:54,670 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:25:54,671 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:25:54,672 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:27:36,856 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:27:37,149 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:27:37,150 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:27:37,150 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:27:37,151 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:27:37,152 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:27:58,366 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:27:58,680 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:27:58,681 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:27:58,682 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:27:58,683 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:27:58,684 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:29:03,860 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:29:04,159 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:29:04,160 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:29:04,160 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:29:04,161 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:29:04,162 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:29:18,514 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:29:18,805 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:29:18,806 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:29:18,806 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:29:18,807 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:29:18,807 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:29:36,817 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:29:37,116 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:29:37,117 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:29:37,117 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:29:37,118 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:29:37,118 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:29:56,237 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:29:56,529 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:29:56,530 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:29:56,530 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:29:56,531 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:29:56,531 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:30:28,609 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:30:28,942 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:30:28,943 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:30:28,943 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:30:28,944 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:30:28,945 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:30:38,413 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:30:38,726 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:30:38,727 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:30:38,727 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:30:38,728 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:30:38,729 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:33:18,136 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:33:18,430 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:33:18,430 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:33:18,430 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:33:18,431 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:33:18,432 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:33:48,382 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:33:48,672 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:33:48,672 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:33:48,672 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:33:48,673 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:33:48,674 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:34:45,540 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:34:45,836 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:34:45,837 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:34:45,837 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:34:45,838 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:34:45,838 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:35:03,829 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:35:04,123 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:35:04,123 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:35:04,124 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:35:04,124 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:35:04,125 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:36:00,181 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:36:00,490 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:36:00,490 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:36:00,491 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:36:00,491 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:36:00,493 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:36:14,293 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:36:14,582 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:36:14,583 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:36:14,583 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:36:14,584 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:36:14,585 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:36:37,994 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:36:38,285 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:36:38,286 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:36:38,286 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:36:38,287 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:36:38,288 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:36:56,352 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:36:56,642 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:36:56,642 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:36:56,643 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:36:56,643 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:36:56,644 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:36:59,529 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:36:59,821 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:36:59,821 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:36:59,822 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:36:59,822 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:36:59,823 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:39:15,138 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:39:15,433 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:39:15,434 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:39:15,434 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:39:15,435 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:39:15,436 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:39:37,812 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:39:38,104 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:39:38,104 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:39:38,105 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:39:38,106 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:39:38,106 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:39:42,062 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:39:42,352 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:39:42,352 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:39:42,353 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:39:42,353 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:39:42,354 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:40:15,450 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:40:15,741 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:40:15,742 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:40:15,742 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:40:15,743 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:40:15,743 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:40:41,319 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:40:41,631 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:40:41,632 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:40:41,632 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:40:41,633 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:40:41,633 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:45:00,312 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:45:00,602 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:45:00,602 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:45:00,603 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:45:00,603 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:45:00,604 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:47:26,210 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:47:26,502 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:47:26,502 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:47:26,503 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:47:26,503 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:47:26,504 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:47:33,758 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:47:34,048 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:47:34,049 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:47:34,049 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:47:34,050 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:47:34,050 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:48:05,056 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:48:05,349 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:48:05,349 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:48:05,350 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:48:05,351 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:48:05,351 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:48:46,052 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:48:46,342 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:48:46,343 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:48:46,343 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:48:46,344 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:48:46,344 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:48:56,800 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:48:57,098 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:48:57,098 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:48:57,098 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:48:57,099 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:48:57,100 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:49:10,801 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:49:11,093 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:49:11,094 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:49:11,094 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:49:11,095 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:49:11,096 - elsapy.elssearch - INFO - Module loaded.
+2021-03-19 23:49:18,346 - elsapy.elsclient - INFO - Module loaded.
+2021-03-19 23:49:18,639 - elsapy.elsentity - INFO - Module loaded.
+2021-03-19 23:49:18,640 - elsapy.utils - INFO - Module loaded.
+2021-03-19 23:49:18,640 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-19 23:49:18,641 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-19 23:49:18,641 - elsapy.elssearch - INFO - Module loaded.
