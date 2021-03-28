@@ -1,0 +1,88 @@
+2021-03-28 14:34:44,288 - elsapy.elsclient - INFO - Module loaded.
+2021-03-28 14:34:44,309 - elsapy.elsentity - INFO - Module loaded.
+2021-03-28 14:34:44,310 - elsapy.utils - INFO - Module loaded.
+2021-03-28 14:34:44,310 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-28 14:34:44,313 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-28 14:34:44,316 - elsapy.elssearch - INFO - Module loaded.
+2021-03-28 14:40:34,867 - elsapy.elsclient - INFO - Module loaded.
+2021-03-28 14:40:34,885 - elsapy.elsentity - INFO - Module loaded.
+2021-03-28 14:40:34,886 - elsapy.utils - INFO - Module loaded.
+2021-03-28 14:40:34,895 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-28 14:40:34,898 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-28 14:40:34,902 - elsapy.elssearch - INFO - Module loaded.
+2021-03-28 15:04:41,334 - elsapy.elsclient - INFO - Module loaded.
+2021-03-28 15:04:41,336 - elsapy.elsentity - INFO - Module loaded.
+2021-03-28 15:04:41,337 - elsapy.utils - INFO - Module loaded.
+2021-03-28 15:04:41,337 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-28 15:04:41,338 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-28 15:04:41,339 - elsapy.elssearch - INFO - Module loaded.
+2021-03-28 15:05:01,848 - elsapy.elsclient - INFO - Module loaded.
+2021-03-28 15:05:01,850 - elsapy.elsentity - INFO - Module loaded.
+2021-03-28 15:05:01,851 - elsapy.utils - INFO - Module loaded.
+2021-03-28 15:05:01,851 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-28 15:05:01,852 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-28 15:05:01,853 - elsapy.elssearch - INFO - Module loaded.
+2021-03-28 15:06:00,576 - elsapy.elsclient - INFO - Module loaded.
+2021-03-28 15:06:00,595 - elsapy.elsentity - INFO - Module loaded.
+2021-03-28 15:06:00,596 - elsapy.utils - INFO - Module loaded.
+2021-03-28 15:06:00,596 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-28 15:06:00,597 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-28 15:06:00,598 - elsapy.elssearch - INFO - Module loaded.
+2021-03-28 15:08:24,524 - elsapy.elsclient - INFO - Module loaded.
+2021-03-28 15:08:24,544 - elsapy.elsentity - INFO - Module loaded.
+2021-03-28 15:08:24,545 - elsapy.utils - INFO - Module loaded.
+2021-03-28 15:08:24,545 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-28 15:08:24,546 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-28 15:08:24,547 - elsapy.elssearch - INFO - Module loaded.
+2021-03-28 15:09:55,856 - elsapy.elsclient - INFO - Module loaded.
+2021-03-28 15:09:55,873 - elsapy.elsentity - INFO - Module loaded.
+2021-03-28 15:09:55,874 - elsapy.utils - INFO - Module loaded.
+2021-03-28 15:09:55,874 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-28 15:09:55,875 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-28 15:09:55,876 - elsapy.elssearch - INFO - Module loaded.
+2021-03-28 15:12:03,356 - elsapy.elsclient - INFO - Module loaded.
+2021-03-28 15:12:03,374 - elsapy.elsentity - INFO - Module loaded.
+2021-03-28 15:12:03,375 - elsapy.utils - INFO - Module loaded.
+2021-03-28 15:12:03,375 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-28 15:12:03,376 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-28 15:12:03,377 - elsapy.elssearch - INFO - Module loaded.
+2021-03-28 15:12:33,688 - elsapy.elsclient - INFO - Module loaded.
+2021-03-28 15:12:33,705 - elsapy.elsentity - INFO - Module loaded.
+2021-03-28 15:12:33,706 - elsapy.utils - INFO - Module loaded.
+2021-03-28 15:12:33,706 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-28 15:12:33,707 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-28 15:12:33,708 - elsapy.elssearch - INFO - Module loaded.
+2021-03-28 15:13:40,598 - elsapy.elsclient - INFO - Module loaded.
+2021-03-28 15:13:40,599 - elsapy.elsentity - INFO - Module loaded.
+2021-03-28 15:13:40,600 - elsapy.utils - INFO - Module loaded.
+2021-03-28 15:13:40,600 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-28 15:13:40,601 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-28 15:13:40,602 - elsapy.elssearch - INFO - Module loaded.
+2021-03-28 15:14:07,251 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=qwe
+2021-03-28 15:14:09,619 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-28 15:14:10,606 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S027869151200539X
+2021-03-28 15:14:12,444 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S027869151200539X
+2021-03-28 15:14:13,447 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/0749603689902917
+2021-03-28 15:14:16,824 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/0749603689902917
+2021-03-28 15:14:17,836 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0360835220301078
+2021-03-28 15:14:19,297 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0360835220301078
+2021-03-28 15:14:20,308 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0306456519304644
+2021-03-28 15:14:21,964 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0306456519304644
+2021-03-28 15:14:22,966 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0143974X14000984
+2021-03-28 15:14:24,495 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0143974X14000984
+2021-03-28 15:14:58,513 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=qwe+%2B+cew
+2021-03-28 15:14:59,864 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-28 15:15:00,869 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2352340919313575
+2021-03-28 15:15:02,319 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2352340919313575
+2021-03-28 15:22:46,424 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=qwe
+2021-03-28 15:22:49,040 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-28 15:22:50,048 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S027869151200539X
+2021-03-28 15:22:51,682 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S027869151200539X
+2021-03-28 15:22:52,689 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/0749603689902917
+2021-03-28 15:22:54,510 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/0749603689902917
+2021-03-28 15:22:55,514 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0360835220301078
+2021-03-28 15:22:57,562 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0360835220301078
+2021-03-28 15:22:58,569 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0306456519304644
+2021-03-28 15:22:59,804 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0306456519304644
+2021-03-28 15:23:00,806 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0143974X14000984
+2021-03-28 15:23:02,798 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0143974X14000984

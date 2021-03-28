@@ -5,37 +5,28 @@ from combinations.db_subcategory_combination import *
 from paper.db_paper import *
 from paper.db_paper_subcategory import *
 from .elsevier_test import *
+from .async_search import *
 import time
 import os
 
-
-def getTrend(subcat,quick,growth_query,authorscore_query,readercount_query,pie_query):
+def getTrend(subcat,quick,code):
     os.system('cls')
     start = time.time()
     trend = []
     topsubcat = []
-
+    
     print()
     for x in subcat:
-        connection = 0
         # check status of data
-        if isinSubcatDB(x):
-            subcat_result = selectSubcat(x)
-            if (isSubcatUpdated(x)==False) or subcat_result.quick_search_data!=quick:
-                status = 1  # in db but not updated
-            else:
-                status = 2  # in db and is updated
-                this_trend = subcat_result.trend_score
-        else:
-            status = 0      #not in db
-
+        status = checkSubcatStatus(x)
+        
         if status < 2:
-            # check current trend of the keyword
-            fake = []
-            fake.append(x)
+            connection = this_trend = 0
             
+            # check current trend of the keyword
             pytrends = TrendReq(hl='en-US', tz=360)
-            kw_list = fake
+            kw_list = []
+            kw_list.append(x)
             pytrends.build_payload(kw_list, cat=0, timeframe='now 7-d', geo='', gprop='')
                 
             try:
@@ -44,38 +35,36 @@ def getTrend(subcat,quick,growth_query,authorscore_query,readercount_query,pie_q
             except:
                 print("Unable to connect to Google Trends! Try Again Later!")
             
-            if connection == 1:
+            # connected to google trend and have data
+            if connection == 1: 
                 if not trenddata.empty:
-                    this_trend = float(trenddata[x].sum())      # total trend of current week
-                else:
-                    this_trend = 0       # no trend
-            else:
-                if status == 0:
-                    this_trend = 0
+                    # total trend of current week
+                    this_trend = float(trenddata[x].sum())      
+                    
+            if status == 1 and connection == 1:
+                # update db
+                updateSubcat(x, this_trend)    
+            elif status == 0:
+                # insert to db
+                insertSubcat(x, this_trend)    
 
-            if status == 1:
-                updateSubcat(x, this_trend, quick)    # update db
-            else:
-                insertSubcat(x, this_trend, quick)    # insert to db
-
-            fake.clear()
-
+        # get data from db
+        subcat_result = selectSubcat(x)
+        this_trend = subcat_result.trend_score
         trend.append(this_trend)
-    
     
     if len(trend) > 5:
         N = 5
     else:
         N = len(trend)
-
-    i = 0
     
-    # get position of largest data
+    # get position of largest n data
     largest = sorted(range(len(trend)), key=lambda sub: trend[sub])[-N:]
     
     # get top N subcategory
     print()
     print("top", N, "subcategory")
+    i = 0
     while i < len(largest):
         print(subcat[largest[i]], "=", trend[largest[i]])
         topsubcat.append(subcat[largest[i]])
@@ -85,7 +74,7 @@ def getTrend(subcat,quick,growth_query,authorscore_query,readercount_query,pie_q
     combinations = pair_subset(topsubcat)
     
     results = {
-        'realresult': topCombination(combinations,quick,growth_query,authorscore_query,readercount_query,pie_query),
+        'realresult': topCombination(combinations,quick,code),
     }
 
     end = time.time()
@@ -94,7 +83,7 @@ def getTrend(subcat,quick,growth_query,authorscore_query,readercount_query,pie_q
 
     return results
 
-def topCombination(subset,quick,growth_query,authorscore_query,readercount_query,pie_query):
+def topCombination(subset,quick,code):
     session = mendeleyAuth()
     readerCount = []
     authorScore = []
@@ -103,36 +92,35 @@ def topCombination(subset,quick,growth_query,authorscore_query,readercount_query
     results = {
         'topReader': [],
         'topComb': [],
-        'zipped': []
+        'zipped': [],
     }
-    i = 0
-    N = 10
 
     for x in subset:
-    
         # check status of data
-        status = checkStatus(x,quick)
+        status = checkCombStatus(x,quick)
 
         if status < 2:
+            # search data
             searchData(x,session,status,quick)
         
-        comb_result = selectComb(query_1=x[0], query_2=x[1])    # get data from db
+        # get data from db
+        comb_result = selectComb(query_1=x[0], query_2=x[1])
         readerCount.append(comb_result.combination_score)
         authorScore.append(comb_result.combination_authorscore)
         Growth.append(comb_result.combination_growth)
         pieScore.append(comb_result.combination_pie)
-        
-    tempscore = []
     
+    # normalize data
     readerCount = data_norm(readerCount)
     Growth = data_norm(Growth)
-    #pieScore = data_norm(pieScore)
-    #authorScore = data_norm(authorScore)
+    pieScore = data_norm(pieScore)
+    authorScore = data_norm(authorScore)
     
     # choose which data to display
-    score = chooseDisplayData(readercount_query,growth_query,authorscore_query,pie_query,readerCount,Growth,authorScore,pieScore)
+    score = chooseDisplayData(code,readerCount,Growth,authorScore,pieScore)
     
-    # get position of largest data
+    # get position of largest n data
+    N = 10
     largest = sorted(range(len(score)), key=lambda sub: score[sub])[-N:]
 
     print()
@@ -146,34 +134,24 @@ def topCombination(subset,quick,growth_query,authorscore_query,readercount_query
         z += 1
     print()
 
+    # sort descending
     results['topReader'].reverse()
     results['topComb'].reverse()
     results['zipped'] = zip(results['topReader'], results['topComb'])
 
     return results
 
-def filterSubcat(q1,q2,minval,maxval,code,quick):
+def filterResult(q1,q2,minval,maxval,code,quick):
     os.system('cls')
     start = time.time()
-    
-    results = {
-        'realresult': filterResult(q1,q2,minval,maxval,code,quick)
-    }
-    
-    end = time.time()
-    print("total time used:", end - start, "s")
-    print()
-    
-    return results
-
-def filterResult(q1,q2,minval,maxval,fakecode,quick):
-    subset = []
-    
     session = mendeleyAuth()
+    subset = []
     readerCount = []
     Growth = []
     pieScore = []
     authorScore = []
+    readers=[]
+    comb=[]
     results = {
         'topReader': [],
         'realReader': [],
@@ -181,10 +159,6 @@ def filterResult(q1,q2,minval,maxval,fakecode,quick):
         'realComb': [],
         'zipped': [],
     }
-    
-    readers=[]
-    comb=[]
-    i = 0
     
     # find all subcategory combination
     all_comb = pair_subset(q2)
@@ -195,57 +169,35 @@ def filterResult(q1,q2,minval,maxval,fakecode,quick):
         # keep checked subcategory
         for p in all_comb:
             for q in q1:
-                if p[0] == q or p[1] == q:
+                if q in p:
                     subset.append(p)
         subset = list(dict.fromkeys(subset))
 
     for x in subset:
-    
         # check status of data
-        status = checkStatus(x,quick)
+        status = checkCombStatus(x,quick)
 
         if status < 2:
+            # search data
             searchData(x,session,status,quick)
-            
         
-        comb_result = selectComb(query_1=x[0], query_2=x[1])    # get data from db
+        # get data from db
+        comb_result = selectComb(query_1=x[0], query_2=x[1])    
         readerCount.append(comb_result.combination_score)
         authorScore.append(comb_result.combination_authorscore)
         Growth.append(comb_result.combination_growth)
         pieScore.append(comb_result.combination_pie)
 
+    # normalize data
     readerCount = data_norm(readerCount)
     Growth = data_norm(Growth)
-    #pieScore = data_norm(pieScore)
-    #authorScore = data_norm(authorScore)
+    pieScore = data_norm(pieScore)
+    authorScore = data_norm(authorScore)
     
-    code = list(fakecode)
+    score = chooseDisplayData(code,readerCount,Growth,authorScore,pieScore)
     
-    if code[0] == '1':
-        readercount_query = True
-    else:
-        readercount_query = False
-        
-    if code[1] == '1':
-        growth_query = True
-    else:
-        growth_query = False
-        
-    if code[2] == '1':
-        authorscore_query = True
-    else:
-        authorscore_query = False
-        
-    if code[3] == '1':
-        pie_query = True
-    else:
-        pie_query = False
-    
-    score = chooseDisplayData(readercount_query,growth_query,authorscore_query,pie_query,readerCount,Growth,authorScore,pieScore)
-    
+    # get position of largest n data
     N=len(score)
-
-    # get position of largest data
     largest = sorted(range(len(score)), key=lambda sub: score[sub])[-N:]
 
     print()
@@ -262,44 +214,39 @@ def filterResult(q1,q2,minval,maxval,fakecode,quick):
     readers.reverse()
     comb.reverse()
     
+    # default min = 0, max = 100
     if minval == '':
         minval = 0
-    
     if maxval == '':
         maxval = 100
-    
-    if minval == maxval:
-        m = [pos for pos, val in enumerate(comb) if val == float(minval)]
-        if m:
-            q = 0
-            while q < len(m):
-                results['realReader'].append(readers[m[q]])
-                results['realComb'].append(comb[m[q]])
-                q += 1
-        else:
-            results['realReader'] = readers
-            results['realComb'] = comb
-    else:
-        # >=
-        try:
-            m = next(pos for pos, val in enumerate(comb) if val < float(minval))
-            readers = readers[:m]
-            comb = comb[:m]
-        except:
-            readers = readers
-            comb = comb
-        # <=
-        try:
-            m = next(pos for pos, val in enumerate(comb) if val <= float(maxval))
-            results['realReader'] = readers[m:]
-            results['realComb'] = comb[m:]
-        except:
-            results['realReader'] = readers
-            results['realComb'] = comb
+        
+    try:
+        m = next(pos for pos, val in enumerate(comb) if val < float(minval))
+        readers = readers[:m]
+        comb = comb[:m]
+    except:
+        readers = readers
+        comb = comb
+    # <=
+    try:
+        m = next(pos for pos, val in enumerate(comb) if val <= float(maxval))
+        results['realReader'] = readers[m:]
+        results['realComb'] = comb[m:]
+    except:
+        results['realReader'] = readers
+        results['realComb'] = comb
         
     results['zipped'] = zip(results['realReader'], results['realComb'])
-
-    return results
+    
+    actualResult = {
+        'realresult': results,
+    }
+    
+    end = time.time()
+    print("total time used:", end - start, "s")
+    print()
+    
+    return actualResult
 
 def popular_article(list_of_link,reader_count,link,title,year_published):
     if len(list_of_link) < 5:
@@ -322,136 +269,12 @@ def data_norm(arr):
     score = []
     
     for x in arr:
-        point = (float(x) - min_val)/(max_val - min_val)*100
+        point = (float(x) - min_val)/((max_val - min_val)+1)*100
         if point > 100:
             point = 100
         score.append(round(point,2))
     
     return score
-
-
-
-
-
-"""
-def author_score(queryList):
-    count=0
-    session = mendeleyAuth()
-    author_name=' \"' +queryList+ '\"'
-    oter=session.catalog.advanced_search(author=author_name,view='all')
-    for otr in oter.iter(page_size=100):
-        print(otr.id)
-        count+=1
-    return count
-"""
-
-def searchKeyword(keyword,quick):
-    os.system('cls')
-    session = mendeleyAuth()
-    results = {
-        'reader': [],
-        'author': [],
-        'growth': []
-    }
-    
-    i = 0
-    N = 10
-
-    popular_article_list=[]
-    reader = count = avgreader = this = 0
-    
-    pages = session.catalog.advanced_search(title=keyword, view="stats")
-    authorList=[]
-    fname = []
-    lname = []
-    
-    a = 0
-    fromYear=500
-    years = [None] * (fromYear + 1)  # contains all number of publications for all the years
-    while a <= fromYear:
-        years[a] = 0
-        a += 1
-    
-    for page in pages.iter(page_size=100):
-        complete = 0
-        if isLegalType(page):
-            reader += page.reader_count
-            count += 1
-            
-            repeat = 0
-            author = page.authors
-            authorscore = 0
-            if author != None:
-                for authorName in author:
-                    if authorName.last_name != None:
-                        last_name = authorName.last_name
-                    else:
-                        last_name = ""
-                    
-                    if authorName.first_name != None:
-                        first_name = authorName.first_name
-                    else:
-                        first_name = ""
-                    
-                    lenfirst = len(first_name)
-                    lenlast = len(last_name)
-                    
-                    if lenlast < 2 or lenfirst < 2:
-                        complete = 0
-                    else:
-                        complete = 1
-                    
-                    if complete == 1:
-                        name = first_name + " " + last_name
-
-                        for y in authorList:
-                            if y == name:
-                                repeat += 1
-                                continue
-                        
-                        if repeat == 0:     
-                            authorList.append(name)
-                            fname.append(first_name)
-                            lname.append(last_name)
-            
-            popular_article_list = popular_article(popular_article_list, page.reader_count, page.link, page.title, page.year)
-            
-            if page.year == None or page.year > current_year():
-                pubyear = current_year()
-            else:
-                pubyear = page.year
-            
-            index = current_year() - pubyear
-            years[index] += 1
-            
-            growth=calcAvgGrowth(years)
-            
-            if quick:
-                if count >= 100:
-                    break
-    
-    avgreader = round((reader+1) / (count+1),2)
-    
-    """
-    num_of_author = len(authorList)
-    print(num_of_author,"authors, estimated completion time =", (num_of_author*7)/60,"minutes")
-    print()
-    authorscore = author_score(fname,lname)
-    """
-    
-    authorscore = 0
-
-    readerCount = avgreader      # get data from calc
-    authorScore = authorscore
-    Growth = growth
-    
-    results['reader'] = readerCount
-    results['author'] = authorScore
-    results['growth'] = Growth
-    
-    return results
-
-
 
 def getCode(readercount_query,growth_query,authorscore_query,pie_query):
     tempcode = [0]*4
@@ -471,141 +294,101 @@ def getCode(readercount_query,growth_query,authorscore_query,pie_query):
     
     return code
 
-def checkStatus(x,quick):
-    if isinCombDB(query_1=x[0],query_2=x[1]):
-        comb_result = selectComb(query_1=x[0],query_2=x[1])
-        if (isCombUpdated(query_1=x[0],query_2=x[1])==False) or (comb_result.quick_search_data != quick):
-            status = 1      # in db but not updated
-        else:
-            status = 2      # in db and is updated
-    else:
-        status = 0      # not in db
-
-    return status
-
 def searchData(x,session,status,quick):
+    reader = count = avgreader = pie_score = this = a = growth = page_reader_count = 0
+    popular_article_list = []
+    all_paper = []
+    fromYear = 100
     
-    popular_article_list=[]
-    reader = count = avgreader = pie_score = this = 0
-
-    pages = session.catalog.advanced_search(title=x, view="stats")
-    authorList=[]
-    fname = []
-    lname = []
-	
-    a = 0
-    fromYear=500
-    years = [None] * (fromYear + 1)  # contains all number of publications for all the years
+    # contains all number of publications for all the years
+    years = [None] * (fromYear + 1) 
     while a <= fromYear:
         years[a] = 0
         a += 1
 	
+    min_yr = current_year() - 99
+    
+    pages = session.catalog.advanced_search(title=x, view="stats", min_year=min_yr, max_year=current_year())
     for page in pages.iter(page_size=100):
-        complete = 0
-        if isLegalType(page):
-            """
+        complete = repeat = 0
+        
+        try:
+            yr_diff = current_year() - page.year
+        except:
+            yr_diff = -1
+        
+        # if paper type and publish year is valid
+        if isLegalType(page) and yr_diff >= 0:
+            
             try:
-                pie_score += pie(page.identifiers['doi'],page.reader_count,page.year)
+                new_paper = [page.identifiers['doi'], page.reader_count,page.year]
+                all_paper.append(new_paper)
             except:
-                pie_score += 0
-            """
-            pie_score+=0
-            reader += page.reader_count
+                continue
+
+            if page.reader_count is not None:
+                page_reader_count = page.reader_count
+            reader += page_reader_count
             count += 1
 
-            repeat = 0
-            author = page.authors
-            authorscore = 0
-            if author != None:
-                for authorName in author:
-                    if authorName.last_name != None:
-                        last_name = authorName.last_name
-                    else:
-                        last_name = ""
-
-                    if authorName.first_name != None:
-                        first_name = authorName.first_name
-                    else:
-                        first_name = ""
-
-                    lenfirst = len(first_name)
-                    lenlast = len(last_name)
-
-                    if lenlast < 2 or lenfirst < 2:
-                        complete = 0
-                    else:
-                        complete = 1
-
-                    if complete == 1:
-                        name = first_name + " " + last_name
-
-                    for y in authorList:
-                        if y == name:
-                            repeat += 1
-                            continue
-
-                    if repeat == 0 and complete == 1:     
-                        authorList.append(name)
-                        fname.append(first_name)
-                        lname.append(last_name)
-
+            # get popular paper info
             popular_article_list = popular_article(popular_article_list, page.reader_count, page.link, page.title, page.year)
 			
-            if page.year == None or page.year > current_year():
-                pubyear = current_year()
-            else:
-                pubyear = page.year
-			
-            index = current_year() - pubyear
-            years[index] += 1
-
+            # get paper growth score
+            years[yr_diff] += 1
             growth=calcAvgGrowth(years)
 
             if quick:
                 if count >= 100:
                     break
-	
+
+    # get reader count score
     avgreader = round((reader+1) / (count+1),2)
-    for i in popular_article_list:
-        store_Paper(paper_title=i[2], paper_reader_count=i[0], paper_link=i[1], paper_year_published=i[3])
-        store_Paper_subcategory(paper_title=i[2], query_1=x[0], query_2=x[1])
 	
-    """
-    num_of_author = len(authorList)
-    print(num_of_author,"authors, estimated completion time =", (num_of_author*7)/60,"minutes")
-    print()
-    authorscore = author_score(fname,lname)
-    """
-	
-    authorscore = 0
-
-    if status == 1:
-        updateComb(query_1=x[0],query_2=x[1], readercount=round(avgreader, 2), authorscore=authorscore, growth=round(growth, 2),pie_score=round(pie_score,2), quickScore=quick)  # update db
-    else:
-        insertComb(query_1=x[0],query_2=x[1], readercount=round(avgreader, 2), authorscore=authorscore, growth=round(growth, 2),pie_score=round(pie_score,2), quickScore=quick)  # insert to db
-
-def chooseDisplayData(readercount_query,growth_query,authorscore_query,pie_query,readerCount,Growth,authorScore,pieScore):
-    if readercount_query and growth_query and authorscore_query:
-        score = readerCount
-    else:
-        if readercount_query and growth_query:
-            zipped_lists = zip(readerCount, Growth)
-            score = [(float(x) + float(y))/2 for (x, y) in zipped_lists]
-        elif readercount_query and authorscore_query:
-            zipped_lists = zip(readerCount, authorScore)
-            score = [(float(x) + float(y))/2 for (x, y) in zipped_lists]
-        elif growth_query and authorscore_query:
-            zipped_lists = zip(authorScore, Growth)
-            score = [(float(x) + float(y))/2 for (x, y) in zipped_lists]
-        elif readercount_query:
-            score = readerCount
-        elif growth_query:
-            score = Growth
-        elif authorscore_query: 
-            score = authorScore
-        elif pie_query:
-            score = pieScore
+    the_data = calcData(all_paper)
+    authorscore = the_data['author']
+    pieScore = the_data['pie']
+    
+    #pieScore = 0
+    if status != None:
+        for i in popular_article_list:
+            store_Paper(paper_title=i[2], paper_reader_count=i[0], paper_link=i[1], paper_year_published=i[3])
+            store_Paper_subcategory(paper_title=i[2], query_1=x[0], query_2=x[1])
+    
+        if status == 1:
+            # update db
+            updateComb(query_1=x[0],query_2=x[1], readercount=round(avgreader, 2), authorscore=authorscore, growth=round(growth, 2),pie_score=pieScore, quickScore=quick)
         else:
-            score = readerCount
+            # insert to db
+            insertComb(query_1=x[0],query_2=x[1], readercount=round(avgreader, 2), authorscore=authorscore, growth=round(growth, 2),pie_score=pieScore, quickScore=quick)
+    else:
+        os.system('cls')
+        
+        # get data from calculation
+        results = {
+            'reader': avgreader,
+            'author': authorscore,
+            'growth': growth,
+        }
+        return results
+
+def chooseDisplayData(code,readerCount,Growth,authorScore,pieScore):
+    temp = [readerCount,Growth,authorScore,pieScore]
+    j = 0
+    displayData = []
+    score = []
+    
+    # what happens if code = "0000"
+    
+    for i in code:
+        if i == '1':
+            displayData.append(temp[j])
+        j+=1
+    
+    for x in range(len(readerCount)):
+        tempscore = 0
+        for y in displayData:
+            tempscore += float(y[x])
+        score.append(round((tempscore/len(displayData))))
     
     return score

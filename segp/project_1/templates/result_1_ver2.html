@@ -1,0 +1,146 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Case 1 Result</title>
+        <link rel="stylesheet" href="{% static 'case_1_result_new.css' %}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+    </head>
+    <script>
+        function sort_column(x){
+                w3.sortHTML('#myTable', '.table_item', 'td:nth-child('+x+')');
+                var sort_button = document.getElementById("sort_"+x).className
+                if (sort_button == "fa fa-caret-down"){
+                       document.getElementById("sort_"+x).className = "fa fa-caret-up";
+                }
+                else{
+                       document.getElementById("sort_"+x).className = "fa fa-caret-down";
+                }
+            }
+
+            var expanded = false;
+
+            function showCheckboxes(x) {
+				var checkboxes = document.getElementById(x);
+				var shield = document.getElementsByClassName("overSelect");
+
+				if (!expanded) {
+					checkboxes.style.display = "block";
+					expanded = true;
+				}
+				else {
+					checkboxes.style.display = "none";
+					expanded = false;
+				}
+            }
+
+        $( function() {
+			$( "#slider-range" ).slider({
+				range: true,
+				min: 0,
+				max: 100,
+				values: [0,100],
+				slide: function( event, ui ) {
+					$( "#amount" ).val( "" + ui.values[ 0 ] + " - " + ui.values[ 1 ] );
+					$("#min_val").val(ui.values[ 0 ]);
+					$("#max_val").val(ui.values[ 1 ]);
+				}
+			});
+			$("#amount").val( $( "#slider-range" ).slider( "values", 0 ) + " - " + $( "#slider-range" ).slider( "values", 1 ) );
+
+		} );
+    </script>
+    <body>
+        <div id="navbar">
+          <a href="http://127.0.0.1:8000/">SOLUTION DISTRICT</a>
+        </div>
+        <form method="post" action="?"> {% csrf_token %}
+            <div  id="table_filter">
+                <div class="multiselect">
+					<div class="selectBox" onclick="showCheckboxes('checkboxes_topic_A')">
+						<select>
+							<option>Select Topic</option>
+						</select>
+						<div class="overSelect"></div>
+                        <div id="checkboxes_topic_A" class="checkboxes" style="width: 200px; height: 100px; overflow-y: scroll;">
+                            {% for x in subcategories_list %}
+                            <label for="A_{{x}}">
+                                <input type="checkbox" id="A_{{x}}" name="A_{{x}}" />{{x}}
+                            </label>
+                            <input type="hidden" id="B_{{x}}" name="B_{{x}}" value="B_{{x}}"/>
+                            {% endfor %}
+                        </div>
+					</div>
+
+
+
+					<div class="selectBox" onclick="showCheckboxes('checkboxes_comparison_operators')">
+						<select >
+							<option>Select operators</option>
+						</select>
+						<div class="overSelect"></div>
+                        <div id="checkboxes_comparison_operators" class="checkboxes">
+                            <label for= "<">
+                                <input type="checkbox" id="<" name="CO_smaller"/>&lt;
+                            </label>
+                            <label for=">">
+                                <input type="checkbox" id=">" name="CO_greater"/>&gt;
+                            </label>
+                            <label for="=">
+                                <input type="checkbox" id="=" name="CO_equal"/>=
+                            </label>
+                        </div>
+					</div>
+
+					<div>
+                            <label for="amount">Price range:</label>
+                            <input type="text" id="amount" name="amount" readonly>
+                            <input type="hidden" id="min_val" name="min_val">
+                            <input type="hidden" id="max_val" name="max_val">
+                            <div id="slider-range" style="margin-top:15px;"></div>
+					</div>
+
+				</div>
+
+				<input type="submit" class ="submit" value="Submit" style="height:50px">
+            </div>
+        </form>
+        <div class="table_container">
+            <table style="width:100%;margin:0 auto;padding:10px;border-spacing: 0 20px;" id="myTable">
+                <thead style="border:1px solid black;width:100%;margin:0 auto;padding:10px;text-align:left">
+                    <tr style="border-radius:10px;">
+                        <th onclick="sort_column(1)">Topic A&emsp;<i class="fa fa-caret-down" style="font-size:26px;" id="sort_1"></i></th>
+                        <th onclick="sort_column(2)">Topic B&emsp;<i class="fa fa-caret-down" style="font-size:26px;" id="sort_2"></i></th>
+                        <th onclick="sort_column(3)">Combination Score&emsp;<i class="fa fa-caret-down" style="font-size:26px;" id="sort_3"></i></th>
+                        <th >Info</th>
+                    </tr>
+                </thead>
+                <tbody >
+                    {% for x,y in scores_result.realresult.zipped %}
+                        <tr class="table_item">
+                            <td><a href="../SingleKeywordResult/?keyword={{x.0}}">{{x.0}} </a></td>
+                            {% if x.1 in '-' %}
+                            <td>{{x.1}} </td>
+                            <td>{{y}}</td>
+                            <td><a href="../SingleKeywordResult/?keyword={{x.0}}">more</a></td>
+                            {% else %}
+                            <td><a href="../SingleKeywordResult/?keyword={{x.1}}">{{x.1}} </a></td>
+                            <td>{{y}}</td>
+                            <td><a href="../KeywordCombination/?keyword_1={{x.0}}&keyword_2={{x.1}}">more</a></td>
+                            {% endif %}
+
+                        </tr>
+                    {% endfor %}
+
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
