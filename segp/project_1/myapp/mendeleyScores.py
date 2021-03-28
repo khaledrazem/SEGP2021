@@ -1,10 +1,5 @@
 from .mendeleyScript import *
-from search_keyword.models import Keyword
-from search_keyword.db_keyword_query import *
-from combinations.db_keyword_combination import *
 from paper.db_paper import *
-from paper.db_paper_keyword import *
-from combinations.models import keyword_combination
 from itertools import combinations
 import time
 import os

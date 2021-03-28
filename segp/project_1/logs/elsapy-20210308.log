@@ -1,3 +1,29 @@
+<<<<<<< HEAD
+2021-03-08 14:49:05,805 - elsapy.elsclient - INFO - Module loaded.
+2021-03-08 14:49:07,911 - elsapy.elsentity - INFO - Module loaded.
+2021-03-08 14:49:07,912 - elsapy.utils - INFO - Module loaded.
+2021-03-08 14:49:07,913 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-08 14:49:07,932 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-08 14:49:07,934 - elsapy.elssearch - INFO - Module loaded.
+2021-03-08 14:51:41,457 - elsapy.elsclient - INFO - Module loaded.
+2021-03-08 14:51:41,833 - elsapy.elsentity - INFO - Module loaded.
+2021-03-08 14:51:41,833 - elsapy.utils - INFO - Module loaded.
+2021-03-08 14:51:41,836 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-08 14:51:41,852 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-08 14:51:41,853 - elsapy.elssearch - INFO - Module loaded.
+2021-03-08 21:25:55,152 - elsapy.elsclient - INFO - Module loaded.
+2021-03-08 21:25:56,083 - elsapy.elsentity - INFO - Module loaded.
+2021-03-08 21:25:56,085 - elsapy.utils - INFO - Module loaded.
+2021-03-08 21:25:56,086 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-08 21:25:56,087 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-08 21:25:56,106 - elsapy.elssearch - INFO - Module loaded.
+2021-03-08 22:05:24,978 - elsapy.elsclient - INFO - Module loaded.
+2021-03-08 22:05:25,738 - elsapy.elsentity - INFO - Module loaded.
+2021-03-08 22:05:25,740 - elsapy.utils - INFO - Module loaded.
+2021-03-08 22:05:25,741 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-08 22:05:25,767 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-08 22:05:25,769 - elsapy.elssearch - INFO - Module loaded.
+=======
 2021-03-08 21:03:00,569 - elsapy.elsclient - INFO - Module loaded.
 2021-03-08 21:03:00,929 - elsapy.elsentity - INFO - Module loaded.
 2021-03-08 21:03:00,929 - elsapy.utils - INFO - Module loaded.
@@ -172,3 +198,4 @@
 2021-03-08 23:49:04,635 - elsapy.elsprofile - INFO - Module loaded.
 2021-03-08 23:49:04,636 - elsapy.elsdoc - INFO - Module loaded.
 2021-03-08 23:49:04,637 - elsapy.elssearch - INFO - Module loaded.
+>>>>>>> ecd0f8df1ac896c2bbd7c393bb62660a9a1c8ebd

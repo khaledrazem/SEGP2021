@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+2021-03-09 20:52:58,136 - elsapy.elsclient - INFO - Module loaded.
+2021-03-09 20:53:00,721 - elsapy.elsentity - INFO - Module loaded.
+2021-03-09 20:53:00,722 - elsapy.utils - INFO - Module loaded.
+2021-03-09 20:53:00,722 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-09 20:53:00,741 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-09 20:53:00,742 - elsapy.elssearch - INFO - Module loaded.
+=======
 2021-03-09 00:44:11,139 - elsapy.elsclient - INFO - Module loaded.
 2021-03-09 00:44:13,326 - elsapy.elsentity - INFO - Module loaded.
 2021-03-09 00:44:13,326 - elsapy.utils - INFO - Module loaded.
@@ -2014,3 +2022,4 @@
 2021-03-09 21:58:35,717 - elsapy.elsprofile - INFO - Module loaded.
 2021-03-09 21:58:35,717 - elsapy.elsdoc - INFO - Module loaded.
 2021-03-09 21:58:35,718 - elsapy.elssearch - INFO - Module loaded.
+>>>>>>> ecd0f8df1ac896c2bbd7c393bb62660a9a1c8ebd

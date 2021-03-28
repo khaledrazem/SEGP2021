@@ -19,7 +19,6 @@ def disc(arr):
         if i['discription'] is not None:
             temp = " " + i['discription']
             discription += temp
-    #print(discription)
     
     top_word = related_word(discription)
     
@@ -33,7 +32,6 @@ def related_word(txt):
     stop_words = set(stopwords.words("english"))
     dataset={}
     dataset['data'] = txt
-    
     # Pre-process dataset to get a cleaned and normalised text corpus
     corpus = []
     dataset['word_count'] = len(str(dataset['data']).split(" "))
@@ -47,14 +45,12 @@ def related_word(txt):
     text = re.sub("(\\d|\\W)+", " ", text)
     # Convert to list from string
     text = text.split()
-    # Stemming
     ps = PorterStemmer()
     # Lemmatisation
     lem = WordNetLemmatizer()
     text = [lem.lemmatize(word) for word in text if not word in stop_words]
     text = " ".join(text)
     corpus.append(text)
-    
     top_words = get_top_n_words(corpus, n=5)
     top2_words = get_top_n2_words(corpus, n=5)
     top3_words = get_top_n3_words(corpus, n=5)

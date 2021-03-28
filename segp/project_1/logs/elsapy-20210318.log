@@ -1,3 +1,23 @@
+<<<<<<< HEAD
+2021-03-18 14:23:47,953 - elsapy.elsclient - INFO - Module loaded.
+2021-03-18 14:23:50,519 - elsapy.elsentity - INFO - Module loaded.
+2021-03-18 14:23:50,521 - elsapy.utils - INFO - Module loaded.
+2021-03-18 14:23:50,522 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-18 14:23:50,543 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-18 14:23:50,545 - elsapy.elssearch - INFO - Module loaded.
+2021-03-18 14:25:36,779 - elsapy.elsclient - INFO - Module loaded.
+2021-03-18 14:25:37,528 - elsapy.elsentity - INFO - Module loaded.
+2021-03-18 14:25:37,529 - elsapy.utils - INFO - Module loaded.
+2021-03-18 14:25:37,530 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-18 14:25:37,552 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-18 14:25:37,554 - elsapy.elssearch - INFO - Module loaded.
+2021-03-18 14:30:13,188 - elsapy.elsclient - INFO - Module loaded.
+2021-03-18 14:30:13,650 - elsapy.elsentity - INFO - Module loaded.
+2021-03-18 14:30:13,651 - elsapy.utils - INFO - Module loaded.
+2021-03-18 14:30:13,651 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-18 14:30:13,652 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-18 14:30:13,653 - elsapy.elssearch - INFO - Module loaded.
+=======
 2021-03-18 09:17:19,980 - elsapy.elsclient - INFO - Module loaded.
 2021-03-18 09:17:20,333 - elsapy.elsentity - INFO - Module loaded.
 2021-03-18 09:17:20,334 - elsapy.utils - INFO - Module loaded.
@@ -5768,3 +5788,4 @@
 2021-03-18 14:11:59,079 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.7861%2Ffuturehosp.6-2-94%29
 2021-03-18 14:12:00,697 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=DOI%2810.1145%2F505282.505283%29
 2021-03-18 14:12:02,119 - elsapy.utils - INFO - Converting prism:coverDate
+>>>>>>> d8d3807904bff8b82dd84c14552395d0be5f3038

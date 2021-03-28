@@ -8,6 +8,8 @@ def isinCombDB(query_1,query_2):
     subcategory_2 = selectSubcat(query_2)
     if (subcategory_combination.objects.filter(subcategory_1=subcategory_1, subcategory_2=subcategory_2).exists()):
         return True
+    elif (subcategory_combination.objects.filter(subcategory_1=subcategory_2, subcategory_2=subcategory_1).exists()):
+        return True
     else:
         return False
 
@@ -16,7 +18,10 @@ def isCombUpdated(query_1,query_2):
     last = datetime.strptime(getCurrentTime(), "%Y-%m-%d")
     subcategory_1 = selectSubcat(query_1)
     subcategory_2 = selectSubcat(query_2)
-    comb = subcategory_combination.objects.get(subcategory_1=subcategory_1, subcategory_2=subcategory_2)
+    try:
+        comb = subcategory_combination.objects.get(subcategory_1=subcategory_1, subcategory_2=subcategory_2)
+    except:
+        comb = subcategory_combination.objects.get(subcategory_1=subcategory_2, subcategory_2=subcategory_1)
     day_diff = (last.date() - comb.last_update).days
     if (day_diff <= 14):
         return True
@@ -35,7 +40,10 @@ def insertComb(query_1,query_2, readercount, authorscore,growth,pie_score,quickS
 def updateComb(query_1,query_2, readercount, authorscore,growth,pie_score,quickScore):
     subcategory_1 = selectSubcat(query_1)
     subcategory_2 = selectSubcat(query_2)
-    comb = subcategory_combination.objects.get(subcategory_1=subcategory_1, subcategory_2=subcategory_2)
+    try:
+        comb = subcategory_combination.objects.get(subcategory_1=subcategory_1, subcategory_2=subcategory_2)
+    except:
+        comb = subcategory_combination.objects.get(subcategory_1=subcategory_2, subcategory_2=subcategory_1)
     comb.combination_score = readercount
     comb.combination_authorscore = authorscore
     comb.combination_growth = growth
@@ -49,7 +57,10 @@ def updateComb(query_1,query_2, readercount, authorscore,growth,pie_score,quickS
 def selectComb(query_1,query_2):
     subcategory_1 = selectSubcat(query_1)
     subcategory_2 = selectSubcat(query_2)
-    result = subcategory_combination.objects.get(subcategory_1=subcategory_1, subcategory_2=subcategory_2)
+    try:
+        result = subcategory_combination.objects.get(subcategory_1=subcategory_1, subcategory_2=subcategory_2)
+    except:
+        result = subcategory_combination.objects.get(subcategory_1=subcategory_2, subcategory_2=subcategory_1)
     return result
 
 def getCurrentTime():

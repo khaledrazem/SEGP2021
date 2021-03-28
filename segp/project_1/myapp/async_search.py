@@ -42,6 +42,8 @@ async def searchScorpus(doi,reader_count,year):
     
     zip_list = zip(cited,reader_count,year)
     for cite,rc,yr in zip_list:
+        if rc is None:
+            rc = 1
         point = (cite/rc)/yr
         score['pie'] += round(point,5)
         

@@ -1,5 +1,4 @@
 from .mendeleyScores import *
-from .author import *
 from pytrends.request import TrendReq
 from subcategory.db_subcategory_query import *
 from combinations.db_subcategory_combination import *
@@ -125,7 +124,7 @@ def topCombination(subset,quick,code):
     largest = sorted(range(len(score)), key=lambda sub: score[sub])[-N:]
 
     print()
-    print("top", N, "combinations")
+    print("Top combinations")
     # store top N combinations data into dictionary
     z=0
     while z < len(largest):
@@ -177,7 +176,7 @@ def filterResult(q1,q2,minval,maxval,code,quick):
     for x in subset:
         # check status of data
         status = checkCombStatus(x,quick)
-
+        
         if status < 2:
             # search data
             searchData(x,session,status,quick)
@@ -202,7 +201,7 @@ def filterResult(q1,q2,minval,maxval,code,quick):
     largest = sorted(range(len(score)), key=lambda sub: score[sub])[-N:]
 
     print()
-    print("top", N, "combinations")
+    print("All combinations")
     # store top N combinations into array
     z=0
     while z < len(largest):
@@ -270,7 +269,7 @@ def data_norm(arr):
     score = []
     
     for x in arr:
-        point = (float(x) - min_val)/(max_val - min_val)*100
+        point = (float(x) - min_val)/((max_val - min_val)+1)*100
         if point > 100:
             point = 100
         score.append(round(point,2))
@@ -296,7 +295,7 @@ def getCode(readercount_query,growth_query,authorscore_query,pie_query):
     return code
 
 def searchData(x,session,status,quick):
-    reader = count = avgreader = pie_score = this = a = 0
+    reader = count = avgreader = pie_score = this = a = growth = page_reader_count = 0
     popular_article_list = []
     all_paper = []
     fromYear = 100
@@ -326,8 +325,10 @@ def searchData(x,session,status,quick):
                 all_paper.append(new_paper)
             except:
                 continue
-                
-            reader += page.reader_count
+
+            if page.reader_count is not None:
+                page_reader_count = page.reader_count
+            reader += page_reader_count
             count += 1
 
             # get popular paper info
@@ -377,17 +378,21 @@ def chooseDisplayData(code,readerCount,Growth,authorScore,pieScore):
     displayData = []
     score = []
     
-    # what happens if code = "0000"
-    
-    for i in code:
-        if i == '1':
-            displayData.append(temp[j])
-        j+=1
-    
-    for x in range(len(readerCount)):
-        tempscore = 0
-        for y in displayData:
-            tempscore += float(y[x])
-        score.append(round((tempscore/len(displayData))))
+    if '1' not in code:
+        zip_list = zip(readerCount,Growth,authorScore,pieScore)
+        
+        for a,b,c,d in zip_list:
+            score.append(round(((a+b+c+d)/4),2))
+    else:
+        for i in code:
+            if i == '1':
+                displayData.append(temp[j])
+            j+=1
+        
+        for x in range(len(readerCount)):
+            tempscore = 0
+            for y in displayData:
+                tempscore += float(y[x])
+            score.append(round((tempscore/len(displayData)),2))
     
     return score

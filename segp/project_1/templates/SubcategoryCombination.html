@@ -26,57 +26,38 @@
                 </li>
             </ul>
         </div>
-        		
+
         <!-- main page -->
         <div class="main">
 			<!--website title-->
             <p>
                 <a class="title">{{keyword.subcategory_1.name}} &amp; {{keyword.subcategory_2.name}}</a>
             </p>
-			
+
 			<p>
 				Return to <a href="javascript:history.back()">Results 1</a>
 			</p>
-			
+
 			<br>
 
-			<!-- Like feature coding -->
-			<!-- List of liked words/phrases coding -->
-			<ul class="likelist">
-				<li><div class="like">Liked Lists e.g.</div></li>
-				<li>Deep Learning</li>
-				<li>BlockChain</li>
-				<li>Data Mining</li>
-				<li>Artifial Intelligence</li>
-				<li>Centralized</li>
-				<li>Decentralized</li>
-				<li>Internet security</li>
-				<li>Privacy</li>
-				<li>Solar Energy</li>
-				<li>Renewable Energy</li>
-			</ul>
-			
 			<table div class="tablepropertyV">
 				<tr>
 					<th div class="r2th">Combination Score</th>
 					<td>{{keyword.combination_score}}</td>
 				</tr>
 			</table>
-			
 			<div class="file_container">
 				<ul class="main-menu">
 					<li><button onclick="show(1)">Statistical Trend</button></li>
 					<li><button onclick="show(2)">Related Keyword</button></li>
 					<li><button onclick="show(3)">Related Paper</button></li>
 				</ul>
-				
 				<div class="content">
 					<div class="sub_content" id="1">
 						<div class="graph">
 							{% autoescape off %}
 							{{ graph.graph1 }}
 							{% endautoescape %}
-							
 							{% autoescape off %}
 							{{ graph.graph2 }}
 							{% endautoescape %}
@@ -108,7 +89,7 @@
 						
 					<div class="sub_content" id="3" style="display:none">
 						<p class="title2">Research Papers</p>
-		
+
 						<table div class="tableproperty">
 							<tr div class="tabletopic">
 								<th>Title</th>
@@ -139,6 +120,11 @@
 				</div>
 			</div>
         </div>
+
+
+    </div>
+
+
     </body>
 	
 	<footer>
@@ -156,6 +142,5 @@
 		}
 		var content_chose = document.getElementById(x);
 		content_chose.style.display = "block";
-
 	}
 </script>

@@ -41,8 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'myapp',
     'paper',
-    'paper_author',
-    'search_keyword',
     'subcategory',
     'combinations'
 ]

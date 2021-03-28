@@ -1,0 +1,138 @@
+2021-03-11 11:09:01,699 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 11:09:02,997 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 11:09:03,001 - elsapy.utils - INFO - Module loaded.
+2021-03-11 11:09:03,001 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 11:09:03,003 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 11:09:03,004 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 11:09:03,006 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Transportation+%2B+Architecture
+2021-03-11 11:09:05,189 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-11 11:09:06,181 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S235214652100329X
+2021-03-11 11:09:08,228 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S235214652100329X
+2021-03-11 11:09:09,228 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S209526352030042X
+2021-03-11 11:09:12,411 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S209526352030042X
+2021-03-11 11:09:13,410 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1389041719304772
+2021-03-11 11:09:15,962 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1389041719304772
+2021-03-11 11:09:16,961 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1389128618312969
+2021-03-11 11:09:18,769 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1389128618312969
+2021-03-11 11:09:19,769 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2210650218300853
+2021-03-11 11:09:22,992 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2210650218300853
+2021-03-11 11:09:23,986 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0957417418305657
+2021-03-11 11:09:26,525 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0957417418305657
+2021-03-11 11:09:27,525 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2095756420301409
+2021-03-11 11:09:29,976 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2095756420301409
+2021-03-11 11:09:30,975 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/B9780128142950000022
+2021-03-11 11:09:32,879 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/B9780128142950000022
+2021-03-11 11:09:33,880 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2352146521003264
+2021-03-11 11:09:35,200 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2352146521003264
+2021-03-11 11:09:36,201 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1877705817301042
+2021-03-11 11:09:38,174 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1877705817301042
+2021-03-11 11:09:39,175 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S187705091731133X
+2021-03-11 11:09:40,110 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S187705091731133X
+2021-03-11 11:09:41,110 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1877050917312796
+2021-03-11 11:09:43,228 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1877050917312796
+2021-03-11 11:09:44,227 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S037843711500566X
+2021-03-11 11:09:46,552 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S037843711500566X
+2021-03-11 11:09:47,551 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2210539521000031
+2021-03-11 11:09:50,334 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2210539521000031
+2021-03-11 11:09:51,335 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2452414X20300030
+2021-03-11 11:09:53,817 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2452414X20300030
+2021-03-11 11:09:54,818 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2352146520307791
+2021-03-11 11:09:56,815 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2352146520307791
+2021-03-11 11:09:57,816 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1877042812042188
+2021-03-11 11:10:00,025 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1877042812042188
+2021-03-11 11:10:01,025 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1474667015347480
+2021-03-11 11:10:03,226 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1474667015347480
+2021-03-11 11:10:04,227 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0149718909000561
+2021-03-11 11:10:05,690 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0149718909000561
+2021-03-11 11:10:06,689 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2095263520300406
+2021-03-11 11:10:08,358 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2095263520300406
+2021-03-11 11:10:09,357 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0094576520305567
+2021-03-11 11:10:11,187 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0094576520305567
+2021-03-11 11:10:12,187 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2352146521003203
+2021-03-11 11:10:13,516 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2352146521003203
+2021-03-11 11:10:14,516 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2352146521003306
+2021-03-11 11:10:15,476 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2352146521003306
+2021-03-11 11:10:16,476 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0968090X19305868
+2021-03-11 11:10:18,875 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0968090X19305868
+2021-03-11 11:10:19,873 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0360319915319868
+2021-03-11 11:10:21,370 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0360319915319868
+2021-03-11 11:14:17,606 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 11:14:17,902 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 11:14:17,903 - elsapy.utils - INFO - Module loaded.
+2021-03-11 11:14:17,903 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 11:14:17,903 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 11:14:17,904 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 11:14:18,607 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Transportation+%2B+Architecture
+2021-03-11 11:14:19,776 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-11 11:14:20,765 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S235214652100329X
+2021-03-11 11:14:22,024 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S235214652100329X
+2021-03-11 11:14:23,025 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S209526352030042X
+2021-03-11 11:27:02,918 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 11:27:03,255 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 11:27:03,256 - elsapy.utils - INFO - Module loaded.
+2021-03-11 11:27:03,256 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 11:27:03,257 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 11:27:03,258 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 11:27:03,920 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Transportation+%2B+Architecture
+2021-03-11 11:27:04,993 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-11 11:27:05,986 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S235214652100329X
+2021-03-11 11:27:07,293 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S235214652100329X
+2021-03-11 11:27:08,294 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S209526352030042X
+2021-03-11 11:29:01,880 - elsapy.elsclient - INFO - Module loaded.
+2021-03-11 11:29:02,222 - elsapy.elsentity - INFO - Module loaded.
+2021-03-11 11:29:02,224 - elsapy.utils - INFO - Module loaded.
+2021-03-11 11:29:02,224 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-11 11:29:02,225 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-11 11:29:02,226 - elsapy.elssearch - INFO - Module loaded.
+2021-03-11 11:29:02,881 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Transportation+%2B+Architecture
+2021-03-11 11:29:03,771 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-11 11:29:04,767 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S235214652100329X
+2021-03-11 11:29:06,762 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S235214652100329X
+2021-03-11 11:29:07,763 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S209526352030042X
+2021-03-11 11:29:09,479 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S209526352030042X
+2021-03-11 11:29:10,477 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1389041719304772
+2021-03-11 11:29:12,236 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1389041719304772
+2021-03-11 11:29:13,234 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1389128618312969
+2021-03-11 11:29:14,965 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1389128618312969
+2021-03-11 11:29:15,965 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2210650218300853
+2021-03-11 11:29:17,820 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2210650218300853
+2021-03-11 11:29:18,819 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0957417418305657
+2021-03-11 11:29:20,276 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0957417418305657
+2021-03-11 11:29:21,278 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2095756420301409
+2021-03-11 11:29:23,165 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2095756420301409
+2021-03-11 11:29:24,163 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/B9780128142950000022
+2021-03-11 11:29:26,056 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/B9780128142950000022
+2021-03-11 11:29:27,057 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2352146521003264
+2021-03-11 11:29:28,430 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2352146521003264
+2021-03-11 11:29:29,430 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1877705817301042
+2021-03-11 11:29:30,655 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1877705817301042
+2021-03-11 11:29:31,656 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S187705091731133X
+2021-03-11 11:29:32,876 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S187705091731133X
+2021-03-11 11:29:33,877 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1877050917312796
+2021-03-11 11:29:35,064 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1877050917312796
+2021-03-11 11:29:36,064 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S037843711500566X
+2021-03-11 11:29:38,281 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S037843711500566X
+2021-03-11 11:29:39,282 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2210539521000031
+2021-03-11 11:29:42,000 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2210539521000031
+2021-03-11 11:29:42,999 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2452414X20300030
+2021-03-11 11:29:45,684 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2452414X20300030
+2021-03-11 11:29:46,685 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2352146520307791
+2021-03-11 11:29:48,480 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2352146520307791
+2021-03-11 11:29:49,480 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1877042812042188
+2021-03-11 11:29:51,617 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1877042812042188
+2021-03-11 11:29:52,618 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1474667015347480
+2021-03-11 11:29:53,698 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S1474667015347480
+2021-03-11 11:29:54,699 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0149718909000561
+2021-03-11 11:29:56,001 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0149718909000561
+2021-03-11 11:29:57,002 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2095263520300406
+2021-03-11 11:30:00,409 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2095263520300406
+2021-03-11 11:30:01,408 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0094576520305567
+2021-03-11 11:30:04,257 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0094576520305567
+2021-03-11 11:30:05,256 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2352146521003203
+2021-03-11 11:30:08,180 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2352146521003203
+2021-03-11 11:30:09,180 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S2352146521003306
+2021-03-11 11:30:11,172 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S2352146521003306
+2021-03-11 11:30:12,172 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0968090X19305868
+2021-03-11 11:30:13,739 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0968090X19305868
+2021-03-11 11:30:14,737 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0360319915319868
+2021-03-11 11:30:16,146 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0360319915319868

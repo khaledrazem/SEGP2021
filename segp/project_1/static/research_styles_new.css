@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html{
+	scroll-behavior: smooth;
+}
+
+#scrolltop{
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	background: #FF6E15;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	border: none;
+	}
+
+#scrolltop:active {
+	background: #cc2333;
+}
+
+body{
+    font-family:raleway;
+	color:black;
+    padding: 0%;
+    margin: 0%;
+}
+
+.homepage_section{
+    height:100vh;
+
+}
+
+.logo_bg {
+    height:100%;
+    background: #0b345d;
+    background-image: linear-gradient(155deg, #002f62 0%, #18496a 50%, #138b89 100%);
+}
+
+.logo_svg_div{
+    width:70%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+#homepage_menu{
+    position:absolute;
+    top:2vh;
+    left: -1%;
+    font-family:raleway;
+    font-size:2vw;
+    color:white;
+    background-color:transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+    transition: left 0.5s ease-out;
+}
+
+#homepage_menu:hover #menu_icon{
+    opacity: 1;
+}
+
+#homepage_menu:hover{
+    left: 1%;
+}
+
+#homepage_menu:focus{
+    outline:none;
+}
+
+#menu_icon {
+    transition: opacity 0.5s ease-out;
+    opacity: 0;
+}
+
+.overlay {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:white;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 50%;
+  left:55%;
+  width: 40%;
+  text-align: right;
+  transform: translate(-50%, -50%);
+}
+
+.overlay a {
+  padding: 1.8vw;
+  text-decoration: none;
+  font-size: 2.5vw;
+  color: #024066;
+  display: block;
+  transition: 0.3s;
+  font-weight:300;
+
+}
+
+.overlay-content a:hover{
+    font-size: 4vw;
+    transform: translate(-60%, -50%);
+    transition: 0.3s;
+
+}
+
+.overlay-content a:nth-child(1){
+    transform: rotate(6deg);
+
+}
+
+.overlay-content a:nth-child(2){
+    transform: rotate(3deg);
+
+}
+
+.overlay-content a:nth-child(3){
+    transform: rotate(-3deg);
+
+}
+
+.overlay-content a:nth-child(4){
+    transform: rotate(-6deg);
+
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #007ea7;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  left: 45px;
+  font-size: 6vw;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+#menu_bg{
+  z-index:-1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width:100vw;
+  transform: translate(-50%, -50%);
+
+}
+
+#about_us_div{
+    width:90vw;
+    height:90vh;
+    padding:5vh 0;
+    margin: auto;
+    }
+
+#about_us_left{
+    width:50%;
+    height:90%;
+    background-color:#2196F3;
+    color:white;
+    margin: 3% auto;
+    border-radius: 1.5vw;
+}
+
+#about_us_right{
+    width:50%;
+    height:100%;
+	
+}
+
+#about_us_text{
+    width:80%;
+    height:70%;
+    margin: 15% auto;
+}
+
+#how_to_div{
+    width:90vw;
+    height:90vh;
+    padding:5vh 0;
+    margin: auto;
+    }
+
+#how_to_right{
+    width:50%;
+    height:90%;
+    background-color:#003459;
+    color:white;
+    margin: 3% auto;
+    border-radius: 1.5vw;
+}
+
+#how_to_left{
+    width:50%;
+    height:100%;
+}
+
+#how_to_text{
+    width:80%;
+    height:80%;
+    margin: 10% auto;
+}
+
+#search_div{
+    height:15vh;
+    width:80%;
+    margin:auto;
+    padding:1vh 1vw;
+    text-align: center;
+    font-size:max(1.8vw,20px);
+    display:flex;
+
+}
+
+#query_box{
+    margin:auto;
+    display:flex;
+    width:fit-content;
+    height:fit-content;
+    border-radius:10px;
+    border: 2px solid #0b345d;
+    padding:0.8%;
+
+}
+
+#query_input{
+    outline:none;
+    border:none;
+    color:#0b345d;
+    padding:0.5%;
+    width:40vw;
+    font-size:max(1.4vw,16px);
+    font-family:Open Sans;
+    font-weight:600;
+}
+
+#query_box:focus-within #query_input::placeholder {
+    color:white;
+}
+
+#query_box:focus-within #query_input,#add_button{
+    background-color:#0b345d;
+    color:white;
+}
+
+#query_box:focus-within #add_button{
+    color:white;
+}
+
+#add_button{
+    color:#0b345d;
+
+}
+
+#query_input::placeholder{
+    color:#0b345d;
+}
+
+#query_input:focus::placeholder{
+    color:white;
+}
+
+
+#query_box:focus-within {
+    padding:1.2%;
+    border:none;
+    background-color:#0b345d;
+    color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow 0.1s ease-out;
+    transition: padding 0.1s ease-out;
+    border-radius:10px;
+}
+
+#query_space{
+    width:90%;
+    height:50vh;
+    margin:auto;
+    padding:1vh 1vw;
+    font-size:max(1.8vw,20px);
+    flex-wrap: wrap;
+    text-align:center;
+}
+
+.query_delete_button{
+    border:none;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:max(1.8vw,20px);
+    margin: auto;
+    display:none;
+}
+
+.query_delete_button:focus{
+    outline:none
+}
+
+.keyword_block{
+    display:none;
+    padding:2vh 1vw;
+    text-transform: capitalize;
+    width:fit-content;
+    height:fit-content;
+}
+
+.keyword_block:hover{
+    font-size:max(1.9vw,22px);
+    border-radius:10px;
+    background-color:#0b345d;
+    color:white;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+    transition: font-size 0.1s ease-out;
+}
+
+.keyword_block:hover .query_delete_button{
+    color:white;
+    display:inline;
+}
+
+#submit_div{
+    height:15vh;
+    width:80%;
+    margin:auto;
+    padding:1vh 1vw;
+    text-align: center;
+    font-size:max(1.8vw,20px);
+    opacity:0;
+    transition: opacity 1s;
+
+}
+
+.submit_div_button{
+    padding:1.5vh 1.5vw;
+    border:none;
+    outline:none;
+    font-size : max(1.2vw,16px);
+    cursor: pointer;
+    font-family:raleway;
+    border-radius:5px;
+    background-color:transparent;
+    color:#0b345d;
+    border:2px solid #0b345d;
+}
+
+.submit_div_button:hover{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    background-color:#0b345d;
+    color:white;
+}
+
+#topics{
+    padding:0.7vw;
+    padding-right:5vw;
+    appearance:none;
+    font-family:"Open Sans";
+    font-size : max(1.2vw,16px);
+    border-radius:0.7vw;
+    outline:none;
+    border: 2px solid #0b345d;
+
+}
+
+.category_option{
+    padding:1vw;
+    padding-right:2vw;
+}
+
+#choose_algorithm_case_2{
+    opacity:0;
+    transition: opacity 1s;
+}
+
+#choose_algorithm_button_case_2{
+    opacity:0;
+    transition: opacity 1s;
+}
+
+#choose_algorithm_case_1{
+    opacity:0;
+    transition: opacity 1s;
+}
+
+#choose_algorithm_button_case_1{
+    opacity:0;
+    transition: opacity 1s;
+}
+
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: max(2vw,30px);
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+  background-color: #eee;
+  transition:all 0.5s;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+  transition:all 0.5s;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+@media screen and (max-width:1200px){
+
+     
+}
+
+
+/*minimize/tablet*/
+@media screen and (max-width:1030px){
+
+#how_to_right{
+    height: 65%;
+}
+
+#about_us_left{
+    height:65%;
+}
+
+}
+
+@media screen and (max-width:768px){
+
+#how_to_right{
+    height: 50%;
+}
+	
+#about_us_left{
+    height:40%;
+}
+}
+
+@media screen and (max-width:630px){
+
+#how_to_right{
+    height: 40%;
+}
+
+#about_us_left{
+    height:30%;
+}
+}
+
+@media screen and (max-width:500px){
+
+#how_to_right{
+    height: 30%;
+}
+
+#about_us_left{
+    height:25%;
+}
+}
