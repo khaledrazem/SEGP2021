@@ -1,0 +1,28 @@
+2021-03-29 11:17:23,735 - elsapy.elsclient - INFO - Module loaded.
+2021-03-29 11:17:23,739 - elsapy.elsentity - INFO - Module loaded.
+2021-03-29 11:17:23,741 - elsapy.utils - INFO - Module loaded.
+2021-03-29 11:17:23,742 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-29 11:17:23,744 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-29 11:17:23,746 - elsapy.elssearch - INFO - Module loaded.
+2021-03-29 11:18:58,920 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=data
+2021-03-29 11:19:00,925 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-29 11:20:25,014 - elsapy.elsclient - INFO - Module loaded.
+2021-03-29 11:20:25,018 - elsapy.elsentity - INFO - Module loaded.
+2021-03-29 11:20:25,020 - elsapy.utils - INFO - Module loaded.
+2021-03-29 11:20:25,021 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-29 11:20:25,022 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-29 11:20:25,024 - elsapy.elssearch - INFO - Module loaded.
+2021-03-29 11:20:50,325 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=run+%2B+test
+2021-03-29 11:20:51,622 - elsapy.utils - INFO - Converting prism:coverDate
+2021-03-29 11:21:34,458 - elsapy.elsclient - INFO - Module loaded.
+2021-03-29 11:21:34,459 - elsapy.elsentity - INFO - Module loaded.
+2021-03-29 11:21:34,459 - elsapy.utils - INFO - Module loaded.
+2021-03-29 11:21:34,459 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-29 11:21:34,459 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-29 11:21:34,459 - elsapy.elssearch - INFO - Module loaded.
+2021-03-29 11:21:48,233 - elsapy.elsclient - INFO - Module loaded.
+2021-03-29 11:21:48,234 - elsapy.elsentity - INFO - Module loaded.
+2021-03-29 11:21:48,234 - elsapy.utils - INFO - Module loaded.
+2021-03-29 11:21:48,234 - elsapy.elsprofile - INFO - Module loaded.
+2021-03-29 11:21:48,234 - elsapy.elsdoc - INFO - Module loaded.
+2021-03-29 11:21:48,234 - elsapy.elssearch - INFO - Module loaded.

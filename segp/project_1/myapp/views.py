@@ -22,7 +22,6 @@ def results2(request):
     # search function
     if request.method == 'GET':
         query = str(request.GET['case_2_form_query'])
-        print(query)
         growth_query = 'case_2_form_quick_trend_growth' in request.GET
         #authorscore_query = 'authorscore' in request.GET
         authorscore_query = 0
@@ -71,7 +70,6 @@ def results1(request):
 
         for i in request_keys:
             if "query" in i:
-                print(request.GET[i])
                 keyword.append(request.GET[i].replace('\t',''))
         code = getCode(readercount_query, growth_query, authorscore_query, pie_query)
         query_result = getTrend(keyword, quick_search, code)
