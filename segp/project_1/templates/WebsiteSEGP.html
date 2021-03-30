@@ -144,12 +144,14 @@
 						<div style="width:fit-content;height:fit-content;margin:auto;" id="choose_algorithm_case_1">
 							<p style="text-align:center;font-size:max(2vw,20px);">2. Choose the evaluating algorithm</p>
 							<div style="display:flex;font-size:max(1.2vw,15px);border:2px solid #0b345d;border-radius:10px;padding:max(1vw,20px);">
-							<input type="checkbox" id="case_1_display_average_reader_count" name="evaluating_algorithm" value="average_reader_count">
-							<label for="case_1_display_average_reader_count">Average Reader Count&emsp;</label>
-							<input type="checkbox" id="case_1_display_paper_impact_effectiveness" name="evaluating_algorithm" value="paper_impact_effectiveness">
-							<label for="case_1_display_paper_impact_effectiveness">Paper Impact Effectiveness&emsp;</label>
-							<input type="checkbox" id="case_1_display_trend_growth" name="evaluating_algorithm" value="trend_growth">
-							<label for="case_1_display_trend_growth">Trend Growth&emsp;</label>
+								<input type="checkbox" id="case_1_display_average_reader_count" name="evaluating_algorithm" value="average_reader_count">
+								<label for="case_1_display_average_reader_count">Average Reader Count&emsp;</label>
+								<input type="checkbox" id="case_1_display_paper_impact_effectiveness" name="evaluating_algorithm" value="paper_impact_effectiveness">
+								<label for="case_1_display_paper_impact_effectiveness">Paper Impact Effectiveness&emsp;</label>
+								<input type="checkbox" id="case_1_display_trend_growth" name="evaluating_algorithm" value="trend_growth">
+								<label for="case_1_display_trend_growth">Trend Growth&emsp;</label>
+								<input type="checkbox" id="case_1_display_author" name="evaluating_algorithm" value="author">
+								<label for="case_1_display_author">Author Score&emsp;</label>
 							</div>
 						</div>
 						</br>
@@ -164,6 +166,7 @@
 					<input type="checkbox" checked="checked" id="case_1_form_average_reader_count" name="case_1_form_average_reader_count">
 					<input type="checkbox" checked="checked" id="case_1_form_paper_impact_effectiveness" name="case_1_form_average_reader_count">
 					<input type="checkbox" checked="checked" id="case_1_form_quick_trend_growth" name="case_1_form_average_reader_count">
+					<input type="checkbox" checked="checked" id="case_1_form_author" name="case_1_form_average_reader_count">
 				</form>
 			</div>
 			<a name="case2"></a>
@@ -174,7 +177,7 @@
 						<br>
 						<br>
 						<div style="display:flex;">
-							<label  id="select_div">
+							<label id="select_div">
 								<select name="topics" id="topics" class="choose">
 									<option class="category_option" value="" disabled selected hidden>Categories</option>
 									<option class="category_option" value="bus">Business, Economic & Management</option>
@@ -189,7 +192,7 @@
 							</label>
 							<div style="margin:auto;font-size:max(1.2vw,16px);padding-left:max(2vw,20px);">
 									<label class="container">Quick Search
-									  <input type="checkbox" checked="checked" style="padding:1%">
+									  <input type="checkbox" checked="checked" style="padding:1%" id="case_2_display_quick_search">
 									  <span class="checkmark"></span>
 									</label>
 							</div>
@@ -199,12 +202,14 @@
 					<div style="width:fit-content;height:fit-content;margin:auto;" id="choose_algorithm_case_2">
 						<p style="text-align:center;font-size:max(2vw,20px);">2. Choose the evaluating algorithm</p>
 						<div style="display:flex;font-size:max(1.2vw,15px);border:2px solid #0b345d;border-radius:10px;padding:max(1vw,20px);">
-						<input type="checkbox" id="Average Reader Count_case_2" name="evaluating_algorithm" value="average_reader_count">
-					    <label for="Average Reader Count_case_2">Average Reader Count&emsp;</label>
-					    <input type="checkbox" id="Paper Impact Effectiveness_case_2" name="evaluating_algorithm" value="paper_impact_effectiveness">
-					    <label for="Paper Impact Effectiveness_case_2">Paper Impact Effectiveness&emsp;</label>
-					    <input type="checkbox" id="Trend Growth_case_2" name="evaluating_algorithm" value="trend_growth">
-					    <label for="Trend Growth_case_2">Trend Growth&emsp;</label>
+							<input type="checkbox" id="case_2_display_average_reader_count" name="evaluating_algorithm" value="average_reader_count">
+							<label for="case_2_display_average_reader_count">Average Reader Count&emsp;</label>
+							<input type="checkbox" id="case_2_display_paper_impact_effectiveness" name="evaluating_algorithm" value="paper_impact_effectiveness">
+							<label for="case_2_display_paper_impact_effectiveness">Paper Impact Effectiveness&emsp;</label>
+							<input type="checkbox" id="case_2_display_trend_growth" name="evaluating_algorithm" value="trend_growth">
+							<label for="case_2_display_trend_growth">Trend Growth&emsp;</label>
+							<input type="checkbox" id="case_2_display_author" name="evaluating_algorithm" value="author">
+								<label for="case_2_display_author">Author Score&emsp;</label>
 						</div>
 					</div>
 					<div style="width:fit-content;height:fit-content;margin:auto;">
@@ -217,8 +222,13 @@
 					<!--submit button-->
 
 				</div>
-				<form id="case_2_form" style="display:none" method="GET" action="../Results1/">{% csrf_token %}
-					<input type="checkbox" checked="checked" id="case_2_form_quick_search">
+				<form id="case_2_form" style="display:none" method="GET" action="../Results2/">{% csrf_token %}
+					<input type="hidden" id="case_2_form_query" name="case_2_form_query">
+					<input type="checkbox" checked="checked" id="case_2_form_quick_search" name="case_2_form_quick_search">
+					<input type="checkbox" checked="checked" id="case_2_form_average_reader_count" name="case_2_form_average_reader_count">
+					<input type="checkbox" checked="checked" id="case_2_form_paper_impact_effectiveness" name="case_2_form_average_reader_count">
+					<input type="checkbox" checked="checked" id="case_2_form_quick_trend_growth" name="case_2_form_average_reader_count">
+					<input type="checkbox" checked="checked" id="case_2_form_author" name="case_2_form_average_reader_count">
 				</form>
 			</div>
 			<div class="homepage_section" style="background: #003459;">
@@ -978,7 +988,7 @@
 
 			function duplicate_keyword_block(){
 				  var query = document.getElementById("query_input");
-				  if (query.value == ""){
+				  if ((query.value == "")||(!query.value.trim().length)){
 					alert("A faulty input is detected");
 				  }
 				  else{
@@ -1020,6 +1030,7 @@
 				pass_checkbox_to_form('case_1_display_average_reader_count','case_1_form_average_reader_count')
 				pass_checkbox_to_form('case_1_display_paper_impact_effectiveness','case_1_form_paper_impact_effectiveness')
 				pass_checkbox_to_form('case_1_display_trend_growth','case_1_form_quick_trend_growth')
+				pass_checkbox_to_form('case_1_display_author','case_1_form_author')
 				form_1.submit();
 
 			}
@@ -1031,20 +1042,18 @@
 			}
 
 			function pass_query_to_form_2(){
-			   var query_in_the_space = document.getElementsByClassName("keyword_block");
-			   var form_1 = document.getElementById('case_1_form');
-			   total_query = query_in_the_space.length
-				for (i = total_query-1; i > 0 ; i--){
-					var x = document.createElement("INPUT");
-					x.setAttribute("type", "text");
-				    x.setAttribute("value", query_in_the_space[i].textContent);
-				    form_1.appendChild(x);
-				}
-				var checkbox_form = document.getElementById('case_1_form_quick_search');
-				var checkbox_display = document.getElementById('case_1_display_quick_search');
-				checkbox_form.checked = checkbox_display.checked;
-				form_1.submit();
-
+				var form_2 = document.getElementById('case_2_form');
+				var topic = document.getElementById('topics').value;
+				
+				document.getElementById('case_2_form_query').value = topic
+				
+				//pass_checkbox_to_form('case_2_display_quick_search','case_2_form_quick_search')
+				pass_checkbox_to_form('case_2_display_average_reader_count','case_2_form_average_reader_count')
+				pass_checkbox_to_form('case_2_display_paper_impact_effectiveness','case_2_form_paper_impact_effectiveness')
+				pass_checkbox_to_form('case_2_display_trend_growth','case_2_form_quick_trend_growth')
+				pass_checkbox_to_form('case_2_display_author','case_2_form_author')
+				
+				form_2.submit();
 			}
 
 			function check_query_space(){

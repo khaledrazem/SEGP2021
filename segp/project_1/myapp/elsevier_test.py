@@ -5,6 +5,11 @@ from elsapy.elsdoc import FullDoc, AbsDoc
 from elsapy.elssearch import ElsSearch
 import json
 
+import requests, time
+from urllib.parse import quote_plus as url_encode
+import aiohttp
+import asyncio
+
 def elsevier_auth():
     ## Initialize client
     client = ElsClient("1ebaeb2ea719e96071ce074a5c341963")
@@ -16,64 +21,79 @@ def elsevier_des(keyword):
     myDocSrch = ElsSearch(keyword,'sciencedirect')
     myDocSrch.execute(client,get_all = False)
 
-    pii = []
-    
-    count=0
+    doi = []
     
     for i in myDocSrch.results:
-        if count < 5:
-            try:
-                pii.append(i['pii'])
-            except:
-                pii.append("-")
-            count += 1
+        try:
+            doi.append(i['prism:doi'])
+        except:
+            pass
+            
+    loop = asyncio.new_event_loop()
+    result = loop.run_until_complete(searchPaper(doi))
+    loop.close()
 
+    return result
+
+async def searchPaper(doi):
+    tasks = []
+    for i in doi:
+        task = asyncio.ensure_future(getResult(i))
+        tasks.append(task)
+
+    paper_result = await asyncio.gather(*tasks)
     paper = []
     
-    for j in pii:
-        if j != "-":
-            pii_doc = FullDoc(sd_pii=j)
-            if pii_doc.read(client):
-            
-                result = {
-                    'name': [],
-                    'reader_count': [],
-                    'link': [],
-                    'year_published': [],
-                    'discription': [],
-                }
-                
-                result['name'] = pii_doc.data['coredata']['dc:title']
-                result['reader_count'] = 0
-                result['link'] = "https://www.sciencedirect.com/science/article/pii/"+j
-                year = pii_doc.data['coredata']['prism:coverDate']
-                result['year_published'] = year[:4]
-                result['discription'] = pii_doc.data['coredata']['dc:description']
-                
-                paper.append(result)
-            print("reading data...")
-
-    paper = {
-        'paper': paper,
+    data = {
+        'name': [],
+        'reader_count': [],
+        'link': [],
+        'year_published': [],
+        'discription': [],
     }
     
-    return paper
+    for j in paper_result:
+        if j['name'] != []:
+            paper.append(j)
 
-def pie(doi,rc,year):
-    client = elsevier_auth()
-    myDoc = ElsSearch("DOI("+doi+")", "scopus")
-    myDoc.execute(client,get_all = False)
+    all_paper = {
+        'paper': paper,
+    }
+    return all_paper
     
-    if len(myDoc.results[0]) > 2:
-        year_diff = current_year()-year
-        temp = int(myDoc.results[0]['citedby-count'])/rc
-        if year_diff > 0:
-            point = round(temp/year,5)
-            print("%35s\t%5d\t%5s\t%3.5f" % (doi,rc,myDoc.results[0]['citedby-count'],point))
-        else:
-            point = round(temp,5)
-            print("%35s\t%5d\t    0\t%3.5f" % (doi,rc,point))
-    else:
-        point = 0
-        
-    return point
+async def getResult(doi):
+    api_key = "1ebaeb2ea719e96071ce074a5c341963"
+    inst_token = "6383ea4db27ea6b7353107935f098932"
+    based_url = u'https://api.elsevier.com/content/search/'
+    index = 'scopus'
+
+    headers = {
+        "X-ELS-APIKey"  : api_key,
+        "X-ELS-Insttoken" : inst_token,
+        "Accept"        : 'application/json'
+    }
+
+    DOI_URL = 'DOI('+doi+')'
+    url = based_url + index + '?query=' + url_encode(DOI_URL) + '&view=COMPLETE'
+
+    results = {
+        'name': [],
+        'reader_count': [],
+        'link': [],
+        'year_published': [],
+        'discription': [],
+    }
+
+    async with aiohttp.ClientSession() as session:
+        async with session.get(url, headers=headers) as resp:
+            result_data = await resp.json()
+            try:
+                results['name'] = result_data['search-results']['entry'][0]['dc:title']
+                results['reader_count'] = result_data['search-results']['entry'][0]['citedby-count']
+                results['link'] = "https://www.sciencedirect.com/science/article/pii/"+result_data['search-results']['entry'][0]['pii']
+                results['year_published'] = result_data['search-results']['entry'][0]['prism:coverDate'][:4]
+                results['discription'] = result_data['search-results']['entry'][0]['dc:description']
+            except:
+                pass
+    return results
+

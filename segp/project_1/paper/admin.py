@@ -3,5 +3,4 @@ from .models import *
 
 # Register your models here.
 admin.site.register(Paper)
-admin.site.register(paper_keyword_relationship)
 admin.site.register(paper_subcategory_relationship)

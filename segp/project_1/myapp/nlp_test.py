@@ -19,7 +19,6 @@ def disc(arr):
         if i['discription'] is not None:
             temp = " " + i['discription']
             discription += temp
-    #print(discription)
     
     top_word = related_word(discription)
     

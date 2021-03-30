@@ -21,13 +21,8 @@ from . import views
 urlpatterns = [
     #path('admin/', admin.site.urls),
     path('',views.home, name="home"),
-    path('About/',views.about, name="about"),
-    path('Topics/',views.topic, name="topic"),
-    path('Case1/',views.case1, name="case1"),
-    path('Case2/',views.case2, name="case2"),
     path('Results1/',views.results1, name="r1"),
     path('Results2/',views.results2, name="r2"),
-    path('Testing/',views.testing, name="test"),
     path('SingleCategoryResult/',views.single_category, name="single_category"),
     path('SingleKeywordResult/',views.single_keyword_result, name="single_keyword"),
     path('KeywordCombination/',views.keyword_combination_result, name="keyword_combination"),

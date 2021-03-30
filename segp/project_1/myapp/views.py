@@ -3,10 +3,8 @@ from .mendeleyScores import *
 from .mendeleyScript import *
 from .categoryScore import getTrend, filterResult, searchData, getCode
 from .categoryscraper import categoryscraper
-from search_keyword import db_keyword_query
-from combinations import db_keyword_combination,db_subcategory_combination
-from paper import db_paper_keyword,db_paper_subcategory
-from paper.models import paper_keyword_relationship
+from combinations import db_subcategory_combination
+from paper import db_paper_subcategory
 from .drawGraph import *
 from .nlp_test import *
 from .elsevier_test import elsevier_des
@@ -18,29 +16,18 @@ from .elsevier_test import elsevier_des
 def home(request):
     return render(request, 'WebsiteSEGP.html')
 
-def about(request):
-    return render(request, 'About.html')
-
-def topic(request):
-    return render(request, 'Topics.html')
-
-def case1(request):
-    return render(request, 'Case1.html')
-
-def case2(request):
-    return render(request, 'Case2.html')
-
-def testing(request):
+def results2(request):
     categories = []
     
     # search function
     if request.method == 'GET':
-        query = str(request.GET['topics'])
-        growth_query = 'growth' in request.GET
-        authorscore_query = 'authorscore' in request.GET
-        readercount_query = 'readercount' in request.GET
-        pie_query = 'eip' in request.GET
-        quick = 'quicksearch' in request.GET
+        query = str(request.GET['case_2_form_query'])
+        growth_query = 'case_2_form_quick_trend_growth' in request.GET
+        #authorscore_query = 'authorscore' in request.GET
+        authorscore_query = 0
+        readercount_query = 'case_2_form_average_reader_count' in request.GET
+        pie_query = 'case_2_form_paper_impact_effectiveness' in request.GET
+        quick = 'case_2_form_quick_search' in request.GET
         categories = categoryscraper(query)
         code = getCode(readercount_query,growth_query,authorscore_query,pie_query)
         subcategory = getTrend(categories, quick, code)
@@ -68,13 +55,12 @@ def testing(request):
         'subcategories': subcategory,
         'code': code,
     }
-    return render(request, 'Testing.html',context)
+    return render(request, 'Results_2.html',context)
 
 def results1(request):
     keyword = []
 
     if request.method == 'GET':
-        query = []
         request_keys = request.GET.keys()
         authorscore_query = 0
         quick_search = 'case_1_form_quick_search' in request.GET
@@ -82,13 +68,11 @@ def results1(request):
         readercount_query = 'case_1_form_average_reader_count' in request.GET
         pie_query = 'case_1_form_paper_impact_effectiveness' in request.GET
 
-
         for i in request_keys:
             if "query" in i:
-                print(request.GET[i])
-                query.append(request.GET[i].replace('\t',''))
+                keyword.append(request.GET[i].replace('\t',''))
         code = getCode(readercount_query, growth_query, authorscore_query, pie_query)
-        query_result = getTrend(query, quick_search, code)
+        query_result = getTrend(keyword, quick_search, code)
 
     # filter function
     if request.method == 'POST':
@@ -113,13 +97,8 @@ def results1(request):
         'scores_result': query_result,
         'code': code,
     }
-    return render(request, 'result_1_ver2.html',context)
+    return render(request, 'Results_1.html',context)
 
-def results2(request):
-    if request.method == 'GET':
-        query_1 = str(request.GET['category_1'])
-        query_2 = str(request.GET['category_2'])
-    return render(request, 'Results2.html')
 
 def single_category(request):
     if request.method == 'GET':
