@@ -14,7 +14,6 @@ def getTrend(subcat,quick,code):
     start = time.time()
     trend = []
     topsubcat = []
-    
     print()
     for x in subcat:
         # check status of data
@@ -53,8 +52,8 @@ def getTrend(subcat,quick,code):
         this_trend = subcat_result.trend_score
         trend.append(this_trend)
     
-    if len(trend) > 5:
-        N = 5
+    if len(trend) > 6:
+        N = 6
     else:
         N = len(trend)
     
@@ -85,6 +84,7 @@ def getTrend(subcat,quick,code):
 
 def topCombination(subset,quick,code):
     session = mendeleyAuth()
+    client = elsevier_auth()
     readerCount = []
     authorScore = []
     Growth = []
@@ -101,7 +101,7 @@ def topCombination(subset,quick,code):
 
         if status < 2:
             # search data
-            searchData(x,session,status,quick)
+            searchData(x,client,session,status,quick)
         
         # get data from db
         comb_result = selectComb(query_1=x[0], query_2=x[1])
@@ -145,6 +145,7 @@ def filterResult(q1,q2,minval,maxval,code,quick):
     os.system('cls')
     start = time.time()
     session = mendeleyAuth()
+    client = elsevier_auth()
     subset = []
     readerCount = []
     Growth = []
@@ -179,7 +180,7 @@ def filterResult(q1,q2,minval,maxval,code,quick):
         
         if status < 2:
             # search data
-            searchData(x,session,status,quick)
+            searchData(x,client,session,status,quick)
         
         # get data from db
         comb_result = selectComb(query_1=x[0], query_2=x[1])    
@@ -277,6 +278,12 @@ def data_norm(arr):
     return score
 
 def getCode(readercount_query,growth_query,authorscore_query,pie_query):
+    print(readercount_query)
+    print(growth_query)
+    print(authorscore_query)
+    print(pie_query)
+
+
     tempcode = [0]*4
     if readercount_query:
         tempcode[0] = 1
@@ -294,66 +301,77 @@ def getCode(readercount_query,growth_query,authorscore_query,pie_query):
     
     return code
 
-def searchData(x,session,status,quick):
-    reader = count = avgreader = pie_score = this = a = growth = page_reader_count = 0
-    popular_article_list = []
+def searchData(x,client,session,status,quick):
+    reader = count = avgreader = pie_score  = a = growth  = 0
     all_paper = []
     fromYear = 100
+    try:
+        query = x[0] + " " + x[1]
+    except:
+        query = x
+    this_year = current_year()
     
-    # contains all number of publications for all the years
+    myDocSrch = ElsSearch(query,'sciencedirect')
+    myDocSrch.execute(client,get_all = False)
+    
+    base_url = "https://www.sciencedirect.com/science/article/pii/"
+    title = []
+    year = []
+    link = []
+    doi = []
+    rc = []
+    
     years = [None] * (fromYear + 1) 
     while a <= fromYear:
         years[a] = 0
         a += 1
-	
     min_yr = current_year() - 99
     
-    pages = session.catalog.advanced_search(title=x, view="stats", min_year=min_yr, max_year=current_year())
-    for page in pages.iter(page_size=100):
-        complete = repeat = 0
+    for ans in myDocSrch.results:
         
         try:
-            yr_diff = current_year() - page.year
+            title.append(ans['dc:title'])
         except:
-            yr_diff = -1
+            continue
         
-        # if paper type and publish year is valid
-        if isLegalType(page) and yr_diff >= 0:
+        yr_pub = int(ans['prism:coverDate'][:4])
+        year.append(yr_pub)
+        yr_diff = this_year - yr_pub
+        link.append(base_url + ans['pii'])
+        doi.append(ans['prism:doi'])
+        
+        try:
+            temp_rc = session.catalog.by_identifier(doi=ans['prism:doi'], view='stats').reader_count
+        except:
+            temp_rc = 0
             
-            try:
-                new_paper = [page.identifiers['doi'], page.reader_count,page.year]
-                all_paper.append(new_paper)
-            except:
-                continue
-
-            if page.reader_count is not None:
-                page_reader_count = page.reader_count
-            reader += page_reader_count
-            count += 1
-
-            # get popular paper info
-            popular_article_list = popular_article(popular_article_list, page.reader_count, page.link, page.title, page.year)
-			
-            # get paper growth score
-            years[yr_diff] += 1
-            growth=calcAvgGrowth(years)
-
-            if quick:
-                if count >= 100:
-                    break
-
+        rc.append(temp_rc)
+        new_paper = [ans['prism:doi'], temp_rc, yr_diff]
+        all_paper.append(new_paper)
+        
+        years[yr_diff] += 1
+        
+        count += 1
+    
+    growth = calcAvgGrowth(years)
+    
     # get reader count score
-    avgreader = round((reader+1) / (count+1),2)
+    totalrc = sum(rc)
+    if count == 0: count = 1
+    avgreader = round((totalrc / count),2)
 	
     the_data = calcData(all_paper)
     authorscore = the_data['author']
     pieScore = the_data['pie']
     
+    paper_zip = zip(title, rc, link, year)
+    
     #pieScore = 0
     if status != None:
-        for i in popular_article_list:
-            store_Paper(paper_title=i[2], paper_reader_count=i[0], paper_link=i[1], paper_year_published=i[3])
-            store_Paper_subcategory(paper_title=i[2], query_1=x[0], query_2=x[1])
+        for a,b,c,d in paper_zip:
+            if b > 0:
+                store_Paper(paper_title=a, paper_reader_count=b, paper_link=c, paper_year_published=d)
+                store_Paper_subcategory(paper_title=a, query_1=x[0], query_2=x[1])
     
         if status == 1:
             # update db

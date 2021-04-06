@@ -81,7 +81,7 @@ async def getResult(doi):
         'reader_count': [],
         'link': [],
         'year_published': [],
-        'discription': [],
+        'discription': '',
     }
 
     async with aiohttp.ClientSession() as session:

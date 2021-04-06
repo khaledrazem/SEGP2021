@@ -86,6 +86,8 @@
 2021-03-28 15:22:59,804 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0306456519304644
 2021-03-28 15:23:00,806 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S0143974X14000984
 2021-03-28 15:23:02,798 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/pii/S0143974X14000984
+<<<<<<< HEAD
+=======
 2021-03-28 15:45:06,896 - elsapy.elsclient - INFO - Module loaded.
 2021-03-28 15:45:06,898 - elsapy.elsentity - INFO - Module loaded.
 2021-03-28 15:45:06,899 - elsapy.utils - INFO - Module loaded.
@@ -770,3 +772,4 @@
 2021-03-28 23:04:47,757 - elsapy.elsprofile - INFO - Module loaded.
 2021-03-28 23:04:47,757 - elsapy.elsdoc - INFO - Module loaded.
 2021-03-28 23:04:47,758 - elsapy.elssearch - INFO - Module loaded.
+>>>>>>> 9d831a5252d38cb2ffad57852ddfc5a43f0759c9
