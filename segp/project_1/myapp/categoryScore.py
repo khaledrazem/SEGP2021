@@ -305,12 +305,12 @@ def searchData(x,client,session,status,quick):
     reader = count = avgreader = pie_score  = a = growth  = 0
     all_paper = []
     fromYear = 100
-    try:
+    if status != None:
         query = x[0] + " " + x[1]
-    except:
+    else:
         query = x
     this_year = current_year()
-    
+    print(query)
     myDocSrch = ElsSearch(query,'sciencedirect')
     myDocSrch.execute(client,get_all = False)
     
@@ -355,6 +355,9 @@ def searchData(x,client,session,status,quick):
     
     growth = calcAvgGrowth(years)
     
+    
+    print("growth =",growth)
+    
     # get reader count score
     totalrc = sum(rc)
     if count == 0: count = 1
@@ -380,7 +383,7 @@ def searchData(x,client,session,status,quick):
             # insert to db
             insertComb(query_1=x[0],query_2=x[1], readercount=round(avgreader, 2), authorscore=authorscore, growth=round(growth, 2),pie_score=pieScore, quickScore=quick)
     else:
-        os.system('cls')
+        #os.system('cls')
         
         # get data from calculation
         results = {

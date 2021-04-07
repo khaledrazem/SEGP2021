@@ -56,10 +56,27 @@ body{
     transform: translateX(-10%)
 }
 
+.graph {
+	background-color: #52B2BF;
+}
+
+.tableproperty {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width:70%;
+	background-color: #52B2BF;
+}
+
+td.tableproperty {
+	width: 35%;
+	padding: 20px;
+}
+
 .content{
-   background: var(--gray-color);
+   /*background: var(--gray-color);
    padding: 1em;
    border-radius: 0 0 5px 5px;
    box-shadow: 5px 5px 5px #CCC;
-   position: relative;
+   position: relative;*/
 }

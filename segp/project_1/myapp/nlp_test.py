@@ -132,7 +132,7 @@ def data_norm(arr):
     score = []
 
     for x in arr:
-        point = ((float(x) - min_val) / (max_val - min_val)) * (35 - 15) + 15
+        point = ((float(x) - min_val) / (max_val - min_val)) * (40 - 20) + 20
         score.append(round(point))
     return score
 

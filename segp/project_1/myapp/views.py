@@ -121,7 +121,7 @@ def single_category(request):
             "related2": related_paper2,
             "related_word": related_word,
         }
-    return render(request, 'SingleCategoryResult.html',context)
+    return render(request, 'SingleKeywordResult.html',context)
 
 def single_keyword_result(request):
     if request.method == 'GET':
@@ -186,4 +186,4 @@ def subcategory_combination_result(request):
             "related_word": related_word,
             "graph": graph,
         }
-    return render(request, 'SubcategoryCombination.html',context)
+    return render(request, 'KeywordCombination.html',context)
