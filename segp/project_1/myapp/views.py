@@ -187,3 +187,11 @@ def subcategory_combination_result(request):
             "graph": graph,
         }
     return render(request, 'KeywordCombination.html',context)
+
+"""
+def error_404(request, exception):
+    context = {}
+    print()
+    print("asd")
+    return render(request, 'Error.html',context)
+"""

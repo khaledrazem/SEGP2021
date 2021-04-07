@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'myapp',
     'paper',
     'subcategory',
-    'combinations'
+    'combinations',
 ]
 
 MIDDLEWARE = [

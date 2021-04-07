@@ -26,4 +26,5 @@ urlpatterns = [
     path('SingleCategoryResult/',views.single_category, name="single_category"),
     path('SingleKeywordResult/',views.single_keyword_result, name="single_keyword"),
     path('KeywordCombination/',views.keyword_combination_result, name="keyword_combination"),
-    path('SubcategoryCombination/',views.subcategory_combination_result, name="keyword_combination"),]
+    path('SubcategoryCombination/',views.subcategory_combination_result, name="keyword_combination"),
+]

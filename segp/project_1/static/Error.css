@@ -1,0 +1,41 @@
+body{
+	width:100%;
+	height:100%;
+	 background-image:url("error.png"),  linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 margin:0;
+	 padding:0;
+}
+
+.container {
+	position: absolute;
+	top:20%;
+	right:23%;
+	transform(translate -1%, -1%);
+}
+
+.button {
+	position:relative;
+	text-align:center;
+	width:50%;
+	padding:40px;
+	font-size: 150%;
+	color: #232946;
+	font-family: poppins;
+	font-weight: bold;
+	border: 4px solid #232946;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	cursor: pointer;
+	border-radius: 100px;
+	transition: 1.5s;
+	text-decoration: none;
+}
+
+.button:hover
+{
+	box-shadow: 0 5px 50px 0 #15f4ee inset,  0 5px 50px 0 #15f4ee,
+				0 5px 50px 0 #15f4ee inset,  0 5px 50px 0 #15f4ee;
+	color: #15f4ee;
+}
