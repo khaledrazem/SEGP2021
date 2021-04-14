@@ -7,7 +7,7 @@ from combinations import db_subcategory_combination
 from paper import db_paper_subcategory
 from .drawGraph import *
 from .nlp_test import *
-from .elsevier_test import elsevier_des
+from .elsevier_test import elsevier_des,elsevier_auth
 
 #from django.shortcuts import render,redirect
 #from django.core.files.storage import FileSystemStorage
@@ -21,17 +21,18 @@ def results2(request):
     
     # search function
     if request.method == 'GET':
+        
         query = str(request.GET['case_2_form_query'])
         growth_query = 'case_2_form_quick_trend_growth' in request.GET
-        #authorscore_query = 'authorscore' in request.GET
-        authorscore_query = 0
+        authorscore_query = 'case_2_form_author' in request.GET
         readercount_query = 'case_2_form_average_reader_count' in request.GET
         pie_query = 'case_2_form_paper_impact_effectiveness' in request.GET
         quick = 'case_2_form_quick_search' in request.GET
+        
         categories = categoryscraper(query)
         code = getCode(readercount_query,growth_query,authorscore_query,pie_query)
         subcategory = getTrend(categories, quick, code)
-        
+    
     # filter function
     if request.method == 'POST':
         query_A=[]
@@ -62,7 +63,7 @@ def results1(request):
 
     if request.method == 'GET':
         request_keys = request.GET.keys()
-        authorscore_query = 0
+        authorscore_query = 'case_1_form_author' in request.GET
         quick_search = 'case_1_form_quick_search' in request.GET
         growth_query = 'case_1_form_quick_trend_growth' in request.GET
         readercount_query = 'case_1_form_average_reader_count' in request.GET
@@ -105,7 +106,8 @@ def single_category(request):
         query = str(request.GET['category'])
         
         session = mendeleyAuth()
-        results = searchData(query,session,None,True)
+        client = elsevier_auth()
+        results = searchData(query,client,session,None,True)
         related_paper = db_paper_subcategory.get_related_paper_with_keyword(query, None)[:5]
         related_paper2 = elsevier_des(query)
         related_word = disc(related_paper2['paper'])
@@ -119,14 +121,15 @@ def single_category(request):
             "related2": related_paper2,
             "related_word": related_word,
         }
-    return render(request, 'SingleCategoryResult.html',context)
+    return render(request, 'SingleKeywordResult.html',context)
 
 def single_keyword_result(request):
     if request.method == 'GET':
         query = str(request.GET['keyword'])
         
         session = mendeleyAuth()
-        results = searchData(query,session,None,True)
+        client = elsevier_auth()
+        results = searchData(query,client,session,None,True)
         related_paper = db_paper_subcategory.get_related_paper_with_keyword(query, None)[:5]
         related_paper2 = elsevier_des(query)
         related_word = disc(related_paper2['paper'])
@@ -183,4 +186,11 @@ def subcategory_combination_result(request):
             "related_word": related_word,
             "graph": graph,
         }
-    return render(request, 'SubcategoryCombination.html',context)
+    return render(request, 'KeywordCombination.html',context)
+
+
+def error_404(request,exception):
+    return render(request, 'Error.html')
+
+def error_500(request):
+    return render(request, 'Error.html')

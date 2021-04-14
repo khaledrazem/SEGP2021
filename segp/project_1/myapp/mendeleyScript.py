@@ -3,8 +3,10 @@ from datetime import datetime
 
 # mendeley authentication
 def mendeleyAuth():
-    client_id = "8949"
-    client_secret = "1jlgnQF86M0QRVku"
+    #client_id = "8949"
+    #client_secret = "u38KsziNTLHOD8VB"
+    client_id = "9808"
+    client_secret = "ktZw9HJb5o11VSlw"
     mendeley = Mendeley(client_id, client_secret)
     auth = mendeley.start_client_credentials_flow()
     session = auth.authenticate()
