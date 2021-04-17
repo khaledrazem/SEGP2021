@@ -1,0 +1,750 @@
+2021-04-15 11:49:07,800 - elsapy.elsclient - INFO - Module loaded.
+2021-04-15 11:49:07,804 - elsapy.elsentity - INFO - Module loaded.
+2021-04-15 11:49:07,807 - elsapy.utils - INFO - Module loaded.
+2021-04-15 11:49:07,808 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-15 11:49:07,812 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-15 11:49:07,814 - elsapy.elssearch - INFO - Module loaded.
+2021-04-15 11:50:01,261 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Inorganic+Chemistry+Electrochemistry
+2021-04-15 11:50:02,310 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 11:50:14,018 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Inorganic+Chemistry+Analytical+Chemistry
+2021-04-15 11:50:14,837 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 11:50:24,965 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Inorganic+Chemistry+Biochemistry
+2021-04-15 11:50:26,532 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 11:50:36,078 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Inorganic+Chemistry+Materials+Engineering
+2021-04-15 11:50:37,703 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 11:50:47,017 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Inorganic+Chemistry+Organic+Chemistry
+2021-04-15 11:50:47,849 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 11:50:56,959 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Electrochemistry+Analytical+Chemistry
+2021-04-15 11:50:57,787 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 11:51:07,064 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Electrochemistry+Biochemistry
+2021-04-15 11:51:07,835 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 11:51:17,293 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Electrochemistry+Materials+Engineering
+2021-04-15 11:51:18,117 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 11:51:26,152 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Electrochemistry+Organic+Chemistry
+2021-04-15 11:51:26,981 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 11:51:35,175 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Biochemistry
+2021-04-15 11:51:36,000 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 11:51:44,349 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Materials+Engineering
+2021-04-15 11:51:45,278 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 11:51:54,400 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Organic+Chemistry
+2021-04-15 11:51:55,350 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 11:52:03,888 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Materials+Engineering
+2021-04-15 11:52:04,648 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 11:52:14,313 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Organic+Chemistry
+2021-04-15 11:52:15,128 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 11:52:23,148 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+Organic+Chemistry
+2021-04-15 11:52:24,176 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 11:52:53,068 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering
+2021-04-15 11:52:53,616 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Electrochemistry+%2B+Materials+Engineering
+2021-04-15 11:52:54,130 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 11:52:54,404 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 11:53:04,598 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering
+2021-04-15 11:53:05,738 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:15:31,698 - elsapy.elsclient - INFO - Module loaded.
+2021-04-15 12:15:31,701 - elsapy.elsentity - INFO - Module loaded.
+2021-04-15 12:15:31,702 - elsapy.utils - INFO - Module loaded.
+2021-04-15 12:15:31,703 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-15 12:15:31,705 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-15 12:15:31,707 - elsapy.elssearch - INFO - Module loaded.
+2021-04-15 12:20:23,042 - elsapy.elsclient - INFO - Module loaded.
+2021-04-15 12:20:23,045 - elsapy.elsentity - INFO - Module loaded.
+2021-04-15 12:20:23,048 - elsapy.utils - INFO - Module loaded.
+2021-04-15 12:20:23,049 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-15 12:20:23,050 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-15 12:20:23,051 - elsapy.elssearch - INFO - Module loaded.
+2021-04-15 12:20:29,982 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Ceramic+Engineering
+2021-04-15 12:20:31,575 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:20:34,480 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Ceramic+Engineering
+2021-04-15 12:20:36,072 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:20:41,710 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Chemical+and+Material+Sciences
+2021-04-15 12:20:43,420 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:20:52,878 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Chemical+Kinetics+and+Catalysis
+2021-04-15 12:20:53,756 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:21:03,094 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Combustion+and+Propulsion
+2021-04-15 12:21:04,646 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:21:14,211 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Composite+Materials
+2021-04-15 12:21:15,077 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:21:24,208 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Crystallography+and+Structural+Chemistry
+2021-04-15 12:21:24,984 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:21:34,004 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Dispersion+Chemistry
+2021-04-15 12:21:35,590 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:21:49,143 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Medicinal+Chemistry
+2021-04-15 12:21:50,719 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:22:00,221 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Nanotechnology
+2021-04-15 12:22:01,697 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:22:11,048 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Oil%2C+Petroleum+and+Natural+Gas
+2021-04-15 12:22:11,876 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:22:22,577 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Polymers+and+Plastics
+2021-04-15 12:22:23,419 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:22:32,801 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Ceramic+Engineering
+2021-04-15 12:22:33,937 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:22:43,402 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Chemical+and+Material+Sciences
+2021-04-15 12:22:44,296 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:22:53,905 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Chemical+Kinetics+and+Catalysis
+2021-04-15 12:22:54,626 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:23:05,090 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Combustion+and+Propulsion
+2021-04-15 12:23:05,854 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:23:14,113 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Composite+Materials
+2021-04-15 12:23:14,948 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:23:23,107 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Crystallography+and+Structural+Chemistry
+2021-04-15 12:23:23,861 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:23:32,947 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Dispersion+Chemistry
+2021-04-15 12:23:34,417 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:23:43,623 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Medicinal+Chemistry
+2021-04-15 12:23:44,477 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:23:54,272 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Nanotechnology
+2021-04-15 12:23:55,364 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:24:05,355 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Oil%2C+Petroleum+and+Natural+Gas
+2021-04-15 12:24:06,121 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:24:14,906 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Polymers+and+Plastics
+2021-04-15 12:24:15,784 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:24:25,784 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ceramic+Engineering+Chemical+and+Material+Sciences
+2021-04-15 12:24:26,639 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:24:36,404 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ceramic+Engineering+Chemical+Kinetics+and+Catalysis
+2021-04-15 12:24:37,212 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:24:45,214 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ceramic+Engineering+Combustion+and+Propulsion
+2021-04-15 12:24:46,078 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:24:55,999 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ceramic+Engineering+Composite+Materials
+2021-04-15 12:24:56,868 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:25:06,296 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ceramic+Engineering+Crystallography+and+Structural+Chemistry
+2021-04-15 12:25:07,299 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:25:15,487 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ceramic+Engineering+Dispersion+Chemistry
+2021-04-15 12:25:16,366 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:25:24,339 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ceramic+Engineering+Electrochemistry
+2021-04-15 12:25:25,098 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:25:33,215 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ceramic+Engineering+Inorganic+Chemistry
+2021-04-15 12:25:33,988 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:25:42,052 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ceramic+Engineering+Materials+Engineering
+2021-04-15 12:25:42,907 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:25:51,933 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ceramic+Engineering+Medicinal+Chemistry
+2021-04-15 12:25:53,460 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:26:02,274 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ceramic+Engineering+Nanotechnology
+2021-04-15 12:26:03,229 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:26:12,331 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Biochemistry
+2021-04-15 12:26:13,430 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:26:15,041 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ceramic+Engineering+Oil%2C+Petroleum+and+Natural+Gas
+2021-04-15 12:26:15,841 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:26:21,727 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Ceramic+Engineering
+2021-04-15 12:26:22,485 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:26:24,274 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ceramic+Engineering+Organic+Chemistry
+2021-04-15 12:26:25,089 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:26:30,379 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Ceramic+Engineering
+2021-04-15 12:26:31,190 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:26:33,942 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ceramic+Engineering+Polymers+and+Plastics
+2021-04-15 12:26:35,067 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:26:39,569 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Chemical+and+Material+Sciences
+2021-04-15 12:26:40,397 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:26:42,929 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+and+Material+Sciences+Chemical+Kinetics+and+Catalysis
+2021-04-15 12:26:43,773 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:26:48,575 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Chemical+Kinetics+and+Catalysis
+2021-04-15 12:26:49,332 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:26:51,484 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+and+Material+Sciences+Combustion+and+Propulsion
+2021-04-15 12:26:52,915 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:26:56,718 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Combustion+and+Propulsion
+2021-04-15 12:26:57,439 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:27:00,636 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+and+Material+Sciences+Composite+Materials
+2021-04-15 12:27:01,599 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:27:05,114 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Composite+Materials
+2021-04-15 12:27:05,901 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:27:09,558 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+and+Material+Sciences+Crystallography+and+Structural+Chemistry
+2021-04-15 12:27:10,335 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:27:13,643 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Crystallography+and+Structural+Chemistry
+2021-04-15 12:27:14,402 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:27:18,362 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+and+Material+Sciences+Dispersion+Chemistry
+2021-04-15 12:27:19,184 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:27:21,989 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Dispersion+Chemistry
+2021-04-15 12:27:22,749 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:27:27,762 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+and+Material+Sciences+Electrochemistry
+2021-04-15 12:27:28,571 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:27:30,457 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Electrochemistry
+2021-04-15 12:27:31,201 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:27:36,544 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+and+Material+Sciences+Inorganic+Chemistry
+2021-04-15 12:27:37,434 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:27:39,945 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Inorganic+Chemistry
+2021-04-15 12:27:40,801 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:27:45,959 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+and+Material+Sciences+Materials+Engineering
+2021-04-15 12:27:47,115 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:27:51,235 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Materials+Engineering
+2021-04-15 12:27:52,019 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:27:55,266 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+and+Material+Sciences+Medicinal+Chemistry
+2021-04-15 12:27:56,263 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:27:59,729 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Medicinal+Chemistry
+2021-04-15 12:28:00,631 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:28:04,428 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+and+Material+Sciences+Nanotechnology
+2021-04-15 12:28:05,216 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:28:08,780 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Nanotechnology
+2021-04-15 12:28:09,484 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:28:13,176 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+and+Material+Sciences+Oil%2C+Petroleum+and+Natural+Gas
+2021-04-15 12:28:14,005 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:28:16,834 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Oil%2C+Petroleum+and+Natural+Gas
+2021-04-15 12:28:17,597 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:28:22,125 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+and+Material+Sciences+Organic+Chemistry
+2021-04-15 12:28:23,117 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:28:25,225 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Organic+Chemistry
+2021-04-15 12:28:26,062 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:28:31,026 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+and+Material+Sciences+Polymers+and+Plastics
+2021-04-15 12:28:31,848 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:28:33,956 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Polymers+and+Plastics
+2021-04-15 12:28:34,732 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:28:40,104 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+Kinetics+and+Catalysis+Combustion+and+Propulsion
+2021-04-15 12:28:40,999 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:28:42,449 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ceramic+Engineering+Chemical+and+Material+Sciences
+2021-04-15 12:28:43,280 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:28:49,152 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+Kinetics+and+Catalysis+Composite+Materials
+2021-04-15 12:28:49,998 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:28:50,843 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ceramic+Engineering+Chemical+Kinetics+and+Catalysis
+2021-04-15 12:28:51,556 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:28:58,063 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+Kinetics+and+Catalysis+Crystallography+and+Structural+Chemistry
+2021-04-15 12:28:58,765 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:29:00,324 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ceramic+Engineering+Combustion+and+Propulsion
+2021-04-15 12:29:01,110 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:29:07,075 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+Kinetics+and+Catalysis+Dispersion+Chemistry
+2021-04-15 12:29:07,904 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:29:09,508 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ceramic+Engineering+Composite+Materials
+2021-04-15 12:29:10,344 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:29:16,137 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+Kinetics+and+Catalysis+Electrochemistry
+2021-04-15 12:29:16,936 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:29:17,968 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ceramic+Engineering+Crystallography+and+Structural+Chemistry
+2021-04-15 12:29:18,755 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:29:24,943 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+Kinetics+and+Catalysis+Inorganic+Chemistry
+2021-04-15 12:29:26,226 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ceramic+Engineering+Dispersion+Chemistry
+2021-04-15 12:29:26,386 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:29:27,145 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:29:34,537 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+Kinetics+and+Catalysis+Materials+Engineering
+2021-04-15 12:29:35,306 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:29:35,387 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ceramic+Engineering+Electrochemistry
+2021-04-15 12:29:36,203 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:29:44,257 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+Kinetics+and+Catalysis+Medicinal+Chemistry
+2021-04-15 12:29:44,404 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ceramic+Engineering+Inorganic+Chemistry
+2021-04-15 12:29:45,168 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:29:45,181 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:29:53,196 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+Kinetics+and+Catalysis+Nanotechnology
+2021-04-15 12:29:53,370 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ceramic+Engineering+Materials+Engineering
+2021-04-15 12:29:53,993 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:29:54,152 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:30:02,281 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+Kinetics+and+Catalysis+Oil%2C+Petroleum+and+Natural+Gas
+2021-04-15 12:30:02,416 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ceramic+Engineering+Medicinal+Chemistry
+2021-04-15 12:30:03,095 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:30:03,185 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:30:11,206 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+Kinetics+and+Catalysis+Organic+Chemistry
+2021-04-15 12:30:12,066 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:30:19,855 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chemical+Kinetics+and+Catalysis+Polymers+and+Plastics
+2021-04-15 12:30:20,597 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:30:28,515 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Combustion+and+Propulsion+Composite+Materials
+2021-04-15 12:30:29,253 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:30:37,210 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Combustion+and+Propulsion+Crystallography+and+Structural+Chemistry
+2021-04-15 12:30:37,983 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:30:46,204 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Combustion+and+Propulsion+Dispersion+Chemistry
+2021-04-15 12:30:46,948 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:30:55,936 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Combustion+and+Propulsion+Electrochemistry
+2021-04-15 12:30:56,708 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:31:05,131 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Combustion+and+Propulsion+Inorganic+Chemistry
+2021-04-15 12:31:05,869 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:31:14,117 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Combustion+and+Propulsion+Materials+Engineering
+2021-04-15 12:31:14,896 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:31:22,837 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Combustion+and+Propulsion+Medicinal+Chemistry
+2021-04-15 12:31:23,604 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:31:32,134 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Combustion+and+Propulsion+Nanotechnology
+2021-04-15 12:31:32,880 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:31:41,289 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Combustion+and+Propulsion+Oil%2C+Petroleum+and+Natural+Gas
+2021-04-15 12:31:42,081 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:31:53,033 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Combustion+and+Propulsion+Organic+Chemistry
+2021-04-15 12:31:53,794 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:32:01,901 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Combustion+and+Propulsion+Polymers+and+Plastics
+2021-04-15 12:32:02,653 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:32:11,314 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Composite+Materials+Crystallography+and+Structural+Chemistry
+2021-04-15 12:32:12,242 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:32:21,004 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Composite+Materials+Dispersion+Chemistry
+2021-04-15 12:32:21,902 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:32:30,412 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Composite+Materials+Electrochemistry
+2021-04-15 12:32:31,241 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:32:39,847 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Composite+Materials+Inorganic+Chemistry
+2021-04-15 12:32:40,602 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:32:49,041 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Composite+Materials+Materials+Engineering
+2021-04-15 12:32:49,990 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:32:57,939 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Composite+Materials+Medicinal+Chemistry
+2021-04-15 12:32:58,732 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:33:07,339 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Composite+Materials+Nanotechnology
+2021-04-15 12:33:08,045 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:33:16,162 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Composite+Materials+Oil%2C+Petroleum+and+Natural+Gas
+2021-04-15 12:33:16,889 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:33:25,080 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Composite+Materials+Organic+Chemistry
+2021-04-15 12:33:25,994 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:33:35,163 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Composite+Materials+Polymers+and+Plastics
+2021-04-15 12:33:35,988 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:33:43,963 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Crystallography+and+Structural+Chemistry+Dispersion+Chemistry
+2021-04-15 12:33:45,252 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:33:53,354 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Crystallography+and+Structural+Chemistry+Electrochemistry
+2021-04-15 12:33:54,248 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:34:04,070 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Crystallography+and+Structural+Chemistry+Inorganic+Chemistry
+2021-04-15 12:34:04,800 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:34:12,762 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Crystallography+and+Structural+Chemistry+Materials+Engineering
+2021-04-15 12:34:13,516 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:34:21,299 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Crystallography+and+Structural+Chemistry+Medicinal+Chemistry
+2021-04-15 12:34:22,026 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:34:30,744 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Crystallography+and+Structural+Chemistry+Nanotechnology
+2021-04-15 12:34:31,592 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:34:40,208 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Crystallography+and+Structural+Chemistry+Oil%2C+Petroleum+and+Natural+Gas
+2021-04-15 12:34:41,369 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:34:49,980 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Crystallography+and+Structural+Chemistry+Organic+Chemistry
+2021-04-15 12:34:50,837 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:34:59,087 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Crystallography+and+Structural+Chemistry+Polymers+and+Plastics
+2021-04-15 12:35:00,022 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:35:07,852 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Dispersion+Chemistry+Electrochemistry
+2021-04-15 12:35:08,655 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:35:17,344 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Dispersion+Chemistry+Inorganic+Chemistry
+2021-04-15 12:35:18,184 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:35:26,969 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Dispersion+Chemistry+Materials+Engineering
+2021-04-15 12:35:27,783 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:35:35,579 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Dispersion+Chemistry+Medicinal+Chemistry
+2021-04-15 12:35:36,396 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:35:45,099 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Dispersion+Chemistry+Nanotechnology
+2021-04-15 12:35:45,883 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:35:53,813 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Dispersion+Chemistry+Oil%2C+Petroleum+and+Natural+Gas
+2021-04-15 12:35:54,605 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:36:03,072 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Dispersion+Chemistry+Organic+Chemistry
+2021-04-15 12:36:03,964 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:36:11,858 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Dispersion+Chemistry+Polymers+and+Plastics
+2021-04-15 12:36:12,608 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:36:20,972 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Electrochemistry+Inorganic+Chemistry
+2021-04-15 12:36:21,664 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:36:30,015 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Electrochemistry+Materials+Engineering
+2021-04-15 12:36:30,794 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:36:38,688 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Electrochemistry+Medicinal+Chemistry
+2021-04-15 12:36:39,490 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:36:47,367 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Electrochemistry+Nanotechnology
+2021-04-15 12:36:48,061 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:36:55,846 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Electrochemistry+Oil%2C+Petroleum+and+Natural+Gas
+2021-04-15 12:36:56,704 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:37:05,484 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Electrochemistry+Organic+Chemistry
+2021-04-15 12:37:06,193 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:37:13,864 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Electrochemistry+Polymers+and+Plastics
+2021-04-15 12:37:14,572 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:37:24,173 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Inorganic+Chemistry+Materials+Engineering
+2021-04-15 12:37:25,035 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:37:32,414 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Inorganic+Chemistry+Medicinal+Chemistry
+2021-04-15 12:37:33,190 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:37:41,211 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Inorganic+Chemistry+Nanotechnology
+2021-04-15 12:37:42,092 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:37:49,792 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Inorganic+Chemistry+Oil%2C+Petroleum+and+Natural+Gas
+2021-04-15 12:37:50,609 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:37:59,189 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Inorganic+Chemistry+Organic+Chemistry
+2021-04-15 12:38:00,020 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:38:07,450 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Inorganic+Chemistry+Polymers+and+Plastics
+2021-04-15 12:38:08,607 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:38:16,791 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+Medicinal+Chemistry
+2021-04-15 12:38:17,769 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:38:25,737 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+Nanotechnology
+2021-04-15 12:38:26,522 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:38:34,501 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+Oil%2C+Petroleum+and+Natural+Gas
+2021-04-15 12:38:35,486 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:38:44,389 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+Organic+Chemistry
+2021-04-15 12:38:45,226 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:38:54,050 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+Polymers+and+Plastics
+2021-04-15 12:38:54,864 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:39:04,139 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Medicinal+Chemistry+Nanotechnology
+2021-04-15 12:39:04,834 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:39:12,912 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Medicinal+Chemistry+Oil%2C+Petroleum+and+Natural+Gas
+2021-04-15 12:39:13,699 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:39:23,356 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Medicinal+Chemistry+Organic+Chemistry
+2021-04-15 12:39:24,119 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:39:33,465 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Medicinal+Chemistry+Polymers+and+Plastics
+2021-04-15 12:39:34,208 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:39:42,402 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Nanotechnology+Oil%2C+Petroleum+and+Natural+Gas
+2021-04-15 12:39:43,173 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:39:50,880 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Nanotechnology+Organic+Chemistry
+2021-04-15 12:39:51,619 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:39:59,880 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Nanotechnology+Polymers+and+Plastics
+2021-04-15 12:40:00,678 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:40:09,139 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Oil%2C+Petroleum+and+Natural+Gas+Organic+Chemistry
+2021-04-15 12:40:10,405 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:40:18,526 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Oil%2C+Petroleum+and+Natural+Gas+Polymers+and+Plastics
+2021-04-15 12:40:19,294 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 12:40:28,607 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Organic+Chemistry+Polymers+and+Plastics
+2021-04-15 12:40:29,409 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 13:45:10,701 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Chemical+and+Material+Sciences
+2021-04-15 13:45:11,705 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 13:45:22,568 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Chemical+Kinetics+and+Catalysis
+2021-04-15 13:45:23,320 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 13:45:32,765 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Combustion+and+Propulsion
+2021-04-15 13:45:34,232 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 13:45:40,589 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Combustion+and+Propulsion
+2021-04-15 13:45:41,769 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 13:45:43,023 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Composite+Materials
+2021-04-15 13:45:43,777 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 13:45:51,397 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Crystallography+and+Structural+Chemistry
+2021-04-15 13:45:52,141 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 13:46:00,900 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Dispersion+Chemistry
+2021-04-15 13:46:01,793 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 13:46:06,774 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Dispersion+Chemistry
+2021-04-15 13:46:07,585 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 13:46:10,572 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Electrochemistry
+2021-04-15 13:46:11,336 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 13:46:19,817 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Inorganic+Chemistry
+2021-04-15 13:46:20,638 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 13:46:31,338 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Materials+Engineering
+2021-04-15 13:46:32,258 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 13:46:40,261 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Materials+Engineering
+2021-04-15 13:46:40,388 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Medicinal+Chemistry
+2021-04-15 13:46:41,094 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 13:46:41,187 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 13:46:49,411 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Nanotechnology
+2021-04-15 13:46:50,117 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 13:46:57,822 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Oil%2C+Petroleum+and+Natural+Gas
+2021-04-15 13:46:58,621 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 13:47:06,793 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Organic+Chemistry
+2021-04-15 13:47:07,647 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 13:47:15,454 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+Polymers+and+Plastics
+2021-04-15 13:47:16,573 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 13:56:32,341 - elsapy.elsclient - INFO - Module loaded.
+2021-04-15 13:56:32,342 - elsapy.elsentity - INFO - Module loaded.
+2021-04-15 13:56:32,344 - elsapy.utils - INFO - Module loaded.
+2021-04-15 13:56:32,344 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-15 13:56:32,347 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-15 13:56:32,348 - elsapy.elssearch - INFO - Module loaded.
+2021-04-15 13:57:07,839 - elsapy.elsclient - INFO - Module loaded.
+2021-04-15 13:57:07,840 - elsapy.elsentity - INFO - Module loaded.
+2021-04-15 13:57:07,841 - elsapy.utils - INFO - Module loaded.
+2021-04-15 13:57:07,841 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-15 13:57:07,842 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-15 13:57:07,844 - elsapy.elssearch - INFO - Module loaded.
+2021-04-15 14:03:49,866 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=ewdw+Awer
+2021-04-15 14:03:51,841 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=ewdw+Computer+Science
+2021-04-15 14:03:53,331 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:03:57,682 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Awer+Computer+Science
+2021-04-15 14:03:58,423 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:04:14,273 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=ewdw+Awer
+2021-04-15 14:04:16,715 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=ewdw+Computer+Science
+2021-04-15 14:04:17,436 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:04:21,925 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Awer+Computer+Science
+2021-04-15 14:04:23,362 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:09:17,915 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Awer
+2021-04-15 14:09:18,751 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:09:28,494 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Awer
+2021-04-15 14:09:29,300 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:46:48,738 - elsapy.elsclient - INFO - Module loaded.
+2021-04-15 14:46:48,741 - elsapy.elsentity - INFO - Module loaded.
+2021-04-15 14:46:48,742 - elsapy.utils - INFO - Module loaded.
+2021-04-15 14:46:48,743 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-15 14:46:48,745 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-15 14:46:48,746 - elsapy.elssearch - INFO - Module loaded.
+2021-04-15 14:48:00,108 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+Economic+History
+2021-04-15 14:48:01,067 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:48:09,885 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+Emergency+Management
+2021-04-15 14:48:10,882 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:48:20,029 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+International+Business
+2021-04-15 14:48:20,980 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:48:29,036 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+Finance
+2021-04-15 14:48:29,999 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:48:38,136 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+Marketing
+2021-04-15 14:48:38,953 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:48:46,498 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+History+Emergency+Management
+2021-04-15 14:48:47,262 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:48:54,932 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+History+International+Business
+2021-04-15 14:48:55,689 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:49:03,952 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+History+Finance
+2021-04-15 14:49:04,697 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:49:13,200 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+History+Marketing
+2021-04-15 14:49:13,989 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:49:22,393 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Emergency+Management+International+Business
+2021-04-15 14:49:23,216 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:49:32,347 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Emergency+Management+Finance
+2021-04-15 14:49:33,190 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:49:41,550 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Emergency+Management+Marketing
+2021-04-15 14:49:42,790 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:49:50,501 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=International+Business+Finance
+2021-04-15 14:49:51,344 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:49:59,861 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=International+Business+Marketing
+2021-04-15 14:50:00,701 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:50:08,581 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Finance+Marketing
+2021-04-15 14:50:09,280 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:50:24,212 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Accounting+and+Taxation+Business%2C+Economics+and+Management
+2021-04-15 14:50:24,971 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:50:35,116 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Accounting+and+Taxation+Development+Economics
+2021-04-15 14:50:35,823 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:50:44,214 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Accounting+and+Taxation+Economic+History
+2021-04-15 14:50:45,787 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:50:56,223 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Accounting+and+Taxation+Economic+Policy
+2021-04-15 14:50:56,945 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:51:06,191 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Accounting+and+Taxation+Economics
+2021-04-15 14:51:06,945 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:51:15,760 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Accounting+and+Taxation+Educational+Administration
+2021-04-15 14:51:16,594 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:51:25,233 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Accounting+and+Taxation+Emergency+Management
+2021-04-15 14:51:25,983 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:51:39,279 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Accounting+and+Taxation+Entrepreneurship+and+Innovation
+2021-04-15 14:51:39,977 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:51:49,212 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Accounting+and+Taxation+Finance
+2021-04-15 14:51:50,227 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:52:02,889 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Accounting+and+Taxation+Game+Theory+and+Decision+Science
+2021-04-15 14:52:03,668 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:52:12,695 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Accounting+and+Taxation+Human+Resources+and+Organizations
+2021-04-15 14:52:13,458 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:52:22,301 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Accounting+and+Taxation+International+Business
+2021-04-15 14:52:23,100 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:52:32,216 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Accounting+and+Taxation+Marketing
+2021-04-15 14:52:32,952 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:52:42,360 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Accounting+and+Taxation+Strategic+Management
+2021-04-15 14:52:43,073 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:52:52,118 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Accounting+and+Taxation+Tourism+and+Hospitality
+2021-04-15 14:52:53,106 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:53:02,135 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Business%2C+Economics+and+Management+Development+Economics
+2021-04-15 14:53:02,979 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:53:11,529 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Business%2C+Economics+and+Management+Economic+History
+2021-04-15 14:53:12,521 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:53:23,171 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Business%2C+Economics+and+Management+Economic+Policy
+2021-04-15 14:53:24,373 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:53:32,880 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Business%2C+Economics+and+Management+Economics
+2021-04-15 14:53:33,727 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:53:41,959 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Business%2C+Economics+and+Management+Educational+Administration
+2021-04-15 14:53:42,689 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:53:52,287 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Business%2C+Economics+and+Management+Emergency+Management
+2021-04-15 14:53:53,108 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:54:02,228 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Business%2C+Economics+and+Management+Entrepreneurship+and+Innovation
+2021-04-15 14:54:03,307 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:54:14,034 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Business%2C+Economics+and+Management+Finance
+2021-04-15 14:54:14,934 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:54:23,293 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Business%2C+Economics+and+Management+Game+Theory+and+Decision+Science
+2021-04-15 14:54:24,040 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:54:34,200 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Business%2C+Economics+and+Management+Human+Resources+and+Organizations
+2021-04-15 14:54:34,984 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:54:44,316 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Business%2C+Economics+and+Management+International+Business
+2021-04-15 14:54:45,128 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:54:53,267 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Business%2C+Economics+and+Management+Marketing
+2021-04-15 14:54:54,052 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:55:03,511 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Business%2C+Economics+and+Management+Strategic+Management
+2021-04-15 14:55:04,290 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:55:16,094 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Business%2C+Economics+and+Management+Tourism+and+Hospitality
+2021-04-15 14:55:16,865 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:55:26,287 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Development+Economics+Economic+History
+2021-04-15 14:55:26,981 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:55:35,844 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Development+Economics+Economic+Policy
+2021-04-15 14:55:37,117 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:55:45,576 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Development+Economics+Economics
+2021-04-15 14:55:46,429 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:55:55,857 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Development+Economics+Educational+Administration
+2021-04-15 14:55:56,592 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:56:09,914 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Development+Economics+Emergency+Management
+2021-04-15 14:56:10,880 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:56:23,425 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Development+Economics+Entrepreneurship+and+Innovation
+2021-04-15 14:56:24,194 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:56:34,719 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Development+Economics+Finance
+2021-04-15 14:56:35,695 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:56:44,057 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Development+Economics+Game+Theory+and+Decision+Science
+2021-04-15 14:56:44,857 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:56:53,699 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Development+Economics+Human+Resources+and+Organizations
+2021-04-15 14:56:54,523 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:57:02,960 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Development+Economics+International+Business
+2021-04-15 14:57:03,854 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:57:13,931 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Development+Economics+Marketing
+2021-04-15 14:57:14,680 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:57:22,822 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Development+Economics+Strategic+Management
+2021-04-15 14:57:23,987 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:57:33,410 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Development+Economics+Tourism+and+Hospitality
+2021-04-15 14:57:34,148 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:57:42,879 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+History+Economics
+2021-04-15 14:57:43,692 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:57:53,077 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+History+Educational+Administration
+2021-04-15 14:57:53,798 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:58:04,308 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+History+Entrepreneurship+and+Innovation
+2021-04-15 14:58:05,278 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:58:14,463 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+History+Game+Theory+and+Decision+Science
+2021-04-15 14:58:15,515 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:58:25,320 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+History+Human+Resources+and+Organizations
+2021-04-15 14:58:26,447 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:58:37,034 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+History+Strategic+Management
+2021-04-15 14:58:37,844 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:58:47,716 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+History+Tourism+and+Hospitality
+2021-04-15 14:58:48,471 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:58:57,619 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+Economics
+2021-04-15 14:58:58,376 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:59:07,695 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+Educational+Administration
+2021-04-15 14:59:08,799 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:59:17,294 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+Entrepreneurship+and+Innovation
+2021-04-15 14:59:18,096 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:59:29,602 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+Game+Theory+and+Decision+Science
+2021-04-15 14:59:30,411 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:59:42,384 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+Human+Resources+and+Organizations
+2021-04-15 14:59:43,429 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 14:59:52,499 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+Strategic+Management
+2021-04-15 14:59:53,714 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:00:20,643 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+Tourism+and+Hospitality
+2021-04-15 15:00:21,360 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:00:30,483 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economics+Educational+Administration
+2021-04-15 15:00:31,488 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:00:42,041 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economics+Emergency+Management
+2021-04-15 15:00:42,943 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:00:54,564 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economics+Entrepreneurship+and+Innovation
+2021-04-15 15:00:55,674 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:01:05,331 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economics+Finance
+2021-04-15 15:01:06,119 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:01:14,992 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economics+Game+Theory+and+Decision+Science
+2021-04-15 15:01:15,891 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:01:25,171 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economics+Human+Resources+and+Organizations
+2021-04-15 15:01:25,968 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:01:34,682 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economics+International+Business
+2021-04-15 15:01:35,642 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:01:44,167 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economics+Marketing
+2021-04-15 15:01:45,357 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:01:54,658 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economics+Strategic+Management
+2021-04-15 15:01:55,830 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:02:05,592 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economics+Tourism+and+Hospitality
+2021-04-15 15:02:06,643 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:02:18,143 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+Emergency+Management
+2021-04-15 15:02:18,884 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:02:27,543 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+Entrepreneurship+and+Innovation
+2021-04-15 15:02:28,442 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:02:42,412 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+Finance
+2021-04-15 15:02:43,200 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:02:53,097 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+Game+Theory+and+Decision+Science
+2021-04-15 15:02:53,904 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:03:03,774 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+Human+Resources+and+Organizations
+2021-04-15 15:03:04,617 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:03:16,903 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+International+Business
+2021-04-15 15:03:17,822 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:03:27,846 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+Marketing
+2021-04-15 15:03:28,681 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:03:37,638 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+Strategic+Management
+2021-04-15 15:03:38,668 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:03:51,769 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+Tourism+and+Hospitality
+2021-04-15 15:03:52,542 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:04:01,540 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Emergency+Management+Entrepreneurship+and+Innovation
+2021-04-15 15:04:02,278 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:04:12,053 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Emergency+Management+Game+Theory+and+Decision+Science
+2021-04-15 15:04:13,256 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:04:23,689 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Emergency+Management+Human+Resources+and+Organizations
+2021-04-15 15:04:24,577 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:04:34,903 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Emergency+Management+Strategic+Management
+2021-04-15 15:04:35,690 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:04:47,427 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Emergency+Management+Tourism+and+Hospitality
+2021-04-15 15:04:48,247 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:04:57,784 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Entrepreneurship+and+Innovation+Finance
+2021-04-15 15:04:58,622 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:05:10,743 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Entrepreneurship+and+Innovation+Game+Theory+and+Decision+Science
+2021-04-15 15:05:11,505 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:05:20,349 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Entrepreneurship+and+Innovation+Human+Resources+and+Organizations
+2021-04-15 15:05:21,122 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:05:30,817 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Entrepreneurship+and+Innovation+International+Business
+2021-04-15 15:05:31,639 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:05:40,047 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Entrepreneurship+and+Innovation+Marketing
+2021-04-15 15:05:40,797 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:05:49,795 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Entrepreneurship+and+Innovation+Strategic+Management
+2021-04-15 15:05:50,593 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:05:59,216 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Entrepreneurship+and+Innovation+Tourism+and+Hospitality
+2021-04-15 15:06:00,786 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:06:09,390 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Finance+Game+Theory+and+Decision+Science
+2021-04-15 15:06:10,168 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:06:18,733 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Finance+Human+Resources+and+Organizations
+2021-04-15 15:06:19,618 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:06:28,998 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Finance+Strategic+Management
+2021-04-15 15:06:29,843 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:06:43,206 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Finance+Tourism+and+Hospitality
+2021-04-15 15:06:44,235 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:06:52,926 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Game+Theory+and+Decision+Science+Human+Resources+and+Organizations
+2021-04-15 15:06:53,731 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:07:03,564 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Game+Theory+and+Decision+Science+International+Business
+2021-04-15 15:07:04,365 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:07:17,606 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Game+Theory+and+Decision+Science+Marketing
+2021-04-15 15:07:18,437 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:07:28,325 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Game+Theory+and+Decision+Science+Strategic+Management
+2021-04-15 15:07:29,257 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:07:38,829 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Game+Theory+and+Decision+Science+Tourism+and+Hospitality
+2021-04-15 15:07:39,589 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:07:49,019 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Resources+and+Organizations+International+Business
+2021-04-15 15:07:49,963 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:07:59,793 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Resources+and+Organizations+Marketing
+2021-04-15 15:08:00,634 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:08:10,740 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Resources+and+Organizations+Strategic+Management
+2021-04-15 15:08:11,727 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:08:24,678 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Human+Resources+and+Organizations+Tourism+and+Hospitality
+2021-04-15 15:08:25,588 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:08:34,520 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=International+Business+Strategic+Management
+2021-04-15 15:08:35,351 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:08:44,672 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=International+Business+Tourism+and+Hospitality
+2021-04-15 15:08:46,194 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:08:55,122 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Marketing+Strategic+Management
+2021-04-15 15:08:55,983 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:09:06,401 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Marketing+Tourism+and+Hospitality
+2021-04-15 15:09:07,213 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:09:17,319 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Strategic+Management+Tourism+and+Hospitality
+2021-04-15 15:09:18,846 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:21:27,392 - elsapy.elsclient - INFO - Module loaded.
+2021-04-15 15:21:27,394 - elsapy.elsentity - INFO - Module loaded.
+2021-04-15 15:21:27,395 - elsapy.utils - INFO - Module loaded.
+2021-04-15 15:21:27,396 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-15 15:21:27,398 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-15 15:21:27,399 - elsapy.elssearch - INFO - Module loaded.
+2021-04-15 15:28:51,716 - elsapy.elsclient - INFO - Module loaded.
+2021-04-15 15:28:51,719 - elsapy.elsentity - INFO - Module loaded.
+2021-04-15 15:28:51,720 - elsapy.utils - INFO - Module loaded.
+2021-04-15 15:28:51,721 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-15 15:28:51,722 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-15 15:28:51,723 - elsapy.elssearch - INFO - Module loaded.
+2021-04-15 15:30:22,405 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Tourism+and+Hospitality
+2021-04-15 15:30:23,763 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-15 15:30:24,249 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:30:24,478 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:34:01,890 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-15 15:34:02,766 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:39:03,139 - elsapy.elsclient - INFO - Module loaded.
+2021-04-15 15:39:03,141 - elsapy.elsentity - INFO - Module loaded.
+2021-04-15 15:39:03,142 - elsapy.utils - INFO - Module loaded.
+2021-04-15 15:39:03,142 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-15 15:39:03,144 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-15 15:39:03,146 - elsapy.elssearch - INFO - Module loaded.
+2021-04-15 15:39:04,754 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-15 15:39:05,991 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:40:30,399 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-15 15:40:31,393 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:47:01,582 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-15 15:47:03,074 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:48:12,899 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-15 15:48:13,783 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:49:20,686 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-15 15:49:22,227 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:50:06,956 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-15 15:50:07,804 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:51:07,983 - elsapy.elsclient - INFO - Module loaded.
+2021-04-15 15:51:07,985 - elsapy.elsentity - INFO - Module loaded.
+2021-04-15 15:51:07,987 - elsapy.utils - INFO - Module loaded.
+2021-04-15 15:51:07,988 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-15 15:51:07,988 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-15 15:51:07,993 - elsapy.elssearch - INFO - Module loaded.
+2021-04-15 15:51:16,661 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-15 15:51:17,751 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 15:53:49,533 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-15 15:53:50,480 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-15 20:49:22,431 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-15 20:49:25,731 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-16 10:57:52,811 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-16 10:57:54,074 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-16 10:59:43,728 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-16 10:59:44,611 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-16 11:00:20,697 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-16 11:00:21,801 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-16 11:01:25,342 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-16 11:01:27,172 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-16 11:04:33,359 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-16 11:04:34,204 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-16 11:18:49,555 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-16 11:18:50,336 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-16 11:22:11,541 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-16 11:22:13,305 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-16 11:23:20,833 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-16 11:23:21,704 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-16 22:43:03,443 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-16 22:43:04,474 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-16 22:49:14,964 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-16 22:49:15,974 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-16 22:50:54,050 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-16 22:50:55,135 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-16 22:51:16,944 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-16 22:51:17,674 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-16 22:52:41,830 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-16 22:52:42,661 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-16 23:01:17,303 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-16 23:01:18,758 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-16 23:04:30,089 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-16 23:04:30,969 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-16 23:05:51,095 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Educational+Administration+%2B+Entrepreneurship+and+Innovation
+2021-04-16 23:05:51,949 - elsapy.utils - INFO - Converting prism:coverDate

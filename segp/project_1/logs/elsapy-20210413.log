@@ -60,3 +60,5 @@
 2021-04-13 11:54:23,485 - elsapy.utils - INFO - Converting prism:coverDate
 2021-04-13 11:55:02,433 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+%2B+Emergency+Management
 2021-04-13 11:55:04,020 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-14 15:43:50,541 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+%2B+Emergency+Management
+2021-04-14 15:43:51,904 - elsapy.utils - INFO - Converting prism:coverDate

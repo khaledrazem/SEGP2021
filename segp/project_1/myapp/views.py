@@ -111,6 +111,7 @@ def single_category(request):
         related_paper = db_paper_subcategory.get_related_paper_with_keyword(query, None)[:5]
         related_paper2 = elsevier_des(query)
         related_word = disc(related_paper2['paper'])
+        related_word = [word.title() for word in related_word]
         graph = plotGraph(query, None)
         
         context = {
@@ -133,6 +134,7 @@ def single_keyword_result(request):
         related_paper = db_paper_subcategory.get_related_paper_with_keyword(query, None)[:5]
         related_paper2 = elsevier_des(query)
         related_word = disc(related_paper2['paper'])
+        related_word = [word.title() for word in related_word]
         
         graph = plotGraph(query, None)
         
@@ -151,7 +153,7 @@ def keyword_combination_result(request):
         query_1 = str(request.GET['keyword_1'])
         query_2 = str(request.GET['keyword_2'])
         real_query = query_1 + " + " + query_2
-        
+
         result_keyword = db_subcategory_combination.selectComb(query_1,query_2)
         related_paper = db_paper_subcategory.get_related_paper_with_subcategory_combination(query_1,query_2)[:5]
         related_paper2 = elsevier_des(real_query)
@@ -172,11 +174,11 @@ def subcategory_combination_result(request):
         query_1 = str(request.GET['subcategory_1'])
         query_2 = str(request.GET['subcategory_2'])
         real_query = query_1 + " + " + query_2
-        
         result_keyword = db_subcategory_combination.selectComb(query_1,query_2)
         related_paper = db_paper_subcategory.get_related_paper_with_subcategory_combination(query_1,query_2)[:5]
         related_paper2 = elsevier_des(real_query)
         related_word = disc(related_paper2['paper'])
+        related_word = [word.title() for word in related_word]
         graph = plotGraph(query_1, query_2)
         
         context = {

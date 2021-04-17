@@ -77,5 +77,5 @@ def checkCombStatus(x,quick):
             status = 2      # in db and is updated
     else:
         status = 0      # not in db
-
+    print("Status="+str(status))
     return status

@@ -907,7 +907,8 @@
 
 			function duplicate_keyword_block(){
 				  var query = document.getElementById("query_input");
-				  if ((query.value == "")||(!query.value.trim().length)){
+				  var outString = query.value.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, '');
+				  if ((outString == "")||(!query.value.trim().length)){
 					alert("A faulty input is detected");
 				  }
 				  else{
