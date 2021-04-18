@@ -5,6 +5,7 @@
 body{
     font-family:raleway;
     width:100vw;
+    height:100vh;
     margin:0;
     top:0;
     left:0;
@@ -32,10 +33,11 @@ body{
 
 #navbar a:hover{
     text-decoration:none;
-    font-style:italic;
-    height:10%;
     color : #138b89;
     padding:1vw;
+    background-color:white;
+    color:#0b345d;
+    cursor:pointer:
     text-shadow: 0px 2px 4px 0px #cdcdcd;
     transition: all 0.3s ease-out;
 }

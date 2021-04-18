@@ -21,7 +21,6 @@ def results2(request):
     
     # search function
     if request.method == 'GET':
-        
         query = str(request.GET['case_2_form_query'])
         growth_query = 'case_2_form_quick_trend_growth' in request.GET
         authorscore_query = 'case_2_form_author' in request.GET
@@ -134,8 +133,6 @@ def single_keyword_result(request):
         related_paper = db_paper_subcategory.get_related_paper_with_keyword(query, None)[:5]
         related_paper2 = elsevier_des(query)
         related_word = disc(related_paper2['paper'])
-        related_word = [word.title() for word in related_word]
-        
         graph = plotGraph(query, None)
         
         context = {

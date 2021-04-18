@@ -304,7 +304,7 @@ def getCode(readercount_query,growth_query,authorscore_query,pie_query):
 def searchData(x,client,session,status,quick):
     reader = count = avgreader = pie_score  = a = growth  = 0
     all_paper = []
-    fromYear = 100
+    fromYear = 150
     if status != None:
         query = x[0] + " " + x[1]
     else:
@@ -329,29 +329,32 @@ def searchData(x,client,session,status,quick):
     
     for ans in myDocSrch.results:
         
-        try:
-            title.append(ans['dc:title'])
-        except:
-            continue
-        
         yr_pub = int(ans['prism:coverDate'][:4])
-        year.append(yr_pub)
-        yr_diff = this_year - yr_pub
-        link.append(base_url + ans['pii'])
-        doi.append(ans['prism:doi'])
         
-        try:
-            temp_rc = session.catalog.by_identifier(doi=ans['prism:doi'], view='stats').reader_count
-        except:
-            temp_rc = 0
+        if yr_pub > min_yr:
+        
+            try:
+                title.append(ans['dc:title'])
+            except:
+                continue
             
-        rc.append(temp_rc)
-        new_paper = [ans['prism:doi'], temp_rc, yr_diff]
-        all_paper.append(new_paper)
-        
-        years[yr_diff] += 1
-        
-        count += 1
+            year.append(yr_pub)
+            yr_diff = this_year - yr_pub
+            link.append(base_url + ans['pii'])
+            doi.append(ans['prism:doi'])
+            
+            try:
+                temp_rc = session.catalog.by_identifier(doi=ans['prism:doi'], view='stats').reader_count
+            except:
+                temp_rc = 0
+                
+            rc.append(temp_rc)
+            new_paper = [ans['prism:doi'], temp_rc, yr_diff]
+            all_paper.append(new_paper)
+            
+            years[yr_diff] += 1
+            
+            count += 1
     
     growth = calcAvgGrowth(years)
     

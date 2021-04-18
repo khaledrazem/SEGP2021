@@ -13,7 +13,7 @@
 	<body>
 	
 		<div id="navbar" >
-			<a href="http://127.0.0.1:8000/">SOLUTION DISTRICT</a>
+			<a href=".">SOLUTION DISTRICT</a>
 		</div>
 	
 		<div class="main">
@@ -56,16 +56,16 @@
 						<table div class="tableproperty">
 							{% for x,y in related_word.words %}
 								{% if forloop.counter|divisibleby:2 %}
-										<td style="font-size:{{y}}px;">{{x}}</td>
+										<td style="font-size:{{y}}px;"><a href="../SingleKeywordResult/?keyword={{x}}">{{x}}</a></td>
 									</tr>
 								{% else %}
 									{% if forloop.last %}
 										<tr>
-											<td colspan="2" style="font-size:{{y}}px;">{{x}}</td>
+											<td colspan="2" style="font-size:{{y}}px;"><a href="../SingleKeywordResult/?keyword={{x}}">{{x}}</a></td>
 										</tr>
 									{% else %}
 										<tr>
-											<td style="font-size:{{y}}px;">{{x}}</td>
+											<td style="font-size:{{y}}px;"><a href="../SingleKeywordResult/?keyword={{x}}">{{x}}</a></td>
 									{% endif %}
 								{% endif %}
 							{% endfor %}

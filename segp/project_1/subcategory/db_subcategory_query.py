@@ -14,7 +14,7 @@ def isSubcatUpdated(query):
     last = datetime.strptime(getCurrentTime(), "%Y-%m-%d")
     subcat = Subcategory.objects.get(name=query)
     day_diff = (last.date() - subcat.last_update).days
-    if (day_diff <= 14):
+    if (day_diff <= 30):
         return True
     else:
         return False

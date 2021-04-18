@@ -148,3 +148,177 @@
 2021-04-17 11:52:23,090 - elsapy.elsprofile - INFO - Module loaded.
 2021-04-17 11:52:23,090 - elsapy.elsdoc - INFO - Module loaded.
 2021-04-17 11:52:23,092 - elsapy.elssearch - INFO - Module loaded.
+<<<<<<< HEAD
+=======
+2021-04-17 12:05:37,063 - elsapy.elsclient - INFO - Module loaded.
+2021-04-17 12:05:37,065 - elsapy.elsentity - INFO - Module loaded.
+2021-04-17 12:05:37,066 - elsapy.utils - INFO - Module loaded.
+2021-04-17 12:05:37,066 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-17 12:05:37,067 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-17 12:05:37,068 - elsapy.elssearch - INFO - Module loaded.
+2021-04-17 12:06:45,251 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=data+test
+2021-04-17 12:06:46,278 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 12:07:16,214 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=data
+2021-04-17 12:07:17,205 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 12:07:26,972 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=data
+2021-04-17 12:07:28,607 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 12:09:27,282 - elsapy.elsclient - INFO - Module loaded.
+2021-04-17 12:09:27,283 - elsapy.elsentity - INFO - Module loaded.
+2021-04-17 12:09:27,284 - elsapy.utils - INFO - Module loaded.
+2021-04-17 12:09:27,284 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-17 12:09:27,285 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-17 12:09:27,285 - elsapy.elssearch - INFO - Module loaded.
+2021-04-17 12:11:46,207 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=data
+2021-04-17 12:11:47,245 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 12:11:57,264 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=data
+2021-04-17 12:11:58,193 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 12:13:16,829 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=data+%2B+test
+2021-04-17 12:13:17,795 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 12:15:05,187 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Marketing
+2021-04-17 12:15:06,129 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 12:15:16,830 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Marketing
+2021-04-17 12:15:17,801 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 12:16:44,500 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+%2B+Marketing
+2021-04-17 12:16:45,448 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 12:17:38,024 - elsapy.elsclient - INFO - Module loaded.
+2021-04-17 12:17:38,025 - elsapy.elsentity - INFO - Module loaded.
+2021-04-17 12:17:38,025 - elsapy.utils - INFO - Module loaded.
+2021-04-17 12:17:38,026 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-17 12:17:38,026 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-17 12:17:38,027 - elsapy.elssearch - INFO - Module loaded.
+2021-04-17 12:17:53,095 - elsapy.elsclient - INFO - Module loaded.
+2021-04-17 12:17:53,096 - elsapy.elsentity - INFO - Module loaded.
+2021-04-17 12:17:53,097 - elsapy.utils - INFO - Module loaded.
+2021-04-17 12:17:53,097 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-17 12:17:53,098 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-17 12:17:53,099 - elsapy.elssearch - INFO - Module loaded.
+2021-04-17 12:18:09,060 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=data+%2B+test
+2021-04-17 12:18:10,105 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 12:18:46,795 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=International+Business+%2B+Marketing
+2021-04-17 12:18:47,827 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 12:19:20,533 - elsapy.elsclient - INFO - Module loaded.
+2021-04-17 12:19:20,535 - elsapy.elsentity - INFO - Module loaded.
+2021-04-17 12:19:20,535 - elsapy.utils - INFO - Module loaded.
+2021-04-17 12:19:20,536 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-17 12:19:20,536 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-17 12:19:20,537 - elsapy.elssearch - INFO - Module loaded.
+2021-04-17 12:19:40,604 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+%2B+Economic+History
+2021-04-17 12:19:41,689 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 12:20:04,163 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Marketing
+2021-04-17 12:20:06,333 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 12:20:16,869 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Marketing
+2021-04-17 12:20:17,755 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 12:21:39,936 - elsapy.elsclient - INFO - Module loaded.
+2021-04-17 12:21:39,937 - elsapy.elsentity - INFO - Module loaded.
+2021-04-17 12:21:39,938 - elsapy.utils - INFO - Module loaded.
+2021-04-17 12:21:39,938 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-17 12:21:39,939 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-17 12:21:39,940 - elsapy.elssearch - INFO - Module loaded.
+2021-04-17 12:22:11,194 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=server+data
+2021-04-17 12:22:12,136 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 12:22:22,481 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=server+run
+2021-04-17 12:22:23,309 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 12:22:33,099 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=server+test
+2021-04-17 12:22:33,962 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 12:22:42,454 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=data+run
+2021-04-17 12:22:43,755 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 12:22:52,354 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=run+test
+2021-04-17 12:22:53,865 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 12:23:50,197 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=test
+2021-04-17 12:23:51,370 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 12:24:05,864 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=test
+2021-04-17 12:24:06,842 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 20:35:06,249 - elsapy.elsclient - INFO - Module loaded.
+2021-04-17 20:35:06,253 - elsapy.elsentity - INFO - Module loaded.
+2021-04-17 20:35:06,255 - elsapy.utils - INFO - Module loaded.
+2021-04-17 20:35:06,255 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-17 20:35:06,257 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-17 20:35:06,259 - elsapy.elssearch - INFO - Module loaded.
+2021-04-17 20:35:15,481 - elsapy.elsclient - INFO - Module loaded.
+2021-04-17 20:35:15,482 - elsapy.elsentity - INFO - Module loaded.
+2021-04-17 20:35:15,483 - elsapy.utils - INFO - Module loaded.
+2021-04-17 20:35:15,483 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-17 20:35:15,484 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-17 20:35:15,485 - elsapy.elssearch - INFO - Module loaded.
+2021-04-17 20:38:01,483 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Toxicology+Immunology
+2021-04-17 20:38:02,521 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 20:38:13,890 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Toxicology+Critical+Care
+2021-04-17 20:38:14,782 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 20:38:25,919 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Toxicology+Nursing
+2021-04-17 20:38:27,566 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 20:38:38,535 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Toxicology+Diabetes
+2021-04-17 20:38:39,539 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 20:38:49,564 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Toxicology+Surgery
+2021-04-17 20:38:50,574 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 20:39:00,802 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Immunology+Critical+Care
+2021-04-17 20:39:01,978 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 20:39:12,717 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Immunology+Nursing
+2021-04-17 20:39:13,560 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 20:39:24,485 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Immunology+Diabetes
+2021-04-17 20:39:25,412 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 20:39:35,423 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Immunology+Surgery
+2021-04-17 20:39:36,459 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 20:39:46,761 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Critical+Care+Nursing
+2021-04-17 20:39:48,007 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 20:39:57,683 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Critical+Care+Diabetes
+2021-04-17 20:39:59,237 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 20:40:09,660 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Critical+Care+Surgery
+2021-04-17 20:40:10,678 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 20:40:20,702 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Nursing+Diabetes
+2021-04-17 20:40:21,557 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 20:40:29,723 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Nursing+Surgery
+2021-04-17 20:40:30,687 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 20:40:41,379 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Diabetes+Surgery
+2021-04-17 20:40:42,324 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 21:24:36,540 - elsapy.elsclient - INFO - Module loaded.
+2021-04-17 21:24:36,549 - elsapy.elsentity - INFO - Module loaded.
+2021-04-17 21:24:36,550 - elsapy.utils - INFO - Module loaded.
+2021-04-17 21:24:36,550 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-17 21:24:36,554 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-17 21:24:36,555 - elsapy.elssearch - INFO - Module loaded.
+2021-04-17 21:25:07,402 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=International+Business+%2B+Marketing
+2021-04-17 21:25:09,402 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 21:27:36,284 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=International+Business+%2B+Marketing
+2021-04-17 21:27:37,466 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 21:28:04,385 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=International+Business+%2B+Marketing
+2021-04-17 21:28:05,618 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 21:33:02,516 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=International+Business+%2B+Marketing
+2021-04-17 21:33:27,446 - elsapy.elsclient - INFO - Module loaded.
+2021-04-17 21:33:27,449 - elsapy.elsentity - INFO - Module loaded.
+2021-04-17 21:33:27,450 - elsapy.utils - INFO - Module loaded.
+2021-04-17 21:33:27,451 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-17 21:33:27,452 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-17 21:33:27,453 - elsapy.elssearch - INFO - Module loaded.
+2021-04-17 21:33:28,460 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=International+Business+%2B+Marketing
+2021-04-17 21:33:29,427 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 21:35:58,574 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=International+Business+%2B+Marketing
+2021-04-17 21:36:00,351 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 21:36:25,537 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=International+Business
+2021-04-17 21:36:26,663 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 21:37:00,171 - elsapy.elsclient - INFO - Module loaded.
+2021-04-17 21:37:00,177 - elsapy.elsentity - INFO - Module loaded.
+2021-04-17 21:37:00,182 - elsapy.utils - INFO - Module loaded.
+2021-04-17 21:37:00,183 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-17 21:37:00,183 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-17 21:37:00,187 - elsapy.elssearch - INFO - Module loaded.
+2021-04-17 21:37:04,789 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=International+Business
+2021-04-17 21:37:05,910 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 21:37:19,506 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=International+Business
+2021-04-17 21:37:21,587 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 21:39:55,726 - elsapy.elsclient - INFO - Module loaded.
+2021-04-17 21:39:55,736 - elsapy.elsentity - INFO - Module loaded.
+2021-04-17 21:39:55,740 - elsapy.utils - INFO - Module loaded.
+2021-04-17 21:39:55,741 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-17 21:39:55,743 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-17 21:39:55,745 - elsapy.elssearch - INFO - Module loaded.
+2021-04-17 21:40:03,796 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=International+Business
+2021-04-17 21:40:06,016 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 21:40:21,028 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=International+Business
+2021-04-17 21:40:22,800 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 21:43:14,618 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=International+Business
+2021-04-17 21:43:17,093 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 21:43:35,117 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=International+Business
+2021-04-17 21:43:36,763 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-17 21:44:57,111 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+%2B+Economic+History
+2021-04-17 21:44:58,274 - elsapy.utils - INFO - Converting prism:coverDate
+>>>>>>> 924af9829dc45a457d445eb9e61798d1639d51b1
