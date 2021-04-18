@@ -1,0 +1,64 @@
+2021-04-13 09:54:00,361 - elsapy.elsclient - INFO - Module loaded.
+2021-04-13 09:54:00,367 - elsapy.elsentity - INFO - Module loaded.
+2021-04-13 09:54:00,369 - elsapy.utils - INFO - Module loaded.
+2021-04-13 09:54:00,369 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-13 09:54:00,372 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-13 09:54:00,374 - elsapy.elssearch - INFO - Module loaded.
+2021-04-13 10:15:26,230 - elsapy.elsclient - INFO - Module loaded.
+2021-04-13 10:15:26,232 - elsapy.elsentity - INFO - Module loaded.
+2021-04-13 10:15:26,234 - elsapy.utils - INFO - Module loaded.
+2021-04-13 10:15:26,235 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-13 10:15:26,236 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-13 10:15:26,238 - elsapy.elssearch - INFO - Module loaded.
+2021-04-13 10:15:44,896 - elsapy.elsclient - INFO - Module loaded.
+2021-04-13 10:15:44,898 - elsapy.elsentity - INFO - Module loaded.
+2021-04-13 10:15:44,899 - elsapy.utils - INFO - Module loaded.
+2021-04-13 10:15:44,899 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-13 10:15:44,901 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-13 10:15:44,902 - elsapy.elssearch - INFO - Module loaded.
+2021-04-13 10:19:35,798 - elsapy.elsclient - INFO - Module loaded.
+2021-04-13 10:19:35,800 - elsapy.elsentity - INFO - Module loaded.
+2021-04-13 10:19:35,801 - elsapy.utils - INFO - Module loaded.
+2021-04-13 10:19:35,802 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-13 10:19:35,803 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-13 10:19:35,804 - elsapy.elssearch - INFO - Module loaded.
+2021-04-13 10:22:59,326 - elsapy.elsclient - INFO - Module loaded.
+2021-04-13 10:22:59,328 - elsapy.elsentity - INFO - Module loaded.
+2021-04-13 10:22:59,329 - elsapy.utils - INFO - Module loaded.
+2021-04-13 10:22:59,330 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-13 10:22:59,332 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-13 10:22:59,333 - elsapy.elssearch - INFO - Module loaded.
+2021-04-13 11:51:57,190 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+Economic+History
+2021-04-13 11:51:59,025 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-13 11:52:08,974 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+Emergency+Management
+2021-04-13 11:52:09,863 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-13 11:52:19,698 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+International+Business
+2021-04-13 11:52:21,257 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-13 11:52:30,880 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+Finance
+2021-04-13 11:52:32,476 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-13 11:52:42,367 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+Marketing
+2021-04-13 11:52:44,017 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-13 11:52:53,821 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+History+Emergency+Management
+2021-04-13 11:52:55,410 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-13 11:53:04,645 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+History+International+Business
+2021-04-13 11:53:05,500 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-13 11:53:14,558 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+History+Finance
+2021-04-13 11:53:15,660 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-13 11:53:24,614 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+History+Marketing
+2021-04-13 11:53:25,360 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-13 11:53:33,898 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Emergency+Management+International+Business
+2021-04-13 11:53:34,753 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-13 11:53:43,529 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Emergency+Management+Finance
+2021-04-13 11:53:44,288 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-13 11:53:52,678 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Emergency+Management+Marketing
+2021-04-13 11:53:53,513 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-13 11:54:02,603 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=International+Business+Finance
+2021-04-13 11:54:03,379 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-13 11:54:12,509 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=International+Business+Marketing
+2021-04-13 11:54:13,280 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-13 11:54:22,680 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Finance+Marketing
+2021-04-13 11:54:23,485 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-13 11:55:02,433 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+%2B+Emergency+Management
+2021-04-13 11:55:04,020 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-14 15:43:50,541 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+%2B+Emergency+Management
+2021-04-14 15:43:51,904 - elsapy.utils - INFO - Converting prism:coverDate

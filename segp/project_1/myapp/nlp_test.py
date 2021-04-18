@@ -82,6 +82,7 @@ def related_word(txt):
         i += 1
         
     word.reverse()
+    word = [x.title() for x in word]
     size.reverse()
     
     result = {

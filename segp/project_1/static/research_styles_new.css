@@ -10,10 +10,9 @@ html{
 	position: fixed;
 	right: 10px;
 	bottom: 10px;
-	width: 75px;
-	height: 75px;
 	border-radius: 50%;
-	background: #FF6E15;
+	padding:20px;
+	background: #2a6fb5;
 	color: white;
 	outline: none;
 	cursor: pointer;
@@ -21,7 +20,8 @@ html{
 	}
 
 #scrolltop:active {
-	background: #cc2333;
+	background: white;
+	color:#2a6fb5;
 }
 
 body{

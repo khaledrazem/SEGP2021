@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+2021-04-05 15:09:42,848 - elsapy.elsclient - INFO - Module loaded.
+2021-04-05 15:09:42,851 - elsapy.elsentity - INFO - Module loaded.
+2021-04-05 15:09:42,852 - elsapy.utils - INFO - Module loaded.
+2021-04-05 15:09:42,852 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-05 15:09:42,854 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-05 15:09:42,856 - elsapy.elssearch - INFO - Module loaded.
+=======
 2021-04-05 15:01:59,286 - elsapy.elsclient - INFO - Module loaded.
 2021-04-05 15:01:59,288 - elsapy.elsentity - INFO - Module loaded.
 2021-04-05 15:01:59,289 - elsapy.utils - INFO - Module loaded.
@@ -602,3 +610,4 @@
 2021-04-06 00:01:54,263 - elsapy.utils - INFO - Converting prism:coverDate
 2021-04-06 00:02:04,538 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=International+Law+Education
 2021-04-06 00:03:56,799 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=International+Law+Education
+>>>>>>> cd6e8501cc6392e028cf4dd6c3f71094705bd753

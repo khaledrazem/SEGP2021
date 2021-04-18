@@ -4,7 +4,6 @@ body{
     --blue-color: #099c95;
     --dark-green-color: #175b52;
     --white-color: #FFF;
-    --gray-color: #EDEDED;
     --container-width: 700px;
     --container-height: 400px;
     --line-offset: calc((100% - var(--container-height))/ 2 + var(--menu-item-size) + 0.6em);
@@ -30,12 +29,12 @@ body{
     padding: 0 1.7em;
     margin: 1px;
     transition: 0.5s linear all;
-    background: var(--green-color);
     cursor: pointer;
     font-size: 16px;
     user-select: none;
-    clip-path: polygon(10% 0%, 0% 100%, 95% 100%, 100% 50%, 95% 0%);
-    shape-outside: polygon(10% 0%, 0% 100%, 95% 100%, 100% 50%, 95% 0%);
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 20px;
 }
 
 .main-menu > li > button {
@@ -57,7 +56,9 @@ body{
 }
 
 .graph {
-	background-color: #52B2BF;
+	background-color: white;
+	border-radius:3px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .tableproperty {
@@ -65,12 +66,30 @@ body{
 	margin-right: auto;
 	text-align: center;
 	width:70%;
-	background-color: #52B2BF;
+	background-color: #00254e;
+	border-radius:3px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-collapse: separate;
+    border-spacing: 16px;
 }
 
 td.tableproperty {
 	width: 35%;
 	padding: 20px;
+}
+
+td{
+    padding:10px;
+}
+
+td:hover{
+    background-color: #002f62;
+    color:white;
+    border-radius:5px;
+    transition-delay: 0s;
+	 transition-duration: 0.2s;
+	 transition-property: all;
+    transition-timing-function: line;
 }
 
 .content{

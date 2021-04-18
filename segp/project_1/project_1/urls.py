@@ -22,4 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 ]
 
-#handler404 = 'myapp.views.error_404'
+handler400 = 'myapp.views.error_404'
+handler403 = 'myapp.views.error_404'
+handler404 = 'myapp.views.error_404'
+handler500 = 'myapp.views.error_500'

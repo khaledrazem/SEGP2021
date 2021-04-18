@@ -21,7 +21,7 @@ def isUpdated_Paper(paper_title):
     last = datetime.strptime(getCurrentTime(), "%Y-%m-%d")
     result = Paper.objects.get(name=paper_title)
     day_diff = (last.date() - result.last_update).days
-    if (day_diff <= 14):
+    if (day_diff <= 30):
         return True
     else:
         return False

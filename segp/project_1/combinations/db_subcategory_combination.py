@@ -23,7 +23,7 @@ def isCombUpdated(query_1,query_2):
     except:
         comb = subcategory_combination.objects.get(subcategory_1=subcategory_2, subcategory_2=subcategory_1)
     day_diff = (last.date() - comb.last_update).days
-    if (day_diff <= 14):
+    if (day_diff <= 30):
         return True
     else:
         return False
@@ -77,5 +77,5 @@ def checkCombStatus(x,quick):
             status = 2      # in db and is updated
     else:
         status = 0      # not in db
-
+    print("Status="+str(status))
     return status

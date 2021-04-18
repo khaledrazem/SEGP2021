@@ -21,7 +21,6 @@ def results2(request):
     
     # search function
     if request.method == 'GET':
-        
         query = str(request.GET['case_2_form_query'])
         growth_query = 'case_2_form_quick_trend_growth' in request.GET
         authorscore_query = 'case_2_form_author' in request.GET
@@ -133,7 +132,6 @@ def single_keyword_result(request):
         related_paper = db_paper_subcategory.get_related_paper_with_keyword(query, None)[:5]
         related_paper2 = elsevier_des(query)
         related_word = disc(related_paper2['paper'])
-        
         graph = plotGraph(query, None)
         
         context = {
@@ -151,7 +149,7 @@ def keyword_combination_result(request):
         query_1 = str(request.GET['keyword_1'])
         query_2 = str(request.GET['keyword_2'])
         real_query = query_1 + " + " + query_2
-        
+
         result_keyword = db_subcategory_combination.selectComb(query_1,query_2)
         related_paper = db_paper_subcategory.get_related_paper_with_subcategory_combination(query_1,query_2)[:5]
         related_paper2 = elsevier_des(real_query)
@@ -172,7 +170,6 @@ def subcategory_combination_result(request):
         query_1 = str(request.GET['subcategory_1'])
         query_2 = str(request.GET['subcategory_2'])
         real_query = query_1 + " + " + query_2
-        
         result_keyword = db_subcategory_combination.selectComb(query_1,query_2)
         related_paper = db_paper_subcategory.get_related_paper_with_subcategory_combination(query_1,query_2)[:5]
         related_paper2 = elsevier_des(real_query)
@@ -188,10 +185,9 @@ def subcategory_combination_result(request):
         }
     return render(request, 'KeywordCombination.html',context)
 
-"""
-def error_404(request, exception):
-    context = {}
-    print()
-    print("asd")
-    return render(request, 'Error.html',context)
-"""
+
+def error_404(request,exception):
+    return render(request, 'Error.html')
+
+def error_500(request):
+    return render(request, 'Error.html')
