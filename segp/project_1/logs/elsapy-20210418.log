@@ -328,3 +328,5 @@
 2021-04-18 22:22:39,428 - elsapy.elsprofile - INFO - Module loaded.
 2021-04-18 22:22:39,429 - elsapy.elsdoc - INFO - Module loaded.
 2021-04-18 22:22:39,430 - elsapy.elssearch - INFO - Module loaded.
+2021-04-18 22:23:27,567 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+%2B+Economic+History
+2021-04-18 22:23:28,544 - elsapy.utils - INFO - Converting prism:coverDate
