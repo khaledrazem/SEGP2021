@@ -371,7 +371,7 @@ def searchData(x,client,session,status,quick):
     pieScore = the_data['pie']
     
     paper_zip = zip(title, rc, link, year)
-    
+
     #pieScore = 0
     if status != None:
         for a,b,c,d in paper_zip:

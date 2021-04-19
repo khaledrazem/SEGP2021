@@ -1,0 +1,36 @@
+2021-04-19 14:52:54,668 - elsapy.elsclient - INFO - Module loaded.
+2021-04-19 14:52:54,671 - elsapy.elsentity - INFO - Module loaded.
+2021-04-19 14:52:54,672 - elsapy.utils - INFO - Module loaded.
+2021-04-19 14:52:54,672 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-19 14:52:54,677 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-19 14:52:54,678 - elsapy.elssearch - INFO - Module loaded.
+2021-04-19 14:53:20,557 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=International+Business+%2B+Marketing
+2021-04-19 14:53:21,760 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-19 14:53:37,633 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Marketing
+2021-04-19 14:53:38,619 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-19 14:53:47,468 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Marketing
+2021-04-19 14:53:48,802 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-19 14:54:02,748 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Business+Business
+2021-04-19 14:54:04,471 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-19 14:54:59,864 - elsapy.elsclient - INFO - Module loaded.
+2021-04-19 14:54:59,865 - elsapy.elsentity - INFO - Module loaded.
+2021-04-19 14:54:59,866 - elsapy.utils - INFO - Module loaded.
+2021-04-19 14:54:59,867 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-19 14:54:59,869 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-19 14:54:59,871 - elsapy.elssearch - INFO - Module loaded.
+2021-04-19 14:55:02,698 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Business+Business
+2021-04-19 14:55:03,518 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-19 14:58:57,953 - elsapy.elsclient - INFO - Module loaded.
+2021-04-19 14:58:57,955 - elsapy.elsentity - INFO - Module loaded.
+2021-04-19 14:58:57,956 - elsapy.utils - INFO - Module loaded.
+2021-04-19 14:58:57,956 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-19 14:58:57,958 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-19 14:58:57,959 - elsapy.elssearch - INFO - Module loaded.
+2021-04-19 14:59:03,059 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Business+Business
+2021-04-19 14:59:04,866 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-19 14:59:52,242 - elsapy.elsclient - INFO - Module loaded.
+2021-04-19 14:59:52,244 - elsapy.elsentity - INFO - Module loaded.
+2021-04-19 14:59:52,245 - elsapy.utils - INFO - Module loaded.
+2021-04-19 14:59:52,245 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-19 14:59:52,246 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-19 14:59:52,247 - elsapy.elssearch - INFO - Module loaded.
