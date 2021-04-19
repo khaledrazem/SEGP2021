@@ -4,6 +4,7 @@ from .mendeleyScript import *
 from .categoryScore import getTrend, filterResult, searchData, getCode
 from .categoryscraper import categoryscraper
 from combinations import db_subcategory_combination
+from subcategory.db_subcategory_query import *
 from paper import db_paper_subcategory
 from .drawGraph import *
 from .nlp_test import *
@@ -107,9 +108,12 @@ def single_category(request):
         session = mendeleyAuth()
         client = elsevier_auth()
         results = searchData(query,client,session,None,True)
-        related_paper = db_paper_subcategory.get_related_paper_with_keyword(query, None)[:5]
+        related_paper = []
+        if isinSubcatDB(query):
+            related_paper = db_paper_subcategory.get_related_paper_with_keyword(query, None)[:5]
         related_paper2 = elsevier_des(query)
         related_word = disc(related_paper2['paper'])
+        related_word = [word.title() for word in related_word]
         graph = plotGraph(query, None)
         
         context = {
@@ -129,7 +133,9 @@ def single_keyword_result(request):
         session = mendeleyAuth()
         client = elsevier_auth()
         results = searchData(query,client,session,None,True)
-        related_paper = db_paper_subcategory.get_related_paper_with_keyword(query, None)[:5]
+        related_paper = []
+        if isinSubcatDB(query):
+            related_paper = db_paper_subcategory.get_related_paper_with_keyword(query, None)[:5]
         related_paper2 = elsevier_des(query)
         related_word = disc(related_paper2['paper'])
         graph = plotGraph(query, None)
@@ -174,6 +180,7 @@ def subcategory_combination_result(request):
         related_paper = db_paper_subcategory.get_related_paper_with_subcategory_combination(query_1,query_2)[:5]
         related_paper2 = elsevier_des(real_query)
         related_word = disc(related_paper2['paper'])
+        related_word = [word.title() for word in related_word]
         graph = plotGraph(query_1, query_2)
         
         context = {

@@ -148,6 +148,8 @@
 2021-04-17 11:52:23,090 - elsapy.elsprofile - INFO - Module loaded.
 2021-04-17 11:52:23,090 - elsapy.elsdoc - INFO - Module loaded.
 2021-04-17 11:52:23,092 - elsapy.elssearch - INFO - Module loaded.
+<<<<<<< HEAD
+=======
 2021-04-17 12:05:37,063 - elsapy.elsclient - INFO - Module loaded.
 2021-04-17 12:05:37,065 - elsapy.elsentity - INFO - Module loaded.
 2021-04-17 12:05:37,066 - elsapy.utils - INFO - Module loaded.
@@ -319,3 +321,4 @@
 2021-04-17 21:43:36,763 - elsapy.utils - INFO - Converting prism:coverDate
 2021-04-17 21:44:57,111 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Economic+Policy+%2B+Economic+History
 2021-04-17 21:44:58,274 - elsapy.utils - INFO - Converting prism:coverDate
+>>>>>>> 924af9829dc45a457d445eb9e61798d1639d51b1

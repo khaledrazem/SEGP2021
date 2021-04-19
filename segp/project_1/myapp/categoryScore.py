@@ -335,13 +335,13 @@ def searchData(x,client,session,status,quick):
         
             try:
                 title.append(ans['dc:title'])
+                doi.append(ans['prism:doi'])
             except:
                 continue
             
             year.append(yr_pub)
             yr_diff = this_year - yr_pub
             link.append(base_url + ans['pii'])
-            doi.append(ans['prism:doi'])
             
             try:
                 temp_rc = session.catalog.by_identifier(doi=ans['prism:doi'], view='stats').reader_count
@@ -371,7 +371,7 @@ def searchData(x,client,session,status,quick):
     pieScore = the_data['pie']
     
     paper_zip = zip(title, rc, link, year)
-    
+
     #pieScore = 0
     if status != None:
         for a,b,c,d in paper_zip:
