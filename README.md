@@ -2,9 +2,14 @@
 
 Solution District is a web application that aims to aid researchers in coming up with interesting and new topics for future research.
 
+## Installing
+
+You can click [here](https://gitlab.com/wenjye00/segp/-/archive/master/segp-master.zip) to download this project in a .zip file.
+You can also download it in other formats by clicking the download button inside the main repository [here](https://gitlab.com/wenjye00/segp).
+
 ## Prerequisites
 
-The programming language used for our prject  is mainly Python, so please make sure that you have the latest version of python installed.
+The programming language used for our project is mainly Python, so please make sure that you have the latest version of python installed.
 You can download the latest version of Python here: https://www.python.org/downloads/
 
 There are several prequisite python modules that are needed to run the project.
@@ -18,11 +23,6 @@ pip install django
 ```
 
 To download the rest of the prerequisite packages that are needed to run our project, kindly click and run the <strong>Prerequisites.cmd</strong> file.
-
-## Installing
-
-You can click [here](https://gitlab.com/wenjye00/segp/-/archive/master/segp-master.zip) to download this project in a .zip file.
-You can also download it in other formats by clicking the download button inside the main repository [here](https://gitlab.com/wenjye00/segp).
 
 ## Getting Started
 
