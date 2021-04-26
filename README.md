@@ -34,7 +34,7 @@ Enter the following line into the command prompt to start the local server:
 ```
 python manage.py runserver
 ```
-Do not exit the command prompt after running the above command.
+<strong>Do not</strong> exit the command prompt after running the above command.
 After the local server is running in the command prompt, enter http://127.0.0.1:8000/ into an internet browser to start accessing the web application.
 
 ### Halting of the localhost server
