@@ -1,3 +1,5 @@
+<!-- created by group -->
+
 {% load static %}
 
 <!DOCTYPE html>
@@ -59,8 +61,8 @@
 					</div>
 					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 					<div class="overlay-content">
-						<a href="#case1" onclick="closeNav();">CASE 1</a>
-						<a href="#case2" onclick="closeNav();">CASE 2</a>
+						<a href="#case1" onclick="closeNav();">Manual Search</a>
+						<a href="#case2" onclick="closeNav();">Field Search</a>
 						<a href="#about" onclick="closeNav();">ABOUT</a>
 						<a href="#howto" onclick="closeNav();">HOW TO</a>
 					</div>
@@ -117,21 +119,16 @@
 			</div>
 			<!-- About -->
 			
+			<a name="case1"></a>
 			<div class="homepage_section" style="height:120vh">
 				<div style="width:80%;height:100%;margin:0% auto;">
 						<p style="text-align:center;font-size:max(2vw,20px);">1. Enter Your Query</p>
 						<div id="search_div">
-							<a name="case1"></a>
+							
 
 							<div id="query_box">
 								<input id="query_input" placeholder="Enter your query here">
 								<button onclick="duplicate_keyword_block()" style="font-size:max(2vw,20px);border:none;background-color:transparent;outline:none" id="add_button"><i class="fas fa-plus-square" ></i></button>
-							</div>
-							<div style="margin:auto;font-size:max(1.2vw,16px);  padding-left: max(2vw,30px);">
-								<label class="container">Quick Search
-								  <input type="checkbox" checked="checked" style="padding:1%" id="case_1_display_quick_search">
-								  <span class="checkmark"></span>
-								</label>
 							</div>
 						</div>
 						<div id="query_space">
@@ -161,7 +158,6 @@
 						</div>
 				</div>
 				<form id="case_1_form" style="display:none" method="GET" action="../Results1/">{% csrf_token %}
-					<input type="checkbox" checked="checked" id="case_1_form_quick_search" name="case_1_form_quick_search">
 					<input type="checkbox" checked="checked" id="case_1_form_average_reader_count" name="case_1_form_average_reader_count">
 					<input type="checkbox" checked="checked" id="case_1_form_paper_impact_effectiveness" name="case_1_form_paper_impact_effectiveness">
 					<input type="checkbox" checked="checked" id="case_1_form_quick_trend_growth" name="case_1_form_quick_trend_growth">
@@ -189,12 +185,6 @@
 									<option class="category_option" value="soc">Social Sciences</option>
 								</select>
 							</label>
-							<div style="margin:auto;font-size:max(1.2vw,16px);padding-left:max(2vw,20px);">
-									<label class="container">Quick Search
-									  <input type="checkbox" checked="checked" style="padding:1%" id="case_2_display_quick_search">
-									  <span class="checkmark"></span>
-									</label>
-							</div>
 						</div>
 					</div>
 					<br>
@@ -208,7 +198,7 @@
 							<input type="checkbox" id="case_2_display_trend_growth" name="evaluating_algorithm" value="trend_growth">
 							<label for="case_2_display_trend_growth">Trend Growth&emsp;</label>
 							<input type="checkbox" id="case_2_display_author" name="evaluating_algorithm" value="author">
-								<label for="case_2_display_author">Author Score&emsp;</label>
+							<label for="case_2_display_author">Author Score&emsp;</label>
 						</div>
 					</div>
 					<div style="width:fit-content;height:fit-content;margin:auto;">
@@ -238,12 +228,11 @@
 							<div id="about_us_text">
 								<h1 style="font-size:3vw">ABOUT US</h1>
 								<p style="font-size:1.5vw;font-family: 'Open Sans';">
-									Our team has always set eyes to achieve a simple mission, which is to provide our
-									user with a fully functional software or website along with the best user experience. 
-									Our team is well established and each members are equipped with the right skillset 
-									appropriate for the job enabling us to deliver with excellence. Research always comes
-									before development, hence we are led with a clear path towards our goal on top of a 
-									good leadership.
+									The purpose of this website is to enable researchers from all fields of study to find and 
+									consider relevant topics to be researched before choosing. The user shall simply present their 
+									topic to the website before proceeding to submit their requests.  The importance of a topic or 
+									a combination of topics is determined by the score calculated by certain algorithms according 
+									to the user's preference.
 								</p>
 							</div>
 						</div>
@@ -871,11 +860,11 @@
 								<p style="font-size:1.5vw;font-family: 'Open Sans';">
 									There are two ways for a user to begin searching for their queries:-<br><br>
 									
-									Case 1 allows a user to enter as many queries to the system whereby 
-									Case 2 lets a user choose a category followed by their preferences to evaluate the scores
-									(Multiple preferences allowed><br><br>
+									Manual search allows a user to enter as many queries to the system whereby 
+									Field search lets a user choose a category followed by their preferences to evaluate the scores
+									(Multiple preferences allowed)<br><br>
 								
-									Both Case 1 and Case 2 will then return the user with relevant information
+									Both Manual search and Field search will then return the user with relevant information
 									paired with their own individual scores. The user can then pick which suggested topic
 									they are most interest in and the system shall return the user a more detailed
 									information regarding the selected topic.
@@ -908,7 +897,13 @@
 			function duplicate_keyword_block(){
 				  var query = document.getElementById("query_input");
 				  var outString = query.value.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, '');
+				  var n = query.value.includes("(");
+				  var m = query.value.includes(")");
+				  
 				  if ((outString == "")||(!query.value.trim().length)){
+					alert("A faulty input is detected");
+				  }
+				  else if (m || n){
 					alert("A faulty input is detected");
 				  }
 				  else{
@@ -946,7 +941,6 @@
 				    x.setAttribute("name", "query_"+i)
 				    form_1.appendChild(x);
 				}
-				pass_checkbox_to_form('case_1_display_quick_search','case_1_form_quick_search');
 				pass_checkbox_to_form('case_1_display_average_reader_count','case_1_form_average_reader_count');
 				pass_checkbox_to_form('case_1_display_paper_impact_effectiveness','case_1_form_paper_impact_effectiveness');
 				pass_checkbox_to_form('case_1_display_trend_growth','case_1_form_quick_trend_growth');
@@ -967,7 +961,6 @@
 				
 				document.getElementById('case_2_form_query').value = topic;
 				
-				pass_checkbox_to_form('case_2_display_quick_search','case_2_form_quick_search')
 				pass_checkbox_to_form('case_2_display_average_reader_count','case_2_form_average_reader_count');
 				pass_checkbox_to_form('case_2_display_paper_impact_effectiveness','case_2_form_paper_impact_effectiveness');
 				pass_checkbox_to_form('case_2_display_trend_growth','case_2_form_quick_trend_growth');

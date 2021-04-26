@@ -1,0 +1,124 @@
+<!-- created by group -->
+
+{% load static %}
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="{% static 'results2css.css' %} ">
+		
+		<link rel="stylesheet" href="{% static 'test_navigation.css' %}">
+	</head>
+	
+	<body>
+	
+		<div id="navbar" >
+			<a href="../">SOLUTION DISTRICT</a>
+		</div>
+	
+		<div class="main">
+			<div class="section1">
+				<a class="keyword">{{keyword}}</a>
+				<br><br><br><br>
+				<table style="width:100%;margin:0 auto;padding:10px;border-spacing: 0 20px;" class="results2table">
+					<tr>
+						<th>READER SCORE</th>
+						<th>AUTHOR SCORE</th>
+						<th>GROWTH SCORE</th>
+					</tr>
+					<tr>
+						<td>{{results.reader}}</td>
+						<td>{{results.author}}</td>
+						<td>{{results.growth}}</td>
+					</tr>
+				</table>
+			</div>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<div class="file_container">
+				<ul class="main-menu">
+					<li><button onclick="show(1)">Statistical Trend</button></li>
+					<li><button onclick="show(2)">Related Keyword</button></li>
+					<li><button onclick="show(3)">Related Paper</button></li>
+				</ul>
+		<br><br><br>
+				<div class="content">
+					<div class="sub_content" id="1" style="height:110vh" "background-color:blue;display:none;" >
+						<h1 class="keyword">STATISTICAL ANALYSIS</h1>
+						<div class="graph">
+							{% autoescape off %}
+							{{ graph.graph1 }}
+							{% endautoescape %}
+						</div>
+					</div>
+				
+					<div class="sub_content" id="2" style="display:none;">
+						<h1 class="keyword">RELATED WORDS</h1>
+						<table div class="tableproperty">
+							{% for x,y in related_word.words %}
+								{% if forloop.counter|divisibleby:2 %}
+										<td style="font-size:{{y}}px;"><a href="../SingleKeywordResult/?keyword={{x}}">{{x}}</a></td>
+									</tr>
+								{% else %}
+									{% if forloop.last %}
+										<tr>
+											<td colspan="2" style="font-size:{{y}}px;"><a href="../SingleKeywordResult/?keyword={{x}}">{{x}}</a></td>
+										</tr>
+									{% else %}
+										<tr>
+											<td style="font-size:{{y}}px;"><a href="../SingleKeywordResult/?keyword={{x}}">{{x}}</a></td>
+									{% endif %}
+								{% endif %}
+							{% endfor %}
+						</table>
+					</div>
+				
+					<div class="sub_content" id="3" style="display:none;">
+						<h1 class="keyword3">RESEARCH PAPERS</h1>
+						
+						<table class="container">
+							<thead>
+								<tr>
+									<th><h1>Title</h1></th>
+									<th><h1>Citations</h1></th>
+									<th><h1>Date Published</h1></th>
+									<th><h1>Link</h1></th>
+								</tr>
+							</thead>
+							<tbody>
+								{% for x in related %}
+									<tr>
+										<td>{{x.paper.name}}</td>
+										<td>{{x.paper.reader_count}}</td>
+										<td>{{x.paper.year_published}}</td>
+										<td><a href="{{x.paper.link}}">Link</a></td>
+									</tr>
+								{% endfor %}
+												
+								{% for x in related2.paper %}
+									<tr>
+										<td>{{x.name}}</td>
+										<td>{{x.reader_count}}</td>
+										<td>{{x.year_published}}</td>
+										<td><a href="{{x.link}}">Link</a></td>
+									</tr>
+								{% endfor %}
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script>
+	function show(x){
+		var elements = document.getElementsByClassName("sub_content");
+		for (var i = 0, len = elements.length; i < len; i++) {
+			 elements[i].style.display = "none";
+		}
+		var content_chose = document.getElementById(x);
+		content_chose.style.display = "block";
+	}
+</script>

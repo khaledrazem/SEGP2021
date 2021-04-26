@@ -1,16 +1,23 @@
+/* created by group */
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+html{
+    height:100%;
+}
+
 body{
     font-family:raleway;
     width:100vw;
-    height:min(100vh,100%);
     margin:0;
     top:0;
     left:0;
     background: #0b345d;
     background-image: linear-gradient(155deg, #002f62 0%, #18496a 50%, #138b89 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     overflow-x: hidden;
 }
 
@@ -33,13 +40,17 @@ body{
 
 #navbar a:hover{
     text-decoration:none;
+    /*color : white;*/
     color : #138b89;
     padding:1vw;
-    background-color:white;
-    color:#0b345d;
+    /*color:#0b345d;*/
     cursor:pointer:
     text-shadow: 0px 2px 4px 0px #cdcdcd;
     transition: all 0.3s ease-out;
+}
+
+.submitB{
+    display:inline-block;
 }
 
 .submit{
@@ -48,7 +59,6 @@ body{
     border-radius:5px;
     border:2px solid #0b345d;
     cursor: pointer;
-	
 }
 
 .submit:hover{
@@ -71,8 +81,8 @@ select:hover{
     transition: all 0.1s ease-out;
 }
 
+
 .table_container{
-    
     width:70%;
     margin: auto;
     margin-top:1vh;
@@ -123,6 +133,7 @@ th:hover{
 }
 
 .selectBox {
+  float:left;
   position: relative;
 }
 
@@ -179,4 +190,34 @@ a:hover {
 td:hover a{
     text-decoration:none;
     color:#0b345d;
+}
+
+/*for mobile devices*/
+@media only screen and (max-width: 760px) {
+  
+  #amount{
+      width:100px;
+  }
+  
+  #slider-range{
+      width:100px;
+  }
+  
+  #table_filter{
+    border:1px solid black;
+    width:70%;
+    margin: auto;
+    margin-top:7vh;
+    padding:1vw;
+    background-color:#02759F;
+    border-radius:5px;
+    color:white;
+}
+
+.table_container{
+    width:100%;
+    position:absolute;
+    margin-top:1vh;
+    padding:1vw;
+}
 }

@@ -1,3 +1,4 @@
+# file created by django and modified by group
 """
 Django settings for project_1 project.
 
@@ -41,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'myapp',
     'paper',
-    'subcategory',
+    'topic',
     'combinations',
 ]
 

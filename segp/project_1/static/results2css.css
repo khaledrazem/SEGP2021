@@ -1,3 +1,5 @@
+/* created by group */
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
@@ -65,9 +67,10 @@ body{
 }
 
 .results2table{
+	width:100%;
 	color:white;
 	float:right;
-	margin-right:30%;
+	margin-right:25%;
 	text-align:center;
 	border:1px solid white;
 	border-width:1px 0 1px 0
@@ -76,7 +79,7 @@ body{
 table.results2table th{
 	font-weight: bold;
 	font-size: 200%;
-	margin:3px;
+	margin: 20px;
 	text-underline-position: under;
 }
 
@@ -120,6 +123,7 @@ table.results2table td{
 
 .section1{
 	padding-top: 0;
+	height:30vh;
 }
 	
 
@@ -195,6 +199,28 @@ color:white;
   transition-timing-function: line;
 }
 
-@media (max-width: 800px) {
-	
+
+
+
+/*minimize/tablet*/
+@media screen and (max-width:1030px){
+
+
+}
+
+@media screen and (max-width:768px){
+
+.section1{
+	padding-top: 0;
+}
+
+}
+
+@media screen and (max-width:630px){
+
+
+}
+
+@media screen and (max-width:500px){
+
 }

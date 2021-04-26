@@ -1,3 +1,5 @@
+<!-- created by group -->
+
 {% load static %}
 
 <!DOCTYPE html>
@@ -79,7 +81,7 @@
                         </div>
 					</div>
 
-					<div>
+					<div class="slider">
                             <label for="amount">Score range:</label>
                             <input type="text" id="amount" name="amount" readonly>
                             <input type="hidden" id="min_val" name="min_val">
@@ -90,7 +92,9 @@
 				</div>
 
 				<input type="hidden" id="thiscode" name="thiscode" value="{{code}}"/>
-				<input type="submit" class ="submit" value="Submit" style="height:50px">
+				<div class="submitB">
+                    <input type="submit" class ="submit" value="Submit" style="height:50px">
+                </div>
             </div>
         </form>
         <div class="table_container">
