@@ -86,8 +86,7 @@ def dataGraph(title,trace):
         title={
             'text': title,
         },
-        autosize=False,
-        width=1000,
+        autosize=True,
         height=350,
         paper_bgcolor='rgba(0,0,0,0)',
         plot_bgcolor='rgba(0,0,0,0)',
@@ -106,8 +105,7 @@ def emptyGraph(title):
         title={
             'text': title,
         },
-        autosize=False,
-        width=1000,
+        autosize=True,
         height=350,
         paper_bgcolor='rgba(0,0,0,0)',
         plot_bgcolor='rgba(0,0,0,0)',
