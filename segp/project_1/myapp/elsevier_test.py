@@ -12,18 +12,21 @@ import aiohttp
 import asyncio
 
 def elsevier_auth():
-    ## Initialize client
+    # Initialize client
     client = ElsClient("1ebaeb2ea719e96071ce074a5c341963")
     client.inst_token = "6383ea4db27ea6b7353107935f098932"
     return client
 
 def elsevier_des(keyword):
     client = elsevier_auth()
+    
+    # search data from elsevier
     myDocSrch = ElsSearch(keyword,'sciencedirect')
     myDocSrch.execute(client,get_all = False)
 
     doi = []
     
+    # search data of all papers
     for i in myDocSrch.results:
         try:
             doi.append(i['prism:doi'])
@@ -38,10 +41,13 @@ def elsevier_des(keyword):
 
 async def searchPaper(doi):
     tasks = []
+    
+    # start task for each paper
     for i in doi:
         task = asyncio.ensure_future(getResult(i))
         tasks.append(task)
-
+    
+    # gather all completed tasks
     paper_result = await asyncio.gather(*tasks)
     paper = []
     
@@ -88,6 +94,7 @@ async def getResult(doi):
     async with aiohttp.ClientSession() as session:
         async with session.get(url, headers=headers) as resp:
             result_data = await resp.json()
+            # get the data of paper
             try:
                 results['name'] = result_data['search-results']['entry'][0]['dc:title']
                 results['reader_count'] = result_data['search-results']['entry'][0]['citedby-count']

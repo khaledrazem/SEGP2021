@@ -1,4 +1,5 @@
 # file created by group with reference from https://plotly.com/python-api-reference/
+
 from pytrends.request import TrendReq  # pip install pytrends
 import plotly.graph_objects as go  # pip install plotly==4.14.3
 from plotly.offline import plot
@@ -15,9 +16,10 @@ def plotGraph(query1, query2):
         query3 = query1 + " " + query2
         kw_list = [query1, query2]
         kw_list2 = [query3]
-        title2 = "Combination Trend of " + query1 + " & " + query2
-        title1 = "Trend of " + query1 + " & " + query2
-        
+        title1 = "Trend of " + query1 + " & " + query2                  # graph 1 title
+        title2 = "Combination Trend of " + query1 + " & " + query2      # graph 2 title
+    
+    # search google trend 
     timeout = 0
     pytrends = TrendReq(hl='en-US', tz=360)
     daterange = "today 5-y"  # date range ( 5-y means 5 years )
@@ -29,7 +31,9 @@ def plotGraph(query1, query2):
         timeout = 1
         print("Google Trend down!")
     
+    
     if timeout == 1:
+        # cannot connect google trend, plot empty graph
         the_graph['graph1'] = emptyGraph(title1)
     else:
         if not data1.empty:
@@ -39,12 +43,15 @@ def plotGraph(query1, query2):
                 x=data1.index,
                 y=data1[col], name=col) for col in data1.columns]
             
+            # plot graph with data
             the_graph['graph1'] = dataGraph(title1,trace)
         else:
+            # plot empty graph
             the_graph['graph1'] = emptyGraph(title1)
 
-    # plot combination graph
+    # plot combination graph if 2 keyword
     if query2 != None:
+        # search google trend
         timeout = 0
         pytrends = TrendReq(hl='en-US', tz=360)
         pytrends.build_payload(kw_list2, cat=0, timeframe=daterange, geo='', gprop='')
@@ -55,6 +62,7 @@ def plotGraph(query1, query2):
             timeout = 1
         
         if timeout == 1:
+            # plot empty graph
             the_graph['graph2'] = emptyGraph(title2)
         else:
             if not data2.empty:
@@ -63,9 +71,11 @@ def plotGraph(query1, query2):
                 trace = [go.Scatter(
                     x=data2.index,
                     y=data2[col], line=dict(color='#00FF00', width=2), name=col) for col in data2.columns]
-
+                    
+                # plot graph with data
                 the_graph['graph2'] = dataGraph(title2,trace)
             else:
+                # plot empty graph
                 the_graph['graph2'] = emptyGraph(title2)
 
     return the_graph

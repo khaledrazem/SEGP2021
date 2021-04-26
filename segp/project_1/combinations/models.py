@@ -5,8 +5,7 @@ from topic.models import Topic
 # Create your models here.
 class topic_combination(models.Model):
     class Meta:
-        unique_together = (('topic_1',
-                            'topic_2'),)
+        unique_together = (('topic_1', 'topic_2'),)
 
     topic_1 = models.ForeignKey(Topic, on_delete=models.CASCADE, related_name="subcategory_1")
     topic_2 = models.ForeignKey(Topic, on_delete=models.CASCADE, related_name="subcategory_2")

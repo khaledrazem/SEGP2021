@@ -63,11 +63,13 @@ def selectComb(query_1,query_2):
         result = topic_combination.objects.get(topic_1=topic_2, topic_2=topic_1)
     return result
 
+# get the current date
 def getCurrentTime():
     now = datetime.now()
     current_time = now.strftime("%Y-%m-%d")
     return current_time
 
+# check status of combination in database
 def checkCombStatus(x):
     if isinCombDB(query_1=x[0],query_2=x[1]):
         comb_result = selectComb(query_1=x[0],query_2=x[1])

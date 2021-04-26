@@ -55,6 +55,7 @@ def getTrend(topic,code):
         this_trend = topic_result.trend_score
         trend.append(this_trend)
     
+    # set top n keywords
     if len(trend) > 6:
         N = 6
     else:
@@ -73,6 +74,7 @@ def getTrend(topic,code):
         i += 1
     print()
 
+    # pair subsets
     combinations = pair_subset(toptopic)
     
     results = {
@@ -168,6 +170,7 @@ def filterResult(q1,q2,minval,maxval,code):
     all_comb = pair_subset(q2)
     
     if not q1:
+        # default select all
         topics = all_comb
     else:
         # keep checked subcategory
@@ -198,6 +201,7 @@ def filterResult(q1,q2,minval,maxval,code):
     pieScore = data_norm(pieScore)
     authorScore = data_norm(authorScore)
     
+    # choose display data
     score = chooseDisplayData(code,readerCount,Growth,authorScore,pieScore)
     
     # get position of largest n data
@@ -215,6 +219,7 @@ def filterResult(q1,q2,minval,maxval,code):
         z += 1
     print()
 
+    # sort descending order
     readers.reverse()
     comb.reverse()
     
@@ -223,7 +228,8 @@ def filterResult(q1,q2,minval,maxval,code):
         minval = 0
     if maxval == '':
         maxval = 100
-        
+     
+    # >=
     try:
         m = next(pos for pos, val in enumerate(comb) if val < float(minval))
         readers = readers[:m]
@@ -231,6 +237,7 @@ def filterResult(q1,q2,minval,maxval,code):
     except:
         readers = readers
         comb = comb
+    
     # <=
     try:
         m = next(pos for pos, val in enumerate(comb) if val <= float(maxval))
@@ -307,6 +314,8 @@ def searchData(x,client,session,status):
     else:
         query = x
     this_year = current_year()
+    
+    # search fom elsevier
     myDocSrch = ElsSearch(query,'sciencedirect')
     myDocSrch.execute(client,get_all = False)
     
@@ -317,28 +326,29 @@ def searchData(x,client,session,status):
     doi = []
     rc = []
     
+    # define year array
     years = [None] * (fromYear + 1) 
     while a <= fromYear:
         years[a] = 0
         a += 1
     min_yr = current_year() - 99
     
+    
     for ans in myDocSrch.results:
-        
-        yr_pub = int(ans['prism:coverDate'][:4])
+        yr_pub = int(ans['prism:coverDate'][:4])    # year publish
         
         if yr_pub > min_yr:
-        
             try:
-                title.append(ans['dc:title'])
+                title.append(ans['dc:title'])   # paper title
             except:
                 continue
             
             year.append(yr_pub)
             yr_diff = this_year - yr_pub
-            link.append(base_url + ans['pii'])
-            doi.append(ans['prism:doi'])
+            link.append(base_url + ans['pii'])  # paper link
+            doi.append(ans['prism:doi'])        # paper doi
             
+            # paper reader count
             try:
                 temp_rc = session.catalog.by_identifier(doi=ans['prism:doi'], view='stats').reader_count
             except:
@@ -352,6 +362,7 @@ def searchData(x,client,session,status):
             
             count += 1
     
+    # get growth score
     growth = calcAvgGrowth(years)
     
     # get reader count score
@@ -359,16 +370,17 @@ def searchData(x,client,session,status):
     if count == 0: count = 1
     avgreader = round((totalrc / count),2)
 	
+    # get pie and author score
     the_data = calcData(all_paper)
     authorscore = the_data['author']
     pieScore = the_data['pie']
     
     paper_zip = zip(title, rc, link, year)
 
-    #pieScore = 0
     if status != None:
         for a,b,c,d in paper_zip:
             if b > 0:
+                # store paper into database
                 store_Paper(paper_title=a, paper_reader_count=b, paper_link=c, paper_year_published=d)
                 store_Paper_topic(paper_title=a, query_1=x[0], query_2=x[1])
     
@@ -381,7 +393,7 @@ def searchData(x,client,session,status):
     else:
         os.system('cls')
         
-        # get data from calculation
+        # return data from calculation
         results = {
             'reader': avgreader,
             'author': authorscore,
@@ -395,17 +407,19 @@ def chooseDisplayData(code,readerCount,Growth,authorScore,pieScore):
     displayData = []
     score = []
     
-    if '1' not in code:
+    if '1' not in code:     # calculate display all scores
         zip_list = zip(readerCount,Growth,authorScore,pieScore)
         
         for a,b,c,d in zip_list:
             score.append(round(((a+b+c+d)/4),2))
     else:
+        # add the scores selected
         for i in code:
             if i == '1':
                 displayData.append(temp[j])
             j+=1
         
+        # calculate the score
         for x in range(len(readerCount)):
             tempscore = 0
             for y in displayData:

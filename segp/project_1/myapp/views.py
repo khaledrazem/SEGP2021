@@ -11,9 +11,6 @@ from .nlp_test import *
 from .elsevier_test import elsevier_des,elsevier_auth
 import os
 
-#from django.shortcuts import render,redirect
-#from django.core.files.storage import FileSystemStorage
-
 # Create your views here.
 def home(request):
     os.system('cls')
@@ -104,47 +101,28 @@ def results2(request):
     os.system('cls')
     return render(request, 'Results_2.html',context)
 
-def single_category(request):
-    if request.method == 'GET':
-        query = str(request.GET['category'])
-        
-        session = mendeleyAuth()
-        client = elsevier_auth()
-        results = searchData(query,client,session,None)
-        try:
-            related_paper = db_paper_topic.get_related_paper_with_keyword(query, None)[:5]
-        except:
-            related_paper = []
-        related_paper2 = elsevier_des(query)
-        related_word = disc(related_paper2['paper'])
-        related_word = [word.title() for word in related_word]
-        graph = plotGraph(query, None)
-        
-        context = {
-            "keyword": query,
-            "results": results,
-            "graph": graph,
-            "related": related_paper,
-            "related2": related_paper2,
-            "related_word": related_word,
-        }
-    
-    os.system('cls')
-    return render(request, 'KeywordAnalysis.html',context)
-
 def single_keyword_result(request):
     if request.method == 'GET':
         query = str(request.GET['keyword'])
         
+        # define authentication
         session = mendeleyAuth()
         client = elsevier_auth()
+        
+        # search data
         results = searchData(query,client,session,None)
+        
+        # get related papers
         try:
             related_paper = db_paper_topic.get_related_paper_with_keyword(query, None)[:5]
         except:
             related_paper = []
         related_paper2 = elsevier_des(query)
+        
+        # get related words
         related_word = disc(related_paper2['paper'])
+        
+        # plot graph
         graph = plotGraph(query, None)
         
         context = {
@@ -163,11 +141,16 @@ def keyword_combination_result(request):
         query_1 = str(request.GET['keyword_1'])
         query_2 = str(request.GET['keyword_2'])
         real_query = query_1 + " + " + query_2
-
+        
+        # get related papers
         result_keyword = db_topic_combination.selectComb(query_1,query_2)
         related_paper = db_paper_topic.get_related_paper_with_topic_combination(query_1,query_2)[:5]
         related_paper2 = elsevier_des(real_query)
+        
+        # get related keywords
         related_word = disc(related_paper2['paper'])
+        
+        # plot graph
         graph = plotGraph(query_1, query_2)
         
         context = {
@@ -179,29 +162,6 @@ def keyword_combination_result(request):
         }
     os.system('cls')
     return render(request, 'TopicAnalysis.html',context)
-
-def subcategory_combination_result(request):
-    if request.method == 'GET':
-        query_1 = str(request.GET['subcategory_1'])
-        query_2 = str(request.GET['subcategory_2'])
-        real_query = query_1 + " + " + query_2
-        result_keyword = db_topic_combination.selectComb(query_1,query_2)
-        related_paper = db_paper_topic.get_related_paper_with_topic_combination(query_1,query_2)[:5]
-        related_paper2 = elsevier_des(real_query)
-        related_word = disc(related_paper2['paper'])
-        related_word = [word.title() for word in related_word]
-        graph = plotGraph(query_1, query_2)
-        
-        context = {
-            "keyword": result_keyword,
-            "related": related_paper,
-            "related2": related_paper2,
-            "related_word": related_word,
-            "graph": graph,
-        }
-    os.system('cls')
-    return render(request, 'TopicAnalysis.html',context)
-
 
 def error_404(request,exception):
     return render(request, 'Error.html')
