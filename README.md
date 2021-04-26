@@ -17,7 +17,7 @@ You can donwload it [here](https://docs.djangoproject.com/en/3.2/intro/install/)
 pip install django
 ```
 
-To download the rest of the prerequisites that are needed to run our project, kindly click and run the <strong>Prerequisites.cmd</strong> file.
+To download the rest of the prerequisite packages that are needed to run our project, kindly click and run the <strong>Prerequisites.cmd</strong> file.
 
 ## Installing
 
