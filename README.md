@@ -22,11 +22,11 @@ You can donwload it [here](https://docs.djangoproject.com/en/3.2/intro/install/)
 pip install django
 ```
 
-To download the rest of the prerequisite packages that are needed to run our project, kindly click and run the <strong>Prerequisites.cmd</strong> file.
+To download the rest of the prerequisite packages that are needed to run our project, kindly click and run the <strong>Prerequisites.cmd</strong> file after installing and extracting the project folder.
 
 ## Getting Started
 
-After downloading and extracting the project folder, 
+After installing and extracting the project folder, 
 navigate into the segp/project_1 folder where the manage.py file is located using command prompt.
 
 ### Running the web applicaton in localhost server
