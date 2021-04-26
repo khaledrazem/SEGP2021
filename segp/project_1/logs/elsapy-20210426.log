@@ -3338,3 +3338,9 @@
 2021-04-26 15:43:01,229 - elsapy.elsprofile - INFO - Module loaded.
 2021-04-26 15:43:01,230 - elsapy.elsdoc - INFO - Module loaded.
 2021-04-26 15:43:01,231 - elsapy.elssearch - INFO - Module loaded.
+2021-04-26 16:06:41,380 - elsapy.elsclient - INFO - Module loaded.
+2021-04-26 16:06:41,382 - elsapy.elsentity - INFO - Module loaded.
+2021-04-26 16:06:41,382 - elsapy.utils - INFO - Module loaded.
+2021-04-26 16:06:41,383 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-26 16:06:41,383 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-26 16:06:41,384 - elsapy.elssearch - INFO - Module loaded.
