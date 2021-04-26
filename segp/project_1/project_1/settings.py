@@ -1,3 +1,4 @@
+# file created by django and modified by group
 """
 Django settings for project_1 project.
 
@@ -25,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '^@s&19948tpl)1y)c!8)lj22%)m0irpo+*ak%u-ijizk#9wn=!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -41,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'myapp',
     'paper',
-    'subcategory',
+    'topic',
     'combinations',
 ]
 

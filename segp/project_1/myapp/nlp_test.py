@@ -1,3 +1,5 @@
+# created with reference from https://www.nltk.org/
+
 # Import libraries for text preprocessing
 import re
 import nltk

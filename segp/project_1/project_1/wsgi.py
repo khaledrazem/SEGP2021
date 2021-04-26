@@ -1,3 +1,4 @@
+# file created by django
 """
 WSGI config for project_1 project.
 

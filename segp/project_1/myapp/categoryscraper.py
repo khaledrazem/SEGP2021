@@ -1,3 +1,4 @@
+# file created by group
 def categoryscraper(cat):
     subcategory = {
         'bus': ['Accounting and Taxation', 'Business, Economics and Management', 'Development Economics', 'Economic History', 'Economic Policy', 'Economics', 'Educational Administration', 'Emergency Management', 'Entrepreneurship and Innovation', 'Finance', 'Game Theory and Decision Science', 'Human Resources and Organizations', 'International Business', 'Marketing', 'Strategic Management', 'Tourism and Hospitality'],

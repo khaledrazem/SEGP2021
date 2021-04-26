@@ -1,7 +1,7 @@
+# file created by group with reference from https://plotly.com/python-api-reference/
 from pytrends.request import TrendReq  # pip install pytrends
 import plotly.graph_objects as go  # pip install plotly==4.14.3
 from plotly.offline import plot
-
 
 def plotGraph(query1, query2):
     the_graph = {

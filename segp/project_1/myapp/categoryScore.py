@@ -1,23 +1,26 @@
+# file created by group
+# mendeley and elsevier is created with reference from mendeley and elsevier documentations
+
 from .mendeleyScores import *
 from pytrends.request import TrendReq
-from subcategory.db_subcategory_query import *
-from combinations.db_subcategory_combination import *
+from topic.db_topic_query import *
+from combinations.db_topic_combination import *
 from paper.db_paper import *
-from paper.db_paper_subcategory import *
+from paper.db_paper_topic import *
 from .elsevier_test import *
 from .async_search import *
 import time
 import os
 
-def getTrend(subcat,quick,code):
+def getTrend(topic,code):
     os.system('cls')
     start = time.time()
     trend = []
-    topsubcat = []
+    toptopic = []
     print()
-    for x in subcat:
+    for x in topic:
         # check status of data
-        status = checkSubcatStatus(x)
+        status = checkTopicStatus(x)
         
         if status < 2:
             connection = this_trend = 0
@@ -42,14 +45,14 @@ def getTrend(subcat,quick,code):
                     
             if status == 1 and connection == 1:
                 # update db
-                updateSubcat(x, this_trend)    
+                updateTopic(x, this_trend)    
             elif status == 0:
                 # insert to db
-                insertSubcat(x, this_trend)    
+                insertTopic(x, this_trend)    
 
         # get data from db
-        subcat_result = selectSubcat(x)
-        this_trend = subcat_result.trend_score
+        topic_result = selectTopic(x)
+        this_trend = topic_result.trend_score
         trend.append(this_trend)
     
     if len(trend) > 6:
@@ -65,15 +68,15 @@ def getTrend(subcat,quick,code):
     print("top", N, "subcategory")
     i = 0
     while i < len(largest):
-        print(subcat[largest[i]], "=", trend[largest[i]])
-        topsubcat.append(subcat[largest[i]])
+        print(topic[largest[i]], "=", trend[largest[i]])
+        toptopic.append(topic[largest[i]])
         i += 1
     print()
 
-    combinations = pair_subset(topsubcat)
+    combinations = pair_subset(toptopic)
     
     results = {
-        'realresult': topCombination(combinations,quick,code),
+        'realresult': topCombination(combinations,code),
     }
 
     end = time.time()
@@ -82,7 +85,7 @@ def getTrend(subcat,quick,code):
 
     return results
 
-def topCombination(subset,quick,code):
+def topCombination(topic,code):
     session = mendeleyAuth()
     client = elsevier_auth()
     readerCount = []
@@ -95,13 +98,13 @@ def topCombination(subset,quick,code):
         'zipped': [],
     }
 
-    for x in subset:
+    for x in topic:
         # check status of data
-        status = checkCombStatus(x,quick)
+        status = checkCombStatus(x)
 
         if status < 2:
             # search data
-            searchData(x,client,session,status,quick)
+            searchData(x,client,session,status)
         
         # get data from db
         comb_result = selectComb(query_1=x[0], query_2=x[1])
@@ -120,7 +123,7 @@ def topCombination(subset,quick,code):
     score = chooseDisplayData(code,readerCount,Growth,authorScore,pieScore)
     
     # get position of largest n data
-    N = 10
+    N = 15
     largest = sorted(range(len(score)), key=lambda sub: score[sub])[-N:]
 
     print()
@@ -128,9 +131,9 @@ def topCombination(subset,quick,code):
     # store top N combinations data into dictionary
     z=0
     while z < len(largest):
-        results['topReader'].append(subset[largest[z]])
+        results['topReader'].append(topic[largest[z]])
         results['topComb'].append(score[largest[z]])
-        print(subset[largest[z]], "=", score[largest[z]])
+        print(topic[largest[z]], "=", score[largest[z]])
         z += 1
     print()
 
@@ -141,12 +144,12 @@ def topCombination(subset,quick,code):
 
     return results
 
-def filterResult(q1,q2,minval,maxval,code,quick):
+def filterResult(q1,q2,minval,maxval,code):
     os.system('cls')
     start = time.time()
     session = mendeleyAuth()
     client = elsevier_auth()
-    subset = []
+    topics = []
     readerCount = []
     Growth = []
     pieScore = []
@@ -165,22 +168,22 @@ def filterResult(q1,q2,minval,maxval,code,quick):
     all_comb = pair_subset(q2)
     
     if not q1:
-        subset = all_comb
+        topics = all_comb
     else:
         # keep checked subcategory
         for p in all_comb:
             for q in q1:
                 if q in p:
-                    subset.append(p)
-        subset = list(dict.fromkeys(subset))
+                    topics.append(p)
+        topics = list(dict.fromkeys(topics))
 
-    for x in subset:
+    for x in topics:
         # check status of data
-        status = checkCombStatus(x,quick)
+        status = checkCombStatus(x)
         
         if status < 2:
             # search data
-            searchData(x,client,session,status,quick)
+            searchData(x,client,session,status)
         
         # get data from db
         comb_result = selectComb(query_1=x[0], query_2=x[1])    
@@ -206,9 +209,9 @@ def filterResult(q1,q2,minval,maxval,code,quick):
     # store top N combinations into array
     z=0
     while z < len(largest):
-        readers.append(subset[largest[z]])
+        readers.append(topics[largest[z]])
         comb.append(score[largest[z]])
-        print(subset[largest[z]], "=", score[largest[z]])
+        print(topics[largest[z]], "=", score[largest[z]])
         z += 1
     print()
 
@@ -278,12 +281,6 @@ def data_norm(arr):
     return score
 
 def getCode(readercount_query,growth_query,authorscore_query,pie_query):
-    print(readercount_query)
-    print(growth_query)
-    print(authorscore_query)
-    print(pie_query)
-
-
     tempcode = [0]*4
     if readercount_query:
         tempcode[0] = 1
@@ -301,7 +298,7 @@ def getCode(readercount_query,growth_query,authorscore_query,pie_query):
     
     return code
 
-def searchData(x,client,session,status,quick):
+def searchData(x,client,session,status):
     reader = count = avgreader = pie_score  = a = growth  = 0
     all_paper = []
     fromYear = 150
@@ -310,7 +307,6 @@ def searchData(x,client,session,status,quick):
     else:
         query = x
     this_year = current_year()
-    print(query)
     myDocSrch = ElsSearch(query,'sciencedirect')
     myDocSrch.execute(client,get_all = False)
     
@@ -335,13 +331,13 @@ def searchData(x,client,session,status,quick):
         
             try:
                 title.append(ans['dc:title'])
-                doi.append(ans['prism:doi'])
             except:
                 continue
             
             year.append(yr_pub)
             yr_diff = this_year - yr_pub
             link.append(base_url + ans['pii'])
+            doi.append(ans['prism:doi'])
             
             try:
                 temp_rc = session.catalog.by_identifier(doi=ans['prism:doi'], view='stats').reader_count
@@ -357,9 +353,6 @@ def searchData(x,client,session,status,quick):
             count += 1
     
     growth = calcAvgGrowth(years)
-    
-    
-    print("growth =",growth)
     
     # get reader count score
     totalrc = sum(rc)
@@ -377,16 +370,16 @@ def searchData(x,client,session,status,quick):
         for a,b,c,d in paper_zip:
             if b > 0:
                 store_Paper(paper_title=a, paper_reader_count=b, paper_link=c, paper_year_published=d)
-                store_Paper_subcategory(paper_title=a, query_1=x[0], query_2=x[1])
+                store_Paper_topic(paper_title=a, query_1=x[0], query_2=x[1])
     
         if status == 1:
             # update db
-            updateComb(query_1=x[0],query_2=x[1], readercount=round(avgreader, 2), authorscore=authorscore, growth=round(growth, 2),pie_score=pieScore, quickScore=quick)
+            updateComb(query_1=x[0],query_2=x[1], readercount=round(avgreader, 2), authorscore=authorscore, growth=round(growth, 2),pie_score=pieScore)
         else:
             # insert to db
-            insertComb(query_1=x[0],query_2=x[1], readercount=round(avgreader, 2), authorscore=authorscore, growth=round(growth, 2),pie_score=pieScore, quickScore=quick)
+            insertComb(query_1=x[0],query_2=x[1], readercount=round(avgreader, 2), authorscore=authorscore, growth=round(growth, 2),pie_score=pieScore)
     else:
-        #os.system('cls')
+        os.system('cls')
         
         # get data from calculation
         results = {

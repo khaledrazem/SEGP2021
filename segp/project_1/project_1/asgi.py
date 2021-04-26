@@ -1,3 +1,4 @@
+# file created by django
 """
 ASGI config for project_1 project.
 
