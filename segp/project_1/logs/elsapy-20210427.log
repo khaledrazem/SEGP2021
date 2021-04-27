@@ -2134,3 +2134,215 @@
 2021-04-27 13:55:03,855 - elsapy.elsprofile - INFO - Module loaded.
 2021-04-27 13:55:03,856 - elsapy.elsdoc - INFO - Module loaded.
 2021-04-27 13:55:03,856 - elsapy.elssearch - INFO - Module loaded.
+2021-04-27 13:58:13,546 - elsapy.elsclient - INFO - Module loaded.
+2021-04-27 13:58:13,547 - elsapy.elsentity - INFO - Module loaded.
+2021-04-27 13:58:13,548 - elsapy.utils - INFO - Module loaded.
+2021-04-27 13:58:13,548 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-27 13:58:13,549 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-27 13:58:13,549 - elsapy.elssearch - INFO - Module loaded.
+2021-04-27 13:59:00,781 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+American+Literature+and+Studies
+2021-04-27 13:59:01,999 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 13:59:12,331 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Asian+Studies+and+History
+2021-04-27 13:59:13,379 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 13:59:22,727 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Canadian+Studies+and+History
+2021-04-27 13:59:23,661 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 13:59:33,099 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Chinese+Studies+and+History
+2021-04-27 13:59:34,113 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 13:59:44,118 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Communication
+2021-04-27 13:59:44,970 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 13:59:54,351 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Drama+and+Theater+Arts
+2021-04-27 13:59:55,962 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:00:28,645 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+English+Language+and+Literature
+2021-04-27 14:00:29,659 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:00:39,354 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Epistemology+and+Scientific+History
+2021-04-27 14:00:40,212 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:00:49,818 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Ethnic+and+Cultural+Studies
+2021-04-27 14:00:50,778 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:01:00,235 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Feminism+and+Women%27s+Studies
+2021-04-27 14:01:01,156 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:01:13,283 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Film
+2021-04-27 14:01:14,189 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:01:25,400 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Foreign+Language+Learning
+2021-04-27 14:01:26,271 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:01:36,122 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+French+Studies
+2021-04-27 14:01:37,077 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:01:47,265 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Gender+Studies
+2021-04-27 14:01:48,154 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:01:57,746 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+History
+2021-04-27 14:01:58,779 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:02:08,280 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Humanities%2C+Literature+and+Arts
+2021-04-27 14:02:09,124 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:02:21,518 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Language+and+Linguistics
+2021-04-27 14:02:22,419 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:02:32,361 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Latin+American+Studies
+2021-04-27 14:02:33,216 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:02:44,482 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Literature+and+Writing
+2021-04-27 14:02:45,426 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:02:56,143 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Middle+Eastern+and+Islamic+Studies
+2021-04-27 14:02:57,055 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:03:06,544 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Music+and+Musicology
+2021-04-27 14:03:07,369 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:03:17,457 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Philosophy
+2021-04-27 14:03:18,278 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:03:28,656 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Religion
+2021-04-27 14:03:29,578 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:03:39,019 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Sex+and+Sexuality
+2021-04-27 14:03:39,841 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:03:50,810 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Visual+Arts
+2021-04-27 14:03:51,609 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:04:01,244 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=American+Literature+and+Studies+Asian+Studies+and+History
+2021-04-27 14:04:02,314 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:04:11,748 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=American+Literature+and+Studies+Canadian+Studies+and+History
+2021-04-27 14:04:12,715 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:04:22,174 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=American+Literature+and+Studies+Chinese+Studies+and+History
+2021-04-27 14:04:23,075 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:04:32,440 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=American+Literature+and+Studies+Communication
+2021-04-27 14:04:33,332 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:04:42,726 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=American+Literature+and+Studies+Drama+and+Theater+Arts
+2021-04-27 14:04:43,570 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:04:53,338 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=American+Literature+and+Studies+English+Language+and+Literature
+2021-04-27 14:04:54,258 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:05:04,439 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=American+Literature+and+Studies+Epistemology+and+Scientific+History
+2021-04-27 14:05:05,399 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:05:14,453 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=American+Literature+and+Studies+Ethnic+and+Cultural+Studies
+2021-04-27 14:05:15,344 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:05:24,160 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=American+Literature+and+Studies+Feminism+and+Women%27s+Studies
+2021-04-27 14:05:25,149 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:05:39,346 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=American+Literature+and+Studies+Film
+2021-04-27 14:05:40,343 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:05:50,253 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=American+Literature+and+Studies+Foreign+Language+Learning
+2021-04-27 14:05:51,238 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:06:00,089 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=American+Literature+and+Studies+French+Studies
+2021-04-27 14:06:01,836 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:06:11,829 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=American+Literature+and+Studies+Gender+Studies
+2021-04-27 14:06:12,871 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:06:22,018 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=American+Literature+and+Studies+History
+2021-04-27 14:06:22,956 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:06:31,753 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=American+Literature+and+Studies+Humanities%2C+Literature+and+Arts
+2021-04-27 14:06:32,656 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:06:41,328 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=American+Literature+and+Studies+Language+and+Linguistics
+2021-04-27 14:06:42,296 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:06:51,523 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=American+Literature+and+Studies+Latin+American+Studies
+2021-04-27 14:06:52,433 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:07:01,361 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=American+Literature+and+Studies+Literature+and+Writing
+2021-04-27 14:07:02,331 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:07:11,563 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=American+Literature+and+Studies+Middle+Eastern+and+Islamic+Studies
+2021-04-27 14:07:12,405 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:07:21,277 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=American+Literature+and+Studies+Music+and+Musicology
+2021-04-27 14:07:22,151 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:07:31,355 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=American+Literature+and+Studies+Philosophy
+2021-04-27 14:07:32,214 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:07:40,979 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=American+Literature+and+Studies+Religion
+2021-04-27 14:07:42,008 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:07:50,746 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=American+Literature+and+Studies+Sex+and+Sexuality
+2021-04-27 14:07:51,729 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:08:00,588 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=American+Literature+and+Studies+Visual+Arts
+2021-04-27 14:08:01,582 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:09:23,787 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Canadian+Studies+and+History
+2021-04-27 14:09:24,776 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:09:34,580 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Chinese+Studies+and+History
+2021-04-27 14:09:35,590 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:09:45,241 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Communication
+2021-04-27 14:09:46,121 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:09:55,204 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Drama+and+Theater+Arts
+2021-04-27 14:09:56,030 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:10:05,385 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+English+Language+and+Literature
+2021-04-27 14:10:06,346 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:10:15,413 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Epistemology+and+Scientific+History
+2021-04-27 14:10:16,314 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:10:25,520 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Ethnic+and+Cultural+Studies
+2021-04-27 14:10:26,428 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:10:35,125 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Feminism+and+Women%27s+Studies
+2021-04-27 14:10:35,974 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:10:44,784 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Film
+2021-04-27 14:10:45,654 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:10:54,268 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Foreign+Language+Learning
+2021-04-27 14:10:55,228 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:11:04,329 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+French+Studies
+2021-04-27 14:11:05,205 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:11:14,104 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Gender+Studies
+2021-04-27 14:11:15,025 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:11:25,943 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+History
+2021-04-27 14:11:26,969 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:11:36,504 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Humanities%2C+Literature+and+Arts
+2021-04-27 14:11:37,444 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:11:46,110 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Language+and+Linguistics
+2021-04-27 14:11:46,921 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:11:55,314 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Latin+American+Studies
+2021-04-27 14:11:56,300 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:12:04,975 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Literature+and+Writing
+2021-04-27 14:12:05,956 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:12:15,099 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Middle+Eastern+and+Islamic+Studies
+2021-04-27 14:12:16,065 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:12:25,495 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Music+and+Musicology
+2021-04-27 14:12:26,456 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:12:38,724 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Philosophy
+2021-04-27 14:12:39,623 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:12:47,982 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Religion
+2021-04-27 14:12:48,936 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:12:57,523 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Sex+and+Sexuality
+2021-04-27 14:12:58,486 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:13:07,342 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Visual+Arts
+2021-04-27 14:13:08,235 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:13:16,805 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Chinese+Studies+and+History
+2021-04-27 14:13:17,746 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:13:29,133 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Communication
+2021-04-27 14:13:30,069 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:13:40,048 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Drama+and+Theater+Arts
+2021-04-27 14:13:40,915 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:13:50,079 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+English+Language+and+Literature
+2021-04-27 14:13:50,925 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:14:00,338 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Epistemology+and+Scientific+History
+2021-04-27 14:14:01,153 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:14:09,746 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Ethnic+and+Cultural+Studies
+2021-04-27 14:14:10,728 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:14:21,380 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Feminism+and+Women%27s+Studies
+2021-04-27 14:14:22,245 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:14:31,258 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Film
+2021-04-27 14:14:32,174 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:14:41,337 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Foreign+Language+Learning
+2021-04-27 14:14:42,224 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:14:51,496 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+French+Studies
+2021-04-27 14:14:52,467 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:15:02,842 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Gender+Studies
+2021-04-27 14:15:03,701 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:15:13,364 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+History
+2021-04-27 14:15:14,316 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:15:24,561 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Humanities%2C+Literature+and+Arts
+2021-04-27 14:15:25,400 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:15:34,220 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Language+and+Linguistics
+2021-04-27 14:15:35,160 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:15:46,024 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Latin+American+Studies
+2021-04-27 14:15:46,996 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:15:55,652 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Literature+and+Writing
+2021-04-27 14:15:56,566 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:16:06,688 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Middle+Eastern+and+Islamic+Studies
+2021-04-27 14:16:07,535 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:16:16,701 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Music+and+Musicology
+2021-04-27 14:16:17,585 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:16:27,374 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Philosophy
+2021-04-27 14:16:28,199 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:16:37,259 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Religion
+2021-04-27 14:16:38,097 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:16:47,340 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Sex+and+Sexuality
+2021-04-27 14:16:48,201 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:16:58,713 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Visual+Arts
+2021-04-27 14:16:59,582 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 14:18:19,421 - elsapy.elsclient - INFO - Module loaded.
+2021-04-27 14:18:19,422 - elsapy.elsentity - INFO - Module loaded.
+2021-04-27 14:18:19,423 - elsapy.utils - INFO - Module loaded.
+2021-04-27 14:18:19,423 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-27 14:18:19,424 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-27 14:18:19,425 - elsapy.elssearch - INFO - Module loaded.
+2021-04-27 14:21:26,163 - elsapy.elsclient - INFO - Module loaded.
+2021-04-27 14:21:26,164 - elsapy.elsentity - INFO - Module loaded.
+2021-04-27 14:21:26,164 - elsapy.utils - INFO - Module loaded.
+2021-04-27 14:21:26,165 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-27 14:21:26,165 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-27 14:21:26,166 - elsapy.elssearch - INFO - Module loaded.
+2021-04-27 14:23:19,817 - elsapy.elsclient - INFO - Module loaded.
+2021-04-27 14:23:19,818 - elsapy.elsentity - INFO - Module loaded.
+2021-04-27 14:23:19,818 - elsapy.utils - INFO - Module loaded.
+2021-04-27 14:23:19,819 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-27 14:23:19,819 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-27 14:23:19,820 - elsapy.elssearch - INFO - Module loaded.
