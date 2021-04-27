@@ -8,3 +8,4 @@ pip install plotly
 pip install nltk
 pip install sklearn
 pip install wheel
+pip install numpy
