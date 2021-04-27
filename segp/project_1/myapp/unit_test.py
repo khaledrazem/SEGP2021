@@ -12,7 +12,7 @@ class TestStringMethods(unittest.TestCase):
         print()
         print("Start split case 1 input test")
         self.assertEqual(result, expected)
-        print("Pass split case 1 input test")
+        print("Split case 1 input test: PASSED")
         
     def test_filter_input(self):
         keys = ['csrfmiddlewaretoken', 'B_Computer Vision', 'A_Machine Learning', 'B_Machine Learning', 'A_Artificial Intelligence', 'B_Artificial Intelligence', 'amount', 'min_val', 'max_val']
@@ -25,7 +25,7 @@ class TestStringMethods(unittest.TestCase):
         print()
         print("Start seleted topic test")
         self.assertEqual(result, expected)
-        print("Pass seleted topic test")
+        print("Seleted topic test: PASSED")
 
     def test_combine_query(self):
         query_1 = "Machine Learning"
@@ -36,7 +36,7 @@ class TestStringMethods(unittest.TestCase):
         print()
         print("Start combine keyword test")
         self.assertEqual(result, expected)
-        print("Pass combine keyword test")
+        print("Combine keyword test: PASSED")
 
     def test_largest5_position(self):
         arr_list = [627, 122, 951, 789, 634, 464, 743, 466, 524, 36, 440, 431, 745, 954, 304]
@@ -46,7 +46,7 @@ class TestStringMethods(unittest.TestCase):
         print()
         print("Start top 5 element position test")
         self.assertEqual(result, expected)
-        print("Pass top 5 element position test")
+        print("Top 5 element position test: PASSED")
 
     def test_pair_subset(self):
         arr_list = ['a','b','c','d','e']
@@ -60,7 +60,7 @@ class TestStringMethods(unittest.TestCase):
         print("Start unique combination test")
         self.assertEqual(result, expected)
         self.assertEqual(len(result), 10)
-        print("Pass unique combination test")
+        print("Unique combination test: PASSED")
 
     def test_break(self):
         count = 0
@@ -75,7 +75,7 @@ class TestStringMethods(unittest.TestCase):
         print()
         print("Start stop search test")    
         self.assertEqual(len(arr), 100)
-        print("Pass stop search test")
+        print("Stop search test: PASSED")
 
     def test_round(self):
         result = round(10/3, 2)
@@ -83,7 +83,7 @@ class TestStringMethods(unittest.TestCase):
         print()
         print("Start rounding to 2 decimal test")
         self.assertEqual(result, 3.33)
-        print("Pass rounding to 2 decimal test")
+        print("Rounding to 2 decimal test: PASSED")
 
     def test_data_norm(self):
         arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -104,7 +104,7 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(result, expected)
         self.assertLessEqual(max(result),100)
         self.assertGreaterEqual(min(result),0)
-        print("Pass normalization test")
+        print("Normalization test: PASSED")
         
                 
 if __name__ == '__main__':
