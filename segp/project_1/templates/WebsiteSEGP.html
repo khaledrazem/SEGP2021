@@ -6,12 +6,14 @@
 <html>
     <head>
         <!--tab title-->
-        <title>Research Website</title>
+        <title>Solution District</title>
         <!--style sheet-->
         <link rel="stylesheet" href="{% static 'research_styles_new.css' %}">
+		<link  rel="shortcut icon" type="image/png" href="{% static 'favicon_logo.png' %}">
         <!--icon library-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link  rel="shortcut icon" type="image/png" href="{% static 'favicon_logo.png' %}">
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -21,7 +23,7 @@
     <body>
         <!--main page class-->
         <div class="main">
-			<div class="homepage_section">
+			<div class="homepage_section" style="height:100vh">
 				<div id="myNav" class="overlay">
 				
 				
@@ -120,8 +122,10 @@
 			<!-- About -->
 			
 			<a name="case1"></a>
-			<div class="homepage_section" style="height:120vh">
+			<div class="homepage_section" style="height:min-content;">
 				<div style="width:80%;height:100%;margin:0% auto;">
+						<h1 style="font-size:40px;">Manual Search</h1>
+						<div style=" border:1px solid #2a6fb5;border-radius:25px;">
 						<p style="text-align:center;font-size:max(2vw,20px);">1. Enter Your Query</p>
 						<div id="search_div">
 							
@@ -131,7 +135,7 @@
 								<button onclick="duplicate_keyword_block()" style="font-size:max(2vw,20px);border:none;background-color:transparent;outline:none" id="add_button"><i class="fas fa-plus-square" ></i></button>
 							</div>
 						</div>
-						<div id="query_space">
+						<div id="query_space" style="height:min-content">
 							<div class="keyword_block">
 								<button class="query_delete_button" onclick="remove(this)"><i class="fas fa-times"></i></button>
 							</div>
@@ -156,7 +160,9 @@
 							<button class="submit_div_button" onclick="clear_query_space()">Clear Query </button>
 							<button class="submit_div_button" onclick="pass_query_to_form_1()">Submit Query</button>
 						</div>
+						</div>
 				</div>
+
 				<form id="case_1_form" style="display:none" method="GET" action="../Results1/">{% csrf_token %}
 					<input type="checkbox" checked="checked" id="case_1_form_average_reader_count" name="case_1_form_average_reader_count">
 					<input type="checkbox" checked="checked" id="case_1_form_paper_impact_effectiveness" name="case_1_form_paper_impact_effectiveness">
@@ -167,6 +173,8 @@
 			<a name="case2"></a>
 			<div class="homepage_section">
 				<div style="width:80%;height:50%;margin:4% auto;">
+					<h1 style="font-size:40px">Academic Field Search</h1>
+					<div style=" border:1px solid #2a6fb5;border-radius:25px;">
 					<div style="width:fit-content;height:fit-content;margin:auto;" id="choose_category">
 						<p style="text-align:center;font-size:max(2vw,20px);">1. Choose Your Category</p>
 						<br>
@@ -201,10 +209,12 @@
 							<label for="case_2_display_author">Author Score&emsp;</label>
 						</div>
 					</div>
-					<div style="width:fit-content;height:fit-content;margin:auto;">
-						<br>
-						<br>
+					<br>
+					<br>
+					<div style="width:fit-content;height:fit-content;margin:auto;padding:10px;height:min(100px,15vh)">
+
 						<button id="choose_algorithm_button_case_2" class="submit_div_button" type="button" onclick="pass_query_to_form_2()">Submit</button>
+					</div>
 					</div>
 
 
@@ -220,10 +230,9 @@
 					<input type="checkbox" checked="checked" id="case_2_form_author" name="case_2_form_author">
 				</form>
 			</div>
-			<div class="homepage_section" style="background: #003459;">
+			<div class="homepage_section" style="background: #003459;height:min-content;">
 			<a name="about"></a>
-				<div id="about_us_div">
-					<div style="display:flex;height:100%">
+				<div class="flex_container" id="about_us_div">
 						<div id="about_us_left">
 							<div id="about_us_text">
 								<h1 style="font-size:3vw">ABOUT US</h1>
@@ -553,12 +562,11 @@
 								</defs>
 							</svg>
 						</div>
-					</div>
 				</div>
 			</div>
-			<div class="homepage_section" style="background: #2196F3;">
+			<div class="homepage_section" style="background: #2196F3;height:min-content">
 				<div id="how_to_div">
-					<div style="display:flex;height:100%">
+					<div class="flex_container" ">
 						<div id="how_to_left">
 						<a name="howto"></a>
 							<svg class="animated" id="freepik_stories-analyze"

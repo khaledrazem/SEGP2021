@@ -4918,3 +4918,932 @@
 2021-04-27 22:01:38,986 - elsapy.elsprofile - INFO - Module loaded.
 2021-04-27 22:01:38,987 - elsapy.elsdoc - INFO - Module loaded.
 2021-04-27 22:01:38,987 - elsapy.elssearch - INFO - Module loaded.
+2021-04-27 22:04:06,107 - elsapy.elsclient - INFO - Module loaded.
+2021-04-27 22:04:06,108 - elsapy.elsentity - INFO - Module loaded.
+2021-04-27 22:04:06,109 - elsapy.utils - INFO - Module loaded.
+2021-04-27 22:04:06,109 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-27 22:04:06,110 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-27 22:04:06,111 - elsapy.elssearch - INFO - Module loaded.
+2021-04-27 22:04:52,651 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+African+Studies+and+History
+2021-04-27 22:04:53,672 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:05:16,829 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Anthropology
+2021-04-27 22:05:18,261 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:05:31,339 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Archaeology
+2021-04-27 22:05:32,576 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:05:48,464 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Architecture
+2021-04-27 22:05:49,799 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:06:01,522 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Asian+Studies+and+History
+2021-04-27 22:06:02,886 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:06:18,664 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Bioethics
+2021-04-27 22:06:19,782 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:06:34,525 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Canadian+Studies+and+History
+2021-04-27 22:06:35,555 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:06:49,775 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Chinese+Studies+and+History
+2021-04-27 22:06:51,116 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:07:12,206 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Cognitive+Science
+2021-04-27 22:07:14,371 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:07:32,324 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Criminology%2C+Criminal+Law+and+Policing
+2021-04-27 22:07:34,647 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:07:48,848 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Development+Economics
+2021-04-27 22:07:51,122 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:08:07,012 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Diplomacy+and+International+Relations
+2021-04-27 22:08:08,113 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:08:22,996 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Early+Childhood+Education
+2021-04-27 22:08:24,198 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:08:37,991 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Economic+History
+2021-04-27 22:08:39,553 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:08:52,758 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Education
+2021-04-27 22:08:54,816 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:09:09,674 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Educational+Administration
+2021-04-27 22:09:10,881 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:09:23,518 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Educational+Psychology+and+Counseling
+2021-04-27 22:09:25,321 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:09:39,751 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Educational+Technology
+2021-04-27 22:09:40,905 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:09:55,843 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Environmental+and+Occupational+Medicine
+2021-04-27 22:09:56,765 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:10:09,259 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Environmental+Law+and+Policy
+2021-04-27 22:10:11,157 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:10:25,373 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Epistemology+and+Scientific+History
+2021-04-27 22:10:26,227 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:10:38,591 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Ethics
+2021-04-27 22:10:39,660 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:10:53,862 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+European+Law
+2021-04-27 22:10:55,215 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:11:09,681 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Family+Studies
+2021-04-27 22:11:11,368 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:11:26,774 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Feminism+and+Women%27s+Studies
+2021-04-27 22:11:27,859 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:11:45,717 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Forensic+Science
+2021-04-27 22:11:46,677 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:11:58,783 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Geography+and+Cartography
+2021-04-27 22:12:00,547 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:12:16,612 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Health+Policy+and+Medical+Law
+2021-04-27 22:12:17,775 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:12:29,152 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Higher+Education
+2021-04-27 22:12:30,170 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:12:42,310 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+History
+2021-04-27 22:12:44,525 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:12:56,304 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Human+Migration
+2021-04-27 22:12:57,851 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:13:20,279 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Human+Resources+and+Organizations
+2021-04-27 22:13:21,326 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:13:34,581 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+International+Law
+2021-04-27 22:13:36,770 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:13:49,240 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Law
+2021-04-27 22:13:50,403 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:14:02,328 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Library+and+Information+Science
+2021-04-27 22:14:04,395 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:14:16,353 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Middle+Eastern+and+Islamic+Studies
+2021-04-27 22:14:17,276 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:14:31,353 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Military+Studies
+2021-04-27 22:14:32,951 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:14:46,157 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Paleontology
+2021-04-27 22:14:47,215 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:14:59,123 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Political+Science
+2021-04-27 22:15:06,775 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:15:19,788 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Public+Health
+2021-04-27 22:15:21,567 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:15:32,618 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Public+Policy+and+Administration
+2021-04-27 22:15:33,785 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:15:47,772 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Science+and+Engineering+Education
+2021-04-27 22:15:48,883 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:16:09,309 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Sex+and+Sexuality
+2021-04-27 22:16:10,236 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:16:22,036 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Social+Sciences
+2021-04-27 22:16:23,071 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:16:34,963 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Social+Work
+2021-04-27 22:16:35,909 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:16:48,171 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Sociology
+2021-04-27 22:16:49,847 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:17:03,445 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Special+Education
+2021-04-27 22:17:05,120 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:17:19,295 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Sustainable+Development
+2021-04-27 22:17:20,398 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:17:36,347 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Teaching+and+Teacher+Education
+2021-04-27 22:17:38,103 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:17:53,966 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Technology+Law
+2021-04-27 22:17:54,952 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:18:07,285 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Academic+and+Psychological+Testing+Urban+Studies+and+Planning
+2021-04-27 22:18:08,278 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:18:27,460 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Anthropology
+2021-04-27 22:18:28,371 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:18:43,292 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Archaeology
+2021-04-27 22:18:44,874 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:18:56,899 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Architecture
+2021-04-27 22:18:58,229 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:19:09,329 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Bioethics
+2021-04-27 22:19:10,191 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:19:22,322 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Cognitive+Science
+2021-04-27 22:19:23,850 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:19:34,845 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Criminology%2C+Criminal+Law+and+Policing
+2021-04-27 22:19:35,701 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:19:47,186 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Development+Economics
+2021-04-27 22:19:48,424 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:19:59,207 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Diplomacy+and+International+Relations
+2021-04-27 22:20:01,734 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:20:12,521 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Early+Childhood+Education
+2021-04-27 22:20:13,637 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:20:26,668 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Economic+History
+2021-04-27 22:20:28,203 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:20:44,161 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Education
+2021-04-27 22:20:46,420 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:20:58,253 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Educational+Administration
+2021-04-27 22:20:59,510 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:21:10,264 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Educational+Psychology+and+Counseling
+2021-04-27 22:21:11,828 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:21:21,826 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Educational+Technology
+2021-04-27 22:21:22,794 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:21:38,929 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Environmental+and+Occupational+Medicine
+2021-04-27 22:21:39,866 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:21:52,191 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Environmental+Law+and+Policy
+2021-04-27 22:21:54,104 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:22:06,497 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Ethics
+2021-04-27 22:22:08,368 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:22:20,042 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+European+Law
+2021-04-27 22:22:21,100 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:22:32,624 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Family+Studies
+2021-04-27 22:22:33,832 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:22:46,324 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Forensic+Science
+2021-04-27 22:22:47,284 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:23:02,528 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Geography+and+Cartography
+2021-04-27 22:23:03,980 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:23:14,578 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Health+Policy+and+Medical+Law
+2021-04-27 22:23:16,186 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:23:27,633 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Higher+Education
+2021-04-27 22:23:28,819 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:23:39,695 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Human+Migration
+2021-04-27 22:23:41,121 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:23:52,443 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Human+Resources+and+Organizations
+2021-04-27 22:23:53,981 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:24:05,357 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+International+Law
+2021-04-27 22:24:07,389 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:24:20,353 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Law
+2021-04-27 22:24:21,318 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:24:31,089 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Library+and+Information+Science
+2021-04-27 22:24:32,045 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:24:42,255 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Military+Studies
+2021-04-27 22:24:43,258 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:24:54,686 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Paleontology
+2021-04-27 22:24:55,654 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:25:10,005 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Political+Science
+2021-04-27 22:25:10,842 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:25:22,465 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Public+Health
+2021-04-27 22:25:23,492 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:25:37,117 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Public+Policy+and+Administration
+2021-04-27 22:25:38,057 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:25:51,122 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Science+and+Engineering+Education
+2021-04-27 22:25:52,145 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:26:17,157 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Social+Sciences
+2021-04-27 22:26:18,157 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:26:28,384 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Social+Work
+2021-04-27 22:26:29,330 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:26:40,243 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Sociology
+2021-04-27 22:26:41,276 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:26:51,888 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Special+Education
+2021-04-27 22:26:52,822 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:27:03,671 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Sustainable+Development
+2021-04-27 22:27:05,405 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:27:15,007 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Teaching+and+Teacher+Education
+2021-04-27 22:27:16,156 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:27:27,401 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Technology+Law
+2021-04-27 22:27:28,375 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:27:43,301 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=African+Studies+and+History+Urban+Studies+and+Planning
+2021-04-27 22:27:44,278 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:27:54,511 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Archaeology
+2021-04-27 22:27:55,435 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:28:06,404 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Architecture
+2021-04-27 22:28:08,103 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:28:26,361 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Asian+Studies+and+History
+2021-04-27 22:28:27,307 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:28:37,185 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Bioethics
+2021-04-27 22:28:38,085 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:28:49,343 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Canadian+Studies+and+History
+2021-04-27 22:28:50,371 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:29:02,668 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Chinese+Studies+and+History
+2021-04-27 22:29:03,983 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:29:15,252 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Cognitive+Science
+2021-04-27 22:29:16,474 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:29:29,966 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Criminology%2C+Criminal+Law+and+Policing
+2021-04-27 22:29:31,704 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:29:44,251 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Development+Economics
+2021-04-27 22:29:45,211 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:29:57,404 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Diplomacy+and+International+Relations
+2021-04-27 22:29:58,354 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:30:09,243 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Early+Childhood+Education
+2021-04-27 22:30:10,169 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:31:39,190 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Economic+History
+2021-04-27 22:31:40,126 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:31:54,343 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Education
+2021-04-27 22:31:55,183 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:32:08,382 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Educational+Administration
+2021-04-27 22:32:09,668 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:32:21,137 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Educational+Psychology+and+Counseling
+2021-04-27 22:32:22,291 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:32:34,439 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Educational+Technology
+2021-04-27 22:32:35,577 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:32:47,723 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Environmental+and+Occupational+Medicine
+2021-04-27 22:32:48,660 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:32:59,964 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Environmental+Law+and+Policy
+2021-04-27 22:33:00,986 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:33:13,491 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Epistemology+and+Scientific+History
+2021-04-27 22:33:14,411 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:33:25,943 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Ethics
+2021-04-27 22:33:26,829 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:33:38,749 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+European+Law
+2021-04-27 22:33:39,617 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:33:50,501 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Family+Studies
+2021-04-27 22:33:51,503 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:34:02,767 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Feminism+and+Women%27s+Studies
+2021-04-27 22:34:03,859 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:34:13,613 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Forensic+Science
+2021-04-27 22:34:14,541 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:34:25,831 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Geography+and+Cartography
+2021-04-27 22:34:26,915 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:34:41,343 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Health+Policy+and+Medical+Law
+2021-04-27 22:34:42,282 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:34:57,173 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Higher+Education
+2021-04-27 22:34:58,258 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:35:09,231 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+History
+2021-04-27 22:35:10,164 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:35:22,267 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Human+Migration
+2021-04-27 22:35:23,216 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:35:35,258 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Human+Resources+and+Organizations
+2021-04-27 22:35:36,670 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:35:49,254 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+International+Law
+2021-04-27 22:35:50,942 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:36:01,872 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Law
+2021-04-27 22:36:03,816 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:36:15,035 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Library+and+Information+Science
+2021-04-27 22:36:16,062 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:36:29,935 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Middle+Eastern+and+Islamic+Studies
+2021-04-27 22:36:30,971 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:36:49,318 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Military+Studies
+2021-04-27 22:36:50,240 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:37:00,918 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Paleontology
+2021-04-27 22:37:01,889 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:37:13,086 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Political+Science
+2021-04-27 22:37:14,239 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:37:24,118 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Public+Health
+2021-04-27 22:37:25,695 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:37:37,486 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Public+Policy+and+Administration
+2021-04-27 22:37:38,403 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:37:51,269 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Science+and+Engineering+Education
+2021-04-27 22:37:52,305 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:38:03,936 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Sex+and+Sexuality
+2021-04-27 22:38:05,084 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:38:17,247 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Social+Sciences
+2021-04-27 22:38:18,192 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:38:32,593 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Social+Work
+2021-04-27 22:38:33,440 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:38:44,297 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Sociology
+2021-04-27 22:38:45,144 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:38:55,588 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Special+Education
+2021-04-27 22:38:56,638 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:39:07,773 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Sustainable+Development
+2021-04-27 22:39:08,719 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:39:22,152 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Teaching+and+Teacher+Education
+2021-04-27 22:39:24,191 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:39:38,532 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Technology+Law
+2021-04-27 22:39:39,409 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:39:48,956 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anthropology+Urban+Studies+and+Planning
+2021-04-27 22:39:50,586 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:40:07,186 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Architecture
+2021-04-27 22:40:08,113 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:40:18,995 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Asian+Studies+and+History
+2021-04-27 22:40:20,581 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:40:32,111 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Bioethics
+2021-04-27 22:40:34,108 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:40:50,342 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Canadian+Studies+and+History
+2021-04-27 22:40:51,217 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:41:04,167 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Chinese+Studies+and+History
+2021-04-27 22:41:05,287 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:41:16,356 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Cognitive+Science
+2021-04-27 22:41:17,571 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:41:29,248 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Criminology%2C+Criminal+Law+and+Policing
+2021-04-27 22:41:30,299 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:41:42,090 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Development+Economics
+2021-04-27 22:41:42,984 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:41:53,143 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Diplomacy+and+International+Relations
+2021-04-27 22:41:54,664 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:42:05,657 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Early+Childhood+Education
+2021-04-27 22:42:06,556 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:42:16,772 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Economic+History
+2021-04-27 22:42:17,929 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:42:31,835 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Educational+Administration
+2021-04-27 22:42:33,124 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:42:43,449 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Educational+Psychology+and+Counseling
+2021-04-27 22:42:44,844 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:42:56,649 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Educational+Technology
+2021-04-27 22:42:57,528 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:43:11,294 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Environmental+and+Occupational+Medicine
+2021-04-27 22:43:12,842 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:43:24,380 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Environmental+Law+and+Policy
+2021-04-27 22:43:25,353 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:43:38,003 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Epistemology+and+Scientific+History
+2021-04-27 22:43:38,985 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:43:49,627 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Ethics
+2021-04-27 22:43:50,472 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:44:04,302 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+European+Law
+2021-04-27 22:44:06,301 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:44:16,999 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Family+Studies
+2021-04-27 22:44:18,833 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:44:30,390 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Feminism+and+Women%27s+Studies
+2021-04-27 22:44:31,411 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:44:52,699 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Forensic+Science
+2021-04-27 22:44:53,666 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:45:11,743 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Geography+and+Cartography
+2021-04-27 22:45:13,883 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:45:28,114 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Health+Policy+and+Medical+Law
+2021-04-27 22:45:29,584 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:45:44,245 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Higher+Education
+2021-04-27 22:45:45,354 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:45:56,111 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Human+Migration
+2021-04-27 22:45:57,460 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:46:09,011 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Human+Resources+and+Organizations
+2021-04-27 22:46:09,925 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:46:21,307 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+International+Law
+2021-04-27 22:46:22,442 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:46:33,529 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Library+and+Information+Science
+2021-04-27 22:46:34,505 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:46:45,337 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Middle+Eastern+and+Islamic+Studies
+2021-04-27 22:46:46,341 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:46:58,035 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Military+Studies
+2021-04-27 22:46:59,361 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:47:11,858 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Paleontology
+2021-04-27 22:47:13,767 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:54:53,136 - elsapy.elsclient - INFO - Module loaded.
+2021-04-27 22:54:53,137 - elsapy.elsentity - INFO - Module loaded.
+2021-04-27 22:54:53,137 - elsapy.utils - INFO - Module loaded.
+2021-04-27 22:54:53,138 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-27 22:54:53,138 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-27 22:54:53,139 - elsapy.elssearch - INFO - Module loaded.
+2021-04-27 22:55:54,223 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ecology
+2021-04-27 22:55:54,573 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Paleontology+%2B+Ecology
+2021-04-27 22:55:55,192 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:55:55,403 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:56:06,825 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Ecology
+2021-04-27 22:56:07,750 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:59:41,399 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Specie
+2021-04-27 22:59:42,366 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 22:59:54,948 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Specie
+2021-04-27 22:59:55,829 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:00:46,425 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Paleontology+%2B+Ecology
+2021-04-27 23:00:48,666 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:01:47,210 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Speciation
+2021-04-27 23:01:48,821 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:01:59,082 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Speciation
+2021-04-27 23:02:00,164 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:02:14,243 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Plant
+2021-04-27 23:02:15,268 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:02:26,087 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Plant
+2021-04-27 23:02:27,194 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:02:42,273 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Iron+Speciation+Seawater
+2021-04-27 23:02:43,130 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:02:56,163 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Iron+Speciation+Seawater
+2021-04-27 23:02:58,029 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:03:06,745 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Population
+2021-04-27 23:03:07,759 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:03:19,172 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Population
+2021-04-27 23:03:20,093 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:03:38,983 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=First+Three+Dimensionally
+2021-04-27 23:03:40,016 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:03:55,846 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=First+Three+Dimensionally
+2021-04-27 23:03:57,943 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:04:49,616 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=data+%2B+test
+2021-04-27 23:04:51,707 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=test
+2021-04-27 23:04:51,757 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:04:52,658 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:05:10,900 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=test
+2021-04-27 23:05:11,746 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:05:21,254 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=data
+2021-04-27 23:05:22,329 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:05:33,751 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=data
+2021-04-27 23:05:34,689 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:06:27,257 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Composite+Materials+%2B+Organic+Chemistry
+2021-04-27 23:06:29,248 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Organic+Chemistry
+2021-04-27 23:06:29,297 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:06:30,192 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:06:42,662 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Organic+Chemistry
+2021-04-27 23:06:43,727 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:08:00,608 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Paleontology
+2021-04-27 23:08:01,802 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:08:16,245 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Political+Science
+2021-04-27 23:08:17,113 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:08:27,746 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Public+Health
+2021-04-27 23:08:28,702 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:08:43,282 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Public+Policy+and+Administration
+2021-04-27 23:08:44,421 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:08:55,756 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Science+and+Engineering+Education
+2021-04-27 23:08:57,067 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:09:11,434 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Sex+and+Sexuality
+2021-04-27 23:09:12,272 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:09:22,722 - elsapy.elsclient - INFO - Module loaded.
+2021-04-27 23:09:22,723 - elsapy.elsentity - INFO - Module loaded.
+2021-04-27 23:09:22,724 - elsapy.utils - INFO - Module loaded.
+2021-04-27 23:09:22,724 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-27 23:09:22,725 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-27 23:09:22,725 - elsapy.elssearch - INFO - Module loaded.
+2021-04-27 23:10:02,821 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Sex+and+Sexuality
+2021-04-27 23:10:04,507 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:10:20,346 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Social+Sciences
+2021-04-27 23:10:21,370 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:10:30,129 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Special+Education
+2021-04-27 23:10:31,053 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:10:40,936 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Sustainable+Development
+2021-04-27 23:10:41,816 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:10:52,050 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Teaching+and+Teacher+Education
+2021-04-27 23:10:52,950 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:11:05,277 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Technology+Law
+2021-04-27 23:11:06,171 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:11:18,265 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Archaeology+Urban+Studies+and+Planning
+2021-04-27 23:11:19,596 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:11:30,151 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Asian+Studies+and+History
+2021-04-27 23:11:31,188 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:11:41,112 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Bioethics
+2021-04-27 23:11:42,018 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:11:56,022 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Canadian+Studies+and+History
+2021-04-27 23:11:57,120 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:12:08,257 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Chinese+Studies+and+History
+2021-04-27 23:12:09,166 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:12:21,561 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Cognitive+Science
+2021-04-27 23:12:22,707 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:12:37,266 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Criminology%2C+Criminal+Law+and+Policing
+2021-04-27 23:12:38,233 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:12:49,675 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Development+Economics
+2021-04-27 23:12:51,098 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:13:04,320 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Diplomacy+and+International+Relations
+2021-04-27 23:13:06,069 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:13:19,744 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Early+Childhood+Education
+2021-04-27 23:13:21,794 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:13:33,028 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Economic+History
+2021-04-27 23:13:34,029 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:13:45,178 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Education
+2021-04-27 23:13:46,200 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:13:57,625 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Educational+Administration
+2021-04-27 23:13:58,509 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:14:08,354 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Educational+Psychology+and+Counseling
+2021-04-27 23:14:09,283 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:14:19,303 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Environmental+and+Occupational+Medicine
+2021-04-27 23:14:20,332 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:14:33,259 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Environmental+Law+and+Policy
+2021-04-27 23:14:34,937 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:14:49,201 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Epistemology+and+Scientific+History
+2021-04-27 23:14:50,047 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:15:02,322 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Ethics
+2021-04-27 23:15:03,268 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:15:17,758 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+European+Law
+2021-04-27 23:15:18,866 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:15:30,009 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Family+Studies
+2021-04-27 23:15:31,358 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:15:42,281 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Feminism+and+Women%27s+Studies
+2021-04-27 23:15:43,103 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:15:53,728 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Forensic+Science
+2021-04-27 23:15:54,724 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:16:09,030 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Geography+and+Cartography
+2021-04-27 23:16:10,068 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:16:20,267 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Health+Policy+and+Medical+Law
+2021-04-27 23:16:21,549 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:16:37,622 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Higher+Education
+2021-04-27 23:16:38,556 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:16:49,092 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+History
+2021-04-27 23:16:50,061 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:17:00,274 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Human+Migration
+2021-04-27 23:17:01,357 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:17:11,789 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Human+Resources+and+Organizations
+2021-04-27 23:17:12,786 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:17:23,867 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+International+Law
+2021-04-27 23:17:24,846 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:17:35,633 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Law
+2021-04-27 23:17:36,604 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:17:48,274 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Middle+Eastern+and+Islamic+Studies
+2021-04-27 23:17:49,858 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:18:04,950 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Military+Studies
+2021-04-27 23:18:05,865 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:18:16,968 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Paleontology
+2021-04-27 23:18:17,963 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:18:29,070 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Political+Science
+2021-04-27 23:18:30,751 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:18:43,907 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Public+Health
+2021-04-27 23:18:45,035 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:18:54,505 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Public+Policy+and+Administration
+2021-04-27 23:18:55,475 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:19:07,629 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Science+and+Engineering+Education
+2021-04-27 23:19:08,574 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:19:20,858 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Sex+and+Sexuality
+2021-04-27 23:19:22,590 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:19:34,167 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Social+Sciences
+2021-04-27 23:19:35,155 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:19:45,225 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Social+Work
+2021-04-27 23:19:46,098 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:19:57,089 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Sociology
+2021-04-27 23:19:57,941 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:20:08,718 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Special+Education
+2021-04-27 23:20:09,849 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:20:19,604 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Sustainable+Development
+2021-04-27 23:20:20,987 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:20:32,885 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Teaching+and+Teacher+Education
+2021-04-27 23:20:34,050 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:20:45,246 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Architecture+Urban+Studies+and+Planning
+2021-04-27 23:20:46,209 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:20:58,228 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Bioethics
+2021-04-27 23:20:59,464 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:21:13,203 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Cognitive+Science
+2021-04-27 23:21:14,095 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:21:24,298 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Criminology%2C+Criminal+Law+and+Policing
+2021-04-27 23:21:25,254 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:21:35,494 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Development+Economics
+2021-04-27 23:21:36,441 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:21:47,384 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Diplomacy+and+International+Relations
+2021-04-27 23:21:48,374 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:22:01,907 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Early+Childhood+Education
+2021-04-27 23:22:02,840 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:22:17,402 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Economic+History
+2021-04-27 23:22:18,306 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:22:30,041 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Education
+2021-04-27 23:22:31,044 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:22:42,493 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Educational+Administration
+2021-04-27 23:22:43,472 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:22:55,739 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Educational+Psychology+and+Counseling
+2021-04-27 23:22:56,672 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:23:09,085 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Educational+Technology
+2021-04-27 23:23:09,974 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:23:20,779 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Environmental+and+Occupational+Medicine
+2021-04-27 23:23:21,708 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:23:32,673 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Environmental+Law+and+Policy
+2021-04-27 23:23:33,758 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:23:44,119 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Ethics
+2021-04-27 23:23:45,152 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:24:01,571 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+European+Law
+2021-04-27 23:24:02,793 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:24:13,886 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Family+Studies
+2021-04-27 23:24:15,221 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:24:26,630 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Forensic+Science
+2021-04-27 23:24:27,849 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:24:39,178 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Geography+and+Cartography
+2021-04-27 23:24:40,012 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:24:53,332 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Health+Policy+and+Medical+Law
+2021-04-27 23:24:54,576 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:25:09,088 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Higher+Education
+2021-04-27 23:25:10,295 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:25:23,379 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Human+Migration
+2021-04-27 23:25:24,385 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:25:36,273 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Human+Resources+and+Organizations
+2021-04-27 23:25:37,313 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:25:47,497 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+International+Law
+2021-04-27 23:25:48,462 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:25:59,773 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Law
+2021-04-27 23:26:00,645 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:26:12,142 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Library+and+Information+Science
+2021-04-27 23:26:13,081 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:26:26,025 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Military+Studies
+2021-04-27 23:26:27,087 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:26:40,524 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Paleontology
+2021-04-27 23:26:41,444 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:26:51,615 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Political+Science
+2021-04-27 23:26:52,519 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:27:03,746 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Public+Health
+2021-04-27 23:27:04,685 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:27:17,534 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Public+Policy+and+Administration
+2021-04-27 23:27:18,485 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:27:29,127 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Science+and+Engineering+Education
+2021-04-27 23:27:30,010 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:27:40,798 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Social+Sciences
+2021-04-27 23:27:42,374 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:27:52,269 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Social+Work
+2021-04-27 23:27:53,452 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:28:02,980 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Sociology
+2021-04-27 23:28:03,904 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:28:16,532 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Special+Education
+2021-04-27 23:28:17,427 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:28:27,754 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Sustainable+Development
+2021-04-27 23:28:28,683 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:28:39,206 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Teaching+and+Teacher+Education
+2021-04-27 23:28:40,148 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:28:50,603 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Technology+Law
+2021-04-27 23:28:51,864 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:29:02,105 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Asian+Studies+and+History+Urban+Studies+and+Planning
+2021-04-27 23:29:02,968 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:29:14,578 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Canadian+Studies+and+History
+2021-04-27 23:29:15,381 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:29:27,225 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Chinese+Studies+and+History
+2021-04-27 23:29:28,672 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:29:39,549 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Cognitive+Science
+2021-04-27 23:29:40,853 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:29:56,577 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Criminology%2C+Criminal+Law+and+Policing
+2021-04-27 23:29:57,455 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:30:09,421 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Development+Economics
+2021-04-27 23:30:10,260 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:30:19,759 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Diplomacy+and+International+Relations
+2021-04-27 23:30:21,353 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:30:32,539 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Early+Childhood+Education
+2021-04-27 23:30:33,423 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:30:43,097 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Economic+History
+2021-04-27 23:30:44,100 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:30:53,889 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Education
+2021-04-27 23:30:54,667 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:31:04,450 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Educational+Administration
+2021-04-27 23:31:05,317 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:31:15,329 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Educational+Psychology+and+Counseling
+2021-04-27 23:31:16,241 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:31:26,821 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Educational+Technology
+2021-04-27 23:31:27,670 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:31:38,550 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Environmental+and+Occupational+Medicine
+2021-04-27 23:31:39,485 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:31:53,278 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Environmental+Law+and+Policy
+2021-04-27 23:31:54,176 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:32:04,758 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Epistemology+and+Scientific+History
+2021-04-27 23:32:05,664 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:32:18,264 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Ethics
+2021-04-27 23:32:19,213 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:32:30,590 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+European+Law
+2021-04-27 23:32:31,487 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:32:41,186 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Family+Studies
+2021-04-27 23:32:42,174 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:32:53,379 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Feminism+and+Women%27s+Studies
+2021-04-27 23:32:54,202 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:33:05,002 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Forensic+Science
+2021-04-27 23:33:06,028 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:33:17,310 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Geography+and+Cartography
+2021-04-27 23:33:18,170 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:33:30,502 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Health+Policy+and+Medical+Law
+2021-04-27 23:33:31,487 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:33:43,401 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Higher+Education
+2021-04-27 23:33:44,375 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:33:59,886 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+History
+2021-04-27 23:34:00,711 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:34:15,434 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Human+Migration
+2021-04-27 23:34:16,332 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:34:27,268 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Human+Resources+and+Organizations
+2021-04-27 23:34:28,141 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:34:38,371 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+International+Law
+2021-04-27 23:34:39,296 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:34:48,584 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Law
+2021-04-27 23:34:50,010 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:34:59,705 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Library+and+Information+Science
+2021-04-27 23:35:04,571 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:35:14,964 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Middle+Eastern+and+Islamic+Studies
+2021-04-27 23:35:15,840 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:35:26,136 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Military+Studies
+2021-04-27 23:35:27,655 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:35:38,050 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Paleontology
+2021-04-27 23:35:40,043 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:35:49,431 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Political+Science
+2021-04-27 23:35:50,308 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:36:00,301 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Public+Policy+and+Administration
+2021-04-27 23:36:01,158 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:36:14,489 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Science+and+Engineering+Education
+2021-04-27 23:36:16,486 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:36:26,226 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Sex+and+Sexuality
+2021-04-27 23:36:27,078 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:36:38,302 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Social+Sciences
+2021-04-27 23:36:39,250 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:36:50,939 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Social+Work
+2021-04-27 23:36:51,926 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:37:01,707 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Sociology
+2021-04-27 23:37:02,532 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:37:12,506 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Special+Education
+2021-04-27 23:37:13,975 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:37:23,034 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Sustainable+Development
+2021-04-27 23:37:24,026 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:37:37,916 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Teaching+and+Teacher+Education
+2021-04-27 23:37:38,710 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:37:50,154 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Technology+Law
+2021-04-27 23:37:51,584 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:38:01,240 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Urban+Studies+and+Planning
+2021-04-27 23:38:02,204 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:38:11,433 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Cognitive+Science
+2021-04-27 23:38:12,448 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:38:23,124 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Criminology%2C+Criminal+Law+and+Policing
+2021-04-27 23:38:24,035 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:38:35,546 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Development+Economics
+2021-04-27 23:38:36,569 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:38:46,249 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Diplomacy+and+International+Relations
+2021-04-27 23:38:47,177 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:38:56,443 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Early+Childhood+Education
+2021-04-27 23:38:57,544 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:39:07,335 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Economic+History
+2021-04-27 23:39:08,300 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:39:21,772 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Education
+2021-04-27 23:39:22,692 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:39:32,514 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Educational+Administration
+2021-04-27 23:39:34,044 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:39:43,508 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Educational+Psychology+and+Counseling
+2021-04-27 23:39:44,372 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:39:54,112 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Educational+Technology
+2021-04-27 23:39:55,024 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:40:07,753 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Environmental+and+Occupational+Medicine
+2021-04-27 23:40:08,644 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:40:19,280 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Environmental+Law+and+Policy
+2021-04-27 23:40:20,314 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:40:30,150 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Ethics
+2021-04-27 23:40:31,334 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:40:40,563 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+European+Law
+2021-04-27 23:40:42,064 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:40:51,957 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Family+Studies
+2021-04-27 23:40:52,878 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:41:03,359 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Forensic+Science
+2021-04-27 23:41:04,968 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:41:14,722 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Geography+and+Cartography
+2021-04-27 23:41:15,567 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:41:25,211 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Health+Policy+and+Medical+Law
+2021-04-27 23:41:26,089 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:41:38,721 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Higher+Education
+2021-04-27 23:41:39,742 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:41:49,099 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Human+Migration
+2021-04-27 23:41:50,494 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:42:00,182 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Human+Resources+and+Organizations
+2021-04-27 23:42:01,647 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:42:10,375 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+International+Law
+2021-04-27 23:42:11,334 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:42:21,253 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Law
+2021-04-27 23:42:22,196 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:42:34,197 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Library+and+Information+Science
+2021-04-27 23:42:35,252 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:42:44,940 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Military+Studies
+2021-04-27 23:42:45,773 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:42:55,254 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Paleontology
+2021-04-27 23:42:56,143 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:43:06,365 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Political+Science
+2021-04-27 23:43:07,283 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:43:16,302 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Public+Health
+2021-04-27 23:43:17,288 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:43:27,445 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Public+Policy+and+Administration
+2021-04-27 23:43:28,721 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:43:39,110 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Science+and+Engineering+Education
+2021-04-27 23:43:40,091 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:43:49,881 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Social+Sciences
+2021-04-27 23:43:51,104 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:44:02,773 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Social+Work
+2021-04-27 23:44:03,681 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:44:16,255 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Sociology
+2021-04-27 23:44:17,162 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:44:27,384 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Special+Education
+2021-04-27 23:44:28,313 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:44:38,070 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Sustainable+Development
+2021-04-27 23:44:38,957 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:44:49,556 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Teaching+and+Teacher+Education
+2021-04-27 23:44:50,465 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:45:05,351 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Technology+Law
+2021-04-27 23:45:06,234 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:45:16,143 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Canadian+Studies+and+History+Urban+Studies+and+Planning
+2021-04-27 23:45:17,021 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:45:33,674 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Cognitive+Science
+2021-04-27 23:45:34,582 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:45:43,908 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Criminology%2C+Criminal+Law+and+Policing
+2021-04-27 23:45:44,754 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:45:55,098 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Development+Economics
+2021-04-27 23:45:55,964 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:46:07,572 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Diplomacy+and+International+Relations
+2021-04-27 23:46:08,622 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:46:17,956 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Early+Childhood+Education
+2021-04-27 23:46:18,847 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:46:28,468 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Economic+History
+2021-04-27 23:46:29,384 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:46:45,383 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Education
+2021-04-27 23:46:46,478 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:46:57,378 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Educational+Administration
+2021-04-27 23:46:58,381 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:47:08,247 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Educational+Psychology+and+Counseling
+2021-04-27 23:47:09,133 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:47:20,080 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Educational+Technology
+2021-04-27 23:47:21,221 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:47:31,407 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Environmental+and+Occupational+Medicine
+2021-04-27 23:47:32,393 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:47:45,470 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Environmental+Law+and+Policy
+2021-04-27 23:47:46,436 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:47:56,508 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Epistemology+and+Scientific+History
+2021-04-27 23:47:57,340 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:48:06,776 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Ethics
+2021-04-27 23:48:07,756 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:48:17,764 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+European+Law
+2021-04-27 23:48:18,746 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:48:28,707 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Family+Studies
+2021-04-27 23:48:29,685 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:48:39,235 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Feminism+and+Women%27s+Studies
+2021-04-27 23:48:40,082 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:48:49,439 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Forensic+Science
+2021-04-27 23:48:50,559 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:49:00,851 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Geography+and+Cartography
+2021-04-27 23:49:02,593 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:49:12,548 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Health+Policy+and+Medical+Law
+2021-04-27 23:49:13,667 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:49:24,349 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Higher+Education
+2021-04-27 23:49:25,306 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:49:35,424 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+History
+2021-04-27 23:49:36,442 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:49:47,602 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Human+Migration
+2021-04-27 23:49:48,749 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:49:58,191 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Human+Resources+and+Organizations
+2021-04-27 23:49:59,256 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:50:10,225 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+International+Law
+2021-04-27 23:50:11,105 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:50:21,295 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Law
+2021-04-27 23:50:22,269 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:50:32,604 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Library+and+Information+Science
+2021-04-27 23:50:34,131 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:50:43,709 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Middle+Eastern+and+Islamic+Studies
+2021-04-27 23:50:44,747 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:50:53,478 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Military+Studies
+2021-04-27 23:50:54,380 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:51:08,420 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Paleontology
+2021-04-27 23:51:09,355 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:51:19,477 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Political+Science
+2021-04-27 23:51:20,401 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:51:32,981 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Public+Health
+2021-04-27 23:51:34,024 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:51:46,563 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Public+Policy+and+Administration
+2021-04-27 23:51:47,502 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:51:57,599 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Science+and+Engineering+Education
+2021-04-27 23:51:58,638 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:52:09,193 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Sex+and+Sexuality
+2021-04-27 23:52:10,526 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:52:25,192 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Social+Sciences
+2021-04-27 23:52:26,135 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:52:35,440 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Social+Work
+2021-04-27 23:52:36,552 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:52:46,123 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Sociology
+2021-04-27 23:52:47,015 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:52:56,743 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Special+Education
+2021-04-27 23:52:57,670 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:53:07,854 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Sustainable+Development
+2021-04-27 23:53:09,388 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:53:19,694 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Teaching+and+Teacher+Education
+2021-04-27 23:53:21,617 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:53:33,003 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Technology+Law
+2021-04-27 23:53:34,597 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:53:44,632 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Chinese+Studies+and+History+Urban+Studies+and+Planning
+2021-04-27 23:53:45,572 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:53:57,431 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Criminology%2C+Criminal+Law+and+Policing
+2021-04-27 23:53:58,321 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:54:08,076 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Development+Economics
+2021-04-27 23:54:09,001 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:54:20,798 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Diplomacy+and+International+Relations
+2021-04-27 23:54:21,627 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:54:31,626 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Early+Childhood+Education
+2021-04-27 23:54:32,462 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:54:41,480 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Economic+History
+2021-04-27 23:54:42,494 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:54:53,656 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Education
+2021-04-27 23:54:54,639 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:55:08,818 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Educational+Administration
+2021-04-27 23:55:09,957 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:55:21,146 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Educational+Psychology+and+Counseling
+2021-04-27 23:55:22,050 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:55:31,672 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Educational+Technology
+2021-04-27 23:55:32,552 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:55:42,006 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Environmental+and+Occupational+Medicine
+2021-04-27 23:55:43,270 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:55:52,188 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Environmental+Law+and+Policy
+2021-04-27 23:55:53,468 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:56:02,924 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Epistemology+and+Scientific+History
+2021-04-27 23:56:03,859 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:56:16,484 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Ethics
+2021-04-27 23:56:17,513 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:56:26,951 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+European+Law
+2021-04-27 23:56:27,950 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:56:38,127 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Family+Studies
+2021-04-27 23:56:39,249 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:56:51,734 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Feminism+and+Women%27s+Studies
+2021-04-27 23:56:52,566 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:57:03,072 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Forensic+Science
+2021-04-27 23:57:04,031 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:57:13,866 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Geography+and+Cartography
+2021-04-27 23:57:14,642 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:57:24,399 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Health+Policy+and+Medical+Law
+2021-04-27 23:57:25,281 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:57:35,043 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Higher+Education
+2021-04-27 23:57:35,968 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:57:45,717 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+History
+2021-04-27 23:57:46,618 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:57:57,109 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Human+Migration
+2021-04-27 23:57:58,121 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:58:14,430 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Human+Resources+and+Organizations
+2021-04-27 23:58:16,534 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:58:27,800 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+International+Law
+2021-04-27 23:58:28,769 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:58:37,928 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Law
+2021-04-27 23:58:38,840 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:58:49,044 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Library+and+Information+Science
+2021-04-27 23:58:49,938 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:58:59,756 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Middle+Eastern+and+Islamic+Studies
+2021-04-27 23:59:00,689 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:59:11,096 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Military+Studies
+2021-04-27 23:59:12,045 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:59:21,026 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Paleontology
+2021-04-27 23:59:21,903 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:59:31,209 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Political+Science
+2021-04-27 23:59:32,018 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:59:41,864 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Public+Health
+2021-04-27 23:59:42,924 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 23:59:52,809 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Public+Policy+and+Administration
+2021-04-27 23:59:53,680 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:00:30,944 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Science+and+Engineering+Education
+2021-04-28 00:00:31,834 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:00:43,619 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Sex+and+Sexuality
+2021-04-28 00:00:44,867 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:00:54,695 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Social+Sciences
+2021-04-28 00:00:55,637 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:01:07,812 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Social+Work
+2021-04-28 00:01:08,777 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:01:20,201 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Sociology

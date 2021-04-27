@@ -1,0 +1,250 @@
+2021-04-28 00:03:10,092 - elsapy.elsclient - INFO - Module loaded.
+2021-04-28 00:03:10,093 - elsapy.elsentity - INFO - Module loaded.
+2021-04-28 00:03:10,094 - elsapy.utils - INFO - Module loaded.
+2021-04-28 00:03:10,094 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-28 00:03:10,095 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-28 00:03:10,095 - elsapy.elssearch - INFO - Module loaded.
+2021-04-28 00:03:19,266 - elsapy.elsclient - INFO - Module loaded.
+2021-04-28 00:03:19,267 - elsapy.elsentity - INFO - Module loaded.
+2021-04-28 00:03:19,268 - elsapy.utils - INFO - Module loaded.
+2021-04-28 00:03:19,268 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-28 00:03:19,268 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-28 00:03:19,269 - elsapy.elssearch - INFO - Module loaded.
+2021-04-28 00:03:32,384 - elsapy.elsclient - INFO - Module loaded.
+2021-04-28 00:03:32,385 - elsapy.elsentity - INFO - Module loaded.
+2021-04-28 00:03:32,385 - elsapy.utils - INFO - Module loaded.
+2021-04-28 00:03:32,386 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-28 00:03:32,386 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-28 00:03:32,387 - elsapy.elssearch - INFO - Module loaded.
+2021-04-28 00:04:04,259 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Sociology
+2021-04-28 00:06:07,155 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Sociology
+2021-04-28 00:06:08,179 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:06:21,892 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Special+Education
+2021-04-28 00:06:39,105 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Special+Education
+2021-04-28 00:06:40,080 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:06:52,852 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cognitive+Science+Sustainable+Development
+2021-04-28 00:08:27,173 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Acoustics+and+Sound+Algebra
+2021-04-28 00:08:28,017 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:08:38,379 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Acoustics+and+Sound+Astronomy+and+Astrophysics
+2021-04-28 00:08:39,311 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:08:50,637 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Acoustics+and+Sound+Biophysics
+2021-04-28 00:08:51,540 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:09:01,275 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Acoustics+and+Sound+Computational+Mathematics
+2021-04-28 00:09:02,190 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:09:12,040 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Acoustics+and+Sound+Condensed+Matter+Physics+and+Semiconductors
+2021-04-28 00:09:13,004 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:09:23,039 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Acoustics+and+Sound+Discrete+Mathematics
+2021-04-28 00:09:23,982 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:09:37,304 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Acoustics+and+Sound+Electromagnetism
+2021-04-28 00:09:38,164 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:09:50,775 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Acoustics+and+Sound+Fluid+Mechanics
+2021-04-28 00:09:51,854 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:10:07,671 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Acoustics+and+Sound+Geometry
+2021-04-28 00:10:10,025 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:10:23,034 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Acoustics+and+Sound+Geophysics
+2021-04-28 00:10:23,887 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:10:33,306 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Acoustics+and+Sound+High+Energy+and+Nuclear+Physics
+2021-04-28 00:10:34,626 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:10:44,157 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Acoustics+and+Sound+Mathematical+Analysis
+2021-04-28 00:10:45,101 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:10:55,583 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Acoustics+and+Sound+Mathematical+Optimization
+2021-04-28 00:10:56,477 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:11:07,473 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Acoustics+and+Sound+Mathematical+Physics
+2021-04-28 00:11:08,376 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:11:18,545 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Acoustics+and+Sound+Nonlinear+Science
+2021-04-28 00:11:19,460 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:11:29,387 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Acoustics+and+Sound+Optics+and+Photonics
+2021-04-28 00:11:30,295 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:11:41,113 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Acoustics+and+Sound+Physics+and+Mathematics
+2021-04-28 00:11:42,015 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:11:51,943 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Acoustics+and+Sound+Plasma+and+Fusion
+2021-04-28 00:11:52,786 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:12:06,059 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Acoustics+and+Sound+Probability+and+Statistics+with+Applications
+2021-04-28 00:12:07,852 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:12:18,127 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Acoustics+and+Sound+Pure+and+Applied+Mathematics
+2021-04-28 00:12:19,088 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:12:32,446 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Acoustics+and+Sound+Spectroscopy+and+Molecular+Physics
+2021-04-28 00:12:33,995 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:12:45,614 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Acoustics+and+Sound+Thermal+Sciences
+2021-04-28 00:12:46,461 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:12:57,878 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Algebra+Astronomy+and+Astrophysics
+2021-04-28 00:12:58,938 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:13:09,498 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Algebra+Computational+Mathematics
+2021-04-28 00:13:10,360 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:13:20,329 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Algebra+Condensed+Matter+Physics+and+Semiconductors
+2021-04-28 00:13:21,392 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:13:32,091 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Algebra+Discrete+Mathematics
+2021-04-28 00:13:34,949 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:13:45,921 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Algebra+Fluid+Mechanics
+2021-04-28 00:13:46,829 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:13:57,924 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Algebra+High+Energy+and+Nuclear+Physics
+2021-04-28 00:13:58,975 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:14:08,359 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Algebra+Mathematical+Analysis
+2021-04-28 00:14:09,338 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:14:19,502 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Algebra+Mathematical+Optimization
+2021-04-28 00:14:20,414 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:14:31,069 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Algebra+Nonlinear+Science
+2021-04-28 00:14:32,746 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:14:43,795 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Algebra+Optics+and+Photonics
+2021-04-28 00:14:44,787 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:14:55,620 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Algebra+Physics+and+Mathematics
+2021-04-28 00:14:56,484 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:15:08,499 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Algebra+Plasma+and+Fusion
+2021-04-28 00:15:09,447 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:15:19,951 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Algebra+Probability+and+Statistics+with+Applications
+2021-04-28 00:15:20,858 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:15:32,406 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Algebra+Pure+and+Applied+Mathematics
+2021-04-28 00:15:33,384 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:15:44,460 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Algebra+Spectroscopy+and+Molecular+Physics
+2021-04-28 00:15:45,939 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:15:55,680 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Algebra+Thermal+Sciences
+2021-04-28 00:15:56,683 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:16:07,115 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Astronomy+and+Astrophysics+Biophysics
+2021-04-28 00:16:07,957 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:16:17,623 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Astronomy+and+Astrophysics+Computational+Mathematics
+2021-04-28 00:16:18,530 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:16:28,707 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Astronomy+and+Astrophysics+Condensed+Matter+Physics+and+Semiconductors
+2021-04-28 00:16:29,569 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:16:40,158 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Astronomy+and+Astrophysics+Discrete+Mathematics
+2021-04-28 00:16:42,474 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:16:53,171 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Astronomy+and+Astrophysics+Electromagnetism
+2021-04-28 00:16:54,060 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:17:04,791 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Astronomy+and+Astrophysics+Fluid+Mechanics
+2021-04-28 00:17:05,617 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:17:15,638 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Astronomy+and+Astrophysics+Geometry
+2021-04-28 00:17:16,524 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:17:27,398 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Astronomy+and+Astrophysics+Geophysics
+2021-04-28 00:17:28,297 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:17:38,369 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Astronomy+and+Astrophysics+High+Energy+and+Nuclear+Physics
+2021-04-28 00:17:39,311 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:17:49,667 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Astronomy+and+Astrophysics+Mathematical+Analysis
+2021-04-28 00:17:51,009 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:18:01,084 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Astronomy+and+Astrophysics+Mathematical+Optimization
+2021-04-28 00:18:02,047 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:18:13,044 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Astronomy+and+Astrophysics+Mathematical+Physics
+2021-04-28 00:18:14,302 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:18:24,233 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Astronomy+and+Astrophysics+Nonlinear+Science
+2021-04-28 00:18:25,025 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:18:38,026 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Astronomy+and+Astrophysics+Optics+and+Photonics
+2021-04-28 00:18:38,940 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:18:49,011 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Astronomy+and+Astrophysics+Physics+and+Mathematics
+2021-04-28 00:18:49,865 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:18:59,204 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Astronomy+and+Astrophysics+Plasma+and+Fusion
+2021-04-28 00:19:00,106 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:19:10,408 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Astronomy+and+Astrophysics+Probability+and+Statistics+with+Applications
+2021-04-28 00:19:11,887 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:19:22,062 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Astronomy+and+Astrophysics+Pure+and+Applied+Mathematics
+2021-04-28 00:19:22,901 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:19:32,787 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Astronomy+and+Astrophysics+Spectroscopy+and+Molecular+Physics
+2021-04-28 00:19:33,886 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:19:44,495 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Astronomy+and+Astrophysics+Thermal+Sciences
+2021-04-28 00:19:45,424 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:19:55,181 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biophysics+Computational+Mathematics
+2021-04-28 00:19:56,120 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:20:10,098 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biophysics+Condensed+Matter+Physics+and+Semiconductors
+2021-04-28 00:20:11,005 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:20:21,781 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biophysics+Discrete+Mathematics
+2021-04-28 00:20:22,773 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:20:33,259 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biophysics+Fluid+Mechanics
+2021-04-28 00:20:34,180 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:20:43,170 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biophysics+High+Energy+and+Nuclear+Physics
+2021-04-28 00:20:44,089 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:20:53,982 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biophysics+Mathematical+Analysis
+2021-04-28 00:20:54,889 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:21:04,463 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biophysics+Mathematical+Optimization
+2021-04-28 00:21:06,119 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:21:18,528 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biophysics+Nonlinear+Science
+2021-04-28 00:21:19,402 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:21:31,403 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biophysics+Optics+and+Photonics
+2021-04-28 00:21:32,421 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:21:42,195 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biophysics+Physics+and+Mathematics
+2021-04-28 00:21:43,369 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:21:52,023 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biophysics+Plasma+and+Fusion
+2021-04-28 00:21:52,927 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:22:03,570 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biophysics+Probability+and+Statistics+with+Applications
+2021-04-28 00:22:04,492 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:22:16,287 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biophysics+Pure+and+Applied+Mathematics
+2021-04-28 00:22:17,162 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:22:27,412 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biophysics+Spectroscopy+and+Molecular+Physics
+2021-04-28 00:22:28,296 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:22:39,202 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biophysics+Thermal+Sciences
+2021-04-28 00:22:40,074 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:22:50,653 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Computational+Mathematics+Condensed+Matter+Physics+and+Semiconductors
+2021-04-28 00:22:51,708 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:23:01,696 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Computational+Mathematics+Discrete+Mathematics
+2021-04-28 00:23:02,741 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:23:11,965 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Computational+Mathematics+Electromagnetism
+2021-04-28 00:23:12,868 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:23:23,066 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Computational+Mathematics+Fluid+Mechanics
+2021-04-28 00:23:23,992 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:23:34,144 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Computational+Mathematics+Geometry
+2021-04-28 00:23:35,042 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:23:44,850 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Computational+Mathematics+Geophysics
+2021-04-28 00:23:45,951 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:23:54,721 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Computational+Mathematics+High+Energy+and+Nuclear+Physics
+2021-04-28 00:23:55,693 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:24:05,833 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Computational+Mathematics+Mathematical+Analysis
+2021-04-28 00:24:07,113 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:24:17,086 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Computational+Mathematics+Mathematical+Optimization
+2021-04-28 00:24:18,022 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:24:28,458 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Computational+Mathematics+Mathematical+Physics
+2021-04-28 00:24:29,549 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:24:39,590 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Computational+Mathematics+Nonlinear+Science
+2021-04-28 00:24:40,465 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:24:50,205 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Computational+Mathematics+Optics+and+Photonics
+2021-04-28 00:24:51,129 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:25:08,051 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Computational+Mathematics+Physics+and+Mathematics
+2021-04-28 00:25:09,048 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:25:18,333 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Computational+Mathematics+Plasma+and+Fusion
+2021-04-28 00:25:19,174 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:25:28,692 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Computational+Mathematics+Probability+and+Statistics+with+Applications
+2021-04-28 00:25:29,650 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:25:39,131 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Computational+Mathematics+Pure+and+Applied+Mathematics
+2021-04-28 00:25:40,072 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:25:50,003 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Computational+Mathematics+Spectroscopy+and+Molecular+Physics
+2021-04-28 00:25:50,859 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:26:00,738 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Computational+Mathematics+Thermal+Sciences
+2021-04-28 00:26:01,694 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:26:11,820 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Condensed+Matter+Physics+and+Semiconductors+Discrete+Mathematics
+2021-04-28 00:26:12,761 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:26:22,589 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Condensed+Matter+Physics+and+Semiconductors+Electromagnetism
+2021-04-28 00:26:23,475 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:26:33,343 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Condensed+Matter+Physics+and+Semiconductors+Fluid+Mechanics
+2021-04-28 00:26:34,235 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:26:45,150 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Condensed+Matter+Physics+and+Semiconductors+Geometry
+2021-04-28 00:26:46,730 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:26:56,582 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Condensed+Matter+Physics+and+Semiconductors+Geophysics
+2021-04-28 00:26:57,425 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:27:07,693 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Condensed+Matter+Physics+and+Semiconductors+High+Energy+and+Nuclear+Physics
+2021-04-28 00:27:08,592 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:27:17,761 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Condensed+Matter+Physics+and+Semiconductors+Mathematical+Analysis
+2021-04-28 00:27:18,952 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:27:28,355 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Condensed+Matter+Physics+and+Semiconductors+Mathematical+Optimization
+2021-04-28 00:27:29,802 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:27:39,574 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Condensed+Matter+Physics+and+Semiconductors+Mathematical+Physics
+2021-04-28 00:27:40,490 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:27:49,855 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Condensed+Matter+Physics+and+Semiconductors+Nonlinear+Science
+2021-04-28 00:27:50,701 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:28:03,298 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Condensed+Matter+Physics+and+Semiconductors+Optics+and+Photonics
+2021-04-28 00:28:04,819 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:28:14,136 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Condensed+Matter+Physics+and+Semiconductors+Physics+and+Mathematics
+2021-04-28 00:28:14,989 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:28:24,081 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Condensed+Matter+Physics+and+Semiconductors+Plasma+and+Fusion
+2021-04-28 00:28:25,407 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:28:35,319 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Condensed+Matter+Physics+and+Semiconductors+Probability+and+Statistics+with+Applications
+2021-04-28 00:28:36,247 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:28:45,624 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Condensed+Matter+Physics+and+Semiconductors+Pure+and+Applied+Mathematics
+2021-04-28 00:28:46,563 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:28:56,703 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Condensed+Matter+Physics+and+Semiconductors+Spectroscopy+and+Molecular+Physics
+2021-04-28 00:28:57,593 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:29:07,364 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Condensed+Matter+Physics+and+Semiconductors+Thermal+Sciences
+2021-04-28 00:29:08,665 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:29:19,132 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Discrete+Mathematics+Electromagnetism
+2021-04-28 00:29:20,030 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-28 00:29:30,208 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Discrete+Mathematics+Fluid+Mechanics
+2021-04-28 00:29:44,888 - elsapy.elsclient - INFO - Module loaded.
+2021-04-28 00:29:44,889 - elsapy.elsentity - INFO - Module loaded.
+2021-04-28 00:29:44,890 - elsapy.utils - INFO - Module loaded.
+2021-04-28 00:29:44,890 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-28 00:29:44,891 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-28 00:29:44,891 - elsapy.elssearch - INFO - Module loaded.

@@ -9,7 +9,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="{% static 'results2css.css' %} ">
 		<link rel="stylesheet" href="{% static 'test_navigation.css' %}">
+		<link  rel="shortcut icon" type="image/png" href="{% static 'favicon_logo.png' %}">
 	</head>
+	<title>{{keyword.topic_1.name}} &amp; {{keyword.topic_2.name}}</title>
 	
 	<body>
 	
@@ -43,9 +45,9 @@
 			<div class="file_container">
 			
 				<ul class="main-menu">
-					<li><button onclick="show(1)" style="font-size:0.91vw;">Statistical Trend</button></li>
-					<li><button onclick="show(2)" style="font-size:0.91vw;">Related Keyword</button></li>
-					<li><button onclick="show(3)" style="font-size:0.91vw;">Related Paper</button></li>
+					<li><button onclick="show(1)">Statistical Trend</button></li>
+					<li><button onclick="show(2)">Related Keyword</button></li>
+					<li><button onclick="show(3)">Related Paper</button></li>
 			</ul>
 			
 				<div class="content">

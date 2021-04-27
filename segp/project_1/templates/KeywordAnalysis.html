@@ -8,9 +8,10 @@
 	<head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="{% static 'results2css.css' %} ">
-		
+		<link  rel="shortcut icon" type="image/png" href="{% static 'favicon_logo.png' %}">
 		<link rel="stylesheet" href="{% static 'test_navigation.css' %}">
 	</head>
+	<title>{{keyword}}</title>
 	
 	<body>
 	
@@ -21,8 +22,8 @@
 		<div class="main">
 			<div class="section1">
 				<a class="keyword" style="font-size:2.7vw;">{{keyword}}</a>
-				<br><br><br><br>
-				<table style="width:100%;margin:0 auto;padding:10px;border-spacing: 0 20px;" class="results2table">
+				<br><br>
+				<table style="width:100%;margin:0 auto;padding:10px;border-spacing: 0 10px;height:min-content" class="results2table">
 					<tr>
 						<th style="font-size:2vw;">READER SCORE</th>
 						<th style="font-size:2vw;">AUTHOR SCORE</th>
@@ -35,16 +36,16 @@
 					</tr>
 				</table>
 			</div>
-			<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 			<div class="file_container">
 				<ul class="main-menu">
-					<li><button onclick="show(1)" style="font-size:0.91vw;">Statistical Trend</button></li>
-					<li><button onclick="show(2)" style="font-size:0.91vw;">Related Keyword</button></li>
-					<li><button onclick="show(3)" style="font-size:0.91vw;">Related Paper</button></li>
+					<li><button onclick="show(1)">Statistical Trend</button></li>
+					<li><button onclick="show(2)">Related Keyword</button></li>
+					<li><button onclick="show(3)">Related Paper</button></li>
 				</ul>
 		<br><br><br>
 				<div class="content">
-					<div class="sub_content" id="1" style="height:110vh" "background-color:blue;display:none;" >
+					<div class="sub_content" id="1">
 						<h1 class="keyword" style="font-size:3vw;">STATISTICAL ANALYSIS</h1>
 						<div class="graph">
 							{% autoescape off %}

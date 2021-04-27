@@ -1,5 +1,8 @@
 /* created by group */
 
+html{
+    height:max-content;
+}
 body{
     --menu-item-size: 50px;
     --green-color: #329680;
@@ -9,10 +12,8 @@ body{
     --container-width: 700px;
     --container-height: 400px;
     --line-offset: calc((100% - var(--container-height))/ 2 + var(--menu-item-size) + 0.6em);
-}
-
-.file_container{
-    width : 75vw;
+    height:max-content;
+    padding-bottom:1vw;
 }
 
 .main-menu {
@@ -31,11 +32,8 @@ body{
 .main-menu > li {
     color: #878787;
     box-sizing: border-box;
-    height: var(--menu-item-size);
-    width: calc(3.5 * var(--menu-item-size));
-    line-height: var(--menu-item-size);
-    padding: 0 1.7em;
-    margin: 1px;
+    padding: 1vw;
+    margin: 1vw;
     transition: 0.5s linear all;
     cursor: pointer;
     font-size: 16px;
