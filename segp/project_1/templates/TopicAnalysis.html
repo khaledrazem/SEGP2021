@@ -19,20 +19,20 @@
 	
 		<div class="main">
 			<div class="section1">
-				<a class="keyword">{{keyword.topic_1.name}} &amp; {{keyword.topic_2.name}}</a>
+				<a class="keyword" style="font-size:2.7vw;">{{keyword.topic_1.name}} &amp; {{keyword.topic_2.name}}</a>
 				<br><br><br><br>
 				<table style="width:100%;margin:0 auto;padding:10px;border-spacing: 0 20px;" class="results2table">
 					<tr>
-						<th>READER SCORE</th>
-						<th>AUTHOR SCORE</th>
-						<th>GROWTH SCORE</th>
-						<th>P.I.E SCORE</th>
+						<th style="font-size:2vw;">READER SCORE</th>
+						<th style="font-size:2vw;">AUTHOR SCORE</th>
+						<th style="font-size:2vw;">GROWTH SCORE</th>
+						<th style="font-size:2vw;">P.I.E SCORE</th>
 					</tr>
 					<tr>
-						<td>{{keyword.combination_score}}</td>
-						<td>{{keyword.combination_authorscore}}</td>
-						<td>{{keyword.combination_growth}}</td>
-						<td>{{keyword.combination_pie}}</td>
+						<td style="font-size:2vw;">{{keyword.combination_score}}</td>
+						<td style="font-size:2vw;">{{keyword.combination_authorscore}}</td>
+						<td style="font-size:2vw;">{{keyword.combination_growth}}</td>
+						<td style="font-size:2vw;">{{keyword.combination_pie}}</td>
 					</tr>
 				</table>
 			</div>
@@ -43,14 +43,14 @@
 			<div class="file_container">
 			
 				<ul class="main-menu">
-					<li><button onclick="show(1)">Statistical Trend</button></li>
-					<li><button onclick="show(2)">Related Keyword</button></li>
-					<li><button onclick="show(3)">Related Paper</button></li>
+					<li><button onclick="show(1)" style="font-size:0.91vw;">Statistical Trend</button></li>
+					<li><button onclick="show(2)" style="font-size:0.91vw;">Related Keyword</button></li>
+					<li><button onclick="show(3)" style="font-size:0.91vw;">Related Paper</button></li>
 			</ul>
 			
 				<div class="content">
 					<div class="sub_content" id="1" style="height:110vh">
-						<h1 class="keyword">STATISTICAL ANALYSIS</h1>
+						<h1 class="keyword" style="font-size:3vw;">STATISTICAL ANALYSIS</h1>
 						<div class="graph">
 							{% autoescape off %}
 							{{ graph.graph1 }}
@@ -62,20 +62,20 @@
 					</div>
 
 					<div class="sub_content" id="2" style="display:none;">
-						<h1 class="keyword">RELATED WORDS</h1>
+						<h1 class="keyword" style="font-size:3vw;">RELATED WORDS</h1>
 						<table div class="tableproperty">
 							{% for x,y in related_word.words %}
 								{% if forloop.counter|divisibleby:2 %}
-										<td style="font-size:{{y}}px;"><a href="../SingleKeywordResult/?keyword={{x}}">{{x}}</a></td>
+										<td style="font-size:{{y}}vw;"><a href="../SingleKeywordResult/?keyword={{x}}">{{x}}</a></td>
 									</tr>
 								{% else %}
 									{% if forloop.last %}
 										<tr>
-											<td colspan="2" style="font-size:{{y}}px;"><a href="../SingleKeywordResult/?keyword={{x}}">{{x}}</a></td>
+											<td colspan="2" style="font-size:{{y}}vw;"><a href="../SingleKeywordResult/?keyword={{x}}">{{x}}</a></td>
 										</tr>
 									{% else %}
 										<tr>
-											<td style="font-size:{{y}}px;"><a href="../SingleKeywordResult/?keyword={{x}}">{{x}}</a></td>
+											<td style="font-size:{{y}}vw;"><a href="../SingleKeywordResult/?keyword={{x}}">{{x}}</a></td>
 									{% endif %}
 								{% endif %}
 							{% endfor %}
@@ -83,33 +83,33 @@
 					</div>
 
 					<div class="sub_content" id="3" style="display:none;">
-						<h1 class="keyword3">RESEARCH PAPERS</h1>
+						<h1 class="keyword3" style="font-size:3vw;">RESEARCH PAPERS</h1>
 
 						<table class="container">
 							<thead>
 								<tr>
-									<th><h1>Title</h1></th>
-									<th><h1>Citations</h1></th>
-									<th><h1>Date Published</h1></th>
-									<th><h1>Link</h1></th>
+									<th><h1 style="font-size:1.7vw;">Title</h1></th>
+									<th><h1 style="font-size:1.7vw;">Citations</h1></th>
+									<th><h1 style="font-size:1.7vw;">Date Published</h1></th>
+									<th><h1 style="font-size:1.7vw;">Link</h1></th>
 								</tr>
 							</thead>
 							<tbody>
 								{% for x in related %}
 									<tr>
-										<td>{{x.paper.name}}</td>
-										<td>{{x.paper.reader_count}}</td>
-										<td>{{x.paper.year_published}}</td>
-										<td><a href="{{x.paper.link}}">Link</a></td>
+										<td style="font-size:1.2vw;">{{x.paper.name}}</td>
+										<td style="font-size:1.2vw;">{{x.paper.reader_count}}</td>
+										<td style="font-size:1.2vw;">{{x.paper.year_published}}</td>
+										<td style="font-size:1.2vw;"><a href="{{x.paper.link}}">Link</a></td>
 									</tr>
 								{% endfor %}
 
 								{% for x in related2.paper %}
 									<tr>
-										<td>{{x.name}}</td>
-										<td>{{x.reader_count}}</td>
-										<td>{{x.year_published}}</td>
-										<td><a href="{{x.link}}">Link</a></td>
+										<td style="font-size:1.2vw;">{{x.name}}</td>
+										<td style="font-size:1.2vw;">{{x.reader_count}}</td>
+										<td style="font-size:1.2vw;">{{x.year_published}}</td>
+										<td style="font-size:1.2vw;"><a href="{{x.link}}">Link</a></td>
 									</tr>
 								{% endfor %}
 							</tbody>

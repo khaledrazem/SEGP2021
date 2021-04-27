@@ -1,0 +1,886 @@
+2021-04-27 09:10:56,823 - elsapy.elsclient - INFO - Module loaded.
+2021-04-27 09:10:56,823 - elsapy.elsentity - INFO - Module loaded.
+2021-04-27 09:10:56,823 - elsapy.utils - INFO - Module loaded.
+2021-04-27 09:10:56,827 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-27 09:10:56,827 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-27 09:10:56,827 - elsapy.elssearch - INFO - Module loaded.
+2021-04-27 09:11:43,244 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Anesthesiology
+2021-04-27 09:11:44,376 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:11:56,642 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Audiology%2C+Speech+and+Language+Pathology
+2021-04-27 09:11:57,678 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:12:08,241 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Bioethics
+2021-04-27 09:12:09,240 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:12:22,889 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Biomedical+Technology
+2021-04-27 09:12:24,054 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:12:35,805 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Cardiology
+2021-04-27 09:12:36,904 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:12:47,307 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Child+and+Adolescent+Psychology
+2021-04-27 09:12:48,252 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:12:59,577 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Clinical+Laboratory+Science
+2021-04-27 09:13:00,643 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:13:11,129 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Communicable+Diseases
+2021-04-27 09:13:12,225 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:13:23,801 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Critical+Care
+2021-04-27 09:13:24,927 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:13:36,159 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Dentistry
+2021-04-27 09:13:37,107 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:13:48,582 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Dermatology
+2021-04-27 09:13:49,500 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:14:01,658 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Developmental+Disabilities
+2021-04-27 09:14:02,712 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:14:13,812 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Diabetes
+2021-04-27 09:14:14,791 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:14:26,183 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Emergency+Medicine
+2021-04-27 09:14:27,900 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:14:39,487 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Endocrinology
+2021-04-27 09:14:40,496 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:14:51,881 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Epidemiology
+2021-04-27 09:14:52,886 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:15:05,135 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Gastroenterology+and+Hepatology
+2021-04-27 09:15:06,400 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:15:17,024 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Genetics+and+Genomics
+2021-04-27 09:15:17,974 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:15:28,728 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Gerontology+and+Geriatric+Medicine
+2021-04-27 09:15:29,653 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:15:41,115 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Gynecology+and+Obstetrics
+2021-04-27 09:15:42,038 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:15:51,798 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Health+and+Medical+Sciences
+2021-04-27 09:15:52,825 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:16:03,833 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Heart+and+Thoracic+Surgery
+2021-04-27 09:16:04,772 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:16:15,466 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Hematology
+2021-04-27 09:16:16,444 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:16:26,961 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Hospice+and+Palliative+Care
+2021-04-27 09:16:27,808 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:16:39,360 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Immunology
+2021-04-27 09:16:40,390 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:16:51,036 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Medical+Informatics
+2021-04-27 09:16:52,181 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:17:02,810 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Medicinal+Chemistry
+2021-04-27 09:17:03,952 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:17:15,165 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Molecular+Biology
+2021-04-27 09:17:16,340 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:17:27,233 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Natural+Medicines+and+Medicinal+Plants
+2021-04-27 09:17:28,327 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:17:38,858 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Neurology
+2021-04-27 09:17:39,793 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:17:51,202 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Neurosurgery
+2021-04-27 09:17:52,186 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:18:02,962 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Nuclear+Medicine%2C+Radiotherapy+and+Molecular+Imaging
+2021-04-27 09:18:03,960 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:18:14,622 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Nursing
+2021-04-27 09:18:15,627 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:18:27,126 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Nutrition+Science
+2021-04-27 09:18:28,127 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:18:38,787 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Obesity
+2021-04-27 09:18:39,791 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:18:51,534 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Oncology
+2021-04-27 09:18:52,557 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:19:04,208 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Ophthalmology+and+Optometry
+2021-04-27 09:19:05,295 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:19:16,836 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Oral+and+Maxillofacial+Surgery
+2021-04-27 09:19:17,786 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:19:30,787 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Orthopedic+Medicine+and+Surgery
+2021-04-27 09:19:31,820 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:19:43,652 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Otolaryngology
+2021-04-27 09:19:44,921 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:19:56,899 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Pain+and+Pain+Management
+2021-04-27 09:19:57,924 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:20:10,260 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Pathology
+2021-04-27 09:20:11,346 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:20:22,153 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Pediatric+Medicine
+2021-04-27 09:20:23,120 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:20:40,735 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Pharmacology+and+Pharmacy
+2021-04-27 09:20:41,659 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:20:52,218 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Physical+Education+and+Sports+Medicine
+2021-04-27 09:20:53,231 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:21:05,626 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Physiology
+2021-04-27 09:21:07,455 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:21:18,845 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Plastic+and+Reconstructive+Surgery
+2021-04-27 09:21:19,853 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:21:31,283 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Pregnancy+and+Childbirth
+2021-04-27 09:21:32,242 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:21:43,966 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Primary+Health+Care
+2021-04-27 09:21:45,244 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:21:55,781 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Psychiatry
+2021-04-27 09:21:56,814 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:22:07,185 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Psychology
+2021-04-27 09:22:08,185 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:22:18,841 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Public+Health
+2021-04-27 09:22:19,850 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:22:31,189 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Pulmonology
+2021-04-27 09:22:32,240 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:22:43,825 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Radiology+and+Medical+Imaging
+2021-04-27 09:22:44,739 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:22:55,653 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Rehabilitation+Therapy
+2021-04-27 09:22:56,619 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:23:08,084 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Reproductive+Health
+2021-04-27 09:23:09,117 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:23:20,387 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Rheumatology
+2021-04-27 09:23:21,300 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:23:32,345 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Social+Psychology
+2021-04-27 09:23:33,379 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:23:43,986 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Surgery
+2021-04-27 09:23:44,953 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:23:55,505 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Toxicology
+2021-04-27 09:23:56,525 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:24:07,177 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Transplantation
+2021-04-27 09:24:08,193 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:24:18,918 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Tropical+Medicine+and+Parasitology
+2021-04-27 09:24:19,862 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:24:30,509 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Urology+and+Nephrology
+2021-04-27 09:24:32,162 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:24:43,574 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Vascular+Medicine
+2021-04-27 09:24:44,655 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:24:55,521 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Veterinary+Medicine
+2021-04-27 09:24:56,518 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:25:07,631 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Alternative+and+Traditional+Medicine+Virology
+2021-04-27 09:25:08,555 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:25:20,476 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Audiology%2C+Speech+and+Language+Pathology
+2021-04-27 09:25:21,724 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:25:33,214 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Bioethics
+2021-04-27 09:25:34,112 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:25:44,658 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Biomedical+Technology
+2021-04-27 09:25:45,684 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:25:56,455 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Cardiology
+2021-04-27 09:25:57,459 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:26:08,026 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Child+and+Adolescent+Psychology
+2021-04-27 09:26:09,031 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:26:20,244 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Clinical+Laboratory+Science
+2021-04-27 09:26:21,313 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:26:33,632 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Communicable+Diseases
+2021-04-27 09:26:35,038 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:26:47,009 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Critical+Care
+2021-04-27 09:26:47,935 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:26:59,248 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Dentistry
+2021-04-27 09:27:00,228 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:27:11,212 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Dermatology
+2021-04-27 09:27:12,614 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:27:24,294 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Developmental+Disabilities
+2021-04-27 09:27:25,216 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:27:37,211 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Diabetes
+2021-04-27 09:27:38,123 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:27:49,178 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Emergency+Medicine
+2021-04-27 09:27:50,193 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:28:00,760 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Endocrinology
+2021-04-27 09:28:01,780 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:28:12,818 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Epidemiology
+2021-04-27 09:28:13,854 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:28:24,409 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Gastroenterology+and+Hepatology
+2021-04-27 09:28:25,522 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:28:37,113 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Genetics+and+Genomics
+2021-04-27 09:28:38,130 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:28:49,177 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Gerontology+and+Geriatric+Medicine
+2021-04-27 09:28:50,100 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:29:01,210 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Gynecology+and+Obstetrics
+2021-04-27 09:29:02,182 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:29:13,701 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Health+and+Medical+Sciences
+2021-04-27 09:29:14,680 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:29:26,222 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Heart+and+Thoracic+Surgery
+2021-04-27 09:29:27,269 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:29:38,313 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Hematology
+2021-04-27 09:29:39,353 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:29:50,756 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Hospice+and+Palliative+Care
+2021-04-27 09:29:51,750 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:30:07,899 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Immunology
+2021-04-27 09:30:08,954 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:30:19,849 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Medical+Informatics
+2021-04-27 09:30:20,937 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:30:32,535 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Medicinal+Chemistry
+2021-04-27 09:30:33,542 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:30:45,177 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Molecular+Biology
+2021-04-27 09:30:46,126 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:30:56,868 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Natural+Medicines+and+Medicinal+Plants
+2021-04-27 09:30:57,895 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:31:09,038 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Neurology
+2021-04-27 09:31:09,984 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:31:21,268 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Neurosurgery
+2021-04-27 09:31:22,274 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:31:35,107 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Nuclear+Medicine%2C+Radiotherapy+and+Molecular+Imaging
+2021-04-27 09:31:36,283 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:31:47,599 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Nursing
+2021-04-27 09:31:48,585 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:32:00,090 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Nutrition+Science
+2021-04-27 09:32:00,977 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:32:11,959 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Obesity
+2021-04-27 09:32:12,951 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:32:23,994 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Oncology
+2021-04-27 09:32:24,931 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:32:36,929 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Ophthalmology+and+Optometry
+2021-04-27 09:32:37,938 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:32:48,930 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Oral+and+Maxillofacial+Surgery
+2021-04-27 09:32:49,922 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:33:01,423 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Orthopedic+Medicine+and+Surgery
+2021-04-27 09:33:02,412 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:33:13,687 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Otolaryngology
+2021-04-27 09:33:14,605 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:33:26,759 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Pain+and+Pain+Management
+2021-04-27 09:33:27,720 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:33:39,250 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Pathology
+2021-04-27 09:33:40,203 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:33:50,867 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Pediatric+Medicine
+2021-04-27 09:33:51,978 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:34:03,322 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Pharmacology+and+Pharmacy
+2021-04-27 09:34:04,465 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:34:15,939 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Physical+Education+and+Sports+Medicine
+2021-04-27 09:34:16,858 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:34:28,554 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Physiology
+2021-04-27 09:34:29,554 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:34:40,532 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Plastic+and+Reconstructive+Surgery
+2021-04-27 09:34:41,440 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:34:52,380 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Pregnancy+and+Childbirth
+2021-04-27 09:34:53,415 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:35:06,942 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Primary+Health+Care
+2021-04-27 09:35:08,157 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:35:19,029 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Psychiatry
+2021-04-27 09:35:20,142 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:35:30,938 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Psychology
+2021-04-27 09:35:31,920 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:35:43,037 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Public+Health
+2021-04-27 09:35:44,098 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:35:55,125 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Pulmonology
+2021-04-27 09:35:56,284 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:36:07,356 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Radiology+and+Medical+Imaging
+2021-04-27 09:36:08,281 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:36:23,111 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Rehabilitation+Therapy
+2021-04-27 09:36:24,151 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:36:35,649 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Reproductive+Health
+2021-04-27 09:36:36,529 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:36:49,092 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Rheumatology
+2021-04-27 09:36:50,054 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:37:03,837 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Social+Psychology
+2021-04-27 09:37:04,789 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:37:17,093 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Surgery
+2021-04-27 09:37:18,314 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:37:29,274 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Toxicology
+2021-04-27 09:37:30,193 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:37:41,482 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Transplantation
+2021-04-27 09:37:42,479 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:37:54,190 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Tropical+Medicine+and+Parasitology
+2021-04-27 09:37:55,533 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:38:07,644 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Urology+and+Nephrology
+2021-04-27 09:38:08,492 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:38:19,964 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Vascular+Medicine
+2021-04-27 09:38:20,986 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:38:32,250 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Veterinary+Medicine
+2021-04-27 09:38:33,269 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:38:44,065 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Anesthesiology+Virology
+2021-04-27 09:38:45,141 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:38:56,113 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Bioethics
+2021-04-27 09:38:57,123 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:39:03,450 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Biomedical+Technology
+2021-04-27 09:39:04,398 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:39:15,357 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Cardiology
+2021-04-27 09:39:16,380 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:39:27,893 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Child+and+Adolescent+Psychology
+2021-04-27 09:39:28,977 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:39:40,068 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Clinical+Laboratory+Science
+2021-04-27 09:39:40,963 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:39:51,659 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Communicable+Diseases
+2021-04-27 09:39:52,621 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:40:06,063 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Critical+Care
+2021-04-27 09:40:07,772 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:40:19,459 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Dentistry
+2021-04-27 09:40:20,483 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:40:31,576 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Dermatology
+2021-04-27 09:40:32,561 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:40:43,775 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Developmental+Disabilities
+2021-04-27 09:40:44,645 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:40:55,853 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Diabetes
+2021-04-27 09:40:56,733 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:41:07,405 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Emergency+Medicine
+2021-04-27 09:41:08,404 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:41:18,994 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Endocrinology
+2021-04-27 09:41:19,967 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:41:30,430 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Epidemiology
+2021-04-27 09:41:31,447 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:41:42,122 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Gastroenterology+and+Hepatology
+2021-04-27 09:41:43,116 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:41:52,562 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Genetics+and+Genomics
+2021-04-27 09:41:53,562 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:42:04,389 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Gerontology+and+Geriatric+Medicine
+2021-04-27 09:42:05,441 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:42:16,974 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Gynecology+and+Obstetrics
+2021-04-27 09:42:17,930 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:42:30,161 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Health+and+Medical+Sciences
+2021-04-27 09:42:31,340 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:42:42,206 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Heart+and+Thoracic+Surgery
+2021-04-27 09:42:43,229 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:42:54,450 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Hematology
+2021-04-27 09:42:55,517 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:43:07,639 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Hospice+and+Palliative+Care
+2021-04-27 09:43:08,509 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:43:12,671 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Immunology
+2021-04-27 09:43:13,938 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:43:24,371 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Medical+Informatics
+2021-04-27 09:43:25,305 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:43:37,114 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Medicinal+Chemistry
+2021-04-27 09:43:38,106 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:43:46,719 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Molecular+Biology
+2021-04-27 09:43:47,737 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:43:58,352 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Natural+Medicines+and+Medicinal+Plants
+2021-04-27 09:43:59,411 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:44:05,856 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Neurology
+2021-04-27 09:44:06,880 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:44:18,310 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Neurosurgery
+2021-04-27 09:44:19,176 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:44:29,763 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Nuclear+Medicine%2C+Radiotherapy+and+Molecular+Imaging
+2021-04-27 09:44:30,744 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:44:39,692 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Nursing
+2021-04-27 09:44:40,679 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:44:52,107 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Nutrition+Science
+2021-04-27 09:44:53,172 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:45:04,816 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Obesity
+2021-04-27 09:45:05,768 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:45:19,799 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Oncology
+2021-04-27 09:45:21,019 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:45:31,973 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Ophthalmology+and+Optometry
+2021-04-27 09:45:33,002 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:45:39,262 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Oral+and+Maxillofacial+Surgery
+2021-04-27 09:45:40,166 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:45:51,291 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Orthopedic+Medicine+and+Surgery
+2021-04-27 09:45:52,261 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:46:03,334 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Otolaryngology
+2021-04-27 09:46:04,237 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:46:14,582 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Pain+and+Pain+Management
+2021-04-27 09:46:15,596 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:46:26,869 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Pathology
+2021-04-27 09:46:27,780 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:46:38,742 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Pediatric+Medicine
+2021-04-27 09:46:39,667 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:46:51,348 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Pharmacology+and+Pharmacy
+2021-04-27 09:46:52,367 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:47:05,784 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Physical+Education+and+Sports+Medicine
+2021-04-27 09:47:06,701 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:47:17,875 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Physiology
+2021-04-27 09:47:18,882 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:47:30,234 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Plastic+and+Reconstructive+Surgery
+2021-04-27 09:47:31,268 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:47:41,855 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Pregnancy+and+Childbirth
+2021-04-27 09:47:42,740 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:47:49,655 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Primary+Health+Care
+2021-04-27 09:47:50,626 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:48:02,136 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Psychiatry
+2021-04-27 09:48:03,226 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:48:14,386 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Psychology
+2021-04-27 09:48:15,306 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:48:26,574 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Public+Health
+2021-04-27 09:48:27,597 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:48:38,159 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Pulmonology
+2021-04-27 09:48:39,063 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:48:46,371 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Radiology+and+Medical+Imaging
+2021-04-27 09:48:47,356 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:48:59,106 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Rehabilitation+Therapy
+2021-04-27 09:49:00,153 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:49:10,812 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Reproductive+Health
+2021-04-27 09:49:11,838 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:49:24,015 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Rheumatology
+2021-04-27 09:49:25,142 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:49:34,904 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Social+Psychology
+2021-04-27 09:49:35,893 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:49:50,415 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Surgery
+2021-04-27 09:49:51,358 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:50:08,505 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Toxicology
+2021-04-27 09:50:09,476 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:50:19,671 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Transplantation
+2021-04-27 09:50:20,742 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:50:31,369 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Tropical+Medicine+and+Parasitology
+2021-04-27 09:50:32,319 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:50:38,564 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Urology+and+Nephrology
+2021-04-27 09:50:39,586 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:50:45,975 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Vascular+Medicine
+2021-04-27 09:50:46,959 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:50:57,669 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Veterinary+Medicine
+2021-04-27 09:50:58,635 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:51:08,973 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Audiology%2C+Speech+and+Language+Pathology+Virology
+2021-04-27 09:51:10,000 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:51:20,784 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Biomedical+Technology
+2021-04-27 09:51:21,674 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:51:32,177 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Cardiology
+2021-04-27 09:51:33,144 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:51:43,722 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Child+and+Adolescent+Psychology
+2021-04-27 09:51:44,917 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:51:56,206 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Clinical+Laboratory+Science
+2021-04-27 09:51:57,204 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:52:07,878 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Communicable+Diseases
+2021-04-27 09:52:08,778 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:52:19,757 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Critical+Care
+2021-04-27 09:52:20,657 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:52:31,731 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Dentistry
+2021-04-27 09:52:32,736 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:52:43,539 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Dermatology
+2021-04-27 09:52:44,508 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:52:55,589 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Developmental+Disabilities
+2021-04-27 09:52:56,496 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:53:07,040 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Diabetes
+2021-04-27 09:53:07,966 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:53:18,716 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Emergency+Medicine
+2021-04-27 09:53:19,640 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:53:30,213 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Endocrinology
+2021-04-27 09:53:31,309 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:53:41,825 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Epidemiology
+2021-04-27 09:53:42,783 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:53:53,754 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Gastroenterology+and+Hepatology
+2021-04-27 09:53:54,649 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:54:06,106 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Genetics+and+Genomics
+2021-04-27 09:54:07,036 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:54:17,817 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Gerontology+and+Geriatric+Medicine
+2021-04-27 09:54:18,815 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:54:30,128 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Gynecology+and+Obstetrics
+2021-04-27 09:54:31,215 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:54:42,092 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Health+and+Medical+Sciences
+2021-04-27 09:54:43,100 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:54:56,719 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Heart+and+Thoracic+Surgery
+2021-04-27 09:54:57,634 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:55:08,153 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Hematology
+2021-04-27 09:55:09,098 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:55:50,900 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Hospice+and+Palliative+Care
+2021-04-27 09:55:51,806 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:56:02,539 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Immunology
+2021-04-27 09:56:03,471 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:56:14,699 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Medical+Informatics
+2021-04-27 09:56:15,563 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:56:26,244 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Medicinal+Chemistry
+2021-04-27 09:56:27,235 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:56:38,062 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Molecular+Biology
+2021-04-27 09:56:39,009 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:56:50,075 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Natural+Medicines+and+Medicinal+Plants
+2021-04-27 09:56:51,095 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:57:01,870 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Neurology
+2021-04-27 09:57:02,767 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:57:13,975 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Neurosurgery
+2021-04-27 09:57:15,770 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:57:26,491 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Nuclear+Medicine%2C+Radiotherapy+and+Molecular+Imaging
+2021-04-27 09:57:27,343 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:57:38,279 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Nursing
+2021-04-27 09:57:39,222 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:57:49,710 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Nutrition+Science
+2021-04-27 09:57:50,783 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:58:02,015 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Obesity
+2021-04-27 09:58:02,981 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:58:13,659 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Oncology
+2021-04-27 09:58:14,651 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:58:25,780 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Ophthalmology+and+Optometry
+2021-04-27 09:58:26,835 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:58:37,940 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Oral+and+Maxillofacial+Surgery
+2021-04-27 09:58:38,809 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:58:49,697 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Orthopedic+Medicine+and+Surgery
+2021-04-27 09:58:50,583 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:59:02,200 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Otolaryngology
+2021-04-27 09:59:03,093 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:59:13,738 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Pain+and+Pain+Management
+2021-04-27 09:59:14,760 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:59:26,288 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Pathology
+2021-04-27 09:59:27,255 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:59:37,922 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Pediatric+Medicine
+2021-04-27 09:59:39,336 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 09:59:50,547 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Pharmacology+and+Pharmacy
+2021-04-27 09:59:51,523 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:00:25,352 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Physical+Education+and+Sports+Medicine
+2021-04-27 10:00:26,335 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:00:40,898 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Physiology
+2021-04-27 10:00:42,108 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:00:52,818 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Plastic+and+Reconstructive+Surgery
+2021-04-27 10:00:53,882 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:01:04,770 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Pregnancy+and+Childbirth
+2021-04-27 10:01:05,765 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:01:16,531 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Primary+Health+Care
+2021-04-27 10:01:17,536 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:01:27,997 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Psychiatry
+2021-04-27 10:01:29,104 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:01:39,603 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Psychology
+2021-04-27 10:01:40,575 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:01:52,014 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Public+Health
+2021-04-27 10:01:52,965 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:02:03,886 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Pulmonology
+2021-04-27 10:02:05,053 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:02:15,988 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Radiology+and+Medical+Imaging
+2021-04-27 10:02:17,031 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:02:28,384 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Rehabilitation+Therapy
+2021-04-27 10:02:29,618 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:02:40,870 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Reproductive+Health
+2021-04-27 10:02:41,912 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:02:52,166 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Rheumatology
+2021-04-27 10:02:53,178 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:03:03,999 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Social+Psychology
+2021-04-27 10:03:04,846 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:03:15,965 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Surgery
+2021-04-27 10:03:17,129 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:03:28,843 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Toxicology
+2021-04-27 10:03:29,826 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:03:41,670 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Transplantation
+2021-04-27 10:03:42,630 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:03:55,366 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Tropical+Medicine+and+Parasitology
+2021-04-27 10:03:56,469 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:04:11,520 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Urology+and+Nephrology
+2021-04-27 10:04:12,539 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:04:22,992 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Vascular+Medicine
+2021-04-27 10:04:24,008 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:04:34,576 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Veterinary+Medicine
+2021-04-27 10:04:35,569 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:04:46,996 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioethics+Virology
+2021-04-27 10:04:47,869 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:04:58,661 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Cardiology
+2021-04-27 10:05:05,786 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:05:17,189 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Child+and+Adolescent+Psychology
+2021-04-27 10:05:18,165 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:05:29,591 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Clinical+Laboratory+Science
+2021-04-27 10:05:30,569 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:05:41,730 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Communicable+Diseases
+2021-04-27 10:05:42,651 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:05:53,819 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Critical+Care
+2021-04-27 10:05:54,730 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:06:05,894 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Dentistry
+2021-04-27 10:06:06,815 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:06:17,563 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Dermatology
+2021-04-27 10:06:18,484 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:06:28,908 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Developmental+Disabilities
+2021-04-27 10:06:29,958 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:06:41,809 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Diabetes
+2021-04-27 10:06:42,753 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:06:54,485 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Emergency+Medicine
+2021-04-27 10:06:55,457 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:07:06,247 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Endocrinology
+2021-04-27 10:07:07,951 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:07:19,278 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Epidemiology
+2021-04-27 10:07:20,238 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:07:30,984 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Gastroenterology+and+Hepatology
+2021-04-27 10:07:31,999 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:07:43,035 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Genetics+and+Genomics
+2021-04-27 10:07:44,097 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:07:54,767 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Gerontology+and+Geriatric+Medicine
+2021-04-27 10:07:55,665 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:08:05,053 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Gynecology+and+Obstetrics
+2021-04-27 10:08:06,010 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:08:19,207 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Health+and+Medical+Sciences
+2021-04-27 10:08:20,246 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:08:29,847 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Heart+and+Thoracic+Surgery
+2021-04-27 10:08:30,917 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:08:39,696 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Hematology
+2021-04-27 10:08:40,499 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:08:49,354 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Hospice+and+Palliative+Care
+2021-04-27 10:08:50,323 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:08:59,383 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Immunology
+2021-04-27 10:09:00,239 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:09:09,099 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Medicinal+Chemistry
+2021-04-27 10:09:10,009 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:09:19,259 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Molecular+Biology
+2021-04-27 10:09:20,253 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:09:29,752 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Natural+Medicines+and+Medicinal+Plants
+2021-04-27 10:09:30,651 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:09:39,582 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Neurology
+2021-04-27 10:09:40,468 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:09:49,274 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Neurosurgery
+2021-04-27 10:09:50,137 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:10:03,723 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Nuclear+Medicine%2C+Radiotherapy+and+Molecular+Imaging
+2021-04-27 10:10:04,687 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:10:13,735 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Nursing
+2021-04-27 10:10:14,597 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:10:23,661 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Nutrition+Science
+2021-04-27 10:10:24,596 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:10:34,160 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Obesity
+2021-04-27 10:10:35,068 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:10:45,478 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Oncology
+2021-04-27 10:10:46,507 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:10:55,876 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Ophthalmology+and+Optometry
+2021-04-27 10:10:56,884 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:11:06,240 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Oral+and+Maxillofacial+Surgery
+2021-04-27 10:11:07,236 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:11:16,673 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Orthopedic+Medicine+and+Surgery
+2021-04-27 10:11:17,619 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:11:28,094 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Otolaryngology
+2021-04-27 10:11:29,061 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:11:38,644 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Pain+and+Pain+Management
+2021-04-27 10:11:39,568 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:11:52,852 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Pathology
+2021-04-27 10:11:53,852 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:12:03,265 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Pediatric+Medicine
+2021-04-27 10:12:04,172 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:12:13,241 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Pharmacology+and+Pharmacy
+2021-04-27 10:12:14,143 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:12:23,058 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Physical+Education+and+Sports+Medicine
+2021-04-27 10:12:23,934 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:12:32,678 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Physiology
+2021-04-27 10:12:33,543 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:12:42,232 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Plastic+and+Reconstructive+Surgery
+2021-04-27 10:12:43,060 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:12:52,660 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Pregnancy+and+Childbirth
+2021-04-27 10:12:53,501 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:13:03,042 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Primary+Health+Care
+2021-04-27 10:13:04,092 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:13:12,794 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Psychiatry
+2021-04-27 10:13:13,688 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:13:22,453 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Psychology
+2021-04-27 10:13:23,281 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:13:32,746 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Public+Health
+2021-04-27 10:13:33,601 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:13:42,506 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Pulmonology
+2021-04-27 10:13:43,435 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:13:52,955 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Radiology+and+Medical+Imaging
+2021-04-27 10:13:53,949 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:14:02,723 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Rehabilitation+Therapy
+2021-04-27 10:14:03,815 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:14:14,313 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Reproductive+Health
+2021-04-27 10:14:15,163 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:14:24,510 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Rheumatology
+2021-04-27 10:14:25,355 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:14:34,351 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Social+Psychology
+2021-04-27 10:14:35,284 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:14:44,050 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Surgery
+2021-04-27 10:14:44,953 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:14:55,111 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Toxicology
+2021-04-27 10:14:56,003 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:15:05,500 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Transplantation
+2021-04-27 10:15:06,534 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:15:15,194 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Tropical+Medicine+and+Parasitology
+2021-04-27 10:15:16,083 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:15:24,746 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Urology+and+Nephrology
+2021-04-27 10:15:25,624 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:15:34,721 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Vascular+Medicine
+2021-04-27 10:15:35,626 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:15:45,983 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Veterinary+Medicine
+2021-04-27 10:15:46,911 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:15:55,850 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biomedical+Technology+Virology
+2021-04-27 10:15:56,703 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:16:05,732 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Child+and+Adolescent+Psychology
+2021-04-27 10:16:06,713 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:16:16,111 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Clinical+Laboratory+Science
+2021-04-27 10:16:17,262 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:16:26,756 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Communicable+Diseases
+2021-04-27 10:16:27,636 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:16:37,395 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Critical+Care
+2021-04-27 10:16:38,362 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:16:47,201 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Dentistry
+2021-04-27 10:16:48,056 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:16:57,990 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Dermatology
+2021-04-27 10:16:58,872 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:17:08,463 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Developmental+Disabilities
+2021-04-27 10:17:09,329 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:17:18,871 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Diabetes
+2021-04-27 10:17:19,865 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:17:29,882 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Emergency+Medicine
+2021-04-27 10:17:30,817 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:17:40,136 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Endocrinology
+2021-04-27 10:17:40,935 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:17:50,245 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Epidemiology
+2021-04-27 10:17:51,103 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:18:01,051 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Gastroenterology+and+Hepatology
+2021-04-27 10:18:01,982 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:18:13,435 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Genetics+and+Genomics
+2021-04-27 10:18:14,352 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:18:23,619 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Gerontology+and+Geriatric+Medicine
+2021-04-27 10:18:24,478 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:18:35,515 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Gynecology+and+Obstetrics
+2021-04-27 10:18:36,370 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:18:46,109 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Health+and+Medical+Sciences
+2021-04-27 10:18:47,758 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:18:57,075 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Heart+and+Thoracic+Surgery
+2021-04-27 10:18:57,911 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:19:07,523 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Hematology
+2021-04-27 10:19:08,404 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:19:18,476 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Hospice+and+Palliative+Care
+2021-04-27 10:19:19,549 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:19:28,658 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Immunology
+2021-04-27 10:19:29,597 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:19:38,775 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Medical+Informatics
+2021-04-27 10:19:39,635 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:19:48,411 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Medicinal+Chemistry
+2021-04-27 10:19:49,355 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:19:58,324 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Molecular+Biology
+2021-04-27 10:20:03,040 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:20:11,843 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Natural+Medicines+and+Medicinal+Plants
+2021-04-27 10:20:12,838 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:20:22,094 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Neurology
+2021-04-27 10:20:23,025 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:20:33,759 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Neurosurgery
+2021-04-27 10:20:34,659 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:20:43,520 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Nuclear+Medicine%2C+Radiotherapy+and+Molecular+Imaging
+2021-04-27 10:20:44,413 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:20:54,060 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Nursing
+2021-04-27 10:20:54,974 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:21:03,851 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Nutrition+Science
+2021-04-27 10:21:04,867 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:21:13,960 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Obesity
+2021-04-27 10:21:14,810 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:21:23,606 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Oncology
+2021-04-27 10:21:24,454 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:21:33,810 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Ophthalmology+and+Optometry
+2021-04-27 10:21:34,748 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:21:46,523 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Oral+and+Maxillofacial+Surgery
+2021-04-27 10:21:47,508 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:21:57,345 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Orthopedic+Medicine+and+Surgery
+2021-04-27 10:21:58,232 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:22:07,148 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Otolaryngology
+2021-04-27 10:22:08,020 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:22:17,270 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Pain+and+Pain+Management
+2021-04-27 10:22:18,131 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:22:26,920 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Pathology
+2021-04-27 10:22:27,901 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:22:39,842 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Pediatric+Medicine
+2021-04-27 10:22:40,732 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:22:50,595 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Pharmacology+and+Pharmacy
+2021-04-27 10:22:51,517 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:23:01,276 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Physical+Education+and+Sports+Medicine
+2021-04-27 10:23:02,254 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:23:12,391 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Physiology
+2021-04-27 10:23:13,322 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:23:22,041 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Plastic+and+Reconstructive+Surgery
+2021-04-27 10:23:22,923 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:23:33,732 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Pregnancy+and+Childbirth
+2021-04-27 10:23:34,666 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:23:43,616 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Primary+Health+Care
+2021-04-27 10:23:44,543 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:23:56,090 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Psychiatry
+2021-04-27 10:23:56,981 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:24:06,432 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Psychology
+2021-04-27 10:24:07,286 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:24:16,368 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Public+Health
+2021-04-27 10:24:17,257 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:24:26,417 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Pulmonology
+2021-04-27 10:24:27,355 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:24:38,464 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Radiology+and+Medical+Imaging
+2021-04-27 10:24:39,344 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:24:52,284 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Rehabilitation+Therapy
+2021-04-27 10:24:53,090 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:25:05,325 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Reproductive+Health
+2021-04-27 10:25:06,370 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:25:16,548 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Rheumatology
+2021-04-27 10:25:17,388 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:25:26,337 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Social+Psychology
+2021-04-27 10:25:27,230 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:25:36,562 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Surgery
+2021-04-27 10:25:37,460 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:25:46,861 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Toxicology
+2021-04-27 10:25:47,759 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:25:56,573 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Transplantation
+2021-04-27 10:25:57,381 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:26:06,933 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Tropical+Medicine+and+Parasitology
+2021-04-27 10:26:07,782 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:26:18,137 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Urology+and+Nephrology
+2021-04-27 10:26:19,246 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:26:28,920 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Vascular+Medicine
+2021-04-27 10:26:29,883 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:26:39,474 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Veterinary+Medicine
+2021-04-27 10:26:40,274 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:26:51,690 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Cardiology+Virology
+2021-04-27 10:26:52,562 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:35:12,987 - elsapy.elsclient - INFO - Module loaded.
+2021-04-27 10:35:12,988 - elsapy.elsentity - INFO - Module loaded.
+2021-04-27 10:35:12,989 - elsapy.utils - INFO - Module loaded.
+2021-04-27 10:35:12,989 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-27 10:35:12,990 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-27 10:35:12,990 - elsapy.elssearch - INFO - Module loaded.
+2021-04-27 10:35:31,774 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 10:35:32,836 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:36:30,818 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 10:36:32,062 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:37:26,025 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 10:37:27,144 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:37:35,921 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 10:37:37,005 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:38:44,662 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 10:38:46,474 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:42:27,981 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 10:42:28,936 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:42:52,942 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 10:42:53,996 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:43:13,530 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 10:43:14,554 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:44:02,115 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 10:44:03,210 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:44:16,807 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 10:44:17,773 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:46:11,903 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry
+2021-04-27 10:46:13,034 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:46:22,577 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry
+2021-04-27 10:46:23,613 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:47:50,797 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 10:47:51,931 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:48:27,047 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 10:48:28,012 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:48:56,088 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 10:48:57,073 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:51:01,594 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 10:51:02,661 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:51:35,850 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 10:51:36,840 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:53:27,518 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 10:53:29,384 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:55:39,952 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 10:55:41,032 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:56:27,310 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 10:56:28,308 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:58:19,918 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry
+2021-04-27 10:58:20,955 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:58:31,766 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry
+2021-04-27 10:58:32,713 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 10:59:54,334 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 10:59:55,483 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:04:46,474 - elsapy.elsclient - INFO - Module loaded.
+2021-04-27 11:04:46,475 - elsapy.elsentity - INFO - Module loaded.
+2021-04-27 11:04:46,476 - elsapy.utils - INFO - Module loaded.
+2021-04-27 11:04:46,476 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-27 11:04:46,477 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-27 11:04:46,477 - elsapy.elssearch - INFO - Module loaded.
+2021-04-27 11:04:53,096 - elsapy.elsclient - INFO - Module loaded.
+2021-04-27 11:04:53,097 - elsapy.elsentity - INFO - Module loaded.
+2021-04-27 11:04:53,098 - elsapy.utils - INFO - Module loaded.
+2021-04-27 11:04:53,098 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-27 11:04:53,099 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-27 11:04:53,100 - elsapy.elssearch - INFO - Module loaded.
+2021-04-27 11:05:11,694 - elsapy.elsclient - INFO - Module loaded.
+2021-04-27 11:05:11,695 - elsapy.elsentity - INFO - Module loaded.
+2021-04-27 11:05:11,696 - elsapy.utils - INFO - Module loaded.
+2021-04-27 11:05:11,696 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-27 11:05:11,697 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-27 11:05:11,698 - elsapy.elssearch - INFO - Module loaded.
+2021-04-27 11:05:21,928 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry
+2021-04-27 11:05:23,227 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:05:34,873 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry
+2021-04-27 11:05:36,163 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:05:58,722 - elsapy.elsclient - INFO - Module loaded.
+2021-04-27 11:05:58,723 - elsapy.elsentity - INFO - Module loaded.
+2021-04-27 11:05:58,724 - elsapy.utils - INFO - Module loaded.
+2021-04-27 11:05:58,724 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-27 11:05:58,725 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-27 11:05:58,725 - elsapy.elssearch - INFO - Module loaded.
+2021-04-27 11:06:20,957 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry
+2021-04-27 11:06:21,986 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:06:23,977 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 11:06:25,217 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:06:34,433 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry
+2021-04-27 11:06:35,548 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:10:01,758 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 11:10:02,857 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:10:42,330 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 11:10:43,475 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:11:37,099 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 11:11:38,033 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:12:07,075 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 11:12:08,555 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:12:29,401 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 11:12:30,481 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:12:51,919 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 11:12:53,816 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:13:09,449 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Materials+Engineering+%2B+Analytical+Chemistry
+2021-04-27 11:13:10,456 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:15:02,336 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Analytical+Chemistry+%2B+Dispersion+Chemistry
+2021-04-27 11:15:03,599 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:20:20,629 - elsapy.elsclient - INFO - Module loaded.
+2021-04-27 11:20:20,630 - elsapy.elsentity - INFO - Module loaded.
+2021-04-27 11:20:20,631 - elsapy.utils - INFO - Module loaded.
+2021-04-27 11:20:20,631 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-27 11:20:20,632 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-27 11:20:20,632 - elsapy.elssearch - INFO - Module loaded.
+2021-04-27 11:21:12,780 - elsapy.elsclient - INFO - Module loaded.
+2021-04-27 11:21:12,781 - elsapy.elsentity - INFO - Module loaded.
+2021-04-27 11:21:12,782 - elsapy.utils - INFO - Module loaded.
+2021-04-27 11:21:12,782 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-27 11:21:12,783 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-27 11:21:12,783 - elsapy.elssearch - INFO - Module loaded.
+2021-04-27 11:22:06,355 - elsapy.elsclient - INFO - Module loaded.
+2021-04-27 11:22:06,356 - elsapy.elsentity - INFO - Module loaded.
+2021-04-27 11:22:06,357 - elsapy.utils - INFO - Module loaded.
+2021-04-27 11:22:06,357 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-27 11:22:06,358 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-27 11:22:06,359 - elsapy.elssearch - INFO - Module loaded.
