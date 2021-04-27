@@ -884,3 +884,97 @@
 2021-04-27 11:22:06,357 - elsapy.elsprofile - INFO - Module loaded.
 2021-04-27 11:22:06,358 - elsapy.elsdoc - INFO - Module loaded.
 2021-04-27 11:22:06,359 - elsapy.elssearch - INFO - Module loaded.
+2021-04-27 11:28:46,467 - elsapy.elsclient - INFO - Module loaded.
+2021-04-27 11:28:46,468 - elsapy.elsentity - INFO - Module loaded.
+2021-04-27 11:28:46,469 - elsapy.utils - INFO - Module loaded.
+2021-04-27 11:28:46,469 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-27 11:28:46,470 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-27 11:28:46,471 - elsapy.elssearch - INFO - Module loaded.
+2021-04-27 11:31:30,903 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Agronomy+and+Crop+Science+Botany
+2021-04-27 11:31:32,608 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:31:43,389 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Animal+Behavior+and+Ethology+Botany
+2021-04-27 11:31:44,993 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:31:54,273 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Animal+Husbandry+Botany
+2021-04-27 11:31:55,154 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:32:05,308 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Atmospheric+Sciences+Botany
+2021-04-27 11:32:06,971 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:32:18,962 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biochemistry+Botany
+2021-04-27 11:32:20,591 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:32:32,324 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biodiversity+and+Conservation+Biology+Botany
+2021-04-27 11:32:33,246 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:32:43,401 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Bioinformatics+and+Computational+Biology+Botany
+2021-04-27 11:32:45,065 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:32:55,244 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biophysics+Botany
+2021-04-27 11:32:56,073 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:33:05,882 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Biotechnology+Botany
+2021-04-27 11:33:07,417 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:33:17,284 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Birds+Botany
+2021-04-27 11:33:18,262 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:33:28,491 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Cell+Biology
+2021-04-27 11:33:30,078 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:33:39,539 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Developmental+Biology+and+Embryology
+2021-04-27 11:33:40,446 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:33:50,431 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Ecology
+2021-04-27 11:33:51,204 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:34:00,967 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Environmental+and+Geological+Engineering
+2021-04-27 11:34:01,805 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:34:11,503 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Environmental+Sciences
+2021-04-27 11:34:12,477 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:34:21,638 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Evolutionary+Biology
+2021-04-27 11:34:22,500 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:34:33,519 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Food+Science+and+Technology
+2021-04-27 11:34:34,534 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:34:44,674 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Forests+and+Forestry
+2021-04-27 11:34:45,554 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:35:02,368 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Geochemistry+and+Mineralogy
+2021-04-27 11:35:03,244 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:35:12,514 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Geology
+2021-04-27 11:35:13,408 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:35:22,356 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Hydrology+and+Water+Resources
+2021-04-27 11:35:23,164 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:35:34,241 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Insects+and+Arthropods
+2021-04-27 11:35:35,191 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:35:44,768 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Life+Sciences+and+Earth+Sciences
+2021-04-27 11:35:45,583 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:35:55,267 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Marine+Sciences+and+Fisheries
+2021-04-27 11:35:56,082 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:36:07,682 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Microbiology
+2021-04-27 11:36:08,606 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:36:18,568 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Molecular+Biology
+2021-04-27 11:36:19,456 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:36:28,456 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Mycology
+2021-04-27 11:36:29,402 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:36:38,201 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Oceanography
+2021-04-27 11:36:39,018 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:36:47,336 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Paleontology
+2021-04-27 11:36:48,317 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:36:57,249 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Pest+Control+and+Pesticides
+2021-04-27 11:36:58,077 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:37:07,198 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Plant+Pathology
+2021-04-27 11:37:08,075 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:37:17,383 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Proteomics%2C+Peptides+and+Aminoacids
+2021-04-27 11:37:18,332 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:37:26,945 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Soil+Sciences
+2021-04-27 11:37:27,848 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:37:36,398 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Sustainable+Development
+2021-04-27 11:37:37,278 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:37:46,372 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Sustainable+Energy
+2021-04-27 11:37:47,178 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:37:55,513 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Virology
+2021-04-27 11:37:56,363 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:38:05,343 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Wood+Science+and+Technology
+2021-04-27 11:38:06,396 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:38:14,895 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=Botany+Zoology
+2021-04-27 11:38:15,782 - elsapy.utils - INFO - Converting prism:coverDate
+2021-04-27 11:39:53,721 - elsapy.elsclient - INFO - Module loaded.
+2021-04-27 11:39:53,722 - elsapy.elsentity - INFO - Module loaded.
+2021-04-27 11:39:53,723 - elsapy.utils - INFO - Module loaded.
+2021-04-27 11:39:53,723 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-27 11:39:53,723 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-27 11:39:53,724 - elsapy.elssearch - INFO - Module loaded.
+2021-04-27 11:40:05,779 - elsapy.elsclient - INFO - Module loaded.
+2021-04-27 11:40:05,780 - elsapy.elsentity - INFO - Module loaded.
+2021-04-27 11:40:05,781 - elsapy.utils - INFO - Module loaded.
+2021-04-27 11:40:05,781 - elsapy.elsprofile - INFO - Module loaded.
+2021-04-27 11:40:05,782 - elsapy.elsdoc - INFO - Module loaded.
+2021-04-27 11:40:05,782 - elsapy.elssearch - INFO - Module loaded.
