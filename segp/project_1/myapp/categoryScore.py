@@ -340,13 +340,13 @@ def searchData(x,client,session,status):
         if yr_pub > min_yr:
             try:
                 title.append(ans['dc:title'])   # paper title
+                doi.append(ans['prism:doi'])        # paper doi
             except:
                 continue
             
             year.append(yr_pub)
             yr_diff = this_year - yr_pub
             link.append(base_url + ans['pii'])  # paper link
-            doi.append(ans['prism:doi'])        # paper doi
             
             # paper reader count
             try:
